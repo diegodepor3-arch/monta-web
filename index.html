@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Atlético Coruña Montañeros C.F.</title>
+  <meta name="description" content="Web oficial del Atlético Coruña Montañeros: primer equipo y Canteira Morada, calendario, resultados, clasificaciones y plantillas.">
+  <meta name="theme-color" content="#2a0b26">
+  <link rel="icon" href="img/escudo.png">
+  <link rel="preload" href="fonts/Poppins-800-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--
+THESIS: web de club oscura y morada al estilo pedido por el club (referencia: rayo-vilaboa-web): portada con el próximo partido del primer equipo, la cinta de la semana y los partidos de la cantera; una página por equipo con clasificación y partidos.
+OWN-WORLD: fondo morado noche en degradado del morado del escudo (#782769), paneles redondeados con borde fino, Poppins 800 para títulos, celeste del escudo como acento; camisetas moradas con nombre y dorsal en la plantilla.
+STORY: la familia o el aficionado ve el próximo partido del primer equipo y los de la cantera esta semana, entra al equipo y ve cuándo, dónde y contra quién juega.
+FIRST VIEWPORT: menú; cabecera con el nombre del club y la tarjeta del próximo partido del primer equipo (escudos, VS, cuenta atrás); debajo la cinta de partidos en movimiento.
+FORM: referencia fijada por el cliente (brief wins); sin semilla.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+-->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-buscar" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-flecha" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-izq" viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-der" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-externo" viewBox="0 0 24 24"><path d="M14 5h5v5M19 5l-8 8M17 14v5H5V7h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <!-- Iconos del palmarés de la ficha -->
+    <symbol id="i-balon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5" fill="#fff"/><path d="M12 7.2l3.6 2.6-1.4 4.2H9.8L8.4 9.8z" fill="#2a0b26"/><path d="M12 2.5v4.7M15.6 9.8l4.6-1.6M14.2 14l2.8 4.1M9.8 14 7 18.1M8.4 9.8 3.8 8.2" stroke="#2a0b26" stroke-width="1.3"/></symbol>
+    <symbol id="i-estrella" viewBox="0 0 24 24"><path d="m12 2.8 2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z" fill="#c9c3e6"/></symbol>
+    <symbol id="i-trofeo" viewBox="0 0 24 24"><path d="M7 3h10v5a5 5 0 0 1-10 0z" fill="#f2c94c"/><path d="M7 5H3.5c0 3 1.5 4.5 3.8 4.8M17 5h3.5c0 3-1.5 4.5-3.8 4.8" stroke="#f2c94c" stroke-width="1.6" fill="none"/><path d="M10.5 13h3v4h-3zM7.5 18h9v3h-9z" fill="#f2c94c"/></symbol>
+    <symbol id="i-amarilla" viewBox="0 0 24 24"><rect x="6.5" y="3" width="11" height="16" rx="1.6" transform="rotate(8 12 11)" fill="#f2d33a"/></symbol>
+    <symbol id="i-roja" viewBox="0 0 24 24"><rect x="6.5" y="3" width="11" height="16" rx="1.6" transform="rotate(8 12 11)" fill="#ef4b5f"/></symbol>
+    <!-- Tela de las camisetas (las dibuja camiseta() en app.js) -->
+    <defs>
+      <linearGradient id="tela-jugador" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5329b8"/><stop offset="0.55" stop-color="#4622a6"/><stop offset="1" stop-color="#361a86"/></linearGradient>
+      <linearGradient id="tela-portero" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbef4f"/><stop offset="1" stop-color="#ead92c"/></linearGradient>
+      <!-- pliegues: sombra en los costados y luz en el centro -->
+      <linearGradient id="pliegues" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000" stop-opacity="0.28"/><stop offset="0.3" stop-color="#000" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.07"/><stop offset="0.7" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.28"/></linearGradient>
+      <!-- textura al pasar el ratón: rayado tonal en diagonal + malla del tejido -->
+      <pattern id="trama" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(32)"><rect width="3.2" height="7" fill="#fff" fill-opacity="0.09"/></pattern>
+      <pattern id="malla" width="2.4" height="2.4" patternUnits="userSpaceOnUse"><circle cx="1.2" cy="1.2" r="0.55" fill="#000" fill-opacity="0.22"/></pattern>
+      <linearGradient id="brillo" x1="0" y1="0" x2="1" y2="1"><stop offset="0.35" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.22"/><stop offset="0.65" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    </defs>
+  </svg>
+
+  <a class="saltar" href="#app">Ir al contenido</a>
+
+  <header class="menu">
+    <a href="#/" class="menu-escudo" aria-label="Inicio · Atlético Coruña Montañeros">
+      <img src="img/escudo.png" alt="" width="44" height="57">
+    </a>
+    <nav class="menu-enlaces" aria-label="Principal">
+      <a href="#/" data-seccion="">Inicio</a>
+      <a href="#/equipo/primer-equipo" data-seccion="equipo/primer-equipo">Primer equipo</a>
+      <a href="#/canteira" data-seccion="canteira">Canteira Morada</a>
+      <a href="#/noticias" data-seccion="noticias">Noticias</a>
+    </nav>
+    <button class="menu-buscar" type="button" aria-label="Buscar" aria-expanded="false" aria-controls="buscador">
+      <svg class="icono" aria-hidden="true"><use href="#i-buscar"/></svg>
+    </button>
+    <form class="buscador" id="buscador" role="search" hidden>
+      <input type="search" name="q" placeholder="Busca un jugador, equipo o noticia" aria-label="Buscar en la web" autocomplete="off">
+    </form>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="pie">
+    <div class="contenedor pie-dentro">
+      <div class="pie-club">
+        <img src="img/escudo.png" alt="Escudo del Atlético Coruña Montañeros" width="56" height="73">
+        <div>
+          <strong>Atlético Coruña Montañeros C.F.</strong>
+          <p id="pie-direccion"></p>
+          <p><a id="pie-email"></a></p>
+        </div>
+      </div>
+      <nav class="pie-menu" aria-label="Secundaria">
+        <a href="#/equipo/primer-equipo">Primer equipo</a>
+        <a href="#/canteira">Canteira Morada</a>
+        <a href="#/noticias">Noticias</a>
+        <a href="https://www.futgal.es/pnfg/NPcd/NFG_VerClub?cod_primaria=1000118&codigo_club=1175" target="_blank" rel="noopener">El club en la federación</a>
+      </nav>
+    </div>
+    <p class="contenedor pie-fuente" id="pie-fuente"></p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="federacion.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
