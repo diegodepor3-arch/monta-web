@@ -1,0 +1,11 @@
+{
+  // Trae los cambios de GitHub (de tu amigo y de la federación) cada pocos minutos
+  "git.autofetch": true,
+  // Al confirmar un cambio, lo sube y baja lo nuevo sin tener que pulsar Sincronizar
+  "git.postCommitCommand": "sync",
+  // No preguntar cada vez antes de sincronizar
+  "git.confirmSync": false,
+  // Confirmar todos los cambios aunque no estén preparados uno a uno
+  "git.enableSmartCommit": true,
+  "git.smartCommitChanges": "all"
+}
