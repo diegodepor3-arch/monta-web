@@ -165,7 +165,7 @@ def leer_acta(s):
                     acta["d"][n] = int(c[0])
         break
     nuestros = set(acta["t"]) | set(acta["s"])
-    nombre_fila = lambda html_: nombre_persona(re.sub(r"\(\d+'?\)", "", texto(html_)).strip())
+    nombre_fila = lambda html_: nombre_persona(re.sub(r"\([^)]*\)", "", texto(html_)).strip())  # quita el minuto: (85') o (90'+1)
     for m in re.finditer(r'title="?(Gol[^">]*)"?.*?</strong></td>\s*<td[^>]*>(.*?)</td>', s, flags=re.S):
         n = nombre_fila(m.group(2))
         if "ropia" not in m.group(1) and n in nuestros:  # los goles en propia puerta no cuentan para el jugador
@@ -256,10 +256,9 @@ def descargar_equipo(cod, nombre, cat, anterior=None):
         proximo = next((p for p in e["partidos"] if not p["resultado"]), None)
         if proximo:
             completar_proximo(proximo, cod, cc, grupo, e)
-        if cid in ("senior", "juvenil"):
-            e["actas"] = actas(cod, cc, grupo, [p for p in e["partidos"] if p["resultado"]], (anterior or {}).get("actas"))
-            # dorsal más reciente de cada jugador
-            e["dorsales"] = {n: d for j in sorted(e["actas"], key=int) for n, d in e["actas"][j]["d"].items()}
+        # actas de todas las categorías: estadísticas y dorsal más reciente de cada jugador
+        e["actas"] = actas(cod, cc, grupo, [p for p in e["partidos"] if p["resultado"]], (anterior or {}).get("actas"))
+        e["dorsales"] = {n: d for j in sorted(e["actas"], key=int) for n, d in e["actas"][j]["d"].items()}
     e["descargado"] = datetime.now().isoformat(timespec="minutes")
     return e
 
@@ -298,6 +297,9 @@ def main():
         print("Parado, se sigue en la próxima ejecución:", err)
     listos = sum(1 for c, _, _ in club if previo.get(c, {}).get("descargado"))
     print(f"{listos} de {len(club)} equipos al día en federacion.js")
+    pendientes_actas = sum(1 for e in previo.values() for p in e.get("partidos", [])
+                           if p["resultado"] and not e.get("actas", {}).get(str(p["jornada"]), {}).get("id"))
+    print(f"Actas pendientes: {pendientes_actas}")
 
 
 if __name__ == "__main__":

@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-20T07:32";
+const ACTUALIZADO = "2026-10-20T15:52";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -3744,12 +3744,12 @@ const EQUIPOS = [
    },
    {
     "jornada": 7,
-    "fecha": "2026-10-24",
-    "hora": "",
+    "fecha": "2026-10-25",
+    "hora": "10:00",
     "local": true,
     "rival": "GALICIA DE CARANZA",
     "resultado": "",
-    "campo": "Grela 1"
+    "campo": "Elviña Grande (La Coruña)"
    },
    {
     "jornada": 8,
@@ -3964,22 +3964,205 @@ const EQUIPOS = [
   "escudos": {
    "S.D. COMPOSTELA \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001010839_logo___copia.jpg",
    "VICTORIA F.C.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000600738_Victoria_FC.jpg",
-   "URAL ESPAÑOL C.F. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000891301_ESCUDO_URAL_B.jpg",
-   "S.D. VIVEIRO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000916034_ESCUDO_SD.jpg",
    "C.D. CALASANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
    "ATLETICO ARTEIXO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001414249_Escudo_Arteixo.png",
-   "IMPERATOR O.A.R.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png",
-   "RACING CLUB FERROL S.A.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001624274_ESCUDO.jpg",
-   "ATL. CORUÑA MONTAÑEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
-   "GALICIA DE CARANZA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001017519_Escudo_Galicia.png",
    "SAN TIRSO S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000916862_ESCUDO_20_21.jpg",
    "C.D. LUGO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000717289_CD_LUGO_logo_color_BAJA.jpg",
    "S.D.C.y R. NARON O FREIXO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000665884_escudo_freixo100x100.png",
    "SADA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000931604_Sada_CF_escudo_FUTGAL.png",
+   "IMPERATOR O.A.R.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png",
+   "RACING CLUB FERROL S.A.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001624274_ESCUDO.jpg",
    "RACING C. VILLALBES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001826551_ESCUDO_SIN_FONDO.png",
-   "S.D. RESIDENCIA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001672752_ESCUDO_RESIDENCIA.jpg"
+   "S.D. RESIDENCIA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001672752_ESCUDO_RESIDENCIA.jpg",
+   "ATL. CORUÑA MONTAÑEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
+   "GALICIA DE CARANZA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001017519_Escudo_Galicia.png",
+   "URAL ESPAÑOL C.F. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000891301_ESCUDO_URAL_B.jpg",
+   "S.D. VIVEIRO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000916034_ESCUDO_SD.jpg"
   },
-  "descargado": "2026-10-19T17:39"
+  "actas": {
+   "4": {
+    "t": [
+     "Felipe Varela Lopez",
+     "Alejandro Rodriguez Queijas",
+     "Bruno Blanco Salorio",
+     "Pedro De Artaza Galante",
+     "Juan Bescansa Alvarez",
+     "Ivan Lopez Carcedo",
+     "Diego Pazos Fernandez",
+     "Gustavo Vila Seoane",
+     "Roi Sánchez Lema",
+     "Bruno Barreiro Ramos",
+     "Adriel Rodriguez Justo"
+    ],
+    "s": [
+     "Nicolas Caraballo Hernandez",
+     "Alejandro Buide Modia",
+     "Ruben García Viñán",
+     "Juan Angel Sanchez Figueiras",
+     "Álvaro Díaz Boquete"
+    ],
+    "e": [
+     "Juan Angel Sanchez Figueiras",
+     "Ruben García Viñán",
+     "Álvaro Díaz Boquete",
+     "Nicolas Caraballo Hernandez",
+     "Alejandro Buide Modia"
+    ],
+    "g": {
+     "Juan Bescansa Alvarez": 1
+    },
+    "a": [
+     "Roi Sánchez Lema"
+    ],
+    "r": [],
+    "d": {
+     "Felipe Varela Lopez": 1,
+     "Alejandro Rodriguez Queijas": 2,
+     "Bruno Blanco Salorio": 3,
+     "Pedro De Artaza Galante": 4,
+     "Juan Bescansa Alvarez": 5,
+     "Ivan Lopez Carcedo": 6,
+     "Diego Pazos Fernandez": 7,
+     "Gustavo Vila Seoane": 8,
+     "Roi Sánchez Lema": 9,
+     "Bruno Barreiro Ramos": 10,
+     "Adriel Rodriguez Justo": 11,
+     "Nicolas Caraballo Hernandez": 12,
+     "Alejandro Buide Modia": 14,
+     "Ruben García Viñán": 15,
+     "Juan Angel Sanchez Figueiras": 16,
+     "Álvaro Díaz Boquete": 17
+    },
+    "id": "1440183"
+   },
+   "5": {
+    "t": [
+     "Felipe Varela Lopez",
+     "Mateo Suarez Fuentes",
+     "Nicolas Caraballo Hernandez",
+     "Ruben García Viñán",
+     "Alejandro Rodriguez Queijas",
+     "Ivan Lopez Carcedo",
+     "Juan Angel Sanchez Figueiras",
+     "Bruno Barreiro Ramos",
+     "Roi Sánchez Lema",
+     "Alejandro Buide Modia",
+     "Diego Pazos Fernandez"
+    ],
+    "s": [
+     "Manel Neira Crespo",
+     "Adriel Rodriguez Justo",
+     "Juan Bescansa Alvarez",
+     "Bruno Blanco Salorio",
+     "Álvaro Díaz Boquete"
+    ],
+    "e": [
+     "Adriel Rodriguez Justo",
+     "Juan Bescansa Alvarez",
+     "Álvaro Díaz Boquete",
+     "Manel Neira Crespo",
+     "Bruno Blanco Salorio"
+    ],
+    "g": {
+     "Diego Pazos Fernandez": 1,
+     "Juan Angel Sanchez Figueiras": 1,
+     "Ivan Lopez Carcedo": 1
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Felipe Varela Lopez": 1,
+     "Mateo Suarez Fuentes": 2,
+     "Nicolas Caraballo Hernandez": 3,
+     "Ruben García Viñán": 4,
+     "Alejandro Rodriguez Queijas": 5,
+     "Ivan Lopez Carcedo": 6,
+     "Juan Angel Sanchez Figueiras": 7,
+     "Bruno Barreiro Ramos": 8,
+     "Roi Sánchez Lema": 9,
+     "Alejandro Buide Modia": 10,
+     "Diego Pazos Fernandez": 11,
+     "Manel Neira Crespo": 12,
+     "Adriel Rodriguez Justo": 14,
+     "Juan Bescansa Alvarez": 15,
+     "Bruno Blanco Salorio": 16,
+     "Álvaro Díaz Boquete": 17
+    },
+    "id": "1440191"
+   },
+   "6": {
+    "t": [
+     "Felipe Varela Lopez",
+     "Manel Neira Crespo",
+     "Álvaro Díaz Boquete",
+     "Pedro De Artaza Galante",
+     "Juan Bescansa Alvarez",
+     "Ivan Lopez Carcedo",
+     "Juan Angel Sanchez Figueiras",
+     "Gustavo Vila Seoane",
+     "Diego Pazos Fernandez",
+     "Adriel Rodriguez Justo",
+     "Mateo Suarez Fuentes"
+    ],
+    "s": [
+     "Nicolas Caraballo Hernandez",
+     "Alejandro Buide Modia",
+     "Alejandro Rodriguez Queijas",
+     "Bruno Barreiro Ramos",
+     "Roi Sánchez Lema"
+    ],
+    "e": [
+     "Roi Sánchez Lema",
+     "Alejandro Rodriguez Queijas",
+     "Alejandro Buide Modia",
+     "Bruno Barreiro Ramos",
+     "Nicolas Caraballo Hernandez"
+    ],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Felipe Varela Lopez": 1,
+     "Manel Neira Crespo": 2,
+     "Álvaro Díaz Boquete": 3,
+     "Pedro De Artaza Galante": 4,
+     "Juan Bescansa Alvarez": 5,
+     "Ivan Lopez Carcedo": 6,
+     "Juan Angel Sanchez Figueiras": 7,
+     "Gustavo Vila Seoane": 8,
+     "Diego Pazos Fernandez": 9,
+     "Adriel Rodriguez Justo": 10,
+     "Mateo Suarez Fuentes": 11,
+     "Nicolas Caraballo Hernandez": 12,
+     "Alejandro Buide Modia": 14,
+     "Alejandro Rodriguez Queijas": 15,
+     "Bruno Barreiro Ramos": 16,
+     "Roi Sánchez Lema": 19
+    },
+    "id": "1440200"
+   }
+  },
+  "dorsales": {
+   "Felipe Varela Lopez": 1,
+   "Alejandro Rodriguez Queijas": 15,
+   "Bruno Blanco Salorio": 16,
+   "Pedro De Artaza Galante": 4,
+   "Juan Bescansa Alvarez": 5,
+   "Ivan Lopez Carcedo": 6,
+   "Diego Pazos Fernandez": 9,
+   "Gustavo Vila Seoane": 8,
+   "Roi Sánchez Lema": 19,
+   "Bruno Barreiro Ramos": 16,
+   "Adriel Rodriguez Justo": 10,
+   "Nicolas Caraballo Hernandez": 12,
+   "Alejandro Buide Modia": 14,
+   "Ruben García Viñán": 4,
+   "Juan Angel Sanchez Figueiras": 7,
+   "Álvaro Díaz Boquete": 3,
+   "Mateo Suarez Fuentes": 11,
+   "Manel Neira Crespo": 2
+  },
+  "descargado": "2026-10-20T15:51"
  },
  {
   "id": "cadete-b",
@@ -4241,7 +4424,7 @@ const EQUIPOS = [
    {
     "jornada": 6,
     "fecha": "2026-10-24",
-    "hora": "",
+    "hora": "09:45",
     "local": false,
     "rival": "BETANZOS C.F.",
     "resultado": "",
@@ -4467,24 +4650,221 @@ const EQUIPOS = [
   "competicion": "Cadete - 1ª Futgal · A Coruña | Grupo Unico",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26991278&codcompeticion=26991273",
   "escudos": {
+   "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg",
+   "PORTAZGO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801957_19700101_010000_1573847035.jpg",
+   "BETANZOS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000665955_Escudo_DEFINITIVO.jpg",
+   "ATL. CORUÑA MONTAÑEROS C.F. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
    "VICTORIA C.F. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
    "U.D. CARRAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001484347_Carral.jpg",
    "SILVA S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001103292_escudo_rfgf.jpg",
    "ORILLAMAR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000941018_ESCUDO_OFICIAL_ORILLAMAR_SD_PRINCIPAL.jpg",
-   "BETANZOS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000665955_Escudo_DEFINITIVO.jpg",
-   "ATL. CORUÑA MONTAÑEROS C.F. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
+   "SPORTING MEICENDE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001010506_ESCUDO_SP.MEICENDE___GRANDE_.jpg",
+   "SPORTING CAMBRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
    "SAN TIRSO S.D. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000916862_ESCUDO_20_21.jpg",
    "A.D. CRISTO REY": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001837770_ESCUDO_NARANJA_SIN_FONDO.png",
-   "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg",
-   "PORTAZGO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801957_19700101_010000_1573847035.jpg",
    "C.D. CALASANZ \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
    "SPORTING CORUÑES S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801946_escudo-4154.jpg",
    "OZA JUVENIL S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
-   "SDC ORDENES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000914840_SDC__rdenes_Escudo.jpg",
-   "SPORTING MEICENDE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001010506_ESCUDO_SP.MEICENDE___GRANDE_.jpg",
-   "SPORTING CAMBRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg"
+   "SDC ORDENES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000914840_SDC__rdenes_Escudo.jpg"
   },
-  "descargado": "2026-10-19T17:39"
+  "actas": {
+   "3": {
+    "t": [
+     "Ramon Saavedra Trigo",
+     "Víctor Antelo Baldomir",
+     "Manuel Anido Pose",
+     "Romeo Mateo Comesaña Perez",
+     "Julio Santos Fraga",
+     "Franco Santino Mesa Vazquez",
+     "Naim Blanco Solis",
+     "Aimar Lagoa Rodriguez",
+     "Santiago Lopez Ganem",
+     "Ivan Vazquez Lopez",
+     "Bruno Camiños Blanco"
+    ],
+    "s": [
+     "Xavier Taboada Manteiga",
+     "Dario Lorenzo Fraga",
+     "Iago Rey Ibañez",
+     "Nicolás Ávarez Fernández",
+     "Andrew Silva Mosquera"
+    ],
+    "e": [
+     "Xavier Taboada Manteiga",
+     "Iago Rey Ibañez",
+     "Nicolás Ávarez Fernández",
+     "Dario Lorenzo Fraga",
+     "Andrew Silva Mosquera"
+    ],
+    "g": {
+     "Bruno Camiños Blanco": 1,
+     "Ivan Vazquez Lopez": 1,
+     "Santiago Lopez Ganem": 1
+    },
+    "a": [
+     "Nicolás Ávarez Fernández",
+     "Julio Santos Fraga"
+    ],
+    "r": [],
+    "d": {
+     "Ramon Saavedra Trigo": 13,
+     "Víctor Antelo Baldomir": 2,
+     "Manuel Anido Pose": 3,
+     "Romeo Mateo Comesaña Perez": 4,
+     "Julio Santos Fraga": 5,
+     "Franco Santino Mesa Vazquez": 6,
+     "Naim Blanco Solis": 7,
+     "Aimar Lagoa Rodriguez": 8,
+     "Santiago Lopez Ganem": 9,
+     "Ivan Vazquez Lopez": 10,
+     "Bruno Camiños Blanco": 11,
+     "Xavier Taboada Manteiga": 14,
+     "Dario Lorenzo Fraga": 15,
+     "Iago Rey Ibañez": 16,
+     "Nicolás Ávarez Fernández": 18,
+     "Andrew Silva Mosquera": 19
+    },
+    "id": "1471019"
+   },
+   "4": {
+    "t": [
+     "Gabriel Mosquera Lema",
+     "Manuel Anido Pose",
+     "Nicolás Ávarez Fernández",
+     "Romeo Mateo Comesaña Perez",
+     "Julio Santos Fraga",
+     "Franco Santino Mesa Vazquez",
+     "Ivan Vazquez Lopez",
+     "Iago Rey Ibañez",
+     "Santiago Lopez Ganem",
+     "Aimar Lagoa Rodriguez",
+     "Bruno Camiños Blanco"
+    ],
+    "s": [
+     "Luis Cea Raña",
+     "Xavier Taboada Manteiga",
+     "Dario Lorenzo Fraga",
+     "Víctor Antelo Baldomir",
+     "Naim Blanco Solis"
+    ],
+    "e": [
+     "Naim Blanco Solis",
+     "Xavier Taboada Manteiga",
+     "Víctor Antelo Baldomir",
+     "Luis Cea Raña",
+     "Dario Lorenzo Fraga"
+    ],
+    "g": {
+     "Bruno Camiños Blanco": 1
+    },
+    "a": [
+     "Ivan Vazquez Lopez"
+    ],
+    "r": [],
+    "d": {
+     "Gabriel Mosquera Lema": 1,
+     "Manuel Anido Pose": 2,
+     "Nicolás Ávarez Fernández": 3,
+     "Romeo Mateo Comesaña Perez": 4,
+     "Julio Santos Fraga": 5,
+     "Franco Santino Mesa Vazquez": 6,
+     "Ivan Vazquez Lopez": 7,
+     "Iago Rey Ibañez": 8,
+     "Santiago Lopez Ganem": 9,
+     "Aimar Lagoa Rodriguez": 10,
+     "Bruno Camiños Blanco": 11,
+     "Luis Cea Raña": 12,
+     "Xavier Taboada Manteiga": 14,
+     "Dario Lorenzo Fraga": 15,
+     "Víctor Antelo Baldomir": 16,
+     "Naim Blanco Solis": 18
+    },
+    "id": "1471028"
+   },
+   "5": {
+    "t": [
+     "Diego Blanco Fernandez",
+     "Nicolás Ávarez Fernández",
+     "Bruno Blanco Salorio",
+     "Franco Santino Mesa Vazquez",
+     "Julio Santos Fraga",
+     "Ruben García Viñán",
+     "Naim Blanco Solis",
+     "Aimar Lagoa Rodriguez",
+     "Andrew Silva Mosquera",
+     "Ivan Vazquez Lopez",
+     "Bruno Camiños Blanco"
+    ],
+    "s": [
+     "Manuel Anido Pose",
+     "Santiago Lopez Ganem",
+     "Xavier Taboada Manteiga",
+     "Víctor Antelo Baldomir",
+     "Romeo Mateo Comesaña Perez"
+    ],
+    "e": [
+     "Romeo Mateo Comesaña Perez",
+     "Manuel Anido Pose",
+     "Santiago Lopez Ganem",
+     "Xavier Taboada Manteiga",
+     "Víctor Antelo Baldomir"
+    ],
+    "g": {
+     "Ruben García Viñán": 1,
+     "Nicolás Ávarez Fernández": 1,
+     "Santiago Lopez Ganem": 1
+    },
+    "a": [
+     "Romeo Mateo Comesaña Perez"
+    ],
+    "r": [
+     "Diego Blanco Fernandez"
+    ],
+    "d": {
+     "Diego Blanco Fernandez": 1,
+     "Nicolás Ávarez Fernández": 2,
+     "Bruno Blanco Salorio": 3,
+     "Franco Santino Mesa Vazquez": 4,
+     "Julio Santos Fraga": 5,
+     "Ruben García Viñán": 6,
+     "Naim Blanco Solis": 7,
+     "Aimar Lagoa Rodriguez": 8,
+     "Andrew Silva Mosquera": 9,
+     "Ivan Vazquez Lopez": 10,
+     "Bruno Camiños Blanco": 11,
+     "Manuel Anido Pose": 12,
+     "Santiago Lopez Ganem": 14,
+     "Xavier Taboada Manteiga": 15,
+     "Víctor Antelo Baldomir": 16,
+     "Romeo Mateo Comesaña Perez": 17
+    },
+    "id": "1471036"
+   }
+  },
+  "dorsales": {
+   "Ramon Saavedra Trigo": 13,
+   "Víctor Antelo Baldomir": 16,
+   "Manuel Anido Pose": 12,
+   "Romeo Mateo Comesaña Perez": 17,
+   "Julio Santos Fraga": 5,
+   "Franco Santino Mesa Vazquez": 4,
+   "Naim Blanco Solis": 7,
+   "Aimar Lagoa Rodriguez": 8,
+   "Santiago Lopez Ganem": 14,
+   "Ivan Vazquez Lopez": 10,
+   "Bruno Camiños Blanco": 11,
+   "Xavier Taboada Manteiga": 15,
+   "Dario Lorenzo Fraga": 15,
+   "Iago Rey Ibañez": 8,
+   "Nicolás Ávarez Fernández": 2,
+   "Andrew Silva Mosquera": 9,
+   "Gabriel Mosquera Lema": 1,
+   "Luis Cea Raña": 12,
+   "Diego Blanco Fernandez": 1,
+   "Bruno Blanco Salorio": 3,
+   "Ruben García Viñán": 6
+  },
+  "descargado": "2026-10-20T15:52"
  },
  {
   "id": "cadete-c",
