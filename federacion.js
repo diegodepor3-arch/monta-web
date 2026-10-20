@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-20T15:52";
+const ACTUALIZADO = "2026-10-20T18:29";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -6844,24 +6844,197 @@ const EQUIPOS = [
   "competicion": "Infantil - 1ª Futgal · A Coruña | Grupo Único",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26991296&codcompeticion=26991286",
   "escudos": {
+   "IMPERATOR O.A.R.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png",
+   "ATLETICO SAN PEDRO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg",
+   "U.D. CARRAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001484347_Carral.jpg",
+   "ONCE CABALLEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000601679_ONCECAB.jpg",
    "SILVA S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001103292_escudo_rfgf.jpg",
    "C.D. CALASANZ \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
    "VICTORIA C.F. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
    "ATLETICO CASTROS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001611037_escudo128.png",
-   "U.D. CARRAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001484347_Carral.jpg",
-   "ONCE CABALLEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000601679_ONCECAB.jpg",
+   "OLIMPICO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg",
+   "ATL. CORUÑA MONTAÑEROS C.F. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
    "ORILLAMAR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000941018_ESCUDO_OFICIAL_ORILLAMAR_SD_PRINCIPAL.jpg",
    "BETANZOS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000665955_Escudo_DEFINITIVO.jpg",
    "OZA JUVENIL S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
    "SPORTING CORUÑES S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801946_escudo-4154.jpg",
-   "IMPERATOR O.A.R.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png",
-   "ATLETICO SAN PEDRO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg",
-   "OLIMPICO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg",
-   "ATL. CORUÑA MONTAÑEROS C.F. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
    "SDC ORDENES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000914840_SDC__rdenes_Escudo.jpg",
    "U.D. PAIOSACO- H. AÑON": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000038401_ESCUDO.jpg"
   },
-  "descargado": "2026-10-19T18:58"
+  "actas": {
+   "3": {
+    "t": [
+     "Jose Maria Fernandez Blanco",
+     "Breixo Fernández González",
+     "Mateo Reguera Alonso",
+     "Aarón Anido Barroso",
+     "Anton Pato Mouzo",
+     "Anton Rodriguez Castro",
+     "Hugo Astray Losada",
+     "Fabricio Scotti Paz",
+     "Mateo Pereira Pedreira",
+     "Iñaki Ramos Ramos",
+     "Miguel Ruzo Pan"
+    ],
+    "s": [
+     "Oliver Rivera Iglesias",
+     "Lucas Vazquez Garcia-Lluis",
+     "Goodnews Ikiponwmosa John Onaguise",
+     "Nico Mosteiro Carro",
+     "Jesus Joaquin Torreiro Marcos"
+    ],
+    "e": [],
+    "g": {
+     "Goodnews Ikiponwmosa John Onaguise": 3,
+     "Nico Mosteiro Carro": 2,
+     "Oliver Rivera Iglesias": 1,
+     "Anton Pato Mouzo": 1
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Jose Maria Fernandez Blanco": 13,
+     "Breixo Fernández González": 3,
+     "Mateo Reguera Alonso": 6,
+     "Aarón Anido Barroso": 9,
+     "Anton Pato Mouzo": 10,
+     "Anton Rodriguez Castro": 11,
+     "Hugo Astray Losada": 12,
+     "Fabricio Scotti Paz": 14,
+     "Mateo Pereira Pedreira": 15,
+     "Iñaki Ramos Ramos": 16,
+     "Miguel Ruzo Pan": 17,
+     "Oliver Rivera Iglesias": 2,
+     "Lucas Vazquez Garcia-Lluis": 5,
+     "Goodnews Ikiponwmosa John Onaguise": 7,
+     "Nico Mosteiro Carro": 8,
+     "Jesus Joaquin Torreiro Marcos": 18
+    },
+    "id": "1471500"
+   },
+   "4": {
+    "t": [
+     "Enzo Miguel Álvaro",
+     "Oliver Rivera Iglesias",
+     "Lucas Vazquez Garcia-Lluis",
+     "Mateo Reguera Alonso",
+     "Goodnews Ikiponwmosa John Onaguise",
+     "Aarón Anido Barroso",
+     "Anton Pato Mouzo",
+     "Anton Rodriguez Castro",
+     "Mateo Pereira Pedreira",
+     "Iñaki Ramos Ramos",
+     "Jesus Joaquin Torreiro Marcos"
+    ],
+    "s": [
+     "Jose Maria Fernandez Blanco",
+     "Breixo Fernández González",
+     "Adrián Garay Amigo",
+     "Lucas Garcia Rancaño",
+     "Fabricio Scotti Paz"
+    ],
+    "e": [],
+    "g": {
+     "Anton Pato Mouzo": 2,
+     "Lucas Garcia Rancaño": 4,
+     "Goodnews Ikiponwmosa John Onaguise": 1
+    },
+    "a": [
+     "Mateo Reguera Alonso"
+    ],
+    "r": [],
+    "d": {
+     "Enzo Miguel Álvaro": 1,
+     "Oliver Rivera Iglesias": 2,
+     "Lucas Vazquez Garcia-Lluis": 5,
+     "Mateo Reguera Alonso": 6,
+     "Goodnews Ikiponwmosa John Onaguise": 7,
+     "Aarón Anido Barroso": 9,
+     "Anton Pato Mouzo": 10,
+     "Anton Rodriguez Castro": 11,
+     "Mateo Pereira Pedreira": 15,
+     "Iñaki Ramos Ramos": 16,
+     "Jesus Joaquin Torreiro Marcos": 18,
+     "Jose Maria Fernandez Blanco": 13,
+     "Breixo Fernández González": 3,
+     "Adrián Garay Amigo": 4,
+     "Lucas Garcia Rancaño": 8,
+     "Fabricio Scotti Paz": 14
+    },
+    "id": "1471509"
+   },
+   "5": {
+    "t": [
+     "Jose Maria Fernandez Blanco",
+     "Oliver Rivera Iglesias",
+     "Breixo Fernández González",
+     "Mateo Reguera Alonso",
+     "Lucas Garcia Rancaño",
+     "Aarón Anido Barroso",
+     "Anton Pato Mouzo",
+     "Hugo Astray Losada",
+     "Fabricio Scotti Paz",
+     "Iñaki Ramos Ramos",
+     "Miguel Ruzo Pan"
+    ],
+    "s": [
+     "Enzo Miguel Álvaro",
+     "Goodnews Ikiponwmosa John Onaguise",
+     "Nico Mosteiro Carro",
+     "Mateo Pereira Pedreira",
+     "Jesus Joaquin Torreiro Marcos"
+    ],
+    "e": [],
+    "g": {
+     "Miguel Ruzo Pan": 1,
+     "Goodnews Ikiponwmosa John Onaguise": 1,
+     "Jesus Joaquin Torreiro Marcos": 2
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Jose Maria Fernandez Blanco": 13,
+     "Oliver Rivera Iglesias": 2,
+     "Breixo Fernández González": 3,
+     "Mateo Reguera Alonso": 6,
+     "Lucas Garcia Rancaño": 8,
+     "Aarón Anido Barroso": 9,
+     "Anton Pato Mouzo": 10,
+     "Hugo Astray Losada": 12,
+     "Fabricio Scotti Paz": 14,
+     "Iñaki Ramos Ramos": 16,
+     "Miguel Ruzo Pan": 17,
+     "Enzo Miguel Álvaro": 1,
+     "Goodnews Ikiponwmosa John Onaguise": 7,
+     "Nico Mosteiro Carro": 11,
+     "Mateo Pereira Pedreira": 15,
+     "Jesus Joaquin Torreiro Marcos": 18
+    },
+    "id": "1471517"
+   }
+  },
+  "dorsales": {
+   "Jose Maria Fernandez Blanco": 13,
+   "Breixo Fernández González": 3,
+   "Mateo Reguera Alonso": 6,
+   "Aarón Anido Barroso": 9,
+   "Anton Pato Mouzo": 10,
+   "Anton Rodriguez Castro": 11,
+   "Hugo Astray Losada": 12,
+   "Fabricio Scotti Paz": 14,
+   "Mateo Pereira Pedreira": 15,
+   "Iñaki Ramos Ramos": 16,
+   "Miguel Ruzo Pan": 17,
+   "Oliver Rivera Iglesias": 2,
+   "Lucas Vazquez Garcia-Lluis": 5,
+   "Goodnews Ikiponwmosa John Onaguise": 7,
+   "Nico Mosteiro Carro": 11,
+   "Jesus Joaquin Torreiro Marcos": 18,
+   "Enzo Miguel Álvaro": 1,
+   "Adrián Garay Amigo": 4,
+   "Lucas Garcia Rancaño": 8
+  },
+  "descargado": "2026-10-20T18:28"
  },
  {
   "id": "infantil-c",
@@ -7117,7 +7290,7 @@ const EQUIPOS = [
    {
     "jornada": 5,
     "fecha": "2026-10-24",
-    "hora": "",
+    "hora": "19:00",
     "local": false,
     "rival": "OZA JUVENIL S.D. \"B\"",
     "resultado": "",
@@ -7352,24 +7525,209 @@ const EQUIPOS = [
   "competicion": "Infantil - 2ª Futgal · A Coruña | Grupo 1",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26991127&codcompeticion=26991111",
   "escudos": {
+   "SANTA MARIA DEL MAR": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001611104_Escudo_sin_fondo.png",
+   "URAL ESPAÑOL C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000891301_ESCUDO_URAL_B.jpg",
+   "VICTORIA C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
+   "IMPERATOR O.A.R. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png",
+   "SPORTING CORUÑES \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801946_escudo-4154.jpg",
+   "SILVA S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001103292_escudo_rfgf.jpg",
+   "OZA JUVENIL S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
+   "ATL. CORUÑA MONTAÑEROS C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
    "C.F. BATALLADOR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000918106_ESCUDO_.jpg",
    "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
+   "PORTAZGO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801957_19700101_010000_1573847035.jpg",
+   "C.D. CIUDAD": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001223589_CD_CIUDAD_TR_2.png",
    "C.D. CALASANZ \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
    "ORILLAMAR S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000941018_ESCUDO_OFICIAL_ORILLAMAR_SD_PRINCIPAL.jpg",
    "A. C. RUEIRO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001404224_WhatsApp_Image_2024_09_26_at_13.47.47.jpeg",
-   "RELÁMPAGO S. D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000894509_Escudo.PNG",
-   "SPORTING CORUÑES \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801946_escudo-4154.jpg",
-   "SILVA S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001103292_escudo_rfgf.jpg",
-   "SANTA MARIA DEL MAR": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001611104_Escudo_sin_fondo.png",
-   "URAL ESPAÑOL C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000891301_ESCUDO_URAL_B.jpg",
-   "OZA JUVENIL S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
-   "ATL. CORUÑA MONTAÑEROS C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
-   "PORTAZGO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801957_19700101_010000_1573847035.jpg",
-   "C.D. CIUDAD": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001223589_CD_CIUDAD_TR_2.png",
-   "VICTORIA C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
-   "IMPERATOR O.A.R. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png"
+   "RELÁMPAGO S. D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000894509_Escudo.PNG"
   },
-  "descargado": "2026-10-20T04:07"
+  "actas": {
+   "2": {
+    "t": [
+     "Eloy Fernández Pérez",
+     "Artai Nieto Ramos",
+     "Mateo Gago Gestal",
+     "Iago González Touza",
+     "Sergio Otero Velo",
+     "Fabio Paparella Rodríguez",
+     "Pedro Fernandez Llamazares Gesto",
+     "Pablo Lourido Aldao",
+     "Yeray Martinez Vazquez",
+     "Adrian Rios Naya",
+     "Nicolás Meiras Guerra"
+    ],
+    "s": [
+     "Álvaro Cousillas Santiago",
+     "Teo Vallee Llorente",
+     "Hugo Sanchez Sanchis",
+     "Andrés Castellanos Gil",
+     "Javier Ferreiro Abelaira"
+    ],
+    "e": [],
+    "g": {
+     "Yeray Martinez Vazquez": 3,
+     "Pedro Fernandez Llamazares Gesto": 1,
+     "Pablo Lourido Aldao": 1
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Eloy Fernández Pérez": 1,
+     "Artai Nieto Ramos": 2,
+     "Mateo Gago Gestal": 3,
+     "Iago González Touza": 4,
+     "Sergio Otero Velo": 5,
+     "Fabio Paparella Rodríguez": 6,
+     "Pedro Fernandez Llamazares Gesto": 7,
+     "Pablo Lourido Aldao": 8,
+     "Yeray Martinez Vazquez": 9,
+     "Adrian Rios Naya": 10,
+     "Nicolás Meiras Guerra": 11,
+     "Álvaro Cousillas Santiago": 13,
+     "Teo Vallee Llorente": 12,
+     "Hugo Sanchez Sanchis": 14,
+     "Andrés Castellanos Gil": 15,
+     "Javier Ferreiro Abelaira": 16
+    },
+    "id": "1497103"
+   },
+   "3": {
+    "t": [
+     "Álvaro Cousillas Santiago",
+     "Pedro Fernandez Llamazares Gesto",
+     "Javier Ferreiro Abelaira",
+     "Artai Nieto Ramos",
+     "Fabio Paparella Rodríguez",
+     "Pedro Prada Maroño",
+     "Yeray Martinez Vazquez",
+     "Adrian Rios Naya",
+     "Nicolás Meiras Guerra",
+     "Andrés Castellanos Gil",
+     "Pablo Lourido Aldao"
+    ],
+    "s": [
+     "Eloy Fernández Pérez",
+     "Mateo Gago Gestal",
+     "Teo Vallee Llorente",
+     "Hugo Estraviz Lopez",
+     "Alvaro Santamaria Cives"
+    ],
+    "e": [],
+    "g": {
+     "Yeray Martinez Vazquez": 3,
+     "Nicolás Meiras Guerra": 3,
+     "Pedro Fernandez Llamazares Gesto": 1,
+     "Andrés Castellanos Gil": 1,
+     "Fabio Paparella Rodríguez": 2,
+     "Adrian Rios Naya": 1,
+     "Artai Nieto Ramos": 1,
+     "Alvaro Santamaria Cives": 1,
+     "Javier Ferreiro Abelaira": 1,
+     "Pedro Prada Maroño": 1
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Álvaro Cousillas Santiago": 13,
+     "Pedro Fernandez Llamazares Gesto": 2,
+     "Javier Ferreiro Abelaira": 3,
+     "Artai Nieto Ramos": 4,
+     "Fabio Paparella Rodríguez": 5,
+     "Pedro Prada Maroño": 6,
+     "Yeray Martinez Vazquez": 9,
+     "Adrian Rios Naya": 10,
+     "Nicolás Meiras Guerra": 11,
+     "Andrés Castellanos Gil": 17,
+     "Pablo Lourido Aldao": 21,
+     "Eloy Fernández Pérez": 1,
+     "Mateo Gago Gestal": 12,
+     "Teo Vallee Llorente": 14,
+     "Hugo Estraviz Lopez": 15,
+     "Alvaro Santamaria Cives": 16
+    },
+    "id": "1497110"
+   },
+   "4": {
+    "t": [
+     "Eloy Fernández Pérez",
+     "Teo Vallee Llorente",
+     "Mateo Gago Gestal",
+     "Artai Nieto Ramos",
+     "Fabio Paparella Rodríguez",
+     "Pedro Prada Maroño",
+     "Pedro Fernandez Llamazares Gesto",
+     "Pablo Lourido Aldao",
+     "Yeray Martinez Vazquez",
+     "Adrian Rios Naya",
+     "Nicolás Meiras Guerra"
+    ],
+    "s": [
+     "Álvaro Cousillas Santiago",
+     "Javier Ferreiro Abelaira",
+     "Andrés Castellanos Gil",
+     "Sergio Otero Velo",
+     "Martiño Moar Moscoso"
+    ],
+    "e": [],
+    "g": {
+     "Pedro Fernandez Llamazares Gesto": 1,
+     "Andrés Castellanos Gil": 2,
+     "Nicolás Meiras Guerra": 3,
+     "Artai Nieto Ramos": 2,
+     "Adrian Rios Naya": 1,
+     "Martiño Moar Moscoso": 1,
+     "Pablo Lourido Aldao": 3,
+     "Teo Vallee Llorente": 1,
+     "Javier Ferreiro Abelaira": 1,
+     "Yeray Martinez Vazquez": 1
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Eloy Fernández Pérez": 1,
+     "Teo Vallee Llorente": 2,
+     "Mateo Gago Gestal": 3,
+     "Artai Nieto Ramos": 4,
+     "Fabio Paparella Rodríguez": 5,
+     "Pedro Prada Maroño": 6,
+     "Pedro Fernandez Llamazares Gesto": 7,
+     "Pablo Lourido Aldao": 8,
+     "Yeray Martinez Vazquez": 9,
+     "Adrian Rios Naya": 10,
+     "Nicolás Meiras Guerra": 11,
+     "Álvaro Cousillas Santiago": 13,
+     "Javier Ferreiro Abelaira": 12,
+     "Andrés Castellanos Gil": 14,
+     "Sergio Otero Velo": 15,
+     "Martiño Moar Moscoso": 16
+    },
+    "id": "1497118"
+   }
+  },
+  "dorsales": {
+   "Eloy Fernández Pérez": 1,
+   "Artai Nieto Ramos": 4,
+   "Mateo Gago Gestal": 3,
+   "Iago González Touza": 4,
+   "Sergio Otero Velo": 15,
+   "Fabio Paparella Rodríguez": 5,
+   "Pedro Fernandez Llamazares Gesto": 7,
+   "Pablo Lourido Aldao": 8,
+   "Yeray Martinez Vazquez": 9,
+   "Adrian Rios Naya": 10,
+   "Nicolás Meiras Guerra": 11,
+   "Álvaro Cousillas Santiago": 13,
+   "Teo Vallee Llorente": 2,
+   "Hugo Sanchez Sanchis": 14,
+   "Andrés Castellanos Gil": 14,
+   "Javier Ferreiro Abelaira": 12,
+   "Pedro Prada Maroño": 6,
+   "Hugo Estraviz Lopez": 15,
+   "Alvaro Santamaria Cives": 16,
+   "Martiño Moar Moscoso": 16
+  },
+  "descargado": "2026-10-20T18:29"
  },
  {
   "id": "infantil-d",
