@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-20T18:29";
+const ACTUALIZADO = "2026-10-20T22:18";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -7951,12 +7951,12 @@ const EQUIPOS = [
    },
    {
     "jornada": 4,
-    "fecha": "2026-10-24",
-    "hora": "",
+    "fecha": "2026-10-25",
+    "hora": "19:00",
     "local": true,
     "rival": "COLEGIO LICEO",
     "resultado": "",
-    "campo": "Campo de Fútbol de Iñás"
+    "campo": "Torre Nº 4"
    },
    {
     "jornada": 5,
@@ -8160,22 +8160,202 @@ const EQUIPOS = [
   "competicion": "Infantil - 3ª Futgal · A Coruña | G2",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26991315&codcompeticion=26991304",
   "escudos": {
-   "ONCE CABALLEROS C.F \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000601679_ONCECAB.jpg",
-   "C. D. CALASANZ \"D\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
+   "ATLETICO SAN PEDRO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg",
+   "COMPAÑIA DE MARIA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004468_logo.png",
    "CORUÑA ARBOCO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001103292_escudo_rfgf.jpg",
    "UNION CAMPESTRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000645928_escudo_grande_(1).jpg",
    "U.D.J. ALMEIRAS \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000809377_IMG-20191007-WA0003.jpg",
    "RELÁMPAGO S. D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000894509_Escudo.PNG",
+   "ONCE CABALLEROS C.F \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000601679_ONCECAB.jpg",
+   "C. D. CALASANZ \"D\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
+   "SPORTING CAMBRE \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
+   "CLUB ROSALÍA MERA \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001008004_ROSALIA_MERA_ESCUDO_GRANDE.jpg",
    "SP CORUÑES SDC \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801946_escudo-4154.jpg",
    "ESCUELA DE FUTBOL ZENIT": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001228447_escudo_zenit.jpg",
    "ATLÉTICO CORUÑA MONTAÑEROS C.F. \"D\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
-   "COLEGIO LICEO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000798377_Logo_Liceo_FONDO_BLANCO_sin_margen.jpg",
-   "ATLETICO SAN PEDRO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg",
-   "COMPAÑIA DE MARIA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004468_logo.png",
-   "SPORTING CAMBRE \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
-   "CLUB ROSALÍA MERA \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001008004_ROSALIA_MERA_ESCUDO_GRANDE.jpg"
+   "COLEGIO LICEO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000798377_Logo_Liceo_FONDO_BLANCO_sin_margen.jpg"
   },
-  "descargado": "2026-10-20T04:24"
+  "actas": {
+   "1": {
+    "t": [
+     "Joel Ruiz-Moyano Plaza",
+     "Hugo Espiñeira Esteban",
+     "Izan Fernandez Bouzas",
+     "Lucas Pan Rojo",
+     "Antón Fernández Gómez-Pedreira",
+     "Nico Mosteiro Carro",
+     "Lucas Garcia Aldao",
+     "Teo Caamaño Brandariz",
+     "Noel Alcaraz Garcia",
+     "Martiño Moar Moscoso",
+     "Erick Mosteiro Carro"
+    ],
+    "s": [
+     "Cibrán Rodríguez Otero",
+     "Xalo Bendaña Castro",
+     "Lucas Bouzada Varela",
+     "Roi Castro Pose",
+     "Martín Losada Peteiro"
+    ],
+    "e": [],
+    "g": {
+     "Noel Alcaraz Garcia": 1,
+     "Nico Mosteiro Carro": 2,
+     "Teo Caamaño Brandariz": 3,
+     "Izan Fernandez Bouzas": 1,
+     "Erick Mosteiro Carro": 1
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Joel Ruiz-Moyano Plaza": 13,
+     "Hugo Espiñeira Esteban": 2,
+     "Izan Fernandez Bouzas": 3,
+     "Lucas Pan Rojo": 4,
+     "Antón Fernández Gómez-Pedreira": 6,
+     "Nico Mosteiro Carro": 7,
+     "Lucas Garcia Aldao": 8,
+     "Teo Caamaño Brandariz": 10,
+     "Noel Alcaraz Garcia": 14,
+     "Martiño Moar Moscoso": 16,
+     "Erick Mosteiro Carro": 17,
+     "Cibrán Rodríguez Otero": 5,
+     "Xalo Bendaña Castro": 11,
+     "Lucas Bouzada Varela": 12,
+     "Roi Castro Pose": 15,
+     "Martín Losada Peteiro": 18
+    },
+    "id": "1510056"
+   },
+   "2": {
+    "t": [
+     "Jaime Suevos Varela",
+     "Erick Mosteiro Carro",
+     "Adrián Garay Amigo",
+     "Lucas Garcia Aldao",
+     "Antón Fernández Gómez-Pedreira",
+     "Martiño Moar Moscoso",
+     "Teo Caamaño Brandariz",
+     "Lucas Bouzada Varela",
+     "Nico Mosteiro Carro",
+     "Izan Fernandez Bouzas",
+     "Noel Alcaraz Garcia"
+    ],
+    "s": [
+     "Joel Ruiz-Moyano Plaza",
+     "Hugo Espiñeira Esteban",
+     "Lucas Pan Rojo",
+     "Adrian Garcia Rivademar",
+     "Lucas Fresco Pérez"
+    ],
+    "e": [],
+    "g": {
+     "Noel Alcaraz Garcia": 3,
+     "Nico Mosteiro Carro": 3,
+     "Teo Caamaño Brandariz": 1,
+     "Lucas Fresco Pérez": 1,
+     "Martiño Moar Moscoso": 1
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Jaime Suevos Varela": 13,
+     "Erick Mosteiro Carro": 2,
+     "Adrián Garay Amigo": 5,
+     "Lucas Garcia Aldao": 6,
+     "Antón Fernández Gómez-Pedreira": 7,
+     "Martiño Moar Moscoso": 8,
+     "Teo Caamaño Brandariz": 10,
+     "Lucas Bouzada Varela": 11,
+     "Nico Mosteiro Carro": 14,
+     "Izan Fernandez Bouzas": 16,
+     "Noel Alcaraz Garcia": 18,
+     "Joel Ruiz-Moyano Plaza": 1,
+     "Hugo Espiñeira Esteban": 3,
+     "Lucas Pan Rojo": 4,
+     "Adrian Garcia Rivademar": 15,
+     "Lucas Fresco Pérez": 17
+    },
+    "id": "1510063"
+   },
+   "3": {
+    "t": [
+     "Iván Pena Barriga",
+     "Hugo Espiñeira Esteban",
+     "Lucas Bouzada Varela",
+     "Adrián Garay Amigo",
+     "Cibrán Rodríguez Otero",
+     "Izan Fernandez Bouzas",
+     "Noel Alcaraz Garcia",
+     "Teo Caamaño Brandariz",
+     "Xalo Bendaña Castro",
+     "Félix Romero Brión",
+     "Lucas Garcia Aldao"
+    ],
+    "s": [
+     "Jaime Suevos Varela",
+     "Adrian Garcia Rivademar",
+     "Roi Castro Pose",
+     "Martín Losada Peteiro",
+     "Erick Mosteiro Carro"
+    ],
+    "e": [],
+    "g": {
+     "Noel Alcaraz Garcia": 1,
+     "Félix Romero Brión": 2,
+     "Erick Mosteiro Carro": 2,
+     "Martín Losada Peteiro": 2,
+     "Adrián Garay Amigo": 1,
+     "Xalo Bendaña Castro": 1
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Iván Pena Barriga": 1,
+     "Hugo Espiñeira Esteban": 2,
+     "Lucas Bouzada Varela": 3,
+     "Adrián Garay Amigo": 4,
+     "Cibrán Rodríguez Otero": 5,
+     "Izan Fernandez Bouzas": 6,
+     "Noel Alcaraz Garcia": 9,
+     "Teo Caamaño Brandariz": 10,
+     "Xalo Bendaña Castro": 11,
+     "Félix Romero Brión": 14,
+     "Lucas Garcia Aldao": 21,
+     "Jaime Suevos Varela": 13,
+     "Adrian Garcia Rivademar": 15,
+     "Roi Castro Pose": 19,
+     "Martín Losada Peteiro": 20,
+     "Erick Mosteiro Carro": 22
+    },
+    "id": "1510069"
+   }
+  },
+  "dorsales": {
+   "Joel Ruiz-Moyano Plaza": 1,
+   "Hugo Espiñeira Esteban": 2,
+   "Izan Fernandez Bouzas": 6,
+   "Lucas Pan Rojo": 4,
+   "Antón Fernández Gómez-Pedreira": 7,
+   "Nico Mosteiro Carro": 14,
+   "Lucas Garcia Aldao": 21,
+   "Teo Caamaño Brandariz": 10,
+   "Noel Alcaraz Garcia": 9,
+   "Martiño Moar Moscoso": 8,
+   "Erick Mosteiro Carro": 22,
+   "Cibrán Rodríguez Otero": 5,
+   "Xalo Bendaña Castro": 11,
+   "Lucas Bouzada Varela": 3,
+   "Roi Castro Pose": 19,
+   "Martín Losada Peteiro": 20,
+   "Jaime Suevos Varela": 13,
+   "Adrián Garay Amigo": 4,
+   "Adrian Garcia Rivademar": 15,
+   "Lucas Fresco Pérez": 17,
+   "Iván Pena Barriga": 1,
+   "Félix Romero Brión": 14
+  },
+  "descargado": "2026-10-20T22:17"
  },
  {
   "id": "alevin-a-f11",
@@ -8189,7 +8369,7 @@ const EQUIPOS = [
   "delegados": [],
   "clasificacion": [],
   "partidos": [],
-  "descargado": "2026-10-20T04:24"
+  "descargado": "2026-10-20T22:18"
  },
  {
   "id": "alevin-a",
@@ -8446,11 +8626,11 @@ const EQUIPOS = [
    {
     "jornada": 6,
     "fecha": "2026-10-24",
-    "hora": "",
+    "hora": "09:30",
     "local": true,
     "rival": "E.D. LUIS CALVO SANZ",
     "resultado": "",
-    "campo": "Torre Nº2.2"
+    "campo": "San Pedro de Visma 1"
    },
    {
     "jornada": 7,
@@ -8676,20 +8856,146 @@ const EQUIPOS = [
    "U.D. CARRAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001484347_Carral.jpg",
    "URAL ESPAÑOL C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000891301_ESCUDO_URAL_B.jpg",
    "OZA JUVENIL S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
+   "SPORTING CAMBRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
+   "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg",
    "ATL. CORUÑA MONTAÑEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
    "E.D. LUIS CALVO SANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004731_LOGO_ALTA_RES_ESCOLAS_CALVO.jpg",
+   "ATLETICO ARTEIXO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001414249_Escudo_Arteixo.png",
+   "SAN TIRSO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000916862_ESCUDO_20_21.jpg",
+   "S. D. ACEA DE AMA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001546559_IMG_20250120_WA0026.png",
+   "R.C. DEPORTIVO SAD": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001196017_ESCUDO_DEPOR.png",
    "SADA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000931604_Sada_CF_escudo_FUTGAL.png",
    "FABRIL F.C.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001196159_EscudoFabrilFC_color.png",
    "VICTORIA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
-   "ORILLAMAR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000941018_ESCUDO_OFICIAL_ORILLAMAR_SD_PRINCIPAL.jpg",
-   "SPORTING CAMBRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
-   "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg",
-   "S. D. ACEA DE AMA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001546559_IMG_20250120_WA0026.png",
-   "R.C. DEPORTIVO SAD": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001196017_ESCUDO_DEPOR.png",
-   "ATLETICO ARTEIXO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001414249_Escudo_Arteixo.png",
-   "SAN TIRSO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000916862_ESCUDO_20_21.jpg"
+   "ORILLAMAR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000941018_ESCUDO_OFICIAL_ORILLAMAR_SD_PRINCIPAL.jpg"
   },
-  "descargado": "2026-10-20T04:41"
+  "actas": {
+   "3": {
+    "t": [
+     "Mario Bello Varela",
+     "Mathias Becerra Timiraos",
+     "Alvaro Alvarez Escobar",
+     "Óliver Casasola Vázquez",
+     "Aleix Della Casa Loureiro",
+     "Sebastian Lopez Ganem",
+     "Ilia Kondrashin"
+    ],
+    "s": [
+     "Roberto Couceiro Gonzalez",
+     "Pancho Boedo Mantiñan",
+     "Hugo Vazquez Álvarez",
+     "Martin Arza Alvarez",
+     "Izan Pose Seijas"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Mario Bello Varela": 1,
+     "Mathias Becerra Timiraos": 7,
+     "Alvaro Alvarez Escobar": 8,
+     "Óliver Casasola Vázquez": 11,
+     "Aleix Della Casa Loureiro": 12,
+     "Sebastian Lopez Ganem": 17,
+     "Ilia Kondrashin": 18,
+     "Roberto Couceiro Gonzalez": 4,
+     "Pancho Boedo Mantiñan": 6,
+     "Hugo Vazquez Álvarez": 9,
+     "Martin Arza Alvarez": 10,
+     "Izan Pose Seijas": 14
+    },
+    "id": "1486565"
+   },
+   "4": {
+    "t": [
+     "Mario Bello Varela",
+     "Tomas Mourelle Lopez",
+     "Pancho Boedo Mantiñan",
+     "Martin Arza Alvarez",
+     "Óliver Casasola Vázquez",
+     "Aleix Della Casa Loureiro",
+     "Sebastian Lopez Ganem"
+    ],
+    "s": [
+     "Mathias Becerra Timiraos",
+     "Alvaro Alvarez Escobar",
+     "Hugo Vazquez Álvarez",
+     "Izan Pose Seijas"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Mario Bello Varela": 1,
+     "Tomas Mourelle Lopez": 3,
+     "Pancho Boedo Mantiñan": 6,
+     "Martin Arza Alvarez": 10,
+     "Óliver Casasola Vázquez": 11,
+     "Aleix Della Casa Loureiro": 12,
+     "Sebastian Lopez Ganem": 17,
+     "Mathias Becerra Timiraos": 7,
+     "Alvaro Alvarez Escobar": 8,
+     "Hugo Vazquez Álvarez": 9,
+     "Izan Pose Seijas": 14
+    },
+    "id": "1486573"
+   },
+   "5": {
+    "t": [
+     "Mario Bello Varela",
+     "Tomas Mourelle Lopez",
+     "Pancho Boedo Mantiñan",
+     "Martin Arza Alvarez",
+     "Óliver Casasola Vázquez",
+     "Aleix Della Casa Loureiro",
+     "Sebastian Lopez Ganem"
+    ],
+    "s": [
+     "Ilia Kondrashin",
+     "Mathias Becerra Timiraos",
+     "Alvaro Alvarez Escobar",
+     "Hugo Vazquez Álvarez",
+     "Izan Pose Seijas"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Mario Bello Varela": 1,
+     "Tomas Mourelle Lopez": 3,
+     "Pancho Boedo Mantiñan": 6,
+     "Martin Arza Alvarez": 10,
+     "Óliver Casasola Vázquez": 11,
+     "Aleix Della Casa Loureiro": 12,
+     "Sebastian Lopez Ganem": 16,
+     "Ilia Kondrashin": 5,
+     "Mathias Becerra Timiraos": 7,
+     "Alvaro Alvarez Escobar": 8,
+     "Hugo Vazquez Álvarez": 9,
+     "Izan Pose Seijas": 14
+    },
+    "id": "1486580"
+   }
+  },
+  "dorsales": {
+   "Mario Bello Varela": 1,
+   "Mathias Becerra Timiraos": 7,
+   "Alvaro Alvarez Escobar": 8,
+   "Óliver Casasola Vázquez": 11,
+   "Aleix Della Casa Loureiro": 12,
+   "Sebastian Lopez Ganem": 16,
+   "Ilia Kondrashin": 5,
+   "Roberto Couceiro Gonzalez": 4,
+   "Pancho Boedo Mantiñan": 6,
+   "Hugo Vazquez Álvarez": 9,
+   "Martin Arza Alvarez": 10,
+   "Izan Pose Seijas": 14,
+   "Tomas Mourelle Lopez": 3
+  },
+  "descargado": "2026-10-20T22:18"
  },
  {
   "id": "alevin-b",
