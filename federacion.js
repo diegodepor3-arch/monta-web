@@ -5122,12 +5122,12 @@ const EQUIPOS = [
    },
    {
     "jornada": 5,
-    "fecha": "2026-10-24",
-    "hora": "",
+    "fecha": "2026-10-25",
+    "hora": "16:00",
     "local": true,
     "rival": "OZA JUVENIL S.D. \"B\"",
     "resultado": "",
-    "campo": "Grela 1"
+    "campo": "Campo de Fútbol Universidad Laboral"
    },
    {
     "jornada": 6,
@@ -5358,24 +5358,216 @@ const EQUIPOS = [
   "competicion": "Cadete - 2ª Futgal · A Coruña | Grupo 1",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26991173&codcompeticion=26991169",
   "escudos": {
-   "CLUB POLIDEPORTIVO ESCLAVAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001133115_4DA7C320_0949_4D89_A088_624E6471CBA6.jpeg",
-   "COMPAÑIA DE MARIA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004468_logo.png",
-   "ATLETICO CASTROS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001611037_escudo128.png",
-   "LICEO DE MONELOS S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000884334_liceo_monelos_1.png",
-   "ATL. CORUÑA MONTAÑEROS C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
-   "OZA JUVENIL S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
-   "RELÁMPAGO S. D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000894509_Escudo.PNG",
-   "SILVA S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001103292_escudo_rfgf.jpg",
+   "U.D. PAIOSACO- HIERROS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000038401_ESCUDO.jpg",
+   "S.C.D. PASTORIZA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001134_O_NOSO_ESCUDO_2.jpg",
    "ORILLAMAR S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000941018_ESCUDO_OFICIAL_ORILLAMAR_SD_PRINCIPAL.jpg",
    "ATLETICO ARTEIXO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001414249_Escudo_Arteixo.png",
    "IMPERATOR O.A.R. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png",
    "C.F. DEPORTIVO ORZÁN": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001623837_RANSPARENTE.png",
    "TORRE S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000957278_descarga__3_.jpg",
    "CLUB ROSALÍA MERA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001008004_ROSALIA_MERA_ESCUDO_GRANDE.jpg",
-   "U.D. PAIOSACO- HIERROS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000038401_ESCUDO.jpg",
-   "S.C.D. PASTORIZA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001134_O_NOSO_ESCUDO_2.jpg"
+   "ATL. CORUÑA MONTAÑEROS C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
+   "OZA JUVENIL S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
+   "CLUB POLIDEPORTIVO ESCLAVAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001133115_4DA7C320_0949_4D89_A088_624E6471CBA6.jpeg",
+   "COMPAÑIA DE MARIA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004468_logo.png",
+   "RELÁMPAGO S. D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000894509_Escudo.PNG",
+   "SILVA S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001103292_escudo_rfgf.jpg",
+   "ATLETICO CASTROS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001611037_escudo128.png",
+   "LICEO DE MONELOS S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000884334_liceo_monelos_1.png"
   },
-  "descargado": "2026-10-19T17:40"
+  "actas": {
+   "2": {
+    "t": [
+     "Nicolas Blanco Fernández",
+     "Nicolás Alonso De Andrés",
+     "Miguel Paz Souto",
+     "Mario Barral Bermejo",
+     "Marcelo Piñon Uzcategui",
+     "Mateo Vidal Perez",
+     "Samuel Vazquez Lago",
+     "Martin Sanchez Caamaño",
+     "Mauro Becerra Perez",
+     "Alejandro Sanchez Gallego",
+     "Luis Alfonso Varela"
+    ],
+    "s": [
+     "Valentin Seijo Abeledo",
+     "Diego Santos Sanchez",
+     "Martin Baeza Mendez",
+     "Pedro Fernandez Paya",
+     "Adrián Vilar Castro"
+    ],
+    "e": [
+     "Pedro Fernandez Paya",
+     "Valentin Seijo Abeledo",
+     "Adrián Vilar Castro",
+     "Diego Santos Sanchez",
+     "Martin Baeza Mendez"
+    ],
+    "g": {
+     "Martin Sanchez Caamaño": 2,
+     "Mateo Vidal Perez": 2,
+     "Mauro Becerra Perez": 3,
+     "Alejandro Sanchez Gallego": 1,
+     "Mario Barral Bermejo": 1,
+     "Pedro Fernandez Paya": 1
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Nicolas Blanco Fernández": 1,
+     "Nicolás Alonso De Andrés": 2,
+     "Miguel Paz Souto": 3,
+     "Mario Barral Bermejo": 4,
+     "Marcelo Piñon Uzcategui": 5,
+     "Mateo Vidal Perez": 6,
+     "Samuel Vazquez Lago": 7,
+     "Martin Sanchez Caamaño": 8,
+     "Mauro Becerra Perez": 9,
+     "Alejandro Sanchez Gallego": 10,
+     "Luis Alfonso Varela": 21,
+     "Valentin Seijo Abeledo": 14,
+     "Diego Santos Sanchez": 15,
+     "Martin Baeza Mendez": 16,
+     "Pedro Fernandez Paya": 17,
+     "Adrián Vilar Castro": 18
+    },
+    "id": "1496210"
+   },
+   "3": {
+    "t": [
+     "Nicolas Blanco Fernández",
+     "Nicolás Alonso De Andrés",
+     "Mario Barral Bermejo",
+     "Marcelo Piñon Uzcategui",
+     "Xoel Blanco Manteiga",
+     "Samuel Vazquez Lago",
+     "Luis Alfonso Varela",
+     "Mauro Becerra Perez",
+     "Alejandro Sanchez Gallego",
+     "Xoel Yañez Souto",
+     "Gian Arthur Peñaloza Arias"
+    ],
+    "s": [
+     "Miguel Paz Souto",
+     "Adrián Vilar Castro",
+     "Hugo Lobelos Canosa",
+     "Pedro Fernandez Paya",
+     "Martin Baeza Mendez"
+    ],
+    "e": [
+     "Miguel Paz Souto",
+     "Pedro Fernandez Paya",
+     "Hugo Lobelos Canosa",
+     "Adrián Vilar Castro",
+     "Martin Baeza Mendez"
+    ],
+    "g": {
+     "Mauro Becerra Perez": 4,
+     "Xoel Yañez Souto": 1,
+     "Martin Baeza Mendez": 1
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Nicolas Blanco Fernández": 13,
+     "Nicolás Alonso De Andrés": 2,
+     "Mario Barral Bermejo": 4,
+     "Marcelo Piñon Uzcategui": 5,
+     "Xoel Blanco Manteiga": 6,
+     "Samuel Vazquez Lago": 7,
+     "Luis Alfonso Varela": 8,
+     "Mauro Becerra Perez": 9,
+     "Alejandro Sanchez Gallego": 10,
+     "Xoel Yañez Souto": 11,
+     "Gian Arthur Peñaloza Arias": 18,
+     "Miguel Paz Souto": 3,
+     "Adrián Vilar Castro": 12,
+     "Hugo Lobelos Canosa": 14,
+     "Pedro Fernandez Paya": 15,
+     "Martin Baeza Mendez": 16
+    },
+    "id": "1496218"
+   },
+   "4": {
+    "t": [
+     "Nicolas Blanco Fernández",
+     "Nicolás Alonso De Andrés",
+     "Miguel Paz Souto",
+     "Mario Barral Bermejo",
+     "Diego Santos Sanchez",
+     "Xoel Blanco Manteiga",
+     "Samuel Vazquez Lago",
+     "Mateo Vidal Perez",
+     "Mauro Becerra Perez",
+     "Martin Sanchez Caamaño",
+     "Xoel Yañez Souto"
+    ],
+    "s": [
+     "Hugo Lobelos Canosa",
+     "Gian Arthur Peñaloza Arias",
+     "Luis Alfonso Varela",
+     "Pedro Fernandez Paya",
+     "Adrián Vilar Castro"
+    ],
+    "e": [
+     "Luis Alfonso Varela",
+     "Pedro Fernandez Paya",
+     "Gian Arthur Peñaloza Arias",
+     "Hugo Lobelos Canosa",
+     "Adrián Vilar Castro"
+    ],
+    "g": {
+     "Pedro Fernandez Paya": 1
+    },
+    "a": [
+     "Samuel Vazquez Lago"
+    ],
+    "r": [],
+    "d": {
+     "Nicolas Blanco Fernández": 1,
+     "Nicolás Alonso De Andrés": 2,
+     "Miguel Paz Souto": 3,
+     "Mario Barral Bermejo": 4,
+     "Diego Santos Sanchez": 5,
+     "Xoel Blanco Manteiga": 6,
+     "Samuel Vazquez Lago": 7,
+     "Mateo Vidal Perez": 8,
+     "Mauro Becerra Perez": 9,
+     "Martin Sanchez Caamaño": 10,
+     "Xoel Yañez Souto": 21,
+     "Hugo Lobelos Canosa": 14,
+     "Gian Arthur Peñaloza Arias": 15,
+     "Luis Alfonso Varela": 16,
+     "Pedro Fernandez Paya": 17,
+     "Adrián Vilar Castro": 18
+    },
+    "id": "1496227"
+   }
+  },
+  "dorsales": {
+   "Nicolas Blanco Fernández": 1,
+   "Nicolás Alonso De Andrés": 2,
+   "Miguel Paz Souto": 3,
+   "Mario Barral Bermejo": 4,
+   "Marcelo Piñon Uzcategui": 5,
+   "Mateo Vidal Perez": 8,
+   "Samuel Vazquez Lago": 7,
+   "Martin Sanchez Caamaño": 10,
+   "Mauro Becerra Perez": 9,
+   "Alejandro Sanchez Gallego": 10,
+   "Luis Alfonso Varela": 16,
+   "Valentin Seijo Abeledo": 14,
+   "Diego Santos Sanchez": 5,
+   "Martin Baeza Mendez": 16,
+   "Pedro Fernandez Paya": 17,
+   "Adrián Vilar Castro": 18,
+   "Xoel Blanco Manteiga": 6,
+   "Xoel Yañez Souto": 21,
+   "Gian Arthur Peñaloza Arias": 15,
+   "Hugo Lobelos Canosa": 14
+  },
+  "descargado": "2026-10-20T13:56"
  },
  {
   "id": "infantil-a",
@@ -5644,11 +5836,11 @@ const EQUIPOS = [
    {
     "jornada": 7,
     "fecha": "2026-10-24",
-    "hora": "",
+    "hora": "18:00",
     "local": true,
     "rival": "A.J. LÉREZ",
     "resultado": "",
-    "campo": "Grela 1"
+    "campo": "Víctor Fernández Alonso - Antigua Leyma"
    },
    {
     "jornada": 8,
@@ -5863,22 +6055,192 @@ const EQUIPOS = [
   "escudos": {
    "C.D. CONXO SANTIAGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000727207_ESCUDO_CD_CONXO_SANTIAGO.jpg",
    "R.C. DEPORTIVO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001196017_ESCUDO_DEPOR.png",
-   "C.D. LUGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000717289_CD_LUGO_logo_color_BAJA.jpg",
-   "U.D. OURENSE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000029838_Escudo_Union_Deportiva_Ourense.jpg",
    "CIDADE DE RIBEIRA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000932504_Escudo_Cidade_de_Ribeira_bis.jpg",
    "E.D. VAL MIÑOR NIGRÁN": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001624693_Escudo_con_M__rgenes.jpg",
-   "ATL. CORUÑA MONTAÑEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
-   "A.J. LÉREZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001793709_Logo_Juve_Imagen__1_.jpg",
-   "SAN TIRSO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000916862_ESCUDO_20_21.jpg",
-   "PABELLON OURENSE C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000905211_IMG_20200628_WA0014.jpg",
-   "E.D. XUVENTUDE OROSO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000805018_Escudo_Xuventude_de_Oroso.png",
-   "C.D. CALASANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
    "PONTEVEDRA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001003273_pontevedra_plano.jpg",
    "URAL ESPAÑOL C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000891301_ESCUDO_URAL_B.jpg",
+   "C.D. LUGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000717289_CD_LUGO_logo_color_BAJA.jpg",
+   "U.D. OURENSE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000029838_Escudo_Union_Deportiva_Ourense.jpg",
    "R.C. CELTA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000628703_RC_Celta.jpg",
-   "RACING CLUB FERROL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001624274_ESCUDO.jpg"
+   "RACING CLUB FERROL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001624274_ESCUDO.jpg",
+   "ATL. CORUÑA MONTAÑEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
+   "A.J. LÉREZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001793709_Logo_Juve_Imagen__1_.jpg",
+   "E.D. XUVENTUDE OROSO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0012023275_ESCUDOS_EDXO_2.png",
+   "C.D. CALASANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
+   "SAN TIRSO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000916862_ESCUDO_20_21.jpg",
+   "PABELLON OURENSE C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000905211_IMG_20200628_WA0014.jpg"
   },
-  "descargado": "2026-10-19T18:57"
+  "actas": {
+   "4": {
+    "t": [
+     "Guillermo Alejandro Alvarez Rodriguez",
+     "Manuel Tato Rey",
+     "Anton Portela Solla",
+     "Alejandro Ramil Vazquez",
+     "Jacobo Casanova Parada",
+     "Luca Varela Codesal",
+     "Pablo Piñón Arévalo",
+     "Danny Leal Regueira",
+     "Roi Regueira Vazquez",
+     "Pablo Botana Gomez",
+     "Roque Teiga Mantiñan"
+    ],
+    "s": [
+     "Hugo Costa Ferreiro",
+     "Enrique Vesteiro López",
+     "Nicolas Calzas Mouzo",
+     "Lucas Pérez Gómez",
+     "Jacobo López Rey"
+    ],
+    "e": [],
+    "g": {
+     "Pablo Botana Gomez": 1,
+     "Luca Varela Codesal": 1,
+     "Roque Teiga Mantiñan": 1
+    },
+    "a": [
+     "Pablo Botana Gomez"
+    ],
+    "r": [],
+    "d": {
+     "Guillermo Alejandro Alvarez Rodriguez": 1,
+     "Manuel Tato Rey": 2,
+     "Anton Portela Solla": 3,
+     "Alejandro Ramil Vazquez": 4,
+     "Jacobo Casanova Parada": 5,
+     "Luca Varela Codesal": 6,
+     "Pablo Piñón Arévalo": 8,
+     "Danny Leal Regueira": 9,
+     "Roi Regueira Vazquez": 10,
+     "Pablo Botana Gomez": 11,
+     "Roque Teiga Mantiñan": 19,
+     "Hugo Costa Ferreiro": 13,
+     "Enrique Vesteiro López": 12,
+     "Nicolas Calzas Mouzo": 14,
+     "Lucas Pérez Gómez": 15,
+     "Jacobo López Rey": 17
+    },
+    "id": "1437583"
+   },
+   "5": {
+    "t": [
+     "Gabriel Mosquera Lema",
+     "Anton Portela Solla",
+     "Lucas Pérez Gómez",
+     "Alejandro Ramil Vazquez",
+     "Jacobo Casanova Parada",
+     "Luca Varela Codesal",
+     "Roque Teiga Mantiñan",
+     "Nicolas Calzas Mouzo",
+     "Roi Regueira Vazquez",
+     "Pablo Botana Gomez",
+     "Manuel Tato Rey"
+    ],
+    "s": [
+     "Hugo Costa Ferreiro",
+     "Jacobo Rodríguez Canedo",
+     "Simeon Garcia Knezic",
+     "Yuven Rodrigo Ayuni Lopez",
+     "Jacobo López Rey"
+    ],
+    "e": [],
+    "g": {
+     "Alejandro Ramil Vazquez": 1
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Gabriel Mosquera Lema": 1,
+     "Anton Portela Solla": 2,
+     "Lucas Pérez Gómez": 3,
+     "Alejandro Ramil Vazquez": 4,
+     "Jacobo Casanova Parada": 5,
+     "Luca Varela Codesal": 6,
+     "Roque Teiga Mantiñan": 7,
+     "Nicolas Calzas Mouzo": 8,
+     "Roi Regueira Vazquez": 9,
+     "Pablo Botana Gomez": 10,
+     "Manuel Tato Rey": 11,
+     "Hugo Costa Ferreiro": 13,
+     "Jacobo Rodríguez Canedo": 12,
+     "Simeon Garcia Knezic": 14,
+     "Yuven Rodrigo Ayuni Lopez": 16,
+     "Jacobo López Rey": 17
+    },
+    "id": "1437591"
+   },
+   "6": {
+    "t": [
+     "Gabriel Mosquera Lema",
+     "Anton Portela Solla",
+     "Roque Teiga Mantiñan",
+     "Alejandro Ramil Vazquez",
+     "Jacobo Casanova Parada",
+     "Luca Varela Codesal",
+     "Pablo Botana Gomez",
+     "Nicolas Calzas Mouzo",
+     "Danny Leal Regueira",
+     "Roi Regueira Vazquez",
+     "Manuel Tato Rey"
+    ],
+    "s": [
+     "Lucas Pérez Gómez",
+     "Guillermo Alejandro Alvarez Rodriguez",
+     "Iago Sanchez Calvo",
+     "Enrique Vesteiro López",
+     "Pablo Piñón Arévalo"
+    ],
+    "e": [],
+    "g": {
+     "Manuel Tato Rey": 1
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Gabriel Mosquera Lema": 1,
+     "Anton Portela Solla": 2,
+     "Roque Teiga Mantiñan": 3,
+     "Alejandro Ramil Vazquez": 4,
+     "Jacobo Casanova Parada": 5,
+     "Luca Varela Codesal": 6,
+     "Pablo Botana Gomez": 7,
+     "Nicolas Calzas Mouzo": 8,
+     "Danny Leal Regueira": 9,
+     "Roi Regueira Vazquez": 10,
+     "Manuel Tato Rey": 11,
+     "Lucas Pérez Gómez": 12,
+     "Guillermo Alejandro Alvarez Rodriguez": 13,
+     "Iago Sanchez Calvo": 14,
+     "Enrique Vesteiro López": 15,
+     "Pablo Piñón Arévalo": 16
+    },
+    "id": "1437600"
+   }
+  },
+  "dorsales": {
+   "Guillermo Alejandro Alvarez Rodriguez": 13,
+   "Manuel Tato Rey": 11,
+   "Anton Portela Solla": 2,
+   "Alejandro Ramil Vazquez": 4,
+   "Jacobo Casanova Parada": 5,
+   "Luca Varela Codesal": 6,
+   "Pablo Piñón Arévalo": 16,
+   "Danny Leal Regueira": 9,
+   "Roi Regueira Vazquez": 10,
+   "Pablo Botana Gomez": 7,
+   "Roque Teiga Mantiñan": 3,
+   "Hugo Costa Ferreiro": 13,
+   "Enrique Vesteiro López": 15,
+   "Nicolas Calzas Mouzo": 8,
+   "Lucas Pérez Gómez": 12,
+   "Jacobo López Rey": 17,
+   "Gabriel Mosquera Lema": 1,
+   "Jacobo Rodríguez Canedo": 12,
+   "Simeon Garcia Knezic": 14,
+   "Yuven Rodrigo Ayuni Lopez": 16,
+   "Iago Sanchez Calvo": 14
+  },
+  "descargado": "2026-10-20T13:56"
  },
  {
   "id": "infantil-b",
