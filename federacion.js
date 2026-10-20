@@ -1049,7 +1049,120 @@ const EQUIPOS = [
    "Diego Longueira Enjamio": 17,
    "Oscar Fernandez Hidalgo": 23
   },
-  "descargado": "2026-10-20T06:13"
+  "descargado": "2026-10-20T06:13",
+  "perfiles": {
+   "fecha": "2026-10-20T16:12",
+   "jugadores": {
+    "Anxo Barbosa Miranda": {
+     "posicion": "Portero",
+     "edad": 18
+    },
+    "Daniel Graña Rodriguez": {
+     "posicion": "Portero",
+     "edad": null
+    },
+    "Guillermo Del Valle Vázquez": {
+     "posicion": "Portero",
+     "edad": 42
+    },
+    "Mamadou Diallo": {
+     "posicion": "Portero",
+     "edad": 17
+    },
+    "Marcos Moreno Garcia": {
+     "posicion": "Portero",
+     "edad": 21
+    },
+    "Daniel Buide Modia": {
+     "posicion": "Defensa",
+     "edad": 19
+    },
+    "Jorge Longueira Fernández": {
+     "posicion": "Central",
+     "edad": 26
+    },
+    "Jorge Tomé Vila": {
+     "posicion": "Central",
+     "edad": 26
+    },
+    "Luis Castro Lois": {
+     "posicion": "Lateral Izquierdo",
+     "edad": 24
+    },
+    "Óscar Fernández Hidalgo": {
+     "posicion": "Lateral Izquierdo",
+     "edad": 20
+    },
+    "Samuel Rey Corral": {
+     "posicion": "Lateral Derecho",
+     "edad": 29
+    },
+    "Axel Sánchez Iglesias": {
+     "posicion": "Centrocampista",
+     "edad": 23
+    },
+    "Jesús Cañizares Sánchez": {
+     "posicion": "Media punta",
+     "edad": 34
+    },
+    "Mario Constenla Couceiro": {
+     "posicion": "Centrocampista",
+     "edad": 24
+    },
+    "Daniel Fernández Río": {
+     "posicion": "Centrocampista",
+     "edad": 20
+    },
+    "Diego Rodríguez Sánchez": {
+     "posicion": "Centrocampista",
+     "edad": 20
+    },
+    "Pablo Fernández De Miguel": {
+     "posicion": "Centrocampista",
+     "edad": 19
+    },
+    "Pablo Martínez García": {
+     "posicion": "Centrocampista",
+     "edad": 24
+    },
+    "Xoel Vilariño Escariz": {
+     "posicion": "Centrocampista",
+     "edad": 19
+    },
+    "Antonio Garda Patiño": {
+     "posicion": "Extremo",
+     "edad": 25
+    },
+    "Diego Longueira Enjamio": {
+     "posicion": "Delantero",
+     "edad": 20
+    },
+    "Iago Pérez Ferreiro": {
+     "posicion": "Delantero Centro",
+     "edad": 24
+    },
+    "Jorge Otero Cortés": {
+     "posicion": "Extremo Derecho",
+     "edad": 29
+    },
+    "Brais Pérez Moreta": {
+     "posicion": "Extremo Izquierdo",
+     "edad": 20
+    },
+    "Adrián Ogando Olivares": {
+     "posicion": "Extremo Derecho",
+     "edad": 21
+    },
+    "Adrián Otero Calviño": {
+     "posicion": "Delantero",
+     "edad": 31
+    },
+    "Pape Massokhna Gaye": {
+     "posicion": "Delantero",
+     "edad": 28
+    }
+   }
+  }
  },
  {
   "id": "juvenil-a",

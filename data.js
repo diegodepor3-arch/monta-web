@@ -22,8 +22,9 @@ const CATEGORIAS = [
 // Fotos: solo se muestran en primer equipo y juveniles; app.js lo fuerza aunque aquí haya otras.
 // fotos: { "Nombre Como Sale En La Plantilla": "img/jugadores/archivo.jpg" }
 // videos: tipo "highlight" | "entrevista", youtube = id del vídeo (canal de TVG / Tivigal)
-// jugadores: lo que la federación no publica (sale "–" en la ficha si falta):
-//   { "Nombre Como Sale En La Plantilla": { posicion: "Delantero", altura: "1,82 m", nacimiento: "2003-05-14", mvp: 2 } }
+// jugadores: lo que la federación no publica. Edad y posición del primer equipo salen solas de
+// lapreferente.com; lo que pongáis aquí tiene prioridad (sale "–" en la ficha si no hay dato):
+//   { "Nombre Como Sale En La Plantilla": { posicion: "Delantero", nacimiento: "2003-05-14", mvp: 2 } }
 // Partidos, titularidades, goles, tarjetas y dorsal salen solos de las actas de la federación.
 const EXTRA = {
   "primer-equipo": {

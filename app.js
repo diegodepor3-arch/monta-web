@@ -252,8 +252,19 @@ const tarjetaPartido = (p, destacado = false, conEquipo = false) => {
 };
 
 // --- Plantilla: carrusel de camisetas (o fotos donde se permiten) --------
-// ponytail: la federación no dice quién es portero; se usan los dorsales habituales de portero
+// ponytail: la federación no dice quién es portero; sin posición conocida se usan los dorsales habituales
 const PORTEROS = new Set([1, 13, 25]);
+
+// Edad y posición: lo que ponga el club en data.js manda; si no, lapreferente.com (solo primer equipo)
+function perfil(e, n) {
+  const manual = ((EXTRA[e.id] || {}).jugadores || {})[n] || {};
+  const lista = Object.entries(e.perfiles?.jugadores || {});
+  const k = normal(n), trozos = new Set(k.split(/\s+/));
+  // mismo nombre sin tildes, o todas las palabras de La Preferente dentro del nombre de la federación
+  const lp = (lista.find(([x]) => normal(x) === k) || lista.find(([x]) => normal(x).split(/\s+/).every((t) => trozos.has(t))) || [])[1] || {};
+  return { ...manual, posicion: manual.posicion || lp.posicion, edad: manual.nacimiento ? edad(manual.nacimiento) : lp.edad };
+}
+const esPortero = (e, n) => { const p = perfil(e, n).posicion; return p ? p === "Portero" : PORTEROS.has(dorsal(e, n)); };
 
 // Réplica de la equipación 2026-27: jugador morado de manga corta con rayas blancas en los costados;
 // portero amarillo de manga larga con detalles negros. Mismo dibujo de frente: marca, escudo bordado,
@@ -314,8 +325,8 @@ function plantilla(e, titulo = "Plantilla") {
   const carta = (n, i) => {
     const num = dorsal(e, n), foto = conFoto && fotos[n];
     return `
-      <button type="button" class="carta${PORTEROS.has(num) ? " carta--portero" : ""}" data-carta="${i}" data-ficha="${rutaFicha(e, n)}" aria-label="${esc(n)}${num != null ? `, dorsal ${num}` : ""}">
-        ${foto ? `<img src="${esc(foto)}" alt="" loading="lazy">` : camiseta(num ?? iniciales(n), PORTEROS.has(num))}
+      <button type="button" class="carta${esPortero(e, n) ? " carta--portero" : ""}" data-carta="${i}" data-ficha="${rutaFicha(e, n)}" aria-label="${esc(n)}${num != null ? `, dorsal ${num}` : ""}">
+        ${foto ? `<img src="${esc(foto)}" alt="" loading="lazy">` : camiseta(num ?? iniciales(n), esPortero(e, n))}
       </button>`;
   };
   return `
@@ -441,8 +452,8 @@ const tarjetaProxima = (p) => `
 function vistaFicha(e, id) {
   const jugadores = ordenJugadores(e), i = jugadores.findIndex((n) => slug(n) === id);
   if (i < 0) return noEncontrado();
-  const n = jugadores[i], num = dorsal(e, n), portero = PORTEROS.has(num);
-  const manual = ((EXTRA[e.id] || {}).jugadores || {})[n] || {};
+  const n = jugadores[i], num = dorsal(e, n), portero = esPortero(e, n);
+  const manual = perfil(e, n);
   ultimaFicha[e.id] = id;
   const est = estadisticas(e, n);
   const volver = e.categoria === "senior" ? `${rutaEquipo(e)}/plantilla` : `${rutaEquipo(e)}#plantilla`;
@@ -474,7 +485,7 @@ function vistaFicha(e, id) {
               </div>
               <div class="ficha-cifras">
                 ${cifra(est.jugados, "Partidos")}${cifra(est.goles, "Goles")}${cifra(num ?? "–", "Dorsal")}
-                ${cifra(manual.altura || "–", "Altura")}${cifra(edad(manual.nacimiento), "Edad")}${cifra(est.rojas, "Rojas")}
+                ${cifra(manual.edad ?? "–", "Edad")}${cifra(est.convocado, "Convocatorias")}${cifra(est.rojas, "Rojas")}
               </div>
             </div>
 

@@ -228,6 +228,27 @@ def completar_proximo(p, cod, comp, grupo, e):
         p["hora"] = h.group(0)
 
 
+LAPREFERENTE = "https://www.lapreferente.com/E4431C27379/atl-monta%C3%B1eros-cf"
+
+
+def perfiles_lapreferente():
+    """Edad y posición de los jugadores del primer equipo. La federación no las publica;
+    salen de lapreferente.com (web pública, no oficial). Se pide como mucho una vez por semana."""
+    with web.open(LAPREFERENTE, timeout=30) as r:
+        s = r.read().decode("latin-1")
+    out = {}
+    for f in re.findall(r"<tr[^>]*>(.*?)</tr>", s, flags=re.S):
+        if "plantillaDorsal" not in f:
+            continue
+        nombre = re.search(r"<a [^>]*>\s*<span[^>]*>(.*?)</span>.*?<span>(.*?)</span>", f, flags=re.S)
+        posicion = re.search(r'min-width:152px"><span>(.*?)</span>', f)
+        edad = re.search(r"demarcaciones/[^>]*></td>\s*<td><span>(\d+)</span>", f)  # "-" si no la tienen
+        if nombre and posicion:
+            out[texto(nombre.group(2)) or texto(nombre.group(1))] = {
+                "posicion": texto(posicion.group(1)), "edad": int(edad.group(1)) if edad else None}
+    return out
+
+
 def descargar_equipo(cod, nombre, cat, anterior=None):
     ficha = get(f"{BASE}NFG_VisEquipos?cod_primaria=1000119&Codigo_Equipo={cod}")
     letra = re.search(r'"([A-Z])"', nombre)
@@ -259,6 +280,14 @@ def descargar_equipo(cod, nombre, cat, anterior=None):
         # actas de todas las categorías: estadísticas y dorsal más reciente de cada jugador
         e["actas"] = actas(cod, cc, grupo, [p for p in e["partidos"] if p["resultado"]], (anterior or {}).get("actas"))
         e["dorsales"] = {n: d for j in sorted(e["actas"], key=int) for n, d in e["actas"][j]["d"].items()}
+    if cid == "senior":
+        previo_p = (anterior or {}).get("perfiles", {})
+        e["perfiles"] = previo_p
+        if not previo_p or (datetime.now() - datetime.fromisoformat(previo_p.get("fecha", "2000-01-01"))).days >= 7:
+            try:
+                e["perfiles"] = {"fecha": datetime.now().isoformat(timespec="minutes"), "jugadores": perfiles_lapreferente()}
+            except (OSError, ValueError) as err:  # si falla, se quedan los de la semana anterior
+                print("lapreferente no disponible:", err)
     e["descargado"] = datetime.now().isoformat(timespec="minutes")
     return e
 
