@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-21T01:35";
+const ACTUALIZADO = "2026-10-21T07:38";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -3224,7 +3224,7 @@ const EQUIPOS = [
    {
     "jornada": 4,
     "fecha": "2026-10-24",
-    "hora": "",
+    "hora": "15:15",
     "local": false,
     "rival": "ORILLAMAR S.D. \"B\"",
     "resultado": "",
@@ -3589,7 +3589,7 @@ const EQUIPOS = [
    "Daniel Dopico Garcia": 7,
    "Bruno Alexandre Gomes Oliveira Ferreira": 17
   },
-  "descargado": "2026-10-20T06:14"
+  "descargado": "2026-10-21T07:37"
  },
  {
   "id": "cadete-a",
@@ -9554,11 +9554,11 @@ const EQUIPOS = [
    {
     "jornada": 4,
     "fecha": "2026-10-24",
-    "hora": "",
+    "hora": "10:00",
     "local": false,
     "rival": "C.F. BATALLADOR S.D.",
     "resultado": "",
-    "campo": "Torre Nº1.1"
+    "campo": "Torre Nº2.2"
    },
    {
     "jornada": 5,
@@ -9620,7 +9620,155 @@ const EQUIPOS = [
    "C.D. CALASANZ \"E\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
    "C.D. CIUDAD JARDÍN": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001218414_Imagen_de_WhatsApp_2024_04_26_a_las_20.12.37_97ce5fe8.jpg"
   },
-  "descargado": "2026-10-20T06:14"
+  "actas": {
+   "1": {
+    "t": [
+     "Fabio Gundin Candia",
+     "Mateo Marauri Campo",
+     "Manuel Lobelos Dominguez",
+     "Meissa Birame Sall",
+     "Lucas Montero Rey",
+     "Tomas Zapata Casal",
+     "Mario Lobelos Domínguez"
+    ],
+    "s": [
+     "Lucas Iglesias Carballal",
+     "El Hadji Gaye",
+     "Irai Vieito Martinez",
+     "Matteo Gadaleta Pérez",
+     "Enzo Martínez Díaz",
+     "Adrian Gomez Carcedo",
+     "Izan Rilo Guimarey"
+    ],
+    "e": [],
+    "g": {
+     "Irai Vieito Martinez": 1
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Fabio Gundin Candia": 13,
+     "Mateo Marauri Campo": 3,
+     "Manuel Lobelos Dominguez": 7,
+     "Meissa Birame Sall": 8,
+     "Lucas Montero Rey": 11,
+     "Tomas Zapata Casal": 15,
+     "Mario Lobelos Domínguez": 18,
+     "Lucas Iglesias Carballal": 2,
+     "El Hadji Gaye": 5,
+     "Irai Vieito Martinez": 6,
+     "Matteo Gadaleta Pérez": 10,
+     "Enzo Martínez Díaz": 12,
+     "Adrian Gomez Carcedo": 14,
+     "Izan Rilo Guimarey": 17
+    },
+    "id": "1509645"
+   },
+   "2": {
+    "t": [
+     "Daniel Castellanos Gil",
+     "Mateo Marauri Campo",
+     "Irai Vieito Martinez",
+     "Manuel Lobelos Dominguez",
+     "Isaac De Araujo Lima",
+     "Lucas Montero Rey",
+     "Tomas Zapata Casal"
+    ],
+    "s": [
+     "Jorge López López",
+     "El Hadji Gaye",
+     "Meissa Birame Sall",
+     "Matteo Gadaleta Pérez",
+     "Mauro Viana López",
+     "Izan Rilo Guimarey",
+     "Mario Lobelos Domínguez"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Daniel Castellanos Gil": 1,
+     "Mateo Marauri Campo": 3,
+     "Irai Vieito Martinez": 6,
+     "Manuel Lobelos Dominguez": 7,
+     "Isaac De Araujo Lima": 9,
+     "Lucas Montero Rey": 11,
+     "Tomas Zapata Casal": 15,
+     "Jorge López López": 4,
+     "El Hadji Gaye": 5,
+     "Meissa Birame Sall": 8,
+     "Matteo Gadaleta Pérez": 10,
+     "Mauro Viana López": 12,
+     "Izan Rilo Guimarey": 17,
+     "Mario Lobelos Domínguez": 18
+    },
+    "id": "1509650"
+   },
+   "3": {
+    "t": [
+     "Fabio Gundin Candia",
+     "Mateo Marauri Campo",
+     "El Hadji Gaye",
+     "Irai Vieito Martinez",
+     "Manuel Lobelos Dominguez",
+     "Isaac De Araujo Lima",
+     "Lucas Montero Rey"
+    ],
+    "s": [
+     "Lucas Iglesias Carballal",
+     "Jorge López López",
+     "Adrian Gomez Carcedo",
+     "Pierre Leo Fontanel Gavela",
+     "Enzo Martínez Díaz",
+     "Mauro Viana López",
+     "Izan Rilo Guimarey"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Fabio Gundin Candia": 1,
+     "Mateo Marauri Campo": 3,
+     "El Hadji Gaye": 5,
+     "Irai Vieito Martinez": 6,
+     "Manuel Lobelos Dominguez": 7,
+     "Isaac De Araujo Lima": 9,
+     "Lucas Montero Rey": 11,
+     "Lucas Iglesias Carballal": 2,
+     "Jorge López López": 4,
+     "Adrian Gomez Carcedo": 14,
+     "Pierre Leo Fontanel Gavela": 16,
+     "Enzo Martínez Díaz": 20,
+     "Mauro Viana López": 21,
+     "Izan Rilo Guimarey": 22
+    },
+    "id": "1509655"
+   }
+  },
+  "dorsales": {
+   "Fabio Gundin Candia": 1,
+   "Mateo Marauri Campo": 3,
+   "Manuel Lobelos Dominguez": 7,
+   "Meissa Birame Sall": 8,
+   "Lucas Montero Rey": 11,
+   "Tomas Zapata Casal": 15,
+   "Mario Lobelos Domínguez": 18,
+   "Lucas Iglesias Carballal": 2,
+   "El Hadji Gaye": 5,
+   "Irai Vieito Martinez": 6,
+   "Matteo Gadaleta Pérez": 10,
+   "Enzo Martínez Díaz": 20,
+   "Adrian Gomez Carcedo": 14,
+   "Izan Rilo Guimarey": 22,
+   "Daniel Castellanos Gil": 1,
+   "Isaac De Araujo Lima": 9,
+   "Jorge López López": 4,
+   "Mauro Viana López": 21,
+   "Pierre Leo Fontanel Gavela": 16
+  },
+  "descargado": "2026-10-21T07:38"
  },
  {
   "id": "benjamin-a",
@@ -9875,11 +10023,11 @@ const EQUIPOS = [
    {
     "jornada": 6,
     "fecha": "2026-10-24",
-    "hora": "",
+    "hora": "11:00",
     "local": true,
     "rival": "E.D. LUIS CALVO SANZ",
     "resultado": "",
-    "campo": "MUNICIPAL EIRIS - LAMADOSA 2"
+    "campo": "Torre Nº1.2"
    },
    {
     "jornada": 7,
@@ -10105,20 +10253,149 @@ const EQUIPOS = [
    "U.D. CARRAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001484347_Carral.jpg",
    "URAL ESPAÑOL C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000891301_ESCUDO_URAL_B.jpg",
    "OZA JUVENIL S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
-   "SANTA MARIA DEL MAR": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001611104_Escudo_sin_fondo.png",
-   "OLIMPICO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg",
-   "S.C.D. PASTORIZA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001134_O_NOSO_ESCUDO_2.jpg",
-   "R.C. DEPORTIVO SAD": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001196017_ESCUDO_DEPOR.png",
    "SILVA S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001103292_escudo_rfgf.jpg",
    "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg",
+   "S.C.D. PASTORIZA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001134_O_NOSO_ESCUDO_2.jpg",
+   "R.C. DEPORTIVO SAD": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001196017_ESCUDO_DEPOR.png",
    "ATLETICO CORUÑA MONTAÑEROS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
    "E.D. LUIS CALVO SANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004731_LOGO_ALTA_RES_ESCOLAS_CALVO.jpg",
    "SADA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000931604_Sada_CF_escudo_FUTGAL.png",
    "FABRIL F.C.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001196159_EscudoFabrilFC_color.png",
    "VICTORIA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
-   "ATLETICO CASTROS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001611037_escudo128.png"
+   "ATLETICO CASTROS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001611037_escudo128.png",
+   "SANTA MARIA DEL MAR": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001611104_Escudo_sin_fondo.png",
+   "OLIMPICO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg"
   },
-  "descargado": "2026-10-20T07:31"
+  "actas": {
+   "3": {
+    "t": [
+     "Jeremy Henao Ramirez",
+     "Nicolás Couselo González",
+     "Thiago Dias Gonsalves",
+     "Pedro Fernández López",
+     "Aritz Loureda Mato",
+     "Pablo Nicolás Carballo Iniesto",
+     "Iago Márquez Barros",
+     "Adrian Bestilleiro Pallas"
+    ],
+    "s": [
+     "Pedro Garay Amigo",
+     "Roi Rodríguez Castro",
+     "Iago Leira Fraga",
+     "Jacobo Rodriguez De Castro Castro",
+     "Gonzalo Aguado Perala"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Jeremy Henao Ramirez": 1,
+     "Nicolás Couselo González": 2,
+     "Thiago Dias Gonsalves": 5,
+     "Pedro Fernández López": 6,
+     "Aritz Loureda Mato": 7,
+     "Pablo Nicolás Carballo Iniesto": 8,
+     "Iago Márquez Barros": 9,
+     "Adrian Bestilleiro Pallas": 10,
+     "Pedro Garay Amigo": 4,
+     "Roi Rodríguez Castro": 11,
+     "Iago Leira Fraga": 12,
+     "Jacobo Rodriguez De Castro Castro": 14,
+     "Gonzalo Aguado Perala": 15
+    },
+    "id": "1490250"
+   },
+   "4": {
+    "t": [
+     "Jeremy Henao Ramirez",
+     "Pedro Garay Amigo",
+     "Pedro Fernández López",
+     "Aritz Loureda Mato",
+     "Pablo Nicolás Carballo Iniesto",
+     "Iago Márquez Barros",
+     "Adrian Bestilleiro Pallas",
+     "Roi Rodríguez Castro"
+    ],
+    "s": [
+     "Lorenzo Pacheco Lazarino",
+     "Thiago Dias Gonsalves",
+     "Iago Leira Fraga"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Jeremy Henao Ramirez": 1,
+     "Pedro Garay Amigo": 4,
+     "Pedro Fernández López": 6,
+     "Aritz Loureda Mato": 7,
+     "Pablo Nicolás Carballo Iniesto": 8,
+     "Iago Márquez Barros": 9,
+     "Adrian Bestilleiro Pallas": 10,
+     "Roi Rodríguez Castro": 11,
+     "Lorenzo Pacheco Lazarino": 2,
+     "Thiago Dias Gonsalves": 5,
+     "Iago Leira Fraga": 12
+    },
+    "id": "1490258"
+   },
+   "5": {
+    "t": [
+     "Jeremy Henao Ramirez",
+     "Pedro Garay Amigo",
+     "Jacobo Rodriguez De Castro Castro",
+     "Aritz Loureda Mato",
+     "Gonzalo Aguado Perala",
+     "Iago Márquez Barros",
+     "Adrian Bestilleiro Pallas",
+     "Roi Rodríguez Castro"
+    ],
+    "s": [
+     "Thiago Dias Gonsalves",
+     "Pedro Fernández López",
+     "Iago Leira Fraga",
+     "Pablo Nicolás Carballo Iniesto"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Jeremy Henao Ramirez": 1,
+     "Pedro Garay Amigo": 4,
+     "Jacobo Rodriguez De Castro Castro": 5,
+     "Aritz Loureda Mato": 7,
+     "Gonzalo Aguado Perala": 8,
+     "Iago Márquez Barros": 9,
+     "Adrian Bestilleiro Pallas": 10,
+     "Roi Rodríguez Castro": 11,
+     "Thiago Dias Gonsalves": 3,
+     "Pedro Fernández López": 6,
+     "Iago Leira Fraga": 12,
+     "Pablo Nicolás Carballo Iniesto": 14
+    },
+    "id": "1490265"
+   }
+  },
+  "dorsales": {
+   "Jeremy Henao Ramirez": 1,
+   "Nicolás Couselo González": 2,
+   "Thiago Dias Gonsalves": 3,
+   "Pedro Fernández López": 6,
+   "Aritz Loureda Mato": 7,
+   "Pablo Nicolás Carballo Iniesto": 14,
+   "Iago Márquez Barros": 9,
+   "Adrian Bestilleiro Pallas": 10,
+   "Pedro Garay Amigo": 4,
+   "Roi Rodríguez Castro": 11,
+   "Iago Leira Fraga": 12,
+   "Jacobo Rodriguez De Castro Castro": 5,
+   "Gonzalo Aguado Perala": 8,
+   "Lorenzo Pacheco Lazarino": 2
+  },
+  "descargado": "2026-10-21T07:38"
  },
  {
   "id": "benjamin-c",
