@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-21T13:47";
+const ACTUALIZADO = "2026-10-21T18:39";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -5471,10 +5471,10 @@ const EQUIPOS = [
   "competicion": "Cadete - 2ª Futgal · A Coruña | Grupo 1",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26991173&codcompeticion=26991169",
   "escudos": {
-   "U.D. PAIOSACO- HIERROS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000038401_ESCUDO.jpg",
-   "S.C.D. PASTORIZA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001134_O_NOSO_ESCUDO_2.jpg",
    "ORILLAMAR S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000941018_ESCUDO_OFICIAL_ORILLAMAR_SD_PRINCIPAL.jpg",
    "ATLETICO ARTEIXO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001414249_Escudo_Arteixo.png",
+   "U.D. PAIOSACO- HIERROS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0012024828_escudo_66px.png",
+   "S.C.D. PASTORIZA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001134_O_NOSO_ESCUDO_2.jpg",
    "IMPERATOR O.A.R. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png",
    "C.F. DEPORTIVO ORZÁN": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001623837_RANSPARENTE.png",
    "TORRE S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000957278_descarga__3_.jpg",
@@ -5656,6 +5656,65 @@ const EQUIPOS = [
      "Adrián Vilar Castro": 18
     },
     "id": "1496227"
+   },
+   "1": {
+    "t": [
+     "Nicolas Blanco Fernández",
+     "Nicolás Alonso De Andrés",
+     "Miguel Paz Souto",
+     "Mario Barral Bermejo",
+     "Mauro Becerra Perez",
+     "Mateo Vidal Perez",
+     "Gian Arthur Peñaloza Arias",
+     "Xoel Blanco Manteiga",
+     "Alejandro Sanchez Gallego",
+     "Xoel Yañez Souto",
+     "Valentin Seijo Abeledo"
+    ],
+    "s": [
+     "Marcelo Piñon Uzcategui",
+     "Martin Sanchez Caamaño",
+     "Pedro Fernandez Paya",
+     "Samuel Vazquez Lago",
+     "Luis Alfonso Varela"
+    ],
+    "e": [
+     "Pedro Fernandez Paya",
+     "Martin Sanchez Caamaño",
+     "Samuel Vazquez Lago",
+     "Luis Alfonso Varela",
+     "Marcelo Piñon Uzcategui"
+    ],
+    "g": {
+     "Xoel Blanco Manteiga": 1,
+     "Alejandro Sanchez Gallego": 1
+    },
+    "a": [
+     "Mateo Vidal Perez",
+     "Mario Barral Bermejo"
+    ],
+    "r": [
+     "Xoel Blanco Manteiga"
+    ],
+    "d": {
+     "Nicolas Blanco Fernández": 13,
+     "Nicolás Alonso De Andrés": 2,
+     "Miguel Paz Souto": 3,
+     "Mario Barral Bermejo": 4,
+     "Mauro Becerra Perez": 5,
+     "Mateo Vidal Perez": 6,
+     "Gian Arthur Peñaloza Arias": 7,
+     "Xoel Blanco Manteiga": 10,
+     "Alejandro Sanchez Gallego": 11,
+     "Xoel Yañez Souto": 15,
+     "Valentin Seijo Abeledo": 18,
+     "Marcelo Piñon Uzcategui": 12,
+     "Martin Sanchez Caamaño": 14,
+     "Pedro Fernandez Paya": 16,
+     "Samuel Vazquez Lago": 17,
+     "Luis Alfonso Varela": 20
+    },
+    "id": "1496201"
    }
   },
   "dorsales": {
@@ -5663,24 +5722,24 @@ const EQUIPOS = [
    "Nicolás Alonso De Andrés": 2,
    "Miguel Paz Souto": 3,
    "Mario Barral Bermejo": 4,
-   "Marcelo Piñon Uzcategui": 5,
-   "Mateo Vidal Perez": 8,
-   "Samuel Vazquez Lago": 7,
-   "Martin Sanchez Caamaño": 10,
    "Mauro Becerra Perez": 9,
+   "Mateo Vidal Perez": 8,
+   "Gian Arthur Peñaloza Arias": 15,
+   "Xoel Blanco Manteiga": 6,
    "Alejandro Sanchez Gallego": 10,
-   "Luis Alfonso Varela": 16,
+   "Xoel Yañez Souto": 21,
    "Valentin Seijo Abeledo": 14,
+   "Marcelo Piñon Uzcategui": 5,
+   "Martin Sanchez Caamaño": 10,
+   "Pedro Fernandez Paya": 17,
+   "Samuel Vazquez Lago": 7,
+   "Luis Alfonso Varela": 16,
    "Diego Santos Sanchez": 5,
    "Martin Baeza Mendez": 16,
-   "Pedro Fernandez Paya": 17,
    "Adrián Vilar Castro": 18,
-   "Xoel Blanco Manteiga": 6,
-   "Xoel Yañez Souto": 21,
-   "Gian Arthur Peñaloza Arias": 15,
    "Hugo Lobelos Canosa": 14
   },
-  "descargado": "2026-10-20T13:56"
+  "descargado": "2026-10-21T18:39"
  },
  {
   "id": "infantil-a",
@@ -11345,11 +11404,11 @@ const EQUIPOS = [
    {
     "jornada": 3,
     "fecha": "2026-10-24",
-    "hora": "",
+    "hora": "19:00",
     "local": true,
     "rival": "OZA JUVENIL S.D.",
     "resultado": "",
-    "campo": "MUNICIPAL EIRIS - LAMADOSA 1"
+    "campo": "Torre Nº 5"
    },
    {
     "jornada": 4,
@@ -11562,22 +11621,115 @@ const EQUIPOS = [
   "competicion": "Prebenjamin - Primera Futgal · A Coruña | G1",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26991242&codcompeticion=26991233",
   "escudos": {
-   "ATL. CORUÑA MONTAÑEROS C.F": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
-   "OZA JUVENIL S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
+   "ATLETICO ARTEIXO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001414249_Escudo_Arteixo.png",
+   "OLIMPICO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg",
+   "SPORTING CAMBRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
+   "URAL ESPAÑOL C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000891301_ESCUDO_URAL_B.jpg",
+   "SADA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000931604_Sada_CF_escudo_FUTGAL.png",
+   "C.D. CALASANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
    "VICTORIA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
    "SANTA MARIA DEL MAR": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001611104_Escudo_sin_fondo.png",
    "SPORTING CORUÑES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801946_escudo-4154.jpg",
    "UD CARRAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001484347_Carral.jpg",
-   "SADA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000931604_Sada_CF_escudo_FUTGAL.png",
-   "C.D. CALASANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
+   "ATL. CORUÑA MONTAÑEROS C.F": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
+   "OZA JUVENIL S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
    "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg",
-   "E.D. LUIS CALVO SANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004731_LOGO_ALTA_RES_ESCOLAS_CALVO.jpg",
-   "ATLETICO ARTEIXO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001414249_Escudo_Arteixo.png",
-   "OLIMPICO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg",
-   "SPORTING CAMBRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
-   "URAL ESPAÑOL C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000891301_ESCUDO_URAL_B.jpg"
+   "E.D. LUIS CALVO SANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004731_LOGO_ALTA_RES_ESCOLAS_CALVO.jpg"
   },
-  "descargado": "2026-10-20T07:31"
+  "actas": {
+   "1": {
+    "t": [
+     "Ian Sanchez Arias",
+     "Cibran Fernandez Gonzalez",
+     "Matheus Lopes Dias",
+     "Noah Rocha Sánchez",
+     "Jorge Sepúlveda Domínguez",
+     "Anxo Antelo Barros",
+     "Lucas Gómez Carcedo",
+     "Alvaro Fernandez Dans"
+    ],
+    "s": [
+     "Iago Naveira Garcia",
+     "Enzo Paparella Rodríguez",
+     "Angel Esmoris Galindo",
+     "Enzo Martínez Ávila"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Ian Sanchez Arias": 1,
+     "Cibran Fernandez Gonzalez": 2,
+     "Matheus Lopes Dias": 4,
+     "Noah Rocha Sánchez": 5,
+     "Jorge Sepúlveda Domínguez": 8,
+     "Anxo Antelo Barros": 9,
+     "Lucas Gómez Carcedo": 10,
+     "Alvaro Fernandez Dans": 12,
+     "Iago Naveira Garcia": 3,
+     "Enzo Paparella Rodríguez": 6,
+     "Angel Esmoris Galindo": 7,
+     "Enzo Martínez Ávila": 11
+    },
+    "id": "1501478"
+   },
+   "2": {
+    "t": [
+     "Ian Sanchez Arias",
+     "Cibran Fernandez Gonzalez",
+     "Matheus Lopes Dias",
+     "Noah Rocha Sánchez",
+     "Jorge Sepúlveda Domínguez",
+     "Anxo Antelo Barros",
+     "Lucas Gómez Carcedo",
+     "Enzo Martínez Ávila"
+    ],
+    "s": [
+     "Iago Naveira Garcia",
+     "Enzo Paparella Rodríguez",
+     "Angel Esmoris Galindo",
+     "Alvaro Fernandez Dans",
+     "Raphael De Araujo Lima"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Ian Sanchez Arias": 1,
+     "Cibran Fernandez Gonzalez": 2,
+     "Matheus Lopes Dias": 4,
+     "Noah Rocha Sánchez": 5,
+     "Jorge Sepúlveda Domínguez": 8,
+     "Anxo Antelo Barros": 9,
+     "Lucas Gómez Carcedo": 10,
+     "Enzo Martínez Ávila": 11,
+     "Iago Naveira Garcia": 3,
+     "Enzo Paparella Rodríguez": 6,
+     "Angel Esmoris Galindo": 7,
+     "Alvaro Fernandez Dans": 12,
+     "Raphael De Araujo Lima": 14
+    },
+    "id": "1501486"
+   }
+  },
+  "dorsales": {
+   "Ian Sanchez Arias": 1,
+   "Cibran Fernandez Gonzalez": 2,
+   "Matheus Lopes Dias": 4,
+   "Noah Rocha Sánchez": 5,
+   "Jorge Sepúlveda Domínguez": 8,
+   "Anxo Antelo Barros": 9,
+   "Lucas Gómez Carcedo": 10,
+   "Alvaro Fernandez Dans": 12,
+   "Iago Naveira Garcia": 3,
+   "Enzo Paparella Rodríguez": 6,
+   "Angel Esmoris Galindo": 7,
+   "Enzo Martínez Ávila": 11,
+   "Raphael De Araujo Lima": 14
+  },
+  "descargado": "2026-10-21T18:37"
  },
  {
   "id": "prebenjamin-b",
@@ -11594,6 +11746,7 @@ const EQUIPOS = [
    "Raphael De Araujo Lima",
    "Erick Fuentes Lago",
    "Alan Gota De La Fuente",
+   "Eithan Ignacio Quiroga Alegria",
    "Julen Jimenez Santana",
    "Marco Mouzo Diaz Del Campo",
    "Miguel Angel Ossa Briceño",
@@ -11603,6 +11756,7 @@ const EQUIPOS = [
    "Anton Varela Blanco"
   ],
   "entrenadores": [
+   "Fernando José Piñeiro Lameiro",
    "Vicente Dopico Rios"
   ],
   "delegados": [],
@@ -11748,12 +11902,12 @@ const EQUIPOS = [
    },
    {
     "jornada": 4,
-    "fecha": "2026-10-24",
-    "hora": "",
+    "fecha": "2026-10-25",
+    "hora": "15:30",
     "local": false,
     "rival": "RELÁMPAGO S. D.",
     "resultado": "",
-    "campo": "Torre Nº1.1"
+    "campo": "Torre Nº 5"
    },
    {
     "jornada": 5,
@@ -11804,17 +11958,138 @@ const EQUIPOS = [
   "competicion": "Prebenjamin - Segunda Futgal · A Coruña | 1ª Fase G2",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=28989633&codcompeticion=26991921",
   "escudos": {
+   "C.D. CALASANZ \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
+   "C.D. CIUDAD JARDÍN": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001218414_Imagen_de_WhatsApp_2024_04_26_a_las_20.12.37_97ce5fe8.jpg",
    "C.D. CIUDAD": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001223589_CD_CIUDAD_TR_2.png",
    "IMPERATOR O.A.R.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png",
-   "C.F. BATALLADOR S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000918106_ESCUDO_.jpg",
-   "C. P. ESCLAVAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001133115_4DA7C320_0949_4D89_A088_624E6471CBA6.jpeg",
    "RELÁMPAGO S. D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000894509_Escudo.PNG",
    "ATL. CORUÑA MONTAÑEROS \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
    "ATLETICO CASTROS \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001611037_escudo128.png",
    "SANTA MARIA DEL MAR \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001611104_Escudo_sin_fondo.png",
-   "C.D. CALASANZ \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
-   "C.D. CIUDAD JARDÍN": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001218414_Imagen_de_WhatsApp_2024_04_26_a_las_20.12.37_97ce5fe8.jpg"
+   "C.F. BATALLADOR S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000918106_ESCUDO_.jpg",
+   "C. P. ESCLAVAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001133115_4DA7C320_0949_4D89_A088_624E6471CBA6.jpeg"
   },
-  "descargado": "2026-10-20T07:32"
+  "actas": {
+   "1": {
+    "t": [
+     "Carlos Castro Wagner Aller",
+     "Leo Baña Yusta",
+     "Daniel Cardama Souto",
+     "Alejandro Eyden Cuba Balbela",
+     "Alan Gota De La Fuente",
+     "Marco Mouzo Diaz Del Campo",
+     "Erick Fuentes Lago",
+     "Luka Pulpeiro Duran"
+    ],
+    "s": [
+     "Enzo Rodríguez Iglesias",
+     "Anton Varela Blanco"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Carlos Castro Wagner Aller": 13,
+     "Leo Baña Yusta": 2,
+     "Daniel Cardama Souto": 3,
+     "Alejandro Eyden Cuba Balbela": 4,
+     "Alan Gota De La Fuente": 5,
+     "Marco Mouzo Diaz Del Campo": 7,
+     "Erick Fuentes Lago": 9,
+     "Luka Pulpeiro Duran": 10,
+     "Enzo Rodríguez Iglesias": 11,
+     "Anton Varela Blanco": 12
+    },
+    "id": "1509960"
+   },
+   "2": {
+    "t": [
+     "Leo Baña Yusta",
+     "Daniel Cardama Souto",
+     "Carlos Castro Wagner Aller",
+     "Alejandro Eyden Cuba Balbela",
+     "Raphael De Araujo Lima",
+     "Erick Fuentes Lago",
+     "Alan Gota De La Fuente",
+     "Julen Jimenez Santana"
+    ],
+    "s": [
+     "Marco Mouzo Diaz Del Campo",
+     "Miguel Angel Ossa Briceño",
+     "Mateo Puig Agraso"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Leo Baña Yusta": 1,
+     "Daniel Cardama Souto": 2,
+     "Carlos Castro Wagner Aller": 3,
+     "Alejandro Eyden Cuba Balbela": 4,
+     "Raphael De Araujo Lima": 5,
+     "Erick Fuentes Lago": 6,
+     "Alan Gota De La Fuente": 7,
+     "Julen Jimenez Santana": 8,
+     "Marco Mouzo Diaz Del Campo": 9,
+     "Miguel Angel Ossa Briceño": 10,
+     "Mateo Puig Agraso": 11
+    },
+    "id": "1509966"
+   },
+   "3": {
+    "t": [
+     "Carlos Castro Wagner Aller",
+     "Luka Pulpeiro Duran",
+     "Alan Gota De La Fuente",
+     "Alejandro Eyden Cuba Balbela",
+     "Daniel Cardama Souto",
+     "Mateo Puig Agraso",
+     "Erick Fuentes Lago",
+     "Julen Jimenez Santana"
+    ],
+    "s": [
+     "Anton Varela Blanco",
+     "Marco Mouzo Diaz Del Campo",
+     "Enzo Rodríguez Iglesias"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Carlos Castro Wagner Aller": 13,
+     "Luka Pulpeiro Duran": 4,
+     "Alan Gota De La Fuente": 6,
+     "Alejandro Eyden Cuba Balbela": 7,
+     "Daniel Cardama Souto": 8,
+     "Mateo Puig Agraso": 9,
+     "Erick Fuentes Lago": 11,
+     "Julen Jimenez Santana": 15,
+     "Anton Varela Blanco": 3,
+     "Marco Mouzo Diaz Del Campo": 5,
+     "Enzo Rodríguez Iglesias": 10
+    },
+    "id": "1509971"
+   }
+  },
+  "dorsales": {
+   "Carlos Castro Wagner Aller": 13,
+   "Leo Baña Yusta": 1,
+   "Daniel Cardama Souto": 8,
+   "Alejandro Eyden Cuba Balbela": 7,
+   "Alan Gota De La Fuente": 6,
+   "Marco Mouzo Diaz Del Campo": 5,
+   "Erick Fuentes Lago": 11,
+   "Luka Pulpeiro Duran": 4,
+   "Enzo Rodríguez Iglesias": 10,
+   "Anton Varela Blanco": 3,
+   "Raphael De Araujo Lima": 5,
+   "Julen Jimenez Santana": 15,
+   "Miguel Angel Ossa Briceño": 10,
+   "Mateo Puig Agraso": 9
+  },
+  "descargado": "2026-10-21T18:38"
  }
 ];
