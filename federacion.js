@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-21T07:38";
+const ACTUALIZADO = "2026-10-21T13:47";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -10572,11 +10572,11 @@ const EQUIPOS = [
    {
     "jornada": 4,
     "fecha": "2026-10-24",
-    "hora": "",
+    "hora": "15:00",
     "local": false,
     "rival": "SPORTING CORUÑES",
     "resultado": "",
-    "campo": "Torre Nº1.1"
+    "campo": "Torre Nº3.1"
    },
    {
     "jornada": 5,
@@ -10627,18 +10627,151 @@ const EQUIPOS = [
   "competicion": "Benjamin F-8 - Segunda Futgal · A Coruña | 1ª Fase G2",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=28997333&codcompeticion=26991813",
   "escudos": {
-   "EIRIS S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000934032_Eiris.png",
-   "VICTORIA C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
    "SANTA MARIA DEL MAR \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001611104_Escudo_sin_fondo.png",
    "COLEGIO OBRADOIRO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000994690_Escudo_Colegio_Obradoiro.jpg",
+   "COMPAÑIA DE MARIA \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004468_logo.png",
+   "IMPERATOR O.A.R.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png",
+   "EIRIS S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000934032_Eiris.png",
+   "VICTORIA C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
    "SPORTING CORUÑES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801946_escudo-4154.jpg",
    "ATLETICO CORUÑA MONTAÑEROS \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
    "C.D. CALASANZ \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
-   "S.D. SANTA MARGARITA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000942895_Escudo_Santa_peque_o.png",
-   "COMPAÑIA DE MARIA \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004468_logo.png",
-   "IMPERATOR O.A.R.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png"
+   "S.D. SANTA MARGARITA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000942895_Escudo_Santa_peque_o.png"
   },
-  "descargado": "2026-10-20T07:31"
+  "actas": {
+   "1": {
+    "t": [
+     "Thiago Vázquez Lago",
+     "Guillermo Espiñeira Sobrido",
+     "Alejandro Sexto López",
+     "Gael Cerqueiro Gestal",
+     "Lucas Santalla Fernández-Porto",
+     "Pablo Pena Barriga",
+     "Luca Martínez Díaz",
+     "Mateo Fernandez Gonzalez"
+    ],
+    "s": [
+     "Noel Rey Diz",
+     "Leo Maroño Ben",
+     "Borja Uria Ramos",
+     "Saul Otero Velo",
+     "Santiago Lopez Alvarez"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Thiago Vázquez Lago": 1,
+     "Guillermo Espiñeira Sobrido": 3,
+     "Alejandro Sexto López": 5,
+     "Gael Cerqueiro Gestal": 6,
+     "Lucas Santalla Fernández-Porto": 7,
+     "Pablo Pena Barriga": 8,
+     "Luca Martínez Díaz": 10,
+     "Mateo Fernandez Gonzalez": 14,
+     "Noel Rey Diz": 13,
+     "Leo Maroño Ben": 2,
+     "Borja Uria Ramos": 9,
+     "Saul Otero Velo": 11,
+     "Santiago Lopez Alvarez": 12
+    },
+    "id": "1510287"
+   },
+   "2": {
+    "t": [
+     "Thiago Vázquez Lago",
+     "Leo Maroño Ben",
+     "Guillermo Espiñeira Sobrido",
+     "Alejandro Sexto López",
+     "Gael Cerqueiro Gestal",
+     "Borja Uria Ramos",
+     "Luca Martínez Díaz",
+     "Mario Fernandez Lamela"
+    ],
+    "s": [
+     "Alan Díaz López",
+     "Mateo Fernandez Gonzalez"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Thiago Vázquez Lago": 1,
+     "Leo Maroño Ben": 2,
+     "Guillermo Espiñeira Sobrido": 3,
+     "Alejandro Sexto López": 5,
+     "Gael Cerqueiro Gestal": 6,
+     "Borja Uria Ramos": 9,
+     "Luca Martínez Díaz": 10,
+     "Mario Fernandez Lamela": 15,
+     "Alan Díaz López": 4,
+     "Mateo Fernandez Gonzalez": 14
+    },
+    "id": "1510293"
+   },
+   "3": {
+    "t": [
+     "Thiago Vázquez Lago",
+     "Alan Díaz López",
+     "Alejandro Sexto López",
+     "Lucas Santalla Fernández-Porto",
+     "Pablo Pena Barriga",
+     "Luca Martínez Díaz",
+     "Saul Otero Velo",
+     "Mario Fernandez Lamela"
+    ],
+    "s": [
+     "Gael Cerqueiro Gestal",
+     "Borja Uria Ramos",
+     "Santiago Lopez Alvarez",
+     "Noel Rey Diz",
+     "Mateo Fernandez Gonzalez",
+     "Noah Rawson-Higgins González"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Thiago Vázquez Lago": 1,
+     "Alan Díaz López": 4,
+     "Alejandro Sexto López": 5,
+     "Lucas Santalla Fernández-Porto": 7,
+     "Pablo Pena Barriga": 8,
+     "Luca Martínez Díaz": 10,
+     "Saul Otero Velo": 11,
+     "Mario Fernandez Lamela": 15,
+     "Gael Cerqueiro Gestal": 6,
+     "Borja Uria Ramos": 9,
+     "Santiago Lopez Alvarez": 12,
+     "Noel Rey Diz": 13,
+     "Mateo Fernandez Gonzalez": 14,
+     "Noah Rawson-Higgins González": 16
+    },
+    "id": "1510298"
+   }
+  },
+  "dorsales": {
+   "Thiago Vázquez Lago": 1,
+   "Guillermo Espiñeira Sobrido": 3,
+   "Alejandro Sexto López": 5,
+   "Gael Cerqueiro Gestal": 6,
+   "Lucas Santalla Fernández-Porto": 7,
+   "Pablo Pena Barriga": 8,
+   "Luca Martínez Díaz": 10,
+   "Mateo Fernandez Gonzalez": 14,
+   "Noel Rey Diz": 13,
+   "Leo Maroño Ben": 2,
+   "Borja Uria Ramos": 9,
+   "Saul Otero Velo": 11,
+   "Santiago Lopez Alvarez": 12,
+   "Mario Fernandez Lamela": 15,
+   "Alan Díaz López": 4,
+   "Noah Rawson-Higgins González": 16
+  },
+  "descargado": "2026-10-21T13:46"
  },
  {
   "id": "benjamin-b",
@@ -10810,11 +10943,11 @@ const EQUIPOS = [
    {
     "jornada": 4,
     "fecha": "2026-10-24",
-    "hora": "",
+    "hora": "14:00",
     "local": true,
     "rival": "OZA JUVENIL S.D. \"C\"",
     "resultado": "",
-    "campo": "MUNICIPAL EIRIS - LAMADOSA 2"
+    "campo": "Torre Nº 5"
    },
    {
     "jornada": 5,
@@ -10869,14 +11002,144 @@ const EQUIPOS = [
    "VICTORIA C.F. \"D\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
    "ORILLAMAR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000941018_ESCUDO_OFICIAL_ORILLAMAR_SD_PRINCIPAL.jpg",
    "C.D. CALASANZ \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
-   "S.D. SANTA MARGARITA \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000942895_Escudo_Santa_peque_o.png",
-   "A. C. RUEIRO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001404224_WhatsApp_Image_2024_09_26_at_13.47.47.jpeg",
    "ATLETICO CORUÑA MONTAÑEROS C.F \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
    "OZA JUVENIL S.D. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
+   "S.D. SANTA MARGARITA \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000942895_Escudo_Santa_peque_o.png",
+   "A. C. RUEIRO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001404224_WhatsApp_Image_2024_09_26_at_13.47.47.jpeg",
    "C.F. BATALLADOR S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000918106_ESCUDO_.jpg",
    "EIRÍS S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000934032_Eiris.png"
   },
-  "descargado": "2026-10-20T07:31"
+  "actas": {
+   "1": {
+    "t": [
+     "Mateo Teijido Ceniceros",
+     "Lorenzo Pacheco Lazarino",
+     "Roi Bustelo Iglesias",
+     "Matteo Marozzi Ramos",
+     "Mateo Fernández Martínez",
+     "Iago Camacho Teijo",
+     "Alessandro De Jesus Bermudez Moreno",
+     "Lucca Gadaleta Pérez"
+    ],
+    "s": [
+     "Guillem Sellas Castellanos",
+     "Pablo Ramil Vazquez",
+     "Lois Diaz Lopez",
+     "Dario Viana López",
+     "Sergio Rama Pena"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Mateo Teijido Ceniceros": 1,
+     "Lorenzo Pacheco Lazarino": 2,
+     "Roi Bustelo Iglesias": 4,
+     "Matteo Marozzi Ramos": 6,
+     "Mateo Fernández Martínez": 8,
+     "Iago Camacho Teijo": 10,
+     "Alessandro De Jesus Bermudez Moreno": 12,
+     "Lucca Gadaleta Pérez": 14,
+     "Guillem Sellas Castellanos": 3,
+     "Pablo Ramil Vazquez": 5,
+     "Lois Diaz Lopez": 7,
+     "Dario Viana López": 9,
+     "Sergio Rama Pena": 15
+    },
+    "id": "1510381"
+   },
+   "2": {
+    "t": [
+     "Mateo Teijido Ceniceros",
+     "Roi Bustelo Iglesias",
+     "Matteo Marozzi Ramos",
+     "Lois Diaz Lopez",
+     "Iago Camacho Teijo",
+     "Alessandro De Jesus Bermudez Moreno",
+     "Lucca Gadaleta Pérez",
+     "Sergio Rama Pena"
+    ],
+    "s": [
+     "Guillem Sellas Castellanos",
+     "Pablo Ramil Vazquez",
+     "Dario Viana López"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Mateo Teijido Ceniceros": 1,
+     "Roi Bustelo Iglesias": 4,
+     "Matteo Marozzi Ramos": 6,
+     "Lois Diaz Lopez": 7,
+     "Iago Camacho Teijo": 10,
+     "Alessandro De Jesus Bermudez Moreno": 12,
+     "Lucca Gadaleta Pérez": 14,
+     "Sergio Rama Pena": 15,
+     "Guillem Sellas Castellanos": 3,
+     "Pablo Ramil Vazquez": 5,
+     "Dario Viana López": 9
+    },
+    "id": "1510386"
+   },
+   "3": {
+    "t": [
+     "Mateo Teijido Ceniceros",
+     "Roi Bustelo Iglesias",
+     "Matteo Marozzi Ramos",
+     "Lois Diaz Lopez",
+     "Iago Camacho Teijo",
+     "Alessandro De Jesus Bermudez Moreno",
+     "Lucca Gadaleta Pérez",
+     "Sergio Rama Pena"
+    ],
+    "s": [
+     "Lorenzo Pacheco Lazarino",
+     "Guillem Sellas Castellanos",
+     "Pablo Ramil Vazquez",
+     "Mateo Fernández Martínez",
+     "Dario Viana López"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Mateo Teijido Ceniceros": 1,
+     "Roi Bustelo Iglesias": 4,
+     "Matteo Marozzi Ramos": 6,
+     "Lois Diaz Lopez": 7,
+     "Iago Camacho Teijo": 10,
+     "Alessandro De Jesus Bermudez Moreno": 12,
+     "Lucca Gadaleta Pérez": 14,
+     "Sergio Rama Pena": 15,
+     "Lorenzo Pacheco Lazarino": 2,
+     "Guillem Sellas Castellanos": 3,
+     "Pablo Ramil Vazquez": 5,
+     "Mateo Fernández Martínez": 8,
+     "Dario Viana López": 9
+    },
+    "id": "1510390"
+   }
+  },
+  "dorsales": {
+   "Mateo Teijido Ceniceros": 1,
+   "Lorenzo Pacheco Lazarino": 2,
+   "Roi Bustelo Iglesias": 4,
+   "Matteo Marozzi Ramos": 6,
+   "Mateo Fernández Martínez": 8,
+   "Iago Camacho Teijo": 10,
+   "Alessandro De Jesus Bermudez Moreno": 12,
+   "Lucca Gadaleta Pérez": 14,
+   "Guillem Sellas Castellanos": 3,
+   "Pablo Ramil Vazquez": 5,
+   "Lois Diaz Lopez": 7,
+   "Dario Viana López": 9,
+   "Sergio Rama Pena": 15
+  },
+  "descargado": "2026-10-21T13:47"
  },
  {
   "id": "prebenjamin-a",
