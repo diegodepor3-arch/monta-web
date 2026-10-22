@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-22T01:32";
+const ACTUALIZADO = "2026-10-22T07:34";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -1162,7 +1162,7 @@ const EQUIPOS = [
     }
    }
   },
-  "descargado": "2026-10-21T01:35"
+  "descargado": "2026-10-22T07:34"
  },
  {
   "id": "juvenil-a",
@@ -2183,7 +2183,7 @@ const EQUIPOS = [
    "Miguel Rodriguez Lamela": 16,
    "Martin Rodriguez Martinez": 12
   },
-  "descargado": "2026-10-21T01:35"
+  "descargado": "2026-10-22T07:34"
  },
  {
   "id": "juvenil-b",
@@ -9009,7 +9009,7 @@ const EQUIPOS = [
   "delegados": [],
   "clasificacion": [],
   "partidos": [],
-  "descargado": "2026-10-20T22:18"
+  "descargado": "2026-10-22T07:33"
  },
  {
   "id": "alevin-a",
@@ -9618,24 +9618,102 @@ const EQUIPOS = [
      "Izan Pose Seijas": 14
     },
     "id": "1486580"
+   },
+   "1": {
+    "t": [
+     "Mario Bello Varela",
+     "Tomas Mourelle Lopez",
+     "Pancho Boedo Mantiñan",
+     "Hugo Vazquez Álvarez",
+     "Martin Arza Alvarez",
+     "Óliver Casasola Vázquez",
+     "Ilia Kondrashin"
+    ],
+    "s": [
+     "Roberto Couceiro Gonzalez",
+     "Mathias Becerra Timiraos",
+     "Alvaro Alvarez Escobar",
+     "Aleix Della Casa Loureiro",
+     "Sebastian Lopez Ganem"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Mario Bello Varela": 1,
+     "Tomas Mourelle Lopez": 3,
+     "Pancho Boedo Mantiñan": 6,
+     "Hugo Vazquez Álvarez": 9,
+     "Martin Arza Alvarez": 10,
+     "Óliver Casasola Vázquez": 11,
+     "Ilia Kondrashin": 18,
+     "Roberto Couceiro Gonzalez": 4,
+     "Mathias Becerra Timiraos": 7,
+     "Alvaro Alvarez Escobar": 8,
+     "Aleix Della Casa Loureiro": 12,
+     "Sebastian Lopez Ganem": 17
+    },
+    "id": "1486550"
+   },
+   "2": {
+    "t": [
+     "Mario Bello Varela",
+     "Mathias Becerra Timiraos",
+     "Alvaro Alvarez Escobar",
+     "Óliver Casasola Vázquez",
+     "Aleix Della Casa Loureiro",
+     "Sebastian Lopez Ganem",
+     "Ilia Kondrashin"
+    ],
+    "s": [
+     "Roberto Couceiro Gonzalez",
+     "Pancho Boedo Mantiñan",
+     "Hugo Vazquez Álvarez",
+     "Martin Arza Alvarez",
+     "Izan Pose Seijas"
+    ],
+    "e": [],
+    "g": {
+     "Óliver Casasola Vázquez": 2,
+     "Aleix Della Casa Loureiro": 1,
+     "Hugo Vazquez Álvarez": 1
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Mario Bello Varela": 1,
+     "Mathias Becerra Timiraos": 7,
+     "Alvaro Alvarez Escobar": 8,
+     "Óliver Casasola Vázquez": 11,
+     "Aleix Della Casa Loureiro": 12,
+     "Sebastian Lopez Ganem": 17,
+     "Ilia Kondrashin": 18,
+     "Roberto Couceiro Gonzalez": 4,
+     "Pancho Boedo Mantiñan": 6,
+     "Hugo Vazquez Álvarez": 9,
+     "Martin Arza Alvarez": 10,
+     "Izan Pose Seijas": 14
+    },
+    "id": "1486558"
    }
   },
   "dorsales": {
    "Mario Bello Varela": 1,
-   "Mathias Becerra Timiraos": 7,
-   "Alvaro Alvarez Escobar": 8,
-   "Óliver Casasola Vázquez": 11,
-   "Aleix Della Casa Loureiro": 12,
-   "Sebastian Lopez Ganem": 16,
-   "Ilia Kondrashin": 5,
-   "Roberto Couceiro Gonzalez": 4,
+   "Tomas Mourelle Lopez": 3,
    "Pancho Boedo Mantiñan": 6,
    "Hugo Vazquez Álvarez": 9,
    "Martin Arza Alvarez": 10,
-   "Izan Pose Seijas": 14,
-   "Tomas Mourelle Lopez": 3
+   "Óliver Casasola Vázquez": 11,
+   "Ilia Kondrashin": 5,
+   "Roberto Couceiro Gonzalez": 4,
+   "Mathias Becerra Timiraos": 7,
+   "Alvaro Alvarez Escobar": 8,
+   "Aleix Della Casa Loureiro": 12,
+   "Sebastian Lopez Ganem": 16,
+   "Izan Pose Seijas": 14
   },
-  "descargado": "2026-10-20T22:18"
+  "descargado": "2026-10-22T07:33"
  },
  {
   "id": "alevin-b",
@@ -10016,7 +10094,7 @@ const EQUIPOS = [
    "Fabio Gundin Candia": 1,
    "Xoel Antelo Barros": 5
   },
-  "descargado": "2026-10-21T01:34"
+  "descargado": "2026-10-22T07:33"
  },
  {
   "id": "alevin-c",
