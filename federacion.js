@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-22T07:34";
+const ACTUALIZADO = "2026-10-22T13:48";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -2996,7 +2996,7 @@ const EQUIPOS = [
    "Nicolás Ramos Moreno": 8,
    "Jose Aaron Bouzas Rial": 12
   },
-  "descargado": "2026-10-21T01:35"
+  "descargado": "2026-10-22T13:46"
  },
  {
   "id": "juvenil-c",
@@ -3589,7 +3589,7 @@ const EQUIPOS = [
    "Daniel Dopico Garcia": 7,
    "Bruno Alexandre Gomes Oliveira Ferreira": 17
   },
-  "descargado": "2026-10-21T07:37"
+  "descargado": "2026-10-22T13:47"
  },
  {
   "id": "cadete-a",
@@ -10486,7 +10486,7 @@ const EQUIPOS = [
    "Mauro Viana López": 21,
    "Pierre Leo Fontanel Gavela": 16
   },
-  "descargado": "2026-10-21T07:38"
+  "descargado": "2026-10-22T13:47"
  },
  {
   "id": "benjamin-a",
@@ -10503,7 +10503,6 @@ const EQUIPOS = [
    "Thiago Dias Gonsalves",
    "Pedro Fernández López",
    "Pedro Garay Amigo",
-   "Jeremy Henao Ramirez",
    "Iago Leira Fraga",
    "Aritz Loureda Mato",
    "Iago Márquez Barros",
@@ -10517,13 +10516,13 @@ const EQUIPOS = [
   "clasificacion": [
    {
     "equipo": "R.C. DEPORTIVO SAD",
-    "pts": 12,
-    "pj": 4,
-    "g": 4,
+    "pts": 15,
+    "pj": 5,
+    "g": 5,
     "e": 0,
     "p": 0,
-    "gf": 38,
-    "gc": 2,
+    "gf": 53,
+    "gc": 3,
     "propio": false
    },
    {
@@ -10648,17 +10647,6 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "SANTA MARIA DEL MAR",
-    "pts": 0,
-    "pj": 4,
-    "g": 0,
-    "e": 0,
-    "p": 4,
-    "gf": 6,
-    "gc": 24,
-    "propio": false
-   },
-   {
     "equipo": "S.C.D. PASTORIZA",
     "pts": 0,
     "pj": 5,
@@ -10667,6 +10655,17 @@ const EQUIPOS = [
     "p": 5,
     "gf": 4,
     "gc": 23,
+    "propio": false
+   },
+   {
+    "equipo": "SANTA MARIA DEL MAR",
+    "pts": 0,
+    "pj": 5,
+    "g": 0,
+    "e": 0,
+    "p": 5,
+    "gf": 7,
+    "gc": 39,
     "propio": false
    },
    {
@@ -11095,25 +11094,104 @@ const EQUIPOS = [
      "Pablo Nicolás Carballo Iniesto": 14
     },
     "id": "1490265"
+   },
+   "1": {
+    "t": [
+     "Mateo Teijido Ceniceros",
+     "Thiago Dias Gonsalves",
+     "Pedro Fernández López",
+     "Aritz Loureda Mato",
+     "Nicolás Couselo González",
+     "Iago Márquez Barros",
+     "Adrian Bestilleiro Pallas",
+     "Roi Rodríguez Castro"
+    ],
+    "s": [
+     "Jacobo Rodriguez De Castro Castro",
+     "Manuel Aydillo Gonzalez",
+     "Pedro Garay Amigo",
+     "Iago Leira Fraga",
+     "Pablo Nicolás Carballo Iniesto"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Mateo Teijido Ceniceros": 1,
+     "Thiago Dias Gonsalves": 5,
+     "Pedro Fernández López": 6,
+     "Aritz Loureda Mato": 7,
+     "Nicolás Couselo González": 8,
+     "Iago Márquez Barros": 9,
+     "Adrian Bestilleiro Pallas": 10,
+     "Roi Rodríguez Castro": 11,
+     "Jacobo Rodriguez De Castro Castro": 2,
+     "Manuel Aydillo Gonzalez": 3,
+     "Pedro Garay Amigo": 4,
+     "Iago Leira Fraga": 12,
+     "Pablo Nicolás Carballo Iniesto": 14
+    },
+    "id": "1490235"
+   },
+   "2": {
+    "t": [
+     "Mateo Teijido Ceniceros",
+     "Manuel Aydillo Gonzalez",
+     "Thiago Dias Gonsalves",
+     "Pedro Fernández López",
+     "Gonzalo Aguado Perala",
+     "Iago Márquez Barros",
+     "Adrian Bestilleiro Pallas",
+     "Nicolás Couselo González"
+    ],
+    "s": [
+     "Oscar Aydillo Gonzalez",
+     "Pedro Garay Amigo",
+     "Aritz Loureda Mato",
+     "Iago Leira Fraga"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Mateo Teijido Ceniceros": 1,
+     "Manuel Aydillo Gonzalez": 3,
+     "Thiago Dias Gonsalves": 5,
+     "Pedro Fernández López": 6,
+     "Gonzalo Aguado Perala": 8,
+     "Iago Márquez Barros": 9,
+     "Adrian Bestilleiro Pallas": 10,
+     "Nicolás Couselo González": 11,
+     "Oscar Aydillo Gonzalez": 2,
+     "Pedro Garay Amigo": 4,
+     "Aritz Loureda Mato": 7,
+     "Iago Leira Fraga": 12
+    },
+    "id": "1490243"
    }
   },
   "dorsales": {
-   "Jeremy Henao Ramirez": 1,
-   "Nicolás Couselo González": 2,
+   "Mateo Teijido Ceniceros": 1,
    "Thiago Dias Gonsalves": 3,
    "Pedro Fernández López": 6,
    "Aritz Loureda Mato": 7,
-   "Pablo Nicolás Carballo Iniesto": 14,
+   "Nicolás Couselo González": 2,
    "Iago Márquez Barros": 9,
    "Adrian Bestilleiro Pallas": 10,
-   "Pedro Garay Amigo": 4,
    "Roi Rodríguez Castro": 11,
-   "Iago Leira Fraga": 12,
    "Jacobo Rodriguez De Castro Castro": 5,
+   "Manuel Aydillo Gonzalez": 3,
+   "Pedro Garay Amigo": 4,
+   "Iago Leira Fraga": 12,
+   "Pablo Nicolás Carballo Iniesto": 14,
    "Gonzalo Aguado Perala": 8,
+   "Oscar Aydillo Gonzalez": 2,
+   "Jeremy Henao Ramirez": 1,
    "Lorenzo Pacheco Lazarino": 2
   },
-  "descargado": "2026-10-21T07:38"
+  "descargado": "2026-10-22T13:48"
  },
  {
   "id": "benjamin-c",
@@ -11489,7 +11567,7 @@ const EQUIPOS = [
    "Alan Díaz López": 4,
    "Noah Rawson-Higgins González": 16
   },
-  "descargado": "2026-10-21T13:46"
+  "descargado": "2026-10-22T13:48"
  },
  {
   "id": "benjamin-b",
