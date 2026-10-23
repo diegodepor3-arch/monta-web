@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-22T22:20";
+const ACTUALIZADO = "2026-10-23T01:31";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -1162,7 +1162,7 @@ const EQUIPOS = [
     }
    }
   },
-  "descargado": "2026-10-22T07:34"
+  "descargado": "2026-10-23T01:30"
  },
  {
   "id": "juvenil-a",
@@ -2183,7 +2183,7 @@ const EQUIPOS = [
    "Miguel Rodriguez Lamela": 16,
    "Martin Rodriguez Martinez": 12
   },
-  "descargado": "2026-10-22T07:34"
+  "descargado": "2026-10-23T01:30"
  },
  {
   "id": "juvenil-b",
@@ -2996,7 +2996,7 @@ const EQUIPOS = [
    "Nicolás Ramos Moreno": 8,
    "Jose Aaron Bouzas Rial": 12
   },
-  "descargado": "2026-10-22T13:46"
+  "descargado": "2026-10-23T01:30"
  },
  {
   "id": "juvenil-c",
@@ -3589,7 +3589,7 @@ const EQUIPOS = [
    "Daniel Dopico Garcia": 7,
    "Bruno Alexandre Gomes Oliveira Ferreira": 17
   },
-  "descargado": "2026-10-22T13:47"
+  "descargado": "2026-10-23T01:31"
  },
  {
   "id": "cadete-a",
@@ -10094,7 +10094,7 @@ const EQUIPOS = [
    "Fabio Gundin Candia": 1,
    "Xoel Antelo Barros": 5
   },
-  "descargado": "2026-10-22T07:33"
+  "descargado": "2026-10-23T01:29"
  },
  {
   "id": "alevin-c",
@@ -10486,7 +10486,7 @@ const EQUIPOS = [
    "Mauro Viana López": 21,
    "Pierre Leo Fontanel Gavela": 16
   },
-  "descargado": "2026-10-22T13:47"
+  "descargado": "2026-10-23T01:31"
  },
  {
   "id": "benjamin-a",
