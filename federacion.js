@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-23T18:21";
+const ACTUALIZADO = "2026-10-23T22:10";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -3588,7 +3588,7 @@ const EQUIPOS = [
    "Daniel Dopico Garcia": 7,
    "Bruno Alexandre Gomes Oliveira Ferreira": 17
   },
-  "descargado": "2026-10-23T01:31"
+  "descargado": "2026-10-23T22:08"
  },
  {
   "id": "cadete-a",
@@ -4445,7 +4445,7 @@ const EQUIPOS = [
    "Felipe Varela Lopez": 1,
    "Nicolás Alonso De Andrés": 18
   },
-  "descargado": "2026-10-23T07:31"
+  "descargado": "2026-10-23T22:10"
  },
  {
   "id": "cadete-b",
@@ -10485,7 +10485,7 @@ const EQUIPOS = [
    "Mauro Viana López": 21,
    "Pierre Leo Fontanel Gavela": 16
   },
-  "descargado": "2026-10-23T01:31"
+  "descargado": "2026-10-23T22:09"
  },
  {
   "id": "benjamin-a",
@@ -11190,7 +11190,7 @@ const EQUIPOS = [
    "Jeremy Henao Ramirez": 1,
    "Lorenzo Pacheco Lazarino": 2
   },
-  "descargado": "2026-10-23T07:30"
+  "descargado": "2026-10-23T22:09"
  },
  {
   "id": "benjamin-c",
@@ -11566,7 +11566,7 @@ const EQUIPOS = [
    "Alan Díaz López": 4,
    "Noah Rawson-Higgins González": 16
   },
-  "descargado": "2026-10-23T07:30"
+  "descargado": "2026-10-23T22:09"
  },
  {
   "id": "benjamin-b",
@@ -11935,7 +11935,7 @@ const EQUIPOS = [
    "Dario Viana López": 9,
    "Sergio Rama Pena": 15
   },
-  "descargado": "2026-10-23T07:30"
+  "descargado": "2026-10-23T22:10"
  },
  {
   "id": "prebenjamin-a",
