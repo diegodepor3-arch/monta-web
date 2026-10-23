@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-23T13:26";
+const ACTUALIZADO = "2026-10-23T18:21";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -1162,7 +1162,7 @@ const EQUIPOS = [
     }
    }
   },
-  "descargado": "2026-10-23T01:30"
+  "descargado": "2026-10-23T18:20"
  },
  {
   "id": "juvenil-a",
@@ -1185,7 +1185,6 @@ const EQUIPOS = [
    "Sergio Garcia Camba",
    "Adrian Gregorio Talaikyte",
    "Alberto Loureiro Vidal",
-   "Pablo Mejuto Sarandeses",
    "Christian Montero Requejo",
    "Javier Neira Arevalo",
    "Alex Quinteiro Sampedro",
@@ -2183,7 +2182,7 @@ const EQUIPOS = [
    "Miguel Rodriguez Lamela": 16,
    "Martin Rodriguez Martinez": 12
   },
-  "descargado": "2026-10-23T01:30"
+  "descargado": "2026-10-23T18:20"
  },
  {
   "id": "juvenil-b",
@@ -2996,7 +2995,7 @@ const EQUIPOS = [
    "Nicolás Ramos Moreno": 8,
    "Jose Aaron Bouzas Rial": 12
   },
-  "descargado": "2026-10-23T01:30"
+  "descargado": "2026-10-23T18:21"
  },
  {
   "id": "juvenil-c",
@@ -9009,7 +9008,7 @@ const EQUIPOS = [
   "delegados": [],
   "clasificacion": [],
   "partidos": [],
-  "descargado": "2026-10-22T22:20"
+  "descargado": "2026-10-23T18:19"
  },
  {
   "id": "alevin-a",
@@ -9713,7 +9712,7 @@ const EQUIPOS = [
    "Sebastian Lopez Ganem": 16,
    "Izan Pose Seijas": 14
   },
-  "descargado": "2026-10-22T22:20"
+  "descargado": "2026-10-23T18:19"
  },
  {
   "id": "alevin-b",
@@ -10094,7 +10093,7 @@ const EQUIPOS = [
    "Fabio Gundin Candia": 1,
    "Xoel Antelo Barros": 5
   },
-  "descargado": "2026-10-23T01:29"
+  "descargado": "2026-10-23T18:20"
  },
  {
   "id": "alevin-c",
