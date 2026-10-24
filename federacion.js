@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-24T00:42";
+const ACTUALIZADO = "2026-10-24T05:52";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -1162,7 +1162,7 @@ const EQUIPOS = [
     }
    }
   },
-  "descargado": "2026-10-23T18:20"
+  "descargado": "2026-10-24T05:52"
  },
  {
   "id": "juvenil-a",
@@ -2182,7 +2182,7 @@ const EQUIPOS = [
    "Miguel Rodriguez Lamela": 16,
    "Martin Rodriguez Martinez": 12
   },
-  "descargado": "2026-10-23T18:20"
+  "descargado": "2026-10-24T05:52"
  },
  {
   "id": "juvenil-b",
@@ -8366,7 +8366,7 @@ const EQUIPOS = [
    "Alvaro Santamaria Cives": 16,
    "Martiño Moar Moscoso": 16
   },
-  "descargado": "2026-10-23T13:26"
+  "descargado": "2026-10-24T05:51"
  },
  {
   "id": "infantil-d",
@@ -8994,7 +8994,7 @@ const EQUIPOS = [
    "Iván Pena Barriga": 1,
    "Félix Romero Brión": 14
   },
-  "descargado": "2026-10-23T13:26"
+  "descargado": "2026-10-24T05:51"
  },
  {
   "id": "alevin-a-f11",
@@ -9008,7 +9008,7 @@ const EQUIPOS = [
   "delegados": [],
   "clasificacion": [],
   "partidos": [],
-  "descargado": "2026-10-23T18:19"
+  "descargado": "2026-10-24T05:51"
  },
  {
   "id": "alevin-a",
@@ -9712,7 +9712,7 @@ const EQUIPOS = [
    "Sebastian Lopez Ganem": 16,
    "Izan Pose Seijas": 14
   },
-  "descargado": "2026-10-23T18:19"
+  "descargado": "2026-10-24T05:52"
  },
  {
   "id": "alevin-b",
