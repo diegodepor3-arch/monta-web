@@ -10,38 +10,38 @@ const EQUIPOS = [
   "urlFederacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisEquipos?cod_primaria=1000119&Codigo_Equipo=3509455",
   "plantilla": [
    "Daniel Buide Modia",
-   "Jesus Cañizares Sanchez",
+   "Jesús Cañizares Sánchez",
    "Luis Castro Lois",
    "Mario Constenla Couceiro",
-   "Guillermo Del Valle Vazquez",
-   "Pablo Fernandez De Miguel",
-   "Oscar Fernandez Hidalgo",
-   "Daniel Fernandez Rio",
+   "Guillermo Del Valle Vázquez",
+   "Pablo Fernández De Miguel",
+   "Óscar Fernández Hidalgo",
+   "Daniel Fernández Río",
    "Antonio Garda Patiño",
    "Pape Massokhna Gaye",
    "Diego Longueira Enjamio",
-   "Jorge Longueira Fernandez",
-   "Pablo Martinez Garcia",
+   "Jorge Longueira Fernández",
+   "Pablo Martínez García",
    "Marcos Moreno García",
-   "Adrian Ogando Olivares",
-   "Adrian Otero Calviño",
-   "Jorge Otero Cortes",
-   "Iago Perez Ferreiro",
-   "Brais Perez Moreta",
+   "Adrián Ogando Olivares",
+   "Adrián Otero Calviño",
+   "Jorge Otero Cortés",
+   "Iago Pérez Ferreiro",
+   "Brais Pérez Moreta",
    "Samuel Rey Corral",
-   "Diego Rodriguez Sanchez",
-   "Axel Sanchez Iglesias",
-   "Jorge Tome Vila",
+   "Diego Rodríguez Sánchez",
+   "Axel Sánchez Iglesias",
+   "Jorge Tomé Vila",
    "Xoel Vilariño Escariz"
   ],
   "entrenadores": [
-   "Jairo Fernandez Portela",
-   "Sergio Rodriguez Lopez",
+   "Jairo Fernández Portela",
+   "Sergio Rodríguez López",
    "Jairo Arias Iglesias",
-   "Jorge Rifon Blanco"
+   "Jorge Rifón Blanco"
   ],
   "delegados": [
-   "Manuel Perez Enriquez"
+   "Manuel Pérez Enríquez"
   ],
   "clasificacion": [
    {
@@ -579,61 +579,61 @@ const EQUIPOS = [
      "Marcos Moreno García",
      "Samuel Rey Corral",
      "Luis Castro Lois",
-     "Jorge Longueira Fernandez",
+     "Jorge Longueira Fernández",
      "Mario Constenla Couceiro",
-     "Daniel Fernandez Rio",
+     "Daniel Fernández Río",
      "Antonio Garda Patiño",
-     "Pablo Martinez Garcia",
-     "Adrian Ogando Olivares",
+     "Pablo Martínez García",
+     "Adrián Ogando Olivares",
      "Pape Massokhna Gaye",
-     "Brais Perez Moreta"
+     "Brais Pérez Moreta"
     ],
     "s": [
      "Anxo Barbosa Miranda",
-     "Jorge Tome Vila",
-     "Axel Sanchez Iglesias",
+     "Jorge Tomé Vila",
+     "Axel Sánchez Iglesias",
      "Daniel Buide Modia",
      "Xoel Vilariño Escariz",
-     "Pablo Fernandez De Miguel",
+     "Pablo Fernández De Miguel",
      "Diego Longueira Enjamio",
-     "Iago Perez Ferreiro",
-     "Jesus Cañizares Sanchez"
+     "Iago Pérez Ferreiro",
+     "Jesús Cañizares Sánchez"
     ],
     "e": [
-     "Iago Perez Ferreiro",
-     "Jorge Tome Vila",
+     "Iago Pérez Ferreiro",
+     "Jorge Tomé Vila",
      "Diego Longueira Enjamio",
-     "Jesus Cañizares Sanchez",
-     "Axel Sanchez Iglesias"
+     "Jesús Cañizares Sánchez",
+     "Axel Sánchez Iglesias"
     ],
     "g": {
-     "Iago Perez Ferreiro": 1
+     "Iago Pérez Ferreiro": 1
     },
     "a": [
-     "Brais Perez Moreta"
+     "Brais Pérez Moreta"
     ],
     "r": [],
     "d": {
      "Marcos Moreno García": 13,
      "Samuel Rey Corral": 2,
      "Luis Castro Lois": 3,
-     "Jorge Longueira Fernandez": 4,
+     "Jorge Longueira Fernández": 4,
      "Mario Constenla Couceiro": 6,
-     "Daniel Fernandez Rio": 8,
+     "Daniel Fernández Río": 8,
      "Antonio Garda Patiño": 9,
-     "Pablo Martinez Garcia": 14,
-     "Adrian Ogando Olivares": 18,
+     "Pablo Martínez García": 14,
+     "Adrián Ogando Olivares": 18,
      "Pape Massokhna Gaye": 20,
-     "Brais Perez Moreta": 22,
+     "Brais Pérez Moreta": 22,
      "Anxo Barbosa Miranda": 1,
-     "Jorge Tome Vila": 5,
-     "Axel Sanchez Iglesias": 10,
+     "Jorge Tomé Vila": 5,
+     "Axel Sánchez Iglesias": 10,
      "Daniel Buide Modia": 12,
      "Xoel Vilariño Escariz": 15,
-     "Pablo Fernandez De Miguel": 16,
+     "Pablo Fernández De Miguel": 16,
      "Diego Longueira Enjamio": 17,
-     "Iago Perez Ferreiro": 19,
-     "Jesus Cañizares Sanchez": 21
+     "Iago Pérez Ferreiro": 19,
+     "Jesús Cañizares Sánchez": 21
     },
     "id": "1427989"
    },
@@ -642,30 +642,30 @@ const EQUIPOS = [
      "Marcos Moreno García",
      "Samuel Rey Corral",
      "Luis Castro Lois",
-     "Jorge Longueira Fernandez",
-     "Jorge Otero Cortes",
-     "Daniel Fernandez Rio",
-     "Pablo Martinez Garcia",
-     "Pablo Fernandez De Miguel",
-     "Adrian Ogando Olivares",
+     "Jorge Longueira Fernández",
+     "Jorge Otero Cortés",
+     "Daniel Fernández Río",
+     "Pablo Martínez García",
+     "Pablo Fernández De Miguel",
+     "Adrián Ogando Olivares",
      "Pape Massokhna Gaye",
-     "Brais Perez Moreta"
+     "Brais Pérez Moreta"
     ],
     "s": [
      "Anxo Barbosa Miranda",
-     "Jorge Tome Vila",
+     "Jorge Tomé Vila",
      "Antonio Garda Patiño",
-     "Axel Sanchez Iglesias",
-     "Adrian Otero Calviño",
+     "Axel Sánchez Iglesias",
+     "Adrián Otero Calviño",
      "Xoel Vilariño Escariz",
      "Diego Longueira Enjamio",
-     "Iago Perez Ferreiro",
-     "Jesus Cañizares Sanchez"
+     "Iago Pérez Ferreiro",
+     "Jesús Cañizares Sánchez"
     ],
     "e": [
-     "Jorge Tome Vila",
-     "Adrian Otero Calviño",
-     "Axel Sanchez Iglesias",
+     "Jorge Tomé Vila",
+     "Adrián Otero Calviño",
+     "Axel Sánchez Iglesias",
      "Antonio Garda Patiño",
      "Diego Longueira Enjamio"
     ],
@@ -673,7 +673,7 @@ const EQUIPOS = [
      "Pape Massokhna Gaye": 3
     },
     "a": [
-     "Jorge Longueira Fernandez",
+     "Jorge Longueira Fernández",
      "Samuel Rey Corral"
     ],
     "r": [],
@@ -681,23 +681,23 @@ const EQUIPOS = [
      "Marcos Moreno García": 13,
      "Samuel Rey Corral": 2,
      "Luis Castro Lois": 3,
-     "Jorge Longueira Fernandez": 4,
-     "Jorge Otero Cortes": 7,
-     "Daniel Fernandez Rio": 8,
-     "Pablo Martinez Garcia": 14,
-     "Pablo Fernandez De Miguel": 16,
-     "Adrian Ogando Olivares": 18,
+     "Jorge Longueira Fernández": 4,
+     "Jorge Otero Cortés": 7,
+     "Daniel Fernández Río": 8,
+     "Pablo Martínez García": 14,
+     "Pablo Fernández De Miguel": 16,
+     "Adrián Ogando Olivares": 18,
      "Pape Massokhna Gaye": 20,
-     "Brais Perez Moreta": 22,
+     "Brais Pérez Moreta": 22,
      "Anxo Barbosa Miranda": 1,
-     "Jorge Tome Vila": 5,
+     "Jorge Tomé Vila": 5,
      "Antonio Garda Patiño": 9,
-     "Axel Sanchez Iglesias": 10,
-     "Adrian Otero Calviño": 11,
+     "Axel Sánchez Iglesias": 10,
+     "Adrián Otero Calviño": 11,
      "Xoel Vilariño Escariz": 15,
      "Diego Longueira Enjamio": 17,
-     "Iago Perez Ferreiro": 19,
-     "Jesus Cañizares Sanchez": 21
+     "Iago Pérez Ferreiro": 19,
+     "Jesús Cañizares Sánchez": 21
     },
     "id": "1427998"
    },
@@ -705,64 +705,64 @@ const EQUIPOS = [
     "t": [
      "Marcos Moreno García",
      "Luis Castro Lois",
-     "Jorge Longueira Fernandez",
-     "Jorge Tome Vila",
-     "Jorge Otero Cortes",
-     "Daniel Fernandez Rio",
-     "Pablo Martinez Garcia",
-     "Pablo Fernandez De Miguel",
-     "Adrian Ogando Olivares",
+     "Jorge Longueira Fernández",
+     "Jorge Tomé Vila",
+     "Jorge Otero Cortés",
+     "Daniel Fernández Río",
+     "Pablo Martínez García",
+     "Pablo Fernández De Miguel",
+     "Adrián Ogando Olivares",
      "Pape Massokhna Gaye",
-     "Brais Perez Moreta"
+     "Brais Pérez Moreta"
     ],
     "s": [
      "Anxo Barbosa Miranda",
      "Samuel Rey Corral",
      "Antonio Garda Patiño",
-     "Axel Sanchez Iglesias",
-     "Adrian Otero Calviño",
+     "Axel Sánchez Iglesias",
+     "Adrián Otero Calviño",
      "Xoel Vilariño Escariz",
-     "Iago Perez Ferreiro",
-     "Jesus Cañizares Sanchez",
-     "Oscar Fernandez Hidalgo"
+     "Iago Pérez Ferreiro",
+     "Jesús Cañizares Sánchez",
+     "Óscar Fernández Hidalgo"
     ],
     "e": [
      "Samuel Rey Corral",
-     "Adrian Otero Calviño",
-     "Axel Sanchez Iglesias",
-     "Oscar Fernandez Hidalgo",
+     "Adrián Otero Calviño",
+     "Axel Sánchez Iglesias",
+     "Óscar Fernández Hidalgo",
      "Antonio Garda Patiño"
     ],
     "g": {
      "Pape Massokhna Gaye": 1,
-     "Jorge Tome Vila": 1
+     "Jorge Tomé Vila": 1
     },
     "a": [
-     "Jorge Tome Vila",
-     "Pablo Fernandez De Miguel"
+     "Jorge Tomé Vila",
+     "Pablo Fernández De Miguel"
     ],
     "r": [],
     "d": {
      "Marcos Moreno García": 13,
      "Luis Castro Lois": 3,
-     "Jorge Longueira Fernandez": 4,
-     "Jorge Tome Vila": 5,
-     "Jorge Otero Cortes": 7,
-     "Daniel Fernandez Rio": 8,
-     "Pablo Martinez Garcia": 14,
-     "Pablo Fernandez De Miguel": 16,
-     "Adrian Ogando Olivares": 18,
+     "Jorge Longueira Fernández": 4,
+     "Jorge Tomé Vila": 5,
+     "Jorge Otero Cortés": 7,
+     "Daniel Fernández Río": 8,
+     "Pablo Martínez García": 14,
+     "Pablo Fernández De Miguel": 16,
+     "Adrián Ogando Olivares": 18,
      "Pape Massokhna Gaye": 20,
-     "Brais Perez Moreta": 22,
+     "Brais Pérez Moreta": 22,
      "Anxo Barbosa Miranda": 1,
      "Samuel Rey Corral": 2,
      "Antonio Garda Patiño": 9,
-     "Axel Sanchez Iglesias": 10,
-     "Adrian Otero Calviño": 11,
+     "Axel Sánchez Iglesias": 10,
+     "Adrián Otero Calviño": 11,
      "Xoel Vilariño Escariz": 15,
-     "Iago Perez Ferreiro": 19,
-     "Jesus Cañizares Sanchez": 21,
-     "Oscar Fernandez Hidalgo": 23
+     "Iago Pérez Ferreiro": 19,
+     "Jesús Cañizares Sánchez": 21,
+     "Óscar Fernández Hidalgo": 23
     },
     "id": "1428006"
    },
@@ -771,62 +771,62 @@ const EQUIPOS = [
      "Marcos Moreno García",
      "Samuel Rey Corral",
      "Luis Castro Lois",
-     "Jorge Longueira Fernandez",
-     "Daniel Fernandez Rio",
+     "Jorge Longueira Fernández",
+     "Daniel Fernández Río",
      "Antonio Garda Patiño",
-     "Axel Sanchez Iglesias",
-     "Diego Rodriguez Sanchez",
-     "Pablo Martinez Garcia",
+     "Axel Sánchez Iglesias",
+     "Diego Rodríguez Sánchez",
+     "Pablo Martínez García",
      "Pape Massokhna Gaye",
-     "Jesus Cañizares Sanchez"
+     "Jesús Cañizares Sánchez"
     ],
     "s": [
      "Mamadou Diallo",
-     "Brais Perez Moreta",
-     "Jorge Tome Vila",
+     "Brais Pérez Moreta",
+     "Jorge Tomé Vila",
      "Mario Constenla Couceiro",
-     "Jorge Otero Cortes",
-     "Adrian Otero Calviño",
-     "Pablo Fernandez De Miguel",
-     "Adrian Ogando Olivares",
-     "Iago Perez Ferreiro"
+     "Jorge Otero Cortés",
+     "Adrián Otero Calviño",
+     "Pablo Fernández De Miguel",
+     "Adrián Ogando Olivares",
+     "Iago Pérez Ferreiro"
     ],
     "e": [
-     "Adrian Otero Calviño",
-     "Jorge Otero Cortes",
-     "Jorge Tome Vila",
-     "Adrian Ogando Olivares",
-     "Iago Perez Ferreiro"
+     "Adrián Otero Calviño",
+     "Jorge Otero Cortés",
+     "Jorge Tomé Vila",
+     "Adrián Ogando Olivares",
+     "Iago Pérez Ferreiro"
     ],
     "g": {
-     "Daniel Fernandez Rio": 1,
-     "Iago Perez Ferreiro": 1
+     "Daniel Fernández Río": 1,
+     "Iago Pérez Ferreiro": 1
     },
     "a": [
-     "Iago Perez Ferreiro"
+     "Iago Pérez Ferreiro"
     ],
     "r": [],
     "d": {
      "Marcos Moreno García": 1,
      "Samuel Rey Corral": 2,
      "Luis Castro Lois": 3,
-     "Jorge Longueira Fernandez": 4,
-     "Daniel Fernandez Rio": 8,
+     "Jorge Longueira Fernández": 4,
+     "Daniel Fernández Río": 8,
      "Antonio Garda Patiño": 9,
-     "Axel Sanchez Iglesias": 10,
-     "Diego Rodriguez Sanchez": 12,
-     "Pablo Martinez Garcia": 14,
+     "Axel Sánchez Iglesias": 10,
+     "Diego Rodríguez Sánchez": 12,
+     "Pablo Martínez García": 14,
      "Pape Massokhna Gaye": 20,
-     "Jesus Cañizares Sanchez": 21,
+     "Jesús Cañizares Sánchez": 21,
      "Mamadou Diallo": 25,
-     "Brais Perez Moreta": 22,
-     "Jorge Tome Vila": 5,
+     "Brais Pérez Moreta": 22,
+     "Jorge Tomé Vila": 5,
      "Mario Constenla Couceiro": 6,
-     "Jorge Otero Cortes": 7,
-     "Adrian Otero Calviño": 11,
-     "Pablo Fernandez De Miguel": 16,
-     "Adrian Ogando Olivares": 18,
-     "Iago Perez Ferreiro": 19
+     "Jorge Otero Cortés": 7,
+     "Adrián Otero Calviño": 11,
+     "Pablo Fernández De Miguel": 16,
+     "Adrián Ogando Olivares": 18,
+     "Iago Pérez Ferreiro": 19
     },
     "id": "1427955"
    },
@@ -835,62 +835,62 @@ const EQUIPOS = [
      "Marcos Moreno García",
      "Samuel Rey Corral",
      "Luis Castro Lois",
-     "Jorge Longueira Fernandez",
-     "Jorge Otero Cortes",
-     "Daniel Fernandez Rio",
-     "Axel Sanchez Iglesias",
-     "Adrian Otero Calviño",
-     "Pablo Martinez Garcia",
-     "Jesus Cañizares Sanchez",
-     "Diego Rodriguez Sanchez"
+     "Jorge Longueira Fernández",
+     "Jorge Otero Cortés",
+     "Daniel Fernández Río",
+     "Axel Sánchez Iglesias",
+     "Adrián Otero Calviño",
+     "Pablo Martínez García",
+     "Jesús Cañizares Sánchez",
+     "Diego Rodríguez Sánchez"
     ],
     "s": [
      "Anxo Barbosa Miranda",
-     "Jorge Tome Vila",
+     "Jorge Tomé Vila",
      "Mario Constenla Couceiro",
      "Antonio Garda Patiño",
      "Daniel Buide Modia",
      "Xoel Vilariño Escariz",
-     "Adrian Ogando Olivares",
+     "Adrián Ogando Olivares",
      "Pape Massokhna Gaye",
-     "Brais Perez Moreta"
+     "Brais Pérez Moreta"
     ],
     "e": [
-     "Jorge Tome Vila",
-     "Brais Perez Moreta",
+     "Jorge Tomé Vila",
+     "Brais Pérez Moreta",
      "Pape Massokhna Gaye",
      "Antonio Garda Patiño",
-     "Adrian Ogando Olivares"
+     "Adrián Ogando Olivares"
     ],
     "g": {
-     "Brais Perez Moreta": 1
+     "Brais Pérez Moreta": 1
     },
     "a": [
-     "Diego Rodriguez Sanchez",
-     "Daniel Fernandez Rio"
+     "Diego Rodríguez Sánchez",
+     "Daniel Fernández Río"
     ],
     "r": [],
     "d": {
      "Marcos Moreno García": 13,
      "Samuel Rey Corral": 2,
      "Luis Castro Lois": 3,
-     "Jorge Longueira Fernandez": 4,
-     "Jorge Otero Cortes": 7,
-     "Daniel Fernandez Rio": 8,
-     "Axel Sanchez Iglesias": 10,
-     "Adrian Otero Calviño": 11,
-     "Pablo Martinez Garcia": 14,
-     "Jesus Cañizares Sanchez": 21,
-     "Diego Rodriguez Sanchez": 24,
+     "Jorge Longueira Fernández": 4,
+     "Jorge Otero Cortés": 7,
+     "Daniel Fernández Río": 8,
+     "Axel Sánchez Iglesias": 10,
+     "Adrián Otero Calviño": 11,
+     "Pablo Martínez García": 14,
+     "Jesús Cañizares Sánchez": 21,
+     "Diego Rodríguez Sánchez": 24,
      "Anxo Barbosa Miranda": 25,
-     "Jorge Tome Vila": 5,
+     "Jorge Tomé Vila": 5,
      "Mario Constenla Couceiro": 6,
      "Antonio Garda Patiño": 9,
      "Daniel Buide Modia": 12,
      "Xoel Vilariño Escariz": 15,
-     "Adrian Ogando Olivares": 18,
+     "Adrián Ogando Olivares": 18,
      "Pape Massokhna Gaye": 20,
-     "Brais Perez Moreta": 22
+     "Brais Pérez Moreta": 22
     },
     "id": "1427964"
    },
@@ -899,61 +899,61 @@ const EQUIPOS = [
      "Marcos Moreno García",
      "Samuel Rey Corral",
      "Luis Castro Lois",
-     "Jorge Tome Vila",
+     "Jorge Tomé Vila",
      "Mario Constenla Couceiro",
-     "Jorge Otero Cortes",
-     "Daniel Fernandez Rio",
-     "Adrian Otero Calviño",
-     "Brais Perez Moreta",
-     "Pablo Martinez Garcia",
-     "Jesus Cañizares Sanchez"
+     "Jorge Otero Cortés",
+     "Daniel Fernández Río",
+     "Adrián Otero Calviño",
+     "Brais Pérez Moreta",
+     "Pablo Martínez García",
+     "Jesús Cañizares Sánchez"
     ],
     "s": [
      "Anxo Barbosa Miranda",
-     "Jorge Longueira Fernandez",
+     "Jorge Longueira Fernández",
      "Antonio Garda Patiño",
-     "Axel Sanchez Iglesias",
+     "Axel Sánchez Iglesias",
      "Xoel Vilariño Escariz",
-     "Pablo Fernandez De Miguel",
-     "Adrian Ogando Olivares",
-     "Iago Perez Ferreiro",
+     "Pablo Fernández De Miguel",
+     "Adrián Ogando Olivares",
+     "Iago Pérez Ferreiro",
      "Pape Massokhna Gaye"
     ],
     "e": [
-     "Jorge Longueira Fernandez",
+     "Jorge Longueira Fernández",
      "Antonio Garda Patiño",
      "Xoel Vilariño Escariz",
-     "Iago Perez Ferreiro",
+     "Iago Pérez Ferreiro",
      "Pape Massokhna Gaye"
     ],
     "g": {
-     "Daniel Fernandez Rio": 1
+     "Daniel Fernández Río": 1
     },
     "a": [
-     "Jorge Tome Vila",
-     "Jorge Longueira Fernandez"
+     "Jorge Tomé Vila",
+     "Jorge Longueira Fernández"
     ],
     "r": [],
     "d": {
      "Marcos Moreno García": 13,
      "Samuel Rey Corral": 2,
      "Luis Castro Lois": 3,
-     "Jorge Tome Vila": 5,
+     "Jorge Tomé Vila": 5,
      "Mario Constenla Couceiro": 6,
-     "Jorge Otero Cortes": 7,
-     "Daniel Fernandez Rio": 8,
-     "Adrian Otero Calviño": 11,
-     "Brais Perez Moreta": 12,
-     "Pablo Martinez Garcia": 14,
-     "Jesus Cañizares Sanchez": 17,
+     "Jorge Otero Cortés": 7,
+     "Daniel Fernández Río": 8,
+     "Adrián Otero Calviño": 11,
+     "Brais Pérez Moreta": 12,
+     "Pablo Martínez García": 14,
+     "Jesús Cañizares Sánchez": 17,
      "Anxo Barbosa Miranda": 1,
-     "Jorge Longueira Fernandez": 4,
+     "Jorge Longueira Fernández": 4,
      "Antonio Garda Patiño": 9,
-     "Axel Sanchez Iglesias": 10,
+     "Axel Sánchez Iglesias": 10,
      "Xoel Vilariño Escariz": 15,
-     "Pablo Fernandez De Miguel": 16,
-     "Adrian Ogando Olivares": 18,
-     "Iago Perez Ferreiro": 19,
+     "Pablo Fernández De Miguel": 16,
+     "Adrián Ogando Olivares": 18,
+     "Iago Pérez Ferreiro": 19,
      "Pape Massokhna Gaye": 20
     },
     "id": "1427972"
@@ -963,31 +963,31 @@ const EQUIPOS = [
      "Marcos Moreno García",
      "Samuel Rey Corral",
      "Luis Castro Lois",
-     "Jorge Tome Vila",
-     "Jorge Otero Cortes",
-     "Daniel Fernandez Rio",
-     "Adrian Otero Calviño",
-     "Brais Perez Moreta",
-     "Pablo Martinez Garcia",
+     "Jorge Tomé Vila",
+     "Jorge Otero Cortés",
+     "Daniel Fernández Río",
+     "Adrián Otero Calviño",
+     "Brais Pérez Moreta",
+     "Pablo Martínez García",
      "Xoel Vilariño Escariz",
-     "Jesus Cañizares Sanchez"
+     "Jesús Cañizares Sánchez"
     ],
     "s": [
      "Anxo Barbosa Miranda",
-     "Jorge Longueira Fernandez",
+     "Jorge Longueira Fernández",
      "Mario Constenla Couceiro",
      "Antonio Garda Patiño",
-     "Pablo Fernandez De Miguel",
+     "Pablo Fernández De Miguel",
      "Diego Longueira Enjamio",
-     "Adrian Ogando Olivares",
-     "Iago Perez Ferreiro",
+     "Adrián Ogando Olivares",
+     "Iago Pérez Ferreiro",
      "Pape Massokhna Gaye"
     ],
     "e": [
-     "Iago Perez Ferreiro",
-     "Adrian Ogando Olivares",
+     "Iago Pérez Ferreiro",
+     "Adrián Ogando Olivares",
      "Pape Massokhna Gaye",
-     "Jorge Longueira Fernandez",
+     "Jorge Longueira Fernández",
      "Antonio Garda Patiño"
     ],
     "g": {
@@ -1001,22 +1001,22 @@ const EQUIPOS = [
      "Marcos Moreno García": 13,
      "Samuel Rey Corral": 2,
      "Luis Castro Lois": 3,
-     "Jorge Tome Vila": 5,
-     "Jorge Otero Cortes": 7,
-     "Daniel Fernandez Rio": 8,
-     "Adrian Otero Calviño": 11,
-     "Brais Perez Moreta": 12,
-     "Pablo Martinez Garcia": 14,
+     "Jorge Tomé Vila": 5,
+     "Jorge Otero Cortés": 7,
+     "Daniel Fernández Río": 8,
+     "Adrián Otero Calviño": 11,
+     "Brais Pérez Moreta": 12,
+     "Pablo Martínez García": 14,
      "Xoel Vilariño Escariz": 15,
-     "Jesus Cañizares Sanchez": 21,
+     "Jesús Cañizares Sánchez": 21,
      "Anxo Barbosa Miranda": 1,
-     "Jorge Longueira Fernandez": 4,
+     "Jorge Longueira Fernández": 4,
      "Mario Constenla Couceiro": 6,
      "Antonio Garda Patiño": 9,
-     "Pablo Fernandez De Miguel": 16,
+     "Pablo Fernández De Miguel": 16,
      "Diego Longueira Enjamio": 17,
-     "Adrian Ogando Olivares": 18,
-     "Iago Perez Ferreiro": 19,
+     "Adrián Ogando Olivares": 18,
+     "Iago Pérez Ferreiro": 19,
      "Pape Massokhna Gaye": 20
     },
     "id": "1427981"
@@ -1026,28 +1026,28 @@ const EQUIPOS = [
    "Marcos Moreno García": 13,
    "Samuel Rey Corral": 2,
    "Luis Castro Lois": 3,
-   "Jorge Longueira Fernandez": 4,
-   "Daniel Fernandez Rio": 8,
+   "Jorge Longueira Fernández": 4,
+   "Daniel Fernández Río": 8,
    "Antonio Garda Patiño": 9,
-   "Axel Sanchez Iglesias": 10,
-   "Diego Rodriguez Sanchez": 24,
-   "Pablo Martinez Garcia": 14,
+   "Axel Sánchez Iglesias": 10,
+   "Diego Rodríguez Sánchez": 24,
+   "Pablo Martínez García": 14,
    "Pape Massokhna Gaye": 20,
-   "Jesus Cañizares Sanchez": 21,
+   "Jesús Cañizares Sánchez": 21,
    "Mamadou Diallo": 25,
-   "Brais Perez Moreta": 22,
-   "Jorge Tome Vila": 5,
+   "Brais Pérez Moreta": 22,
+   "Jorge Tomé Vila": 5,
    "Mario Constenla Couceiro": 6,
-   "Jorge Otero Cortes": 7,
-   "Adrian Otero Calviño": 11,
-   "Pablo Fernandez De Miguel": 16,
-   "Adrian Ogando Olivares": 18,
-   "Iago Perez Ferreiro": 19,
+   "Jorge Otero Cortés": 7,
+   "Adrián Otero Calviño": 11,
+   "Pablo Fernández De Miguel": 16,
+   "Adrián Ogando Olivares": 18,
+   "Iago Pérez Ferreiro": 19,
    "Anxo Barbosa Miranda": 1,
    "Daniel Buide Modia": 12,
    "Xoel Vilariño Escariz": 15,
    "Diego Longueira Enjamio": 17,
-   "Oscar Fernandez Hidalgo": 23
+   "Óscar Fernández Hidalgo": 23
   },
   "perfiles": {
    "fecha": "2026-10-20T16:12",
@@ -1173,7 +1173,7 @@ const EQUIPOS = [
   "urlFederacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisEquipos?cod_primaria=1000119&Codigo_Equipo=1543",
   "plantilla": [
    "Xoel Anido Blanco",
-   "Adrian Bernardez Perez",
+   "Adrián Bernárdez Pérez",
    "Hugo Blanco Vázquez",
    "Asier Botana Salo",
    "Christian Cabanas Cindra",
@@ -1181,25 +1181,25 @@ const EQUIPOS = [
    "Mamadou Diallo",
    "Marcos Docobo Franco",
    "Alejandro Espiñeira Varela",
-   "Diego Fernandez Perez",
-   "Sergio Garcia Camba",
-   "Adrian Gregorio Talaikyte",
+   "Diego Fernández Pérez",
+   "Sergio García Camba",
+   "Adrián Gregorio Talaikyte",
    "Alberto Loureiro Vidal",
    "Pablo Mejuto Sarandeses",
    "Christian Montero Requejo",
-   "Javier Neira Arevalo",
+   "Javier Neira Arévalo",
    "Alex Quinteiro Sampedro",
-   "Christian Rodriguez Justo",
-   "Miguel Rodriguez Lamela",
-   "Martin Rodriguez Martinez",
-   "Iker Rozada Gutierrez",
-   "Andres Sande Rodriguez",
+   "Christian Rodríguez Justo",
+   "Miguel Rodríguez Lamela",
+   "Martín Rodríguez Martínez",
+   "Iker Rozada Gutiérrez",
+   "Andrés Sande Rodríguez",
    "Alberto Santos Fraga",
-   "Baye Maguette Sene Diaz-Castroverde",
+   "Baye Maguette Sene Díaz-Castroverde",
    "Yassine Zougatt Bouthraouqt"
   ],
   "entrenadores": [
-   "Daniel Franco Garcia",
+   "Daniel Franco García",
    "Borja Guerreiro Fornos",
    "Unai Varela Riveiro"
   ],
@@ -1744,27 +1744,27 @@ const EQUIPOS = [
      "Alejandro Espiñeira Varela",
      "Hugo Blanco Vázquez",
      "Mario Canosa Romero",
-     "Andres Sande Rodriguez",
+     "Andrés Sande Rodríguez",
      "Yassine Zougatt Bouthraouqt",
-     "Christian Rodriguez Justo",
-     "Baye Maguette Sene Diaz-Castroverde",
-     "Roberto Muñiz Eirin",
-     "Adrian Bernardez Perez"
+     "Christian Rodríguez Justo",
+     "Baye Maguette Sene Díaz-Castroverde",
+     "Roberto Muñiz Eirín",
+     "Adrián Bernárdez Pérez"
     ],
     "s": [
      "Mamadou Diallo",
-     "Adrian Gregorio Talaikyte",
+     "Adrián Gregorio Talaikyte",
      "Alberto Loureiro Vidal",
      "Nicolás Ramos Moreno",
-     "Miguel Rodriguez Lamela",
-     "Sergio Garcia Camba",
-     "Iker Rozada Gutierrez"
+     "Miguel Rodríguez Lamela",
+     "Sergio García Camba",
+     "Iker Rozada Gutiérrez"
     ],
     "e": [
-     "Sergio Garcia Camba",
-     "Iker Rozada Gutierrez",
+     "Sergio García Camba",
+     "Iker Rozada Gutiérrez",
      "Alberto Loureiro Vidal",
-     "Miguel Rodriguez Lamela"
+     "Miguel Rodríguez Lamela"
     ],
     "g": {
      "Yassine Zougatt Bouthraouqt": 1
@@ -1779,139 +1779,139 @@ const EQUIPOS = [
      "Alejandro Espiñeira Varela": 5,
      "Hugo Blanco Vázquez": 6,
      "Mario Canosa Romero": 7,
-     "Andres Sande Rodriguez": 8,
+     "Andrés Sande Rodríguez": 8,
      "Yassine Zougatt Bouthraouqt": 10,
-     "Christian Rodriguez Justo": 11,
-     "Baye Maguette Sene Diaz-Castroverde": 19,
-     "Roberto Muñiz Eirin": 20,
-     "Adrian Bernardez Perez": 22,
+     "Christian Rodríguez Justo": 11,
+     "Baye Maguette Sene Díaz-Castroverde": 19,
+     "Roberto Muñiz Eirín": 20,
+     "Adrián Bernárdez Pérez": 22,
      "Mamadou Diallo": 1,
-     "Adrian Gregorio Talaikyte": 12,
+     "Adrián Gregorio Talaikyte": 12,
      "Alberto Loureiro Vidal": 14,
      "Nicolás Ramos Moreno": 15,
-     "Miguel Rodriguez Lamela": 16,
-     "Sergio Garcia Camba": 17,
-     "Iker Rozada Gutierrez": 18
+     "Miguel Rodríguez Lamela": 16,
+     "Sergio García Camba": 17,
+     "Iker Rozada Gutiérrez": 18
     },
     "id": "1435251"
    },
    "6": {
     "t": [
      "Mamadou Diallo",
-     "Adrian Bernardez Perez",
-     "Roberto Muñiz Eirin",
+     "Adrián Bernárdez Pérez",
+     "Roberto Muñiz Eirín",
      "Xoel Anido Blanco",
      "Alejandro Espiñeira Varela",
      "Hugo Blanco Vázquez",
-     "Sergio Garcia Camba",
-     "Andres Sande Rodriguez",
-     "Iker Rozada Gutierrez",
+     "Sergio García Camba",
+     "Andrés Sande Rodríguez",
+     "Iker Rozada Gutiérrez",
      "Yassine Zougatt Bouthraouqt",
-     "Christian Rodriguez Justo"
+     "Christian Rodríguez Justo"
     ],
     "s": [
      "Christian Montero Requejo",
-     "Juan Perez Alvarez De Novoa",
+     "Juan Pérez Álvarez De Novoa",
      "Alberto Loureiro Vidal",
-     "Martin Rodriguez Martinez",
-     "Miguel Rodriguez Lamela",
+     "Martín Rodríguez Martínez",
+     "Miguel Rodríguez Lamela",
      "Mario Canosa Romero",
-     "Baye Maguette Sene Diaz-Castroverde"
+     "Baye Maguette Sene Díaz-Castroverde"
     ],
     "e": [
      "Mario Canosa Romero",
-     "Juan Perez Alvarez De Novoa",
-     "Baye Maguette Sene Diaz-Castroverde",
+     "Juan Pérez Álvarez De Novoa",
+     "Baye Maguette Sene Díaz-Castroverde",
      "Alberto Loureiro Vidal",
-     "Martin Rodriguez Martinez"
+     "Martín Rodríguez Martínez"
     ],
     "g": {
-     "Sergio Garcia Camba": 1,
-     "Adrian Bernardez Perez": 1,
-     "Baye Maguette Sene Diaz-Castroverde": 1
+     "Sergio García Camba": 1,
+     "Adrián Bernárdez Pérez": 1,
+     "Baye Maguette Sene Díaz-Castroverde": 1
     },
     "a": [],
     "r": [],
     "d": {
      "Mamadou Diallo": 13,
-     "Adrian Bernardez Perez": 2,
-     "Roberto Muñiz Eirin": 3,
+     "Adrián Bernárdez Pérez": 2,
+     "Roberto Muñiz Eirín": 3,
      "Xoel Anido Blanco": 4,
      "Alejandro Espiñeira Varela": 5,
      "Hugo Blanco Vázquez": 6,
-     "Sergio Garcia Camba": 7,
-     "Andres Sande Rodriguez": 8,
-     "Iker Rozada Gutierrez": 9,
+     "Sergio García Camba": 7,
+     "Andrés Sande Rodríguez": 8,
+     "Iker Rozada Gutiérrez": 9,
      "Yassine Zougatt Bouthraouqt": 10,
-     "Christian Rodriguez Justo": 11,
+     "Christian Rodríguez Justo": 11,
      "Christian Montero Requejo": 1,
-     "Juan Perez Alvarez De Novoa": 12,
+     "Juan Pérez Álvarez De Novoa": 12,
      "Alberto Loureiro Vidal": 14,
-     "Martin Rodriguez Martinez": 15,
-     "Miguel Rodriguez Lamela": 16,
+     "Martín Rodríguez Martínez": 15,
+     "Miguel Rodríguez Lamela": 16,
      "Mario Canosa Romero": 17,
-     "Baye Maguette Sene Diaz-Castroverde": 18
+     "Baye Maguette Sene Díaz-Castroverde": 18
     },
     "id": "1435260"
    },
    "7": {
     "t": [
      "Mamadou Diallo",
-     "Adrian Bernardez Perez",
-     "Roberto Muñiz Eirin",
+     "Adrián Bernárdez Pérez",
+     "Roberto Muñiz Eirín",
      "Xoel Anido Blanco",
      "Alejandro Espiñeira Varela",
-     "Juan Perez Alvarez De Novoa",
+     "Juan Pérez Álvarez De Novoa",
      "Yassine Zougatt Bouthraouqt",
      "Hugo Blanco Vázquez",
-     "Iker Rozada Gutierrez",
-     "Andres Sande Rodriguez",
-     "Christian Rodriguez Justo"
+     "Iker Rozada Gutiérrez",
+     "Andrés Sande Rodríguez",
+     "Christian Rodríguez Justo"
     ],
     "s": [
      "Christian Montero Requejo",
-     "Martin Rodriguez Martinez",
+     "Martín Rodríguez Martínez",
      "Marcos Docobo Franco",
-     "Sergio Garcia Camba",
-     "Miguel Rodriguez Lamela",
+     "Sergio García Camba",
+     "Miguel Rodríguez Lamela",
      "Mario Canosa Romero",
-     "Baye Maguette Sene Diaz-Castroverde"
+     "Baye Maguette Sene Díaz-Castroverde"
     ],
     "e": [
-     "Baye Maguette Sene Diaz-Castroverde",
-     "Miguel Rodriguez Lamela",
-     "Sergio Garcia Camba",
+     "Baye Maguette Sene Díaz-Castroverde",
+     "Miguel Rodríguez Lamela",
+     "Sergio García Camba",
      "Marcos Docobo Franco",
      "Mario Canosa Romero"
     ],
     "g": {
      "Yassine Zougatt Bouthraouqt": 2,
-     "Sergio Garcia Camba": 1
+     "Sergio García Camba": 1
     },
     "a": [
-     "Juan Perez Alvarez De Novoa",
+     "Juan Pérez Álvarez De Novoa",
      "Hugo Blanco Vázquez"
     ],
     "r": [],
     "d": {
      "Mamadou Diallo": 1,
-     "Adrian Bernardez Perez": 2,
-     "Roberto Muñiz Eirin": 3,
+     "Adrián Bernárdez Pérez": 2,
+     "Roberto Muñiz Eirín": 3,
      "Xoel Anido Blanco": 4,
      "Alejandro Espiñeira Varela": 5,
-     "Juan Perez Alvarez De Novoa": 6,
+     "Juan Pérez Álvarez De Novoa": 6,
      "Yassine Zougatt Bouthraouqt": 7,
      "Hugo Blanco Vázquez": 8,
-     "Iker Rozada Gutierrez": 9,
-     "Andres Sande Rodriguez": 10,
-     "Christian Rodriguez Justo": 11,
+     "Iker Rozada Gutiérrez": 9,
+     "Andrés Sande Rodríguez": 10,
+     "Christian Rodríguez Justo": 11,
      "Christian Montero Requejo": 13,
-     "Martin Rodriguez Martinez": 12,
+     "Martín Rodríguez Martínez": 12,
      "Marcos Docobo Franco": 14,
-     "Sergio Garcia Camba": 15,
-     "Miguel Rodriguez Lamela": 16,
+     "Sergio García Camba": 15,
+     "Miguel Rodríguez Lamela": 16,
      "Mario Canosa Romero": 17,
-     "Baye Maguette Sene Diaz-Castroverde": 18
+     "Baye Maguette Sene Díaz-Castroverde": 18
     },
     "id": "1435268"
    },
@@ -1919,210 +1919,210 @@ const EQUIPOS = [
     "t": [
      "Christian Montero Requejo",
      "Asier Botana Salo",
-     "Roberto Muñiz Eirin",
+     "Roberto Muñiz Eirín",
      "Xoel Anido Blanco",
      "Alejandro Espiñeira Varela",
      "Marcos Docobo Franco",
      "Mario Canosa Romero",
      "Hugo Blanco Vázquez",
-     "Iker Rozada Gutierrez",
-     "Andres Sande Rodriguez",
-     "Christian Rodriguez Justo"
+     "Iker Rozada Gutiérrez",
+     "Andrés Sande Rodríguez",
+     "Christian Rodríguez Justo"
     ],
     "s": [
      "Mamadou Diallo",
-     "Adrian Bernardez Perez",
+     "Adrián Bernárdez Pérez",
      "Nicolás Ramos Moreno",
-     "Adrian Gregorio Talaikyte",
+     "Adrián Gregorio Talaikyte",
      "Yassine Zougatt Bouthraouqt",
-     "Sergio Garcia Camba",
-     "Baye Maguette Sene Diaz-Castroverde"
+     "Sergio García Camba",
+     "Baye Maguette Sene Díaz-Castroverde"
     ],
     "e": [
-     "Adrian Gregorio Talaikyte",
-     "Baye Maguette Sene Diaz-Castroverde",
-     "Adrian Bernardez Perez",
+     "Adrián Gregorio Talaikyte",
+     "Baye Maguette Sene Díaz-Castroverde",
+     "Adrián Bernárdez Pérez",
      "Yassine Zougatt Bouthraouqt",
-     "Sergio Garcia Camba"
+     "Sergio García Camba"
     ],
     "g": {
      "Hugo Blanco Vázquez": 1,
-     "Christian Rodriguez Justo": 1,
+     "Christian Rodríguez Justo": 1,
      "Mario Canosa Romero": 1,
      "Yassine Zougatt Bouthraouqt": 1
     },
     "a": [
-     "Roberto Muñiz Eirin"
+     "Roberto Muñiz Eirín"
     ],
     "r": [],
     "d": {
      "Christian Montero Requejo": 13,
      "Asier Botana Salo": 2,
-     "Roberto Muñiz Eirin": 3,
+     "Roberto Muñiz Eirín": 3,
      "Xoel Anido Blanco": 4,
      "Alejandro Espiñeira Varela": 5,
      "Marcos Docobo Franco": 6,
      "Mario Canosa Romero": 7,
      "Hugo Blanco Vázquez": 8,
-     "Iker Rozada Gutierrez": 9,
-     "Andres Sande Rodriguez": 10,
-     "Christian Rodriguez Justo": 11,
+     "Iker Rozada Gutiérrez": 9,
+     "Andrés Sande Rodríguez": 10,
+     "Christian Rodríguez Justo": 11,
      "Mamadou Diallo": 1,
-     "Adrian Bernardez Perez": 12,
+     "Adrián Bernárdez Pérez": 12,
      "Nicolás Ramos Moreno": 14,
-     "Adrian Gregorio Talaikyte": 15,
+     "Adrián Gregorio Talaikyte": 15,
      "Yassine Zougatt Bouthraouqt": 16,
-     "Sergio Garcia Camba": 17,
-     "Baye Maguette Sene Diaz-Castroverde": 18
+     "Sergio García Camba": 17,
+     "Baye Maguette Sene Díaz-Castroverde": 18
     },
     "id": "1435226"
    },
    "3": {
     "t": [
      "Mamadou Diallo",
-     "Adrian Bernardez Perez",
-     "Roberto Muñiz Eirin",
+     "Adrián Bernárdez Pérez",
+     "Roberto Muñiz Eirín",
      "Xoel Anido Blanco",
      "Alejandro Espiñeira Varela",
      "Hugo Blanco Vázquez",
-     "Sergio Garcia Camba",
-     "Andres Sande Rodriguez",
-     "Baye Maguette Sene Diaz-Castroverde",
+     "Sergio García Camba",
+     "Andrés Sande Rodríguez",
+     "Baye Maguette Sene Díaz-Castroverde",
      "Yassine Zougatt Bouthraouqt",
-     "Christian Rodriguez Justo"
+     "Christian Rodríguez Justo"
     ],
     "s": [
      "Christian Montero Requejo",
-     "Juan Perez Alvarez De Novoa",
+     "Juan Pérez Álvarez De Novoa",
      "Alberto Loureiro Vidal",
-     "Javier Neira Arevalo",
+     "Javier Neira Arévalo",
      "Alberto Santos Fraga",
      "Mario Canosa Romero",
-     "Iker Rozada Gutierrez"
+     "Iker Rozada Gutiérrez"
     ],
     "e": [
-     "Iker Rozada Gutierrez",
+     "Iker Rozada Gutiérrez",
      "Mario Canosa Romero",
      "Alberto Santos Fraga",
      "Alberto Loureiro Vidal",
-     "Javier Neira Arevalo"
+     "Javier Neira Arévalo"
     ],
     "g": {
-     "Sergio Garcia Camba": 2,
-     "Andres Sande Rodriguez": 1
+     "Sergio García Camba": 2,
+     "Andrés Sande Rodríguez": 1
     },
     "a": [
-     "Christian Rodriguez Justo"
+     "Christian Rodríguez Justo"
     ],
     "r": [],
     "d": {
      "Mamadou Diallo": 1,
-     "Adrian Bernardez Perez": 2,
-     "Roberto Muñiz Eirin": 3,
+     "Adrián Bernárdez Pérez": 2,
+     "Roberto Muñiz Eirín": 3,
      "Xoel Anido Blanco": 4,
      "Alejandro Espiñeira Varela": 5,
      "Hugo Blanco Vázquez": 6,
-     "Sergio Garcia Camba": 7,
-     "Andres Sande Rodriguez": 8,
-     "Baye Maguette Sene Diaz-Castroverde": 9,
+     "Sergio García Camba": 7,
+     "Andrés Sande Rodríguez": 8,
+     "Baye Maguette Sene Díaz-Castroverde": 9,
      "Yassine Zougatt Bouthraouqt": 10,
-     "Christian Rodriguez Justo": 11,
+     "Christian Rodríguez Justo": 11,
      "Christian Montero Requejo": 13,
-     "Juan Perez Alvarez De Novoa": 12,
+     "Juan Pérez Álvarez De Novoa": 12,
      "Alberto Loureiro Vidal": 14,
-     "Javier Neira Arevalo": 15,
+     "Javier Neira Arévalo": 15,
      "Alberto Santos Fraga": 16,
      "Mario Canosa Romero": 17,
-     "Iker Rozada Gutierrez": 18
+     "Iker Rozada Gutiérrez": 18
     },
     "id": "1435234"
    },
    "4": {
     "t": [
      "Mamadou Diallo",
-     "Adrian Bernardez Perez",
-     "Roberto Muñiz Eirin",
+     "Adrián Bernárdez Pérez",
+     "Roberto Muñiz Eirín",
      "Xoel Anido Blanco",
      "Alejandro Espiñeira Varela",
      "Hugo Blanco Vázquez",
-     "Sergio Garcia Camba",
-     "Andres Sande Rodriguez",
-     "Baye Maguette Sene Diaz-Castroverde",
+     "Sergio García Camba",
+     "Andrés Sande Rodríguez",
+     "Baye Maguette Sene Díaz-Castroverde",
      "Yassine Zougatt Bouthraouqt",
-     "Christian Rodriguez Justo"
+     "Christian Rodríguez Justo"
     ],
     "s": [
      "Christian Montero Requejo",
-     "Juan Perez Alvarez De Novoa",
+     "Juan Pérez Álvarez De Novoa",
      "Alberto Loureiro Vidal",
      "Asier Botana Salo",
      "Alberto Santos Fraga",
      "Mario Canosa Romero",
-     "Iker Rozada Gutierrez"
+     "Iker Rozada Gutiérrez"
     ],
     "e": [
      "Asier Botana Salo",
-     "Iker Rozada Gutierrez",
+     "Iker Rozada Gutiérrez",
      "Mario Canosa Romero",
      "Alberto Loureiro Vidal",
      "Alberto Santos Fraga"
     ],
     "g": {
-     "Andres Sande Rodriguez": 1
+     "Andrés Sande Rodríguez": 1
     },
     "a": [
-     "Adrian Bernardez Perez",
+     "Adrián Bernárdez Pérez",
      "Asier Botana Salo"
     ],
     "r": [],
     "d": {
      "Mamadou Diallo": 1,
-     "Adrian Bernardez Perez": 2,
-     "Roberto Muñiz Eirin": 3,
+     "Adrián Bernárdez Pérez": 2,
+     "Roberto Muñiz Eirín": 3,
      "Xoel Anido Blanco": 4,
      "Alejandro Espiñeira Varela": 5,
      "Hugo Blanco Vázquez": 6,
-     "Sergio Garcia Camba": 7,
-     "Andres Sande Rodriguez": 8,
-     "Baye Maguette Sene Diaz-Castroverde": 9,
+     "Sergio García Camba": 7,
+     "Andrés Sande Rodríguez": 8,
+     "Baye Maguette Sene Díaz-Castroverde": 9,
      "Yassine Zougatt Bouthraouqt": 10,
-     "Christian Rodriguez Justo": 11,
+     "Christian Rodríguez Justo": 11,
      "Christian Montero Requejo": 13,
-     "Juan Perez Alvarez De Novoa": 12,
+     "Juan Pérez Álvarez De Novoa": 12,
      "Alberto Loureiro Vidal": 14,
      "Asier Botana Salo": 15,
      "Alberto Santos Fraga": 16,
      "Mario Canosa Romero": 17,
-     "Iker Rozada Gutierrez": 18
+     "Iker Rozada Gutiérrez": 18
     },
     "id": "1435243"
    },
    "1": {
     "t": [
      "Christian Montero Requejo",
-     "Adrian Bernardez Perez",
-     "Roberto Muñiz Eirin",
+     "Adrián Bernárdez Pérez",
+     "Roberto Muñiz Eirín",
      "Xoel Anido Blanco",
      "Alejandro Espiñeira Varela",
      "Nicolás Ramos Moreno",
-     "Sergio Garcia Camba",
+     "Sergio García Camba",
      "Hugo Blanco Vázquez",
-     "Iker Rozada Gutierrez",
-     "Andres Sande Rodriguez",
-     "Christian Rodriguez Justo"
+     "Iker Rozada Gutiérrez",
+     "Andrés Sande Rodríguez",
+     "Christian Rodríguez Justo"
     ],
     "s": [
-     "Daniel Graña Rodriguez",
+     "Daniel Graña Rodríguez",
      "Asier Botana Salo",
      "Marcos Docobo Franco",
-     "Javier Neira Arevalo",
+     "Javier Neira Arévalo",
      "Yassine Zougatt Bouthraouqt",
      "Mario Canosa Romero",
-     "Baye Maguette Sene Diaz-Castroverde"
+     "Baye Maguette Sene Díaz-Castroverde"
     ],
     "e": [
      "Mario Canosa Romero",
-     "Baye Maguette Sene Diaz-Castroverde",
+     "Baye Maguette Sene Díaz-Castroverde",
      "Yassine Zougatt Bouthraouqt",
      "Asier Botana Salo",
      "Marcos Docobo Franco"
@@ -2135,53 +2135,53 @@ const EQUIPOS = [
     "r": [],
     "d": {
      "Christian Montero Requejo": 13,
-     "Adrian Bernardez Perez": 2,
-     "Roberto Muñiz Eirin": 3,
+     "Adrián Bernárdez Pérez": 2,
+     "Roberto Muñiz Eirín": 3,
      "Xoel Anido Blanco": 4,
      "Alejandro Espiñeira Varela": 5,
      "Nicolás Ramos Moreno": 6,
-     "Sergio Garcia Camba": 7,
+     "Sergio García Camba": 7,
      "Hugo Blanco Vázquez": 8,
-     "Iker Rozada Gutierrez": 9,
-     "Andres Sande Rodriguez": 10,
-     "Christian Rodriguez Justo": 11,
-     "Daniel Graña Rodriguez": 1,
+     "Iker Rozada Gutiérrez": 9,
+     "Andrés Sande Rodríguez": 10,
+     "Christian Rodríguez Justo": 11,
+     "Daniel Graña Rodríguez": 1,
      "Asier Botana Salo": 12,
      "Marcos Docobo Franco": 14,
-     "Javier Neira Arevalo": 15,
+     "Javier Neira Arévalo": 15,
      "Yassine Zougatt Bouthraouqt": 16,
      "Mario Canosa Romero": 17,
-     "Baye Maguette Sene Diaz-Castroverde": 18
+     "Baye Maguette Sene Díaz-Castroverde": 18
     },
     "id": "1435217"
    }
   },
   "dorsales": {
-   "Christian Montero Requejo": 13,
-   "Adrian Bernardez Perez": 2,
-   "Roberto Muñiz Eirin": 3,
    "Xoel Anido Blanco": 4,
    "Alejandro Espiñeira Varela": 5,
-   "Nicolás Ramos Moreno": 15,
-   "Sergio Garcia Camba": 15,
-   "Hugo Blanco Vázquez": 8,
-   "Iker Rozada Gutierrez": 9,
-   "Andres Sande Rodriguez": 10,
-   "Christian Rodriguez Justo": 11,
-   "Daniel Graña Rodriguez": 1,
-   "Asier Botana Salo": 15,
-   "Marcos Docobo Franco": 14,
-   "Javier Neira Arevalo": 15,
-   "Yassine Zougatt Bouthraouqt": 7,
-   "Mario Canosa Romero": 17,
-   "Baye Maguette Sene Diaz-Castroverde": 18,
+   "Christian Rodríguez Justo": 11,
+   "Roberto Muñiz Eirín": 3,
    "Mamadou Diallo": 1,
-   "Adrian Gregorio Talaikyte": 12,
-   "Juan Perez Alvarez De Novoa": 6,
+   "Adrián Bernárdez Pérez": 2,
+   "Hugo Blanco Vázquez": 6,
+   "Sergio García Camba": 7,
+   "Andrés Sande Rodríguez": 8,
+   "Iker Rozada Gutiérrez": 9,
+   "Yassine Zougatt Bouthraouqt": 10,
+   "Christian Montero Requejo": 13,
+   "Mario Canosa Romero": 17,
    "Alberto Loureiro Vidal": 14,
-   "Alberto Santos Fraga": 16,
-   "Miguel Rodriguez Lamela": 16,
-   "Martin Rodriguez Martinez": 12
+   "Baye Maguette Sene Díaz-Castroverde": 18,
+   "Juan Pérez Álvarez De Novoa": 12,
+   "Miguel Rodríguez Lamela": 16,
+   "Javier Neira Arévalo": 15,
+   "Asier Botana Salo": 19,
+   "Marcos Docobo Franco": 20,
+   "Nicolás Ramos Moreno": 21,
+   "Adrián Gregorio Talaikyte": 22,
+   "Alberto Santos Fraga": 23,
+   "Martín Rodríguez Martínez": 24,
+   "Daniel Graña Rodríguez": 25
   },
   "descargado": "2026-10-23T01:30"
  },
@@ -2193,35 +2193,35 @@ const EQUIPOS = [
   "liga": "Preferente Futgal Xuvenil",
   "urlFederacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisEquipos?cod_primaria=1000119&Codigo_Equipo=2409289",
   "plantilla": [
-   "Sebastian Andres Balza Aguilera",
-   "Jose Aaron Bouzas Rial",
-   "Alesandro Dominguez Garcia",
-   "Alvaro Enriquez Penas",
+   "Sebastián Andrés Balza Aguilera",
+   "José Aarón Bouzas Rial",
+   "Alesandro Domínguez García",
+   "Álvaro Enríquez Penas",
    "Mario Figueiras Castro",
-   "Daniel Graña Rodriguez",
+   "Daniel Graña Rodríguez",
    "Carlos Jack Paz",
-   "Roi Lago Suarez",
+   "Roi Lago Suárez",
    "Guillermo López García",
    "Leo Loureiro Cabeza",
-   "Nicolas Mato Neira",
-   "Roberto Muñiz Eirin",
+   "Nicolás Mato Neira",
+   "Roberto Muñiz Eirín",
    "Alberto David Onuegbu Onuegbu",
    "Mateo Orgeira Felípez",
-   "Borja Nicolas Pena Alvarado",
+   "Borja Nicolás Pena Alvarado",
    "Nicolás Ramos Moreno",
    "Martín Rodríguez Nieto",
-   "Ivan Rodriguez Suarez",
+   "Iván Rodríguez Suárez",
    "Leo Salgueiro Orúe",
    "Demba Sall",
    "Guillermo Souto Ferreiro",
    "Pablo Varela Suárez",
-   "Lucas Vazquez Pan"
+   "Lucas Vázquez Pan"
   ],
   "entrenadores": [
-   "Jose Antonio Cano Garcia"
+   "José Antonio Cano García"
   ],
   "delegados": [
-   "Juan C Montes Rodriguez"
+   "Juan C Montes Rodríguez"
   ],
   "clasificacion": [
    {
@@ -2696,29 +2696,29 @@ const EQUIPOS = [
   "actas": {
    "3": {
     "t": [
-     "Daniel Graña Rodriguez",
+     "Daniel Graña Rodríguez",
      "Demba Sall",
-     "Nicolas Mato Neira",
+     "Nicolás Mato Neira",
      "Carlos Jack Paz",
      "Leo Salgueiro Orúe",
-     "Lucas Vazquez Pan",
+     "Lucas Vázquez Pan",
      "Guillermo Souto Ferreiro",
      "Mario Figueiras Castro",
      "Pablo Varela Suárez",
      "Alberto David Onuegbu Onuegbu",
-     "Borja Nicolas Pena Alvarado"
+     "Borja Nicolás Pena Alvarado"
     ],
     "s": [
      "Guillermo López García",
-     "Ivan Rodriguez Suarez",
+     "Iván Rodríguez Suárez",
      "Leo Loureiro Cabeza",
-     "Daniel Dopico Garcia",
-     "Alvaro Enriquez Penas"
+     "Daniel Dopico García",
+     "Álvaro Enríquez Penas"
     ],
     "e": [
      "Leo Loureiro Cabeza",
-     "Alvaro Enriquez Penas",
-     "Daniel Dopico Garcia",
+     "Álvaro Enríquez Penas",
+     "Daniel Dopico García",
      "Guillermo López García"
     ],
     "g": {
@@ -2727,107 +2727,107 @@ const EQUIPOS = [
     "a": [
      "Pablo Varela Suárez",
      "Carlos Jack Paz",
-     "Lucas Vazquez Pan"
+     "Lucas Vázquez Pan"
     ],
     "r": [],
     "d": {
-     "Daniel Graña Rodriguez": 1,
+     "Daniel Graña Rodríguez": 1,
      "Demba Sall": 2,
-     "Nicolas Mato Neira": 3,
+     "Nicolás Mato Neira": 3,
      "Carlos Jack Paz": 4,
      "Leo Salgueiro Orúe": 5,
-     "Lucas Vazquez Pan": 6,
+     "Lucas Vázquez Pan": 6,
      "Guillermo Souto Ferreiro": 7,
      "Mario Figueiras Castro": 8,
      "Pablo Varela Suárez": 10,
      "Alberto David Onuegbu Onuegbu": 11,
-     "Borja Nicolas Pena Alvarado": 17,
+     "Borja Nicolás Pena Alvarado": 17,
      "Guillermo López García": 12,
-     "Ivan Rodriguez Suarez": 13,
+     "Iván Rodríguez Suárez": 13,
      "Leo Loureiro Cabeza": 14,
-     "Daniel Dopico Garcia": 15,
-     "Alvaro Enriquez Penas": 16
+     "Daniel Dopico García": 15,
+     "Álvaro Enríquez Penas": 16
     },
     "id": "1435535"
    },
    "4": {
     "t": [
-     "Daniel Graña Rodriguez",
+     "Daniel Graña Rodríguez",
      "Demba Sall",
      "Mateo Orgeira Felípez",
      "Carlos Jack Paz",
-     "Nicolas Mato Neira",
-     "Lucas Vazquez Pan",
+     "Nicolás Mato Neira",
+     "Lucas Vázquez Pan",
      "Leo Loureiro Cabeza",
-     "Alvaro Enriquez Penas",
-     "Borja Nicolas Pena Alvarado",
+     "Álvaro Enríquez Penas",
+     "Borja Nicolás Pena Alvarado",
      "Mario Figueiras Castro",
      "Alberto David Onuegbu Onuegbu"
     ],
     "s": [
      "Guillermo López García",
-     "Ivan Rodriguez Suarez",
+     "Iván Rodríguez Suárez",
      "Guillermo Souto Ferreiro",
      "Pablo Varela Suárez",
-     "Sebastian Andres Balza Aguilera"
+     "Sebastián Andrés Balza Aguilera"
     ],
     "e": [
      "Pablo Varela Suárez",
      "Guillermo Souto Ferreiro",
      "Guillermo López García",
-     "Sebastian Andres Balza Aguilera"
+     "Sebastián Andrés Balza Aguilera"
     ],
     "g": {
-     "Alvaro Enriquez Penas": 1,
-     "Borja Nicolas Pena Alvarado": 1
+     "Álvaro Enríquez Penas": 1,
+     "Borja Nicolás Pena Alvarado": 1
     },
     "a": [
      "Carlos Jack Paz"
     ],
     "r": [],
     "d": {
-     "Daniel Graña Rodriguez": 1,
+     "Daniel Graña Rodríguez": 1,
      "Demba Sall": 2,
      "Mateo Orgeira Felípez": 3,
      "Carlos Jack Paz": 4,
-     "Nicolas Mato Neira": 5,
-     "Lucas Vazquez Pan": 6,
+     "Nicolás Mato Neira": 5,
+     "Lucas Vázquez Pan": 6,
      "Leo Loureiro Cabeza": 7,
-     "Alvaro Enriquez Penas": 8,
-     "Borja Nicolas Pena Alvarado": 9,
+     "Álvaro Enríquez Penas": 8,
+     "Borja Nicolás Pena Alvarado": 9,
      "Mario Figueiras Castro": 10,
      "Alberto David Onuegbu Onuegbu": 11,
      "Guillermo López García": 12,
-     "Ivan Rodriguez Suarez": 13,
+     "Iván Rodríguez Suárez": 13,
      "Guillermo Souto Ferreiro": 14,
      "Pablo Varela Suárez": 15,
-     "Sebastian Andres Balza Aguilera": 16
+     "Sebastián Andrés Balza Aguilera": 16
     },
     "id": "1435543"
    },
    "5": {
     "t": [
-     "Ivan Rodriguez Suarez",
+     "Iván Rodríguez Suárez",
      "Demba Sall",
      "Guillermo López García",
      "Carlos Jack Paz",
      "Leo Salgueiro Orúe",
-     "Lucas Vazquez Pan",
-     "Alesandro Dominguez Garcia",
+     "Lucas Vázquez Pan",
+     "Alesandro Domínguez García",
      "Nicolás Ramos Moreno",
-     "Alvaro Enriquez Penas",
-     "Daniel Dopico Garcia",
-     "Borja Nicolas Pena Alvarado"
+     "Álvaro Enríquez Penas",
+     "Daniel Dopico García",
+     "Borja Nicolás Pena Alvarado"
     ],
     "s": [
-     "Jose Aaron Bouzas Rial",
+     "José Aarón Bouzas Rial",
      "Guillermo Souto Ferreiro",
      "Pablo Varela Suárez",
      "Mario Figueiras Castro",
      "Leo Loureiro Cabeza"
     ],
     "e": [
-     "Jose Aaron Bouzas Rial",
+     "José Aarón Bouzas Rial",
      "Leo Loureiro Cabeza",
      "Pablo Varela Suárez",
      "Mario Figueiras Castro",
@@ -2839,18 +2839,18 @@ const EQUIPOS = [
     ],
     "r": [],
     "d": {
-     "Ivan Rodriguez Suarez": 13,
+     "Iván Rodríguez Suárez": 13,
      "Demba Sall": 2,
      "Guillermo López García": 3,
      "Carlos Jack Paz": 4,
      "Leo Salgueiro Orúe": 5,
-     "Lucas Vazquez Pan": 6,
-     "Alesandro Dominguez Garcia": 7,
+     "Lucas Vázquez Pan": 6,
+     "Alesandro Domínguez García": 7,
      "Nicolás Ramos Moreno": 8,
-     "Alvaro Enriquez Penas": 10,
-     "Daniel Dopico Garcia": 11,
-     "Borja Nicolas Pena Alvarado": 18,
-     "Jose Aaron Bouzas Rial": 12,
+     "Álvaro Enríquez Penas": 10,
+     "Daniel Dopico García": 11,
+     "Borja Nicolás Pena Alvarado": 18,
+     "José Aarón Bouzas Rial": 12,
      "Guillermo Souto Ferreiro": 14,
      "Pablo Varela Suárez": 15,
      "Mario Figueiras Castro": 16,
@@ -2860,91 +2860,91 @@ const EQUIPOS = [
    },
    "1": {
     "t": [
-     "Daniel Graña Rodriguez",
+     "Daniel Graña Rodríguez",
      "Demba Sall",
      "Guillermo Souto Ferreiro",
      "Carlos Jack Paz",
      "Leo Salgueiro Orúe",
-     "Lucas Vazquez Pan",
-     "Alesandro Dominguez Garcia",
+     "Lucas Vázquez Pan",
+     "Alesandro Domínguez García",
      "Mario Figueiras Castro",
      "Pablo Varela Suárez",
      "Alberto David Onuegbu Onuegbu",
-     "Borja Nicolas Pena Alvarado"
+     "Borja Nicolás Pena Alvarado"
     ],
     "s": [
-     "Roi Lago Suarez",
+     "Roi Lago Suárez",
      "Mateo Orgeira Felípez",
      "Leo Loureiro Cabeza",
-     "Daniel Dopico Garcia",
-     "Alvaro Enriquez Penas"
+     "Daniel Dopico García",
+     "Álvaro Enríquez Penas"
     ],
     "e": [
      "Leo Loureiro Cabeza",
-     "Alvaro Enriquez Penas",
+     "Álvaro Enríquez Penas",
      "Mateo Orgeira Felípez",
-     "Daniel Dopico Garcia"
+     "Daniel Dopico García"
     ],
     "g": {
      "Demba Sall": 1,
      "Alberto David Onuegbu Onuegbu": 1
     },
     "a": [
-     "Alesandro Dominguez Garcia",
+     "Alesandro Domínguez García",
      "Mario Figueiras Castro",
      "Leo Salgueiro Orúe"
     ],
     "r": [],
     "d": {
-     "Daniel Graña Rodriguez": 13,
+     "Daniel Graña Rodríguez": 13,
      "Demba Sall": 2,
      "Guillermo Souto Ferreiro": 3,
      "Carlos Jack Paz": 4,
      "Leo Salgueiro Orúe": 5,
-     "Lucas Vazquez Pan": 6,
-     "Alesandro Dominguez Garcia": 7,
+     "Lucas Vázquez Pan": 6,
+     "Alesandro Domínguez García": 7,
      "Mario Figueiras Castro": 8,
      "Pablo Varela Suárez": 10,
      "Alberto David Onuegbu Onuegbu": 11,
-     "Borja Nicolas Pena Alvarado": 17,
-     "Roi Lago Suarez": 1,
+     "Borja Nicolás Pena Alvarado": 17,
+     "Roi Lago Suárez": 1,
      "Mateo Orgeira Felípez": 12,
      "Leo Loureiro Cabeza": 14,
-     "Daniel Dopico Garcia": 15,
-     "Alvaro Enriquez Penas": 16
+     "Daniel Dopico García": 15,
+     "Álvaro Enríquez Penas": 16
     },
     "id": "1435520"
    },
    "2": {
     "t": [
-     "Daniel Graña Rodriguez",
+     "Daniel Graña Rodríguez",
      "Demba Sall",
      "Mateo Orgeira Felípez",
      "Carlos Jack Paz",
      "Leo Salgueiro Orúe",
-     "Lucas Vazquez Pan",
-     "Alesandro Dominguez Garcia",
+     "Lucas Vázquez Pan",
+     "Alesandro Domínguez García",
      "Mario Figueiras Castro",
      "Pablo Varela Suárez",
      "Alberto David Onuegbu Onuegbu",
-     "Borja Nicolas Pena Alvarado"
+     "Borja Nicolás Pena Alvarado"
     ],
     "s": [
-     "Roi Lago Suarez",
-     "Alvaro Enriquez Penas",
+     "Roi Lago Suárez",
+     "Álvaro Enríquez Penas",
      "Guillermo Souto Ferreiro",
-     "Sebastian Andres Balza Aguilera",
-     "Nicolas Mato Neira"
+     "Sebastián Andrés Balza Aguilera",
+     "Nicolás Mato Neira"
     ],
     "e": [
-     "Alvaro Enriquez Penas",
+     "Álvaro Enríquez Penas",
      "Guillermo Souto Ferreiro",
-     "Nicolas Mato Neira",
-     "Sebastian Andres Balza Aguilera",
-     "Roi Lago Suarez"
+     "Nicolás Mato Neira",
+     "Sebastián Andrés Balza Aguilera",
+     "Roi Lago Suárez"
     ],
     "g": {
-     "Borja Nicolas Pena Alvarado": 2,
+     "Borja Nicolás Pena Alvarado": 2,
      "Alberto David Onuegbu Onuegbu": 2
     },
     "a": [
@@ -2952,49 +2952,49 @@ const EQUIPOS = [
     ],
     "r": [],
     "d": {
-     "Daniel Graña Rodriguez": 13,
+     "Daniel Graña Rodríguez": 13,
      "Demba Sall": 2,
      "Mateo Orgeira Felípez": 3,
      "Carlos Jack Paz": 4,
      "Leo Salgueiro Orúe": 5,
-     "Lucas Vazquez Pan": 6,
-     "Alesandro Dominguez Garcia": 7,
+     "Lucas Vázquez Pan": 6,
+     "Alesandro Domínguez García": 7,
      "Mario Figueiras Castro": 8,
      "Pablo Varela Suárez": 10,
      "Alberto David Onuegbu Onuegbu": 11,
-     "Borja Nicolas Pena Alvarado": 17,
-     "Roi Lago Suarez": 1,
-     "Alvaro Enriquez Penas": 12,
+     "Borja Nicolás Pena Alvarado": 17,
+     "Roi Lago Suárez": 1,
+     "Álvaro Enríquez Penas": 12,
      "Guillermo Souto Ferreiro": 14,
-     "Sebastian Andres Balza Aguilera": 15,
-     "Nicolas Mato Neira": 16
+     "Sebastián Andrés Balza Aguilera": 15,
+     "Nicolás Mato Neira": 16
     },
     "id": "1435528"
    }
   },
   "dorsales": {
-   "Daniel Graña Rodriguez": 1,
    "Demba Sall": 2,
-   "Guillermo Souto Ferreiro": 14,
    "Carlos Jack Paz": 4,
+   "Lucas Vázquez Pan": 6,
    "Leo Salgueiro Orúe": 5,
-   "Lucas Vazquez Pan": 6,
-   "Alesandro Dominguez Garcia": 7,
-   "Mario Figueiras Castro": 16,
-   "Pablo Varela Suárez": 15,
    "Alberto David Onuegbu Onuegbu": 11,
-   "Borja Nicolas Pena Alvarado": 18,
-   "Roi Lago Suarez": 1,
+   "Alesandro Domínguez García": 7,
+   "Mario Figueiras Castro": 8,
+   "Pablo Varela Suárez": 10,
+   "Daniel Graña Rodríguez": 1,
    "Mateo Orgeira Felípez": 3,
+   "Borja Nicolás Pena Alvarado": 9,
+   "Iván Rodríguez Suárez": 13,
+   "Guillermo Souto Ferreiro": 14,
+   "Guillermo López García": 12,
+   "Daniel Dopico García": 15,
+   "Álvaro Enríquez Penas": 16,
    "Leo Loureiro Cabeza": 17,
-   "Daniel Dopico Garcia": 11,
-   "Alvaro Enriquez Penas": 10,
-   "Sebastian Andres Balza Aguilera": 16,
-   "Nicolas Mato Neira": 5,
-   "Guillermo López García": 3,
-   "Ivan Rodriguez Suarez": 13,
-   "Nicolás Ramos Moreno": 8,
-   "Jose Aaron Bouzas Rial": 12
+   "Nicolás Mato Neira": 18,
+   "Roi Lago Suárez": 19,
+   "Sebastián Andrés Balza Aguilera": 20,
+   "José Aarón Bouzas Rial": 21,
+   "Nicolás Ramos Moreno": 22
   },
   "descargado": "2026-10-23T01:30"
  },
@@ -3006,34 +3006,34 @@ const EQUIPOS = [
   "liga": "3ª Futgal Xuvenil",
   "urlFederacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisEquipos?cod_primaria=1000119&Codigo_Equipo=3509457",
   "plantilla": [
-   "Pedro Anton Costas",
+   "Pedro Antón Costas",
    "Anxo Barbosa Miranda",
    "Jorge Benhamou Casado",
-   "Diego Bescansa Alvarez",
+   "Diego Bescansa Álvarez",
    "Vincenzo Brandariz Volpintesta",
    "Nicolás De La Campa García",
    "Pau De La Iglesia Caruncho Conesa",
-   "Daniel Dopico Garcia",
+   "Daniel Dopico García",
    "Nicolás Espiñeira Esteban",
-   "Aitor Garcia Casco",
-   "Lucas Garcia Lema",
+   "Aitor García Casco",
+   "Lucas García Lema",
    "Bruno Alexandre Gomes Oliveira Ferreira",
-   "Diego Gomez Ramos",
-   "Juan Jose Gonzalez Seoane",
+   "Diego Gómez Ramos",
+   "Juan José González Seoane",
    "Alejandro Herrero Mouriño",
-   "Elaji Ka Lobon",
-   "Xavier Martinez Rodriguez",
-   "Adrian Neira Lopez",
-   "Juan Perez Alvarez De Novoa",
+   "Elaji Ka Lobón",
+   "Xavier Martínez Rodríguez",
+   "Adrián Neira López",
+   "Juan Pérez Álvarez De Novoa",
    "Bruno Prieto Rivero",
-   "Lucas Rama Gonzalez",
+   "Lucas Rama González",
    "Carlos Regueiro Pereira",
    "Pablo Sanjurjo Dopico",
    "Pablo Silva Molezun",
-   "Pedro Suarez De Llano"
+   "Pedro Suárez De Llano"
   ],
   "entrenadores": [
-   "Rafael Ramon Dacoba Castro",
+   "Rafael Ramón Dacoba Castro",
    "Ignacio Ramil Frean"
   ],
   "delegados": [],
@@ -3451,34 +3451,34 @@ const EQUIPOS = [
    "1": {
     "t": [
      "Pablo Silva Molezun",
-     "Diego Bescansa Alvarez",
+     "Diego Bescansa Álvarez",
      "Bruno Prieto Rivero",
-     "Xavier Martinez Rodriguez",
+     "Xavier Martínez Rodríguez",
      "Nicolás Espiñeira Esteban",
      "Vincenzo Brandariz Volpintesta",
-     "Diego Gomez Ramos",
+     "Diego Gómez Ramos",
      "Carlos Regueiro Pereira",
-     "Aitor Garcia Casco",
+     "Aitor García Casco",
      "Pablo Sanjurjo Dopico",
      "Alejandro Herrero Mouriño"
     ],
     "s": [
      "Jorge Benhamou Casado",
-     "Elaji Ka Lobon",
-     "Juan Jose Gonzalez Seoane",
-     "Pedro Anton Costas",
-     "Adrian Neira Lopez"
+     "Elaji Ka Lobón",
+     "Juan José González Seoane",
+     "Pedro Antón Costas",
+     "Adrián Neira López"
     ],
     "e": [
      "Jorge Benhamou Casado",
-     "Elaji Ka Lobon",
-     "Juan Jose Gonzalez Seoane",
-     "Pedro Anton Costas",
-     "Adrian Neira Lopez"
+     "Elaji Ka Lobón",
+     "Juan José González Seoane",
+     "Pedro Antón Costas",
+     "Adrián Neira López"
     ],
     "g": {
-     "Diego Bescansa Alvarez": 1,
-     "Elaji Ka Lobon": 1,
+     "Diego Bescansa Álvarez": 1,
+     "Elaji Ka Lobón": 1,
      "Carlos Regueiro Pereira": 1
     },
     "a": [
@@ -3488,61 +3488,61 @@ const EQUIPOS = [
     "r": [],
     "d": {
      "Pablo Silva Molezun": 1,
-     "Diego Bescansa Alvarez": 2,
+     "Diego Bescansa Álvarez": 2,
      "Bruno Prieto Rivero": 3,
-     "Xavier Martinez Rodriguez": 5,
+     "Xavier Martínez Rodríguez": 5,
      "Nicolás Espiñeira Esteban": 6,
      "Vincenzo Brandariz Volpintesta": 8,
-     "Diego Gomez Ramos": 10,
+     "Diego Gómez Ramos": 10,
      "Carlos Regueiro Pereira": 14,
-     "Aitor Garcia Casco": 15,
+     "Aitor García Casco": 15,
      "Pablo Sanjurjo Dopico": 16,
      "Alejandro Herrero Mouriño": 18,
      "Jorge Benhamou Casado": 4,
-     "Elaji Ka Lobon": 7,
-     "Juan Jose Gonzalez Seoane": 11,
-     "Pedro Anton Costas": 12,
-     "Adrian Neira Lopez": 17
+     "Elaji Ka Lobón": 7,
+     "Juan José González Seoane": 11,
+     "Pedro Antón Costas": 12,
+     "Adrián Neira López": 17
     },
     "id": "1501660"
    },
    "2": {
     "t": [
      "Pablo Silva Molezun",
-     "Diego Bescansa Alvarez",
+     "Diego Bescansa Álvarez",
      "Bruno Prieto Rivero",
      "Jorge Benhamou Casado",
-     "Xavier Martinez Rodriguez",
+     "Xavier Martínez Rodríguez",
      "Nicolás Espiñeira Esteban",
-     "Daniel Dopico Garcia",
+     "Daniel Dopico García",
      "Vincenzo Brandariz Volpintesta",
-     "Juan Jose Gonzalez Seoane",
+     "Juan José González Seoane",
      "Carlos Regueiro Pereira",
-     "Aitor Garcia Casco"
+     "Aitor García Casco"
     ],
     "s": [
-     "Diego Gomez Ramos",
-     "Pedro Anton Costas",
+     "Diego Gómez Ramos",
+     "Pedro Antón Costas",
      "Pablo Sanjurjo Dopico",
      "Bruno Alexandre Gomes Oliveira Ferreira",
      "Alejandro Herrero Mouriño"
     ],
     "e": [
-     "Diego Gomez Ramos",
+     "Diego Gómez Ramos",
      "Alejandro Herrero Mouriño",
      "Pablo Sanjurjo Dopico",
      "Bruno Alexandre Gomes Oliveira Ferreira",
-     "Pedro Anton Costas"
+     "Pedro Antón Costas"
     ],
     "g": {
-     "Daniel Dopico Garcia": 1,
+     "Daniel Dopico García": 1,
      "Bruno Prieto Rivero": 2,
      "Nicolás Espiñeira Esteban": 1,
      "Vincenzo Brandariz Volpintesta": 1,
      "Carlos Regueiro Pereira": 1
     },
     "a": [
-     "Aitor Garcia Casco",
+     "Aitor García Casco",
      "Pablo Silva Molezun",
      "Alejandro Herrero Mouriño",
      "Nicolás Espiñeira Esteban"
@@ -3550,18 +3550,18 @@ const EQUIPOS = [
     "r": [],
     "d": {
      "Pablo Silva Molezun": 1,
-     "Diego Bescansa Alvarez": 2,
+     "Diego Bescansa Álvarez": 2,
      "Bruno Prieto Rivero": 3,
      "Jorge Benhamou Casado": 4,
-     "Xavier Martinez Rodriguez": 5,
+     "Xavier Martínez Rodríguez": 5,
      "Nicolás Espiñeira Esteban": 6,
-     "Daniel Dopico Garcia": 7,
+     "Daniel Dopico García": 7,
      "Vincenzo Brandariz Volpintesta": 8,
-     "Juan Jose Gonzalez Seoane": 11,
+     "Juan José González Seoane": 11,
      "Carlos Regueiro Pereira": 14,
-     "Aitor Garcia Casco": 15,
-     "Diego Gomez Ramos": 10,
-     "Pedro Anton Costas": 12,
+     "Aitor García Casco": 15,
+     "Diego Gómez Ramos": 10,
+     "Pedro Antón Costas": 12,
      "Pablo Sanjurjo Dopico": 16,
      "Bruno Alexandre Gomes Oliveira Ferreira": 17,
      "Alejandro Herrero Mouriño": 18
@@ -3571,23 +3571,23 @@ const EQUIPOS = [
   },
   "dorsales": {
    "Pablo Silva Molezun": 1,
-   "Diego Bescansa Alvarez": 2,
+   "Diego Bescansa Álvarez": 2,
    "Bruno Prieto Rivero": 3,
-   "Xavier Martinez Rodriguez": 5,
+   "Jorge Benhamou Casado": 4,
+   "Xavier Martínez Rodríguez": 5,
    "Nicolás Espiñeira Esteban": 6,
    "Vincenzo Brandariz Volpintesta": 8,
-   "Diego Gomez Ramos": 10,
+   "Diego Gómez Ramos": 10,
+   "Juan José González Seoane": 11,
+   "Daniel Dopico García": 7,
+   "Pedro Antón Costas": 12,
    "Carlos Regueiro Pereira": 14,
-   "Aitor Garcia Casco": 15,
+   "Aitor García Casco": 15,
    "Pablo Sanjurjo Dopico": 16,
    "Alejandro Herrero Mouriño": 18,
-   "Jorge Benhamou Casado": 4,
-   "Elaji Ka Lobon": 7,
-   "Juan Jose Gonzalez Seoane": 11,
-   "Pedro Anton Costas": 12,
-   "Adrian Neira Lopez": 17,
-   "Daniel Dopico Garcia": 7,
-   "Bruno Alexandre Gomes Oliveira Ferreira": 17
+   "Adrián Neira López": 17,
+   "Bruno Alexandre Gomes Oliveira Ferreira": 13,
+   "Elaji Ka Lobón": 19
   },
   "descargado": "2026-10-23T01:31"
  },
@@ -3600,27 +3600,27 @@ const EQUIPOS = [
   "urlFederacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisEquipos?cod_primaria=1000119&Codigo_Equipo=1544",
   "plantilla": [
    "Bruno Barreiro Ramos",
-   "Juan Bescansa Alvarez",
+   "Juan Bescansa Álvarez",
    "Alejandro Buide Modia",
-   "Nicolas Caraballo Hernandez",
+   "Nicolás Caraballo Hernández",
    "Pedro De Artaza Galante",
    "Álvaro Díaz Boquete",
-   "Ivan Lopez Carcedo",
+   "Iván López Carcedo",
    "Manel Neira Crespo",
-   "Diego Pazos Fernandez",
-   "Adriel Rodriguez Justo",
-   "Alejandro Rodriguez Queijas",
-   "Juan Angel Sanchez Figueiras",
+   "Diego Pazos Fernández",
+   "Adriel Rodríguez Justo",
+   "Alejandro Rodríguez Queijas",
+   "Juan Ángel Sánchez Figueiras",
    "Roi Sánchez Lema",
-   "Mateo Suarez Fuentes",
-   "Felipe Varela Lopez",
+   "Mateo Suárez Fuentes",
+   "Felipe Varela López",
    "Gustavo Vila Seoane"
   ],
   "entrenadores": [
-   "Jesus Angel Fernandez Alvarez"
+   "Jesús Ángel Fernández Álvarez"
   ],
   "delegados": [
-   "Gonzalo Conde Sanchez"
+   "Gonzalo Conde Sánchez"
   ],
   "clasificacion": [
    {
@@ -4095,109 +4095,109 @@ const EQUIPOS = [
   "actas": {
    "4": {
     "t": [
-     "Felipe Varela Lopez",
-     "Alejandro Rodriguez Queijas",
+     "Felipe Varela López",
+     "Alejandro Rodríguez Queijas",
      "Bruno Blanco Salorio",
      "Pedro De Artaza Galante",
-     "Juan Bescansa Alvarez",
-     "Ivan Lopez Carcedo",
-     "Diego Pazos Fernandez",
+     "Juan Bescansa Álvarez",
+     "Iván López Carcedo",
+     "Diego Pazos Fernández",
      "Gustavo Vila Seoane",
      "Roi Sánchez Lema",
      "Bruno Barreiro Ramos",
-     "Adriel Rodriguez Justo"
+     "Adriel Rodríguez Justo"
     ],
     "s": [
-     "Nicolas Caraballo Hernandez",
+     "Nicolás Caraballo Hernández",
      "Alejandro Buide Modia",
-     "Ruben García Viñán",
-     "Juan Angel Sanchez Figueiras",
+     "Rubén García Viñán",
+     "Juan Ángel Sánchez Figueiras",
      "Álvaro Díaz Boquete"
     ],
     "e": [
-     "Juan Angel Sanchez Figueiras",
-     "Ruben García Viñán",
+     "Juan Ángel Sánchez Figueiras",
+     "Rubén García Viñán",
      "Álvaro Díaz Boquete",
-     "Nicolas Caraballo Hernandez",
+     "Nicolás Caraballo Hernández",
      "Alejandro Buide Modia"
     ],
     "g": {
-     "Juan Bescansa Alvarez": 1
+     "Juan Bescansa Álvarez": 1
     },
     "a": [
      "Roi Sánchez Lema"
     ],
     "r": [],
     "d": {
-     "Felipe Varela Lopez": 1,
-     "Alejandro Rodriguez Queijas": 2,
+     "Felipe Varela López": 1,
+     "Alejandro Rodríguez Queijas": 2,
      "Bruno Blanco Salorio": 3,
      "Pedro De Artaza Galante": 4,
-     "Juan Bescansa Alvarez": 5,
-     "Ivan Lopez Carcedo": 6,
-     "Diego Pazos Fernandez": 7,
+     "Juan Bescansa Álvarez": 5,
+     "Iván López Carcedo": 6,
+     "Diego Pazos Fernández": 7,
      "Gustavo Vila Seoane": 8,
      "Roi Sánchez Lema": 9,
      "Bruno Barreiro Ramos": 10,
-     "Adriel Rodriguez Justo": 11,
-     "Nicolas Caraballo Hernandez": 12,
+     "Adriel Rodríguez Justo": 11,
+     "Nicolás Caraballo Hernández": 12,
      "Alejandro Buide Modia": 14,
-     "Ruben García Viñán": 15,
-     "Juan Angel Sanchez Figueiras": 16,
+     "Rubén García Viñán": 15,
+     "Juan Ángel Sánchez Figueiras": 16,
      "Álvaro Díaz Boquete": 17
     },
     "id": "1440183"
    },
    "5": {
     "t": [
-     "Felipe Varela Lopez",
-     "Mateo Suarez Fuentes",
-     "Nicolas Caraballo Hernandez",
-     "Ruben García Viñán",
-     "Alejandro Rodriguez Queijas",
-     "Ivan Lopez Carcedo",
-     "Juan Angel Sanchez Figueiras",
+     "Felipe Varela López",
+     "Mateo Suárez Fuentes",
+     "Nicolás Caraballo Hernández",
+     "Rubén García Viñán",
+     "Alejandro Rodríguez Queijas",
+     "Iván López Carcedo",
+     "Juan Ángel Sánchez Figueiras",
      "Bruno Barreiro Ramos",
      "Roi Sánchez Lema",
      "Alejandro Buide Modia",
-     "Diego Pazos Fernandez"
+     "Diego Pazos Fernández"
     ],
     "s": [
      "Manel Neira Crespo",
-     "Adriel Rodriguez Justo",
-     "Juan Bescansa Alvarez",
+     "Adriel Rodríguez Justo",
+     "Juan Bescansa Álvarez",
      "Bruno Blanco Salorio",
      "Álvaro Díaz Boquete"
     ],
     "e": [
-     "Adriel Rodriguez Justo",
-     "Juan Bescansa Alvarez",
+     "Adriel Rodríguez Justo",
+     "Juan Bescansa Álvarez",
      "Álvaro Díaz Boquete",
      "Manel Neira Crespo",
      "Bruno Blanco Salorio"
     ],
     "g": {
-     "Diego Pazos Fernandez": 1,
-     "Juan Angel Sanchez Figueiras": 1,
-     "Ivan Lopez Carcedo": 1
+     "Diego Pazos Fernández": 1,
+     "Juan Ángel Sánchez Figueiras": 1,
+     "Iván López Carcedo": 1
     },
     "a": [],
     "r": [],
     "d": {
-     "Felipe Varela Lopez": 1,
-     "Mateo Suarez Fuentes": 2,
-     "Nicolas Caraballo Hernandez": 3,
-     "Ruben García Viñán": 4,
-     "Alejandro Rodriguez Queijas": 5,
-     "Ivan Lopez Carcedo": 6,
-     "Juan Angel Sanchez Figueiras": 7,
+     "Felipe Varela López": 1,
+     "Mateo Suárez Fuentes": 2,
+     "Nicolás Caraballo Hernández": 3,
+     "Rubén García Viñán": 4,
+     "Alejandro Rodríguez Queijas": 5,
+     "Iván López Carcedo": 6,
+     "Juan Ángel Sánchez Figueiras": 7,
      "Bruno Barreiro Ramos": 8,
      "Roi Sánchez Lema": 9,
      "Alejandro Buide Modia": 10,
-     "Diego Pazos Fernandez": 11,
+     "Diego Pazos Fernández": 11,
      "Manel Neira Crespo": 12,
-     "Adriel Rodriguez Justo": 14,
-     "Juan Bescansa Alvarez": 15,
+     "Adriel Rodríguez Justo": 14,
+     "Juan Bescansa Álvarez": 15,
      "Bruno Blanco Salorio": 16,
      "Álvaro Díaz Boquete": 17
     },
@@ -4205,50 +4205,50 @@ const EQUIPOS = [
    },
    "6": {
     "t": [
-     "Felipe Varela Lopez",
+     "Felipe Varela López",
      "Manel Neira Crespo",
      "Álvaro Díaz Boquete",
      "Pedro De Artaza Galante",
-     "Juan Bescansa Alvarez",
-     "Ivan Lopez Carcedo",
-     "Juan Angel Sanchez Figueiras",
+     "Juan Bescansa Álvarez",
+     "Iván López Carcedo",
+     "Juan Ángel Sánchez Figueiras",
      "Gustavo Vila Seoane",
-     "Diego Pazos Fernandez",
-     "Adriel Rodriguez Justo",
-     "Mateo Suarez Fuentes"
+     "Diego Pazos Fernández",
+     "Adriel Rodríguez Justo",
+     "Mateo Suárez Fuentes"
     ],
     "s": [
-     "Nicolas Caraballo Hernandez",
+     "Nicolás Caraballo Hernández",
      "Alejandro Buide Modia",
-     "Alejandro Rodriguez Queijas",
+     "Alejandro Rodríguez Queijas",
      "Bruno Barreiro Ramos",
      "Roi Sánchez Lema"
     ],
     "e": [
      "Roi Sánchez Lema",
-     "Alejandro Rodriguez Queijas",
+     "Alejandro Rodríguez Queijas",
      "Alejandro Buide Modia",
      "Bruno Barreiro Ramos",
-     "Nicolas Caraballo Hernandez"
+     "Nicolás Caraballo Hernández"
     ],
     "g": {},
     "a": [],
     "r": [],
     "d": {
-     "Felipe Varela Lopez": 1,
+     "Felipe Varela López": 1,
      "Manel Neira Crespo": 2,
      "Álvaro Díaz Boquete": 3,
      "Pedro De Artaza Galante": 4,
-     "Juan Bescansa Alvarez": 5,
-     "Ivan Lopez Carcedo": 6,
-     "Juan Angel Sanchez Figueiras": 7,
+     "Juan Bescansa Álvarez": 5,
+     "Iván López Carcedo": 6,
+     "Juan Ángel Sánchez Figueiras": 7,
      "Gustavo Vila Seoane": 8,
-     "Diego Pazos Fernandez": 9,
-     "Adriel Rodriguez Justo": 10,
-     "Mateo Suarez Fuentes": 11,
-     "Nicolas Caraballo Hernandez": 12,
+     "Diego Pazos Fernández": 9,
+     "Adriel Rodríguez Justo": 10,
+     "Mateo Suárez Fuentes": 11,
+     "Nicolás Caraballo Hernández": 12,
      "Alejandro Buide Modia": 14,
-     "Alejandro Rodriguez Queijas": 15,
+     "Alejandro Rodríguez Queijas": 15,
      "Bruno Barreiro Ramos": 16,
      "Roi Sánchez Lema": 19
     },
@@ -4256,90 +4256,90 @@ const EQUIPOS = [
    },
    "1": {
     "t": [
-     "Ramon Saavedra Trigo",
-     "Alejandro Rodriguez Queijas",
-     "Juan Bescansa Alvarez",
+     "Ramón Saavedra Trigo",
+     "Alejandro Rodríguez Queijas",
+     "Juan Bescansa Álvarez",
      "Pedro De Artaza Galante",
-     "Ruben García Viñán",
-     "Ivan Lopez Carcedo",
-     "Juan Angel Sanchez Figueiras",
+     "Rubén García Viñán",
+     "Iván López Carcedo",
+     "Juan Ángel Sánchez Figueiras",
      "Gustavo Vila Seoane",
      "Roi Sánchez Lema",
      "Bruno Barreiro Ramos",
-     "Adriel Rodriguez Justo"
+     "Adriel Rodríguez Justo"
     ],
     "s": [
      "Alejandro Buide Modia",
      "Álvaro Díaz Boquete",
      "Bruno Blanco Salorio",
-     "Mateo Suarez Fuentes",
-     "Diego Pazos Fernandez"
+     "Mateo Suárez Fuentes",
+     "Diego Pazos Fernández"
     ],
     "e": [
      "Bruno Blanco Salorio",
-     "Mateo Suarez Fuentes",
-     "Diego Pazos Fernandez",
+     "Mateo Suárez Fuentes",
+     "Diego Pazos Fernández",
      "Alejandro Buide Modia",
      "Álvaro Díaz Boquete"
     ],
     "g": {
-     "Juan Angel Sanchez Figueiras": 1,
+     "Juan Ángel Sánchez Figueiras": 1,
      "Bruno Barreiro Ramos": 1
     },
     "a": [
-     "Ruben García Viñán"
+     "Rubén García Viñán"
     ],
     "r": [],
     "d": {
-     "Ramon Saavedra Trigo": 13,
-     "Alejandro Rodriguez Queijas": 2,
-     "Juan Bescansa Alvarez": 3,
+     "Ramón Saavedra Trigo": 13,
+     "Alejandro Rodríguez Queijas": 2,
+     "Juan Bescansa Álvarez": 3,
      "Pedro De Artaza Galante": 4,
-     "Ruben García Viñán": 5,
-     "Ivan Lopez Carcedo": 6,
-     "Juan Angel Sanchez Figueiras": 7,
+     "Rubén García Viñán": 5,
+     "Iván López Carcedo": 6,
+     "Juan Ángel Sánchez Figueiras": 7,
      "Gustavo Vila Seoane": 8,
      "Roi Sánchez Lema": 9,
      "Bruno Barreiro Ramos": 10,
-     "Adriel Rodriguez Justo": 11,
+     "Adriel Rodríguez Justo": 11,
      "Alejandro Buide Modia": 14,
      "Álvaro Díaz Boquete": 15,
      "Bruno Blanco Salorio": 16,
-     "Mateo Suarez Fuentes": 17,
-     "Diego Pazos Fernandez": 18
+     "Mateo Suárez Fuentes": 17,
+     "Diego Pazos Fernández": 18
     },
     "id": "1440157"
    },
    "2": {
     "t": [
-     "Ramon Saavedra Trigo",
+     "Ramón Saavedra Trigo",
      "Bruno Blanco Salorio",
      "Pedro De Artaza Galante",
-     "Juan Bescansa Alvarez",
-     "Ivan Lopez Carcedo",
-     "Juan Angel Sanchez Figueiras",
+     "Juan Bescansa Álvarez",
+     "Iván López Carcedo",
+     "Juan Ángel Sánchez Figueiras",
      "Gustavo Vila Seoane",
      "Roi Sánchez Lema",
      "Bruno Barreiro Ramos",
-     "Adriel Rodriguez Justo",
-     "Ruben García Viñán"
+     "Adriel Rodríguez Justo",
+     "Rubén García Viñán"
     ],
     "s": [
-     "Diego Pazos Fernandez",
+     "Diego Pazos Fernández",
      "Manel Neira Crespo",
-     "Nicolas Caraballo Hernandez",
+     "Nicolás Caraballo Hernández",
      "Alejandro Buide Modia"
     ],
     "e": [
-     "Diego Pazos Fernandez",
+     "Diego Pazos Fernández",
      "Alejandro Buide Modia",
      "Manel Neira Crespo",
-     "Nicolas Caraballo Hernandez"
+     "Nicolás Caraballo Hernández"
     ],
     "g": {
-     "Juan Angel Sanchez Figueiras": 1,
+     "Juan Ángel Sánchez Figueiras": 1,
      "Roi Sánchez Lema": 1,
-     "Adriel Rodriguez Justo": 1
+     "Adriel Rodríguez Justo": 1
     },
     "a": [
      "Bruno Blanco Salorio",
@@ -4347,104 +4347,104 @@ const EQUIPOS = [
     ],
     "r": [],
     "d": {
-     "Ramon Saavedra Trigo": 13,
+     "Ramón Saavedra Trigo": 13,
      "Bruno Blanco Salorio": 3,
      "Pedro De Artaza Galante": 4,
-     "Juan Bescansa Alvarez": 5,
-     "Ivan Lopez Carcedo": 6,
-     "Juan Angel Sanchez Figueiras": 7,
+     "Juan Bescansa Álvarez": 5,
+     "Iván López Carcedo": 6,
+     "Juan Ángel Sánchez Figueiras": 7,
      "Gustavo Vila Seoane": 8,
      "Roi Sánchez Lema": 9,
      "Bruno Barreiro Ramos": 10,
-     "Adriel Rodriguez Justo": 19,
-     "Ruben García Viñán": 20,
-     "Diego Pazos Fernandez": 14,
+     "Adriel Rodríguez Justo": 19,
+     "Rubén García Viñán": 20,
+     "Diego Pazos Fernández": 14,
      "Manel Neira Crespo": 15,
-     "Nicolas Caraballo Hernandez": 16,
+     "Nicolás Caraballo Hernández": 16,
      "Alejandro Buide Modia": 21
     },
     "id": "1440166"
    },
    "3": {
     "t": [
-     "Mateo Suarez Fuentes",
-     "Felipe Varela Lopez",
+     "Mateo Suárez Fuentes",
+     "Felipe Varela López",
      "Bruno Blanco Salorio",
-     "Ruben García Viñán",
-     "Juan Bescansa Alvarez",
-     "Ivan Lopez Carcedo",
-     "Juan Angel Sanchez Figueiras",
+     "Rubén García Viñán",
+     "Juan Bescansa Álvarez",
+     "Iván López Carcedo",
+     "Juan Ángel Sánchez Figueiras",
      "Gustavo Vila Seoane",
      "Roi Sánchez Lema",
      "Bruno Barreiro Ramos",
-     "Diego Pazos Fernandez"
+     "Diego Pazos Fernández"
     ],
     "s": [
      "Alejandro Buide Modia",
      "Álvaro Díaz Boquete",
-     "Nicolas Caraballo Hernandez",
-     "Adriel Rodriguez Justo",
+     "Nicolás Caraballo Hernández",
+     "Adriel Rodríguez Justo",
      "Nicolás Alonso De Andrés"
     ],
     "e": [
-     "Adriel Rodriguez Justo",
+     "Adriel Rodríguez Justo",
      "Alejandro Buide Modia",
-     "Nicolas Caraballo Hernandez",
+     "Nicolás Caraballo Hernández",
      "Nicolás Alonso De Andrés",
      "Álvaro Díaz Boquete"
     ],
     "g": {
      "Roi Sánchez Lema": 2,
-     "Juan Angel Sanchez Figueiras": 1
+     "Juan Ángel Sánchez Figueiras": 1
     },
     "a": [
      "Bruno Barreiro Ramos",
-     "Ivan Lopez Carcedo",
-     "Juan Bescansa Alvarez"
+     "Iván López Carcedo",
+     "Juan Bescansa Álvarez"
     ],
     "r": [],
     "d": {
-     "Mateo Suarez Fuentes": 2,
-     "Felipe Varela Lopez": 1,
+     "Mateo Suárez Fuentes": 2,
+     "Felipe Varela López": 1,
      "Bruno Blanco Salorio": 3,
-     "Ruben García Viñán": 4,
-     "Juan Bescansa Alvarez": 5,
-     "Ivan Lopez Carcedo": 6,
-     "Juan Angel Sanchez Figueiras": 7,
+     "Rubén García Viñán": 4,
+     "Juan Bescansa Álvarez": 5,
+     "Iván López Carcedo": 6,
+     "Juan Ángel Sánchez Figueiras": 7,
      "Gustavo Vila Seoane": 8,
      "Roi Sánchez Lema": 9,
      "Bruno Barreiro Ramos": 10,
-     "Diego Pazos Fernandez": 11,
+     "Diego Pazos Fernández": 11,
      "Alejandro Buide Modia": 14,
      "Álvaro Díaz Boquete": 15,
-     "Nicolas Caraballo Hernandez": 16,
-     "Adriel Rodriguez Justo": 17,
+     "Nicolás Caraballo Hernández": 16,
+     "Adriel Rodríguez Justo": 17,
      "Nicolás Alonso De Andrés": 18
     },
     "id": "1440174"
    }
   },
   "dorsales": {
-   "Ramon Saavedra Trigo": 13,
-   "Alejandro Rodriguez Queijas": 15,
-   "Juan Bescansa Alvarez": 5,
-   "Pedro De Artaza Galante": 4,
-   "Ruben García Viñán": 4,
-   "Ivan Lopez Carcedo": 6,
-   "Juan Angel Sanchez Figueiras": 7,
+   "Iván López Carcedo": 6,
+   "Juan Ángel Sánchez Figueiras": 7,
    "Gustavo Vila Seoane": 8,
-   "Roi Sánchez Lema": 19,
-   "Bruno Barreiro Ramos": 16,
-   "Adriel Rodriguez Justo": 10,
+   "Roi Sánchez Lema": 9,
+   "Felipe Varela López": 1,
+   "Pedro De Artaza Galante": 4,
+   "Juan Bescansa Álvarez": 5,
+   "Bruno Barreiro Ramos": 10,
+   "Bruno Blanco Salorio": 3,
+   "Alejandro Rodríguez Queijas": 2,
+   "Adriel Rodríguez Justo": 11,
    "Alejandro Buide Modia": 14,
-   "Álvaro Díaz Boquete": 3,
-   "Bruno Blanco Salorio": 16,
-   "Mateo Suarez Fuentes": 11,
-   "Diego Pazos Fernandez": 9,
-   "Manel Neira Crespo": 2,
-   "Nicolas Caraballo Hernandez": 12,
-   "Felipe Varela Lopez": 1,
-   "Nicolás Alonso De Andrés": 18
+   "Nicolás Caraballo Hernández": 12,
+   "Ramón Saavedra Trigo": 13,
+   "Álvaro Díaz Boquete": 15,
+   "Mateo Suárez Fuentes": 17,
+   "Diego Pazos Fernández": 18,
+   "Rubén García Viñán": 20,
+   "Manel Neira Crespo": 16,
+   "Nicolás Alonso De Andrés": 19
   },
   "descargado": "2026-10-23T07:31"
  },
@@ -4459,26 +4459,26 @@ const EQUIPOS = [
    "Manuel Anido Pose",
    "Víctor Antelo Baldomir",
    "Nicolás Ávarez Fernández",
-   "Diego Blanco Fernandez",
+   "Diego Blanco Fernández",
    "Bruno Blanco Salorio",
-   "Naim Blanco Solis",
+   "Naim Blanco Solís",
    "Bruno Camiños Blanco",
    "Luis Cea Raña",
-   "Romeo Mateo Comesaña Perez",
-   "Ruben García Viñán",
-   "Aimar Lagoa Rodriguez",
-   "Santiago Lopez Ganem",
-   "Dario Lorenzo Fraga",
-   "Franco Santino Mesa Vazquez",
-   "Iago Rey Ibañez",
-   "Ramon Saavedra Trigo",
+   "Romeo Mateo Comesaña Pérez",
+   "Rubén García Viñán",
+   "Aimar Lagoa Rodríguez",
+   "Santiago López Ganem",
+   "Darío Lorenzo Fraga",
+   "Franco Santino Mesa Vázquez",
+   "Iago Rey Ibáñez",
+   "Ramón Saavedra Trigo",
    "Julio Santos Fraga",
    "Andrew Silva Mosquera",
    "Xavier Taboada Manteiga",
-   "Ivan Vazquez Lopez"
+   "Iván Vázquez López"
   ],
   "entrenadores": [
-   "Roman Feas Capelete"
+   "Román Feas Capelete"
   ],
   "delegados": [],
   "clasificacion": [
@@ -4954,36 +4954,36 @@ const EQUIPOS = [
   "actas": {
    "3": {
     "t": [
-     "Ramon Saavedra Trigo",
+     "Ramón Saavedra Trigo",
      "Víctor Antelo Baldomir",
      "Manuel Anido Pose",
-     "Romeo Mateo Comesaña Perez",
+     "Romeo Mateo Comesaña Pérez",
      "Julio Santos Fraga",
-     "Franco Santino Mesa Vazquez",
-     "Naim Blanco Solis",
-     "Aimar Lagoa Rodriguez",
-     "Santiago Lopez Ganem",
-     "Ivan Vazquez Lopez",
+     "Franco Santino Mesa Vázquez",
+     "Naim Blanco Solís",
+     "Aimar Lagoa Rodríguez",
+     "Santiago López Ganem",
+     "Iván Vázquez López",
      "Bruno Camiños Blanco"
     ],
     "s": [
      "Xavier Taboada Manteiga",
-     "Dario Lorenzo Fraga",
-     "Iago Rey Ibañez",
+     "Darío Lorenzo Fraga",
+     "Iago Rey Ibáñez",
      "Nicolás Ávarez Fernández",
      "Andrew Silva Mosquera"
     ],
     "e": [
      "Xavier Taboada Manteiga",
-     "Iago Rey Ibañez",
+     "Iago Rey Ibáñez",
      "Nicolás Ávarez Fernández",
-     "Dario Lorenzo Fraga",
+     "Darío Lorenzo Fraga",
      "Andrew Silva Mosquera"
     ],
     "g": {
      "Bruno Camiños Blanco": 1,
-     "Ivan Vazquez Lopez": 1,
-     "Santiago Lopez Ganem": 1
+     "Iván Vázquez López": 1,
+     "Santiago López Ganem": 1
     },
     "a": [
      "Nicolás Ávarez Fernández",
@@ -4991,20 +4991,20 @@ const EQUIPOS = [
     ],
     "r": [],
     "d": {
-     "Ramon Saavedra Trigo": 13,
+     "Ramón Saavedra Trigo": 13,
      "Víctor Antelo Baldomir": 2,
      "Manuel Anido Pose": 3,
-     "Romeo Mateo Comesaña Perez": 4,
+     "Romeo Mateo Comesaña Pérez": 4,
      "Julio Santos Fraga": 5,
-     "Franco Santino Mesa Vazquez": 6,
-     "Naim Blanco Solis": 7,
-     "Aimar Lagoa Rodriguez": 8,
-     "Santiago Lopez Ganem": 9,
-     "Ivan Vazquez Lopez": 10,
+     "Franco Santino Mesa Vázquez": 6,
+     "Naim Blanco Solís": 7,
+     "Aimar Lagoa Rodríguez": 8,
+     "Santiago López Ganem": 9,
+     "Iván Vázquez López": 10,
      "Bruno Camiños Blanco": 11,
      "Xavier Taboada Manteiga": 14,
-     "Dario Lorenzo Fraga": 15,
-     "Iago Rey Ibañez": 16,
+     "Darío Lorenzo Fraga": 15,
+     "Iago Rey Ibáñez": 16,
      "Nicolás Ávarez Fernández": 18,
      "Andrew Silva Mosquera": 19
     },
@@ -5015,140 +5015,140 @@ const EQUIPOS = [
      "Gabriel Mosquera Lema",
      "Manuel Anido Pose",
      "Nicolás Ávarez Fernández",
-     "Romeo Mateo Comesaña Perez",
+     "Romeo Mateo Comesaña Pérez",
      "Julio Santos Fraga",
-     "Franco Santino Mesa Vazquez",
-     "Ivan Vazquez Lopez",
-     "Iago Rey Ibañez",
-     "Santiago Lopez Ganem",
-     "Aimar Lagoa Rodriguez",
+     "Franco Santino Mesa Vázquez",
+     "Iván Vázquez López",
+     "Iago Rey Ibáñez",
+     "Santiago López Ganem",
+     "Aimar Lagoa Rodríguez",
      "Bruno Camiños Blanco"
     ],
     "s": [
      "Luis Cea Raña",
      "Xavier Taboada Manteiga",
-     "Dario Lorenzo Fraga",
+     "Darío Lorenzo Fraga",
      "Víctor Antelo Baldomir",
-     "Naim Blanco Solis"
+     "Naim Blanco Solís"
     ],
     "e": [
-     "Naim Blanco Solis",
+     "Naim Blanco Solís",
      "Xavier Taboada Manteiga",
      "Víctor Antelo Baldomir",
      "Luis Cea Raña",
-     "Dario Lorenzo Fraga"
+     "Darío Lorenzo Fraga"
     ],
     "g": {
      "Bruno Camiños Blanco": 1
     },
     "a": [
-     "Ivan Vazquez Lopez"
+     "Iván Vázquez López"
     ],
     "r": [],
     "d": {
      "Gabriel Mosquera Lema": 1,
      "Manuel Anido Pose": 2,
      "Nicolás Ávarez Fernández": 3,
-     "Romeo Mateo Comesaña Perez": 4,
+     "Romeo Mateo Comesaña Pérez": 4,
      "Julio Santos Fraga": 5,
-     "Franco Santino Mesa Vazquez": 6,
-     "Ivan Vazquez Lopez": 7,
-     "Iago Rey Ibañez": 8,
-     "Santiago Lopez Ganem": 9,
-     "Aimar Lagoa Rodriguez": 10,
+     "Franco Santino Mesa Vázquez": 6,
+     "Iván Vázquez López": 7,
+     "Iago Rey Ibáñez": 8,
+     "Santiago López Ganem": 9,
+     "Aimar Lagoa Rodríguez": 10,
      "Bruno Camiños Blanco": 11,
      "Luis Cea Raña": 12,
      "Xavier Taboada Manteiga": 14,
-     "Dario Lorenzo Fraga": 15,
+     "Darío Lorenzo Fraga": 15,
      "Víctor Antelo Baldomir": 16,
-     "Naim Blanco Solis": 18
+     "Naim Blanco Solís": 18
     },
     "id": "1471028"
    },
    "5": {
     "t": [
-     "Diego Blanco Fernandez",
+     "Diego Blanco Fernández",
      "Nicolás Ávarez Fernández",
      "Bruno Blanco Salorio",
-     "Franco Santino Mesa Vazquez",
+     "Franco Santino Mesa Vázquez",
      "Julio Santos Fraga",
-     "Ruben García Viñán",
-     "Naim Blanco Solis",
-     "Aimar Lagoa Rodriguez",
+     "Rubén García Viñán",
+     "Naim Blanco Solís",
+     "Aimar Lagoa Rodríguez",
      "Andrew Silva Mosquera",
-     "Ivan Vazquez Lopez",
+     "Iván Vázquez López",
      "Bruno Camiños Blanco"
     ],
     "s": [
      "Manuel Anido Pose",
-     "Santiago Lopez Ganem",
+     "Santiago López Ganem",
      "Xavier Taboada Manteiga",
      "Víctor Antelo Baldomir",
-     "Romeo Mateo Comesaña Perez"
+     "Romeo Mateo Comesaña Pérez"
     ],
     "e": [
-     "Romeo Mateo Comesaña Perez",
+     "Romeo Mateo Comesaña Pérez",
      "Manuel Anido Pose",
-     "Santiago Lopez Ganem",
+     "Santiago López Ganem",
      "Xavier Taboada Manteiga",
      "Víctor Antelo Baldomir"
     ],
     "g": {
-     "Ruben García Viñán": 1,
+     "Rubén García Viñán": 1,
      "Nicolás Ávarez Fernández": 1,
-     "Santiago Lopez Ganem": 1
+     "Santiago López Ganem": 1
     },
     "a": [
-     "Romeo Mateo Comesaña Perez"
+     "Romeo Mateo Comesaña Pérez"
     ],
     "r": [
-     "Diego Blanco Fernandez"
+     "Diego Blanco Fernández"
     ],
     "d": {
-     "Diego Blanco Fernandez": 1,
+     "Diego Blanco Fernández": 1,
      "Nicolás Ávarez Fernández": 2,
      "Bruno Blanco Salorio": 3,
-     "Franco Santino Mesa Vazquez": 4,
+     "Franco Santino Mesa Vázquez": 4,
      "Julio Santos Fraga": 5,
-     "Ruben García Viñán": 6,
-     "Naim Blanco Solis": 7,
-     "Aimar Lagoa Rodriguez": 8,
+     "Rubén García Viñán": 6,
+     "Naim Blanco Solís": 7,
+     "Aimar Lagoa Rodríguez": 8,
      "Andrew Silva Mosquera": 9,
-     "Ivan Vazquez Lopez": 10,
+     "Iván Vázquez López": 10,
      "Bruno Camiños Blanco": 11,
      "Manuel Anido Pose": 12,
-     "Santiago Lopez Ganem": 14,
+     "Santiago López Ganem": 14,
      "Xavier Taboada Manteiga": 15,
      "Víctor Antelo Baldomir": 16,
-     "Romeo Mateo Comesaña Perez": 17
+     "Romeo Mateo Comesaña Pérez": 17
     },
     "id": "1471036"
    },
    "1": {
     "t": [
-     "Diego Blanco Fernandez",
+     "Diego Blanco Fernández",
      "Nicolás Ávarez Fernández",
      "Manuel Anido Pose",
-     "Romeo Mateo Comesaña Perez",
+     "Romeo Mateo Comesaña Pérez",
      "Julio Santos Fraga",
-     "Franco Santino Mesa Vazquez",
-     "Naim Blanco Solis",
-     "Santiago Lopez Ganem",
+     "Franco Santino Mesa Vázquez",
+     "Naim Blanco Solís",
+     "Santiago López Ganem",
      "Andrew Silva Mosquera",
-     "Aimar Lagoa Rodriguez",
-     "Ivan Vazquez Lopez"
+     "Aimar Lagoa Rodríguez",
+     "Iván Vázquez López"
     ],
     "s": [
      "Luis Cea Raña",
      "Xavier Taboada Manteiga",
      "Víctor Antelo Baldomir",
      "Bruno Camiños Blanco",
-     "Dario Lorenzo Fraga"
+     "Darío Lorenzo Fraga"
     ],
     "e": [],
     "g": {
      "Andrew Silva Mosquera": 1,
-     "Naim Blanco Solis": 1
+     "Naim Blanco Solís": 1
     },
     "a": [
      "Xavier Taboada Manteiga",
@@ -5158,76 +5158,76 @@ const EQUIPOS = [
     ],
     "r": [],
     "d": {
-     "Diego Blanco Fernandez": 1,
+     "Diego Blanco Fernández": 1,
      "Nicolás Ávarez Fernández": 2,
      "Manuel Anido Pose": 3,
-     "Romeo Mateo Comesaña Perez": 4,
+     "Romeo Mateo Comesaña Pérez": 4,
      "Julio Santos Fraga": 5,
-     "Franco Santino Mesa Vazquez": 6,
-     "Naim Blanco Solis": 7,
-     "Santiago Lopez Ganem": 8,
+     "Franco Santino Mesa Vázquez": 6,
+     "Naim Blanco Solís": 7,
+     "Santiago López Ganem": 8,
      "Andrew Silva Mosquera": 9,
-     "Aimar Lagoa Rodriguez": 10,
-     "Ivan Vazquez Lopez": 11,
+     "Aimar Lagoa Rodríguez": 10,
+     "Iván Vázquez López": 11,
      "Luis Cea Raña": 12,
      "Xavier Taboada Manteiga": 14,
      "Víctor Antelo Baldomir": 15,
      "Bruno Camiños Blanco": 16,
-     "Dario Lorenzo Fraga": 17
+     "Darío Lorenzo Fraga": 17
     },
     "id": "1471003"
    },
    "2": {
     "t": [
-     "Diego Blanco Fernandez",
+     "Diego Blanco Fernández",
      "Manuel Anido Pose",
      "Nicolás Ávarez Fernández",
-     "Romeo Mateo Comesaña Perez",
+     "Romeo Mateo Comesaña Pérez",
      "Julio Santos Fraga",
-     "Franco Santino Mesa Vazquez",
-     "Naim Blanco Solis",
-     "Aimar Lagoa Rodriguez",
-     "Santiago Lopez Ganem",
-     "Ivan Vazquez Lopez",
+     "Franco Santino Mesa Vázquez",
+     "Naim Blanco Solís",
+     "Aimar Lagoa Rodríguez",
+     "Santiago López Ganem",
+     "Iván Vázquez López",
      "Bruno Camiños Blanco"
     ],
     "s": [
      "Xavier Taboada Manteiga",
-     "Dario Lorenzo Fraga",
-     "Iago Rey Ibañez",
+     "Darío Lorenzo Fraga",
+     "Iago Rey Ibáñez",
      "Andrew Silva Mosquera",
      "Luis Cea Raña"
     ],
     "e": [
-     "Iago Rey Ibañez",
-     "Dario Lorenzo Fraga",
+     "Iago Rey Ibáñez",
+     "Darío Lorenzo Fraga",
      "Xavier Taboada Manteiga",
      "Luis Cea Raña",
      "Andrew Silva Mosquera"
     ],
     "g": {
-     "Santiago Lopez Ganem": 2,
-     "Naim Blanco Solis": 1,
-     "Aimar Lagoa Rodriguez": 1,
+     "Santiago López Ganem": 2,
+     "Naim Blanco Solís": 1,
+     "Aimar Lagoa Rodríguez": 1,
      "Andrew Silva Mosquera": 1
     },
     "a": [],
     "r": [],
     "d": {
-     "Diego Blanco Fernandez": 1,
+     "Diego Blanco Fernández": 1,
      "Manuel Anido Pose": 2,
      "Nicolás Ávarez Fernández": 3,
-     "Romeo Mateo Comesaña Perez": 4,
+     "Romeo Mateo Comesaña Pérez": 4,
      "Julio Santos Fraga": 5,
-     "Franco Santino Mesa Vazquez": 6,
-     "Naim Blanco Solis": 7,
-     "Aimar Lagoa Rodriguez": 8,
-     "Santiago Lopez Ganem": 9,
-     "Ivan Vazquez Lopez": 10,
+     "Franco Santino Mesa Vázquez": 6,
+     "Naim Blanco Solís": 7,
+     "Aimar Lagoa Rodríguez": 8,
+     "Santiago López Ganem": 9,
+     "Iván Vázquez López": 10,
      "Bruno Camiños Blanco": 11,
      "Xavier Taboada Manteiga": 14,
-     "Dario Lorenzo Fraga": 15,
-     "Iago Rey Ibañez": 16,
+     "Darío Lorenzo Fraga": 15,
+     "Iago Rey Ibáñez": 16,
      "Andrew Silva Mosquera": 17,
      "Luis Cea Raña": 18
     },
@@ -5235,27 +5235,27 @@ const EQUIPOS = [
    }
   },
   "dorsales": {
-   "Diego Blanco Fernandez": 1,
-   "Nicolás Ávarez Fernández": 2,
-   "Manuel Anido Pose": 12,
-   "Romeo Mateo Comesaña Perez": 17,
    "Julio Santos Fraga": 5,
-   "Franco Santino Mesa Vazquez": 4,
-   "Naim Blanco Solis": 7,
-   "Santiago Lopez Ganem": 14,
-   "Andrew Silva Mosquera": 9,
-   "Aimar Lagoa Rodriguez": 8,
-   "Ivan Vazquez Lopez": 10,
-   "Luis Cea Raña": 12,
-   "Xavier Taboada Manteiga": 15,
-   "Víctor Antelo Baldomir": 16,
+   "Romeo Mateo Comesaña Pérez": 4,
+   "Franco Santino Mesa Vázquez": 6,
+   "Naim Blanco Solís": 7,
    "Bruno Camiños Blanco": 11,
-   "Dario Lorenzo Fraga": 15,
-   "Iago Rey Ibañez": 8,
-   "Ramon Saavedra Trigo": 13,
-   "Gabriel Mosquera Lema": 1,
-   "Bruno Blanco Salorio": 3,
-   "Ruben García Viñán": 6
+   "Diego Blanco Fernández": 1,
+   "Aimar Lagoa Rodríguez": 8,
+   "Santiago López Ganem": 9,
+   "Iván Vázquez López": 10,
+   "Manuel Anido Pose": 2,
+   "Nicolás Ávarez Fernández": 3,
+   "Xavier Taboada Manteiga": 14,
+   "Darío Lorenzo Fraga": 15,
+   "Luis Cea Raña": 12,
+   "Iago Rey Ibáñez": 16,
+   "Ramón Saavedra Trigo": 13,
+   "Andrew Silva Mosquera": 17,
+   "Víctor Antelo Baldomir": 18,
+   "Bruno Blanco Salorio": 19,
+   "Gabriel Mosquera Lema": 20,
+   "Rubén García Viñán": 21
   },
   "descargado": "2026-10-23T13:25"
  },
@@ -5269,34 +5269,34 @@ const EQUIPOS = [
   "plantilla": [
    "Luis Alfonso Varela",
    "Nicolás Alonso De Andrés",
-   "Daniel Alvarez Lopez",
-   "Martin Baeza Mendez",
+   "Daniel Álvarez López",
+   "Martín Baeza Méndez",
    "Mario Barral Bermejo",
-   "Mauro Becerra Perez",
-   "Nicolas Blanco Fernández",
+   "Mauro Becerra Pérez",
+   "Nicolás Blanco Fernández",
    "Xoel Blanco Manteiga",
-   "Pedro Fernandez Paya",
-   "Bisrat Gomez Cruz",
+   "Pedro Fernández Paya",
+   "Bisrat Gómez Cruz",
    "David Insua Cambeiro",
    "Hugo Lobelos Canosa",
    "Miguel Paz Souto",
    "Gian Arthur Peñaloza Arias",
-   "Marcelo Piñon Uzcategui",
+   "Marcelo Piñón Uzcátegui",
    "Brais Portela Solla",
-   "Martin Sanchez Caamaño",
-   "Alejandro Sanchez Gallego",
-   "Diego Santos Sanchez",
-   "Valentin Seijo Abeledo",
-   "Samuel Vazquez Lago",
-   "Mateo Vidal Perez",
+   "Martín Sánchez Caamaño",
+   "Alejandro Sánchez Gallego",
+   "Diego Santos Sánchez",
+   "Valentín Seijo Abeledo",
+   "Samuel Vázquez Lago",
+   "Mateo Vidal Pérez",
    "Adrián Vilar Castro",
-   "Xoel Yañez Souto"
+   "Xoel Yáñez Souto"
   ],
   "entrenadores": [
    "Marcos Abelleira Seoane"
   ],
   "delegados": [
-   "Iago Perez Ferreiro"
+   "Iago Pérez Ferreiro"
   ],
   "clasificacion": [
    {
@@ -5771,253 +5771,253 @@ const EQUIPOS = [
   "actas": {
    "2": {
     "t": [
-     "Nicolas Blanco Fernández",
+     "Nicolás Blanco Fernández",
      "Nicolás Alonso De Andrés",
      "Miguel Paz Souto",
      "Mario Barral Bermejo",
-     "Marcelo Piñon Uzcategui",
-     "Mateo Vidal Perez",
-     "Samuel Vazquez Lago",
-     "Martin Sanchez Caamaño",
-     "Mauro Becerra Perez",
-     "Alejandro Sanchez Gallego",
+     "Marcelo Piñón Uzcátegui",
+     "Mateo Vidal Pérez",
+     "Samuel Vázquez Lago",
+     "Martín Sánchez Caamaño",
+     "Mauro Becerra Pérez",
+     "Alejandro Sánchez Gallego",
      "Luis Alfonso Varela"
     ],
     "s": [
-     "Valentin Seijo Abeledo",
-     "Diego Santos Sanchez",
-     "Martin Baeza Mendez",
-     "Pedro Fernandez Paya",
+     "Valentín Seijo Abeledo",
+     "Diego Santos Sánchez",
+     "Martín Baeza Méndez",
+     "Pedro Fernández Paya",
      "Adrián Vilar Castro"
     ],
     "e": [
-     "Pedro Fernandez Paya",
-     "Valentin Seijo Abeledo",
+     "Pedro Fernández Paya",
+     "Valentín Seijo Abeledo",
      "Adrián Vilar Castro",
-     "Diego Santos Sanchez",
-     "Martin Baeza Mendez"
+     "Diego Santos Sánchez",
+     "Martín Baeza Méndez"
     ],
     "g": {
-     "Martin Sanchez Caamaño": 2,
-     "Mateo Vidal Perez": 2,
-     "Mauro Becerra Perez": 3,
-     "Alejandro Sanchez Gallego": 1,
+     "Martín Sánchez Caamaño": 2,
+     "Mateo Vidal Pérez": 2,
+     "Mauro Becerra Pérez": 3,
+     "Alejandro Sánchez Gallego": 1,
      "Mario Barral Bermejo": 1,
-     "Pedro Fernandez Paya": 1
+     "Pedro Fernández Paya": 1
     },
     "a": [],
     "r": [],
     "d": {
-     "Nicolas Blanco Fernández": 1,
+     "Nicolás Blanco Fernández": 1,
      "Nicolás Alonso De Andrés": 2,
      "Miguel Paz Souto": 3,
      "Mario Barral Bermejo": 4,
-     "Marcelo Piñon Uzcategui": 5,
-     "Mateo Vidal Perez": 6,
-     "Samuel Vazquez Lago": 7,
-     "Martin Sanchez Caamaño": 8,
-     "Mauro Becerra Perez": 9,
-     "Alejandro Sanchez Gallego": 10,
+     "Marcelo Piñón Uzcátegui": 5,
+     "Mateo Vidal Pérez": 6,
+     "Samuel Vázquez Lago": 7,
+     "Martín Sánchez Caamaño": 8,
+     "Mauro Becerra Pérez": 9,
+     "Alejandro Sánchez Gallego": 10,
      "Luis Alfonso Varela": 21,
-     "Valentin Seijo Abeledo": 14,
-     "Diego Santos Sanchez": 15,
-     "Martin Baeza Mendez": 16,
-     "Pedro Fernandez Paya": 17,
+     "Valentín Seijo Abeledo": 14,
+     "Diego Santos Sánchez": 15,
+     "Martín Baeza Méndez": 16,
+     "Pedro Fernández Paya": 17,
      "Adrián Vilar Castro": 18
     },
     "id": "1496210"
    },
    "3": {
     "t": [
-     "Nicolas Blanco Fernández",
+     "Nicolás Blanco Fernández",
      "Nicolás Alonso De Andrés",
      "Mario Barral Bermejo",
-     "Marcelo Piñon Uzcategui",
+     "Marcelo Piñón Uzcátegui",
      "Xoel Blanco Manteiga",
-     "Samuel Vazquez Lago",
+     "Samuel Vázquez Lago",
      "Luis Alfonso Varela",
-     "Mauro Becerra Perez",
-     "Alejandro Sanchez Gallego",
-     "Xoel Yañez Souto",
+     "Mauro Becerra Pérez",
+     "Alejandro Sánchez Gallego",
+     "Xoel Yáñez Souto",
      "Gian Arthur Peñaloza Arias"
     ],
     "s": [
      "Miguel Paz Souto",
      "Adrián Vilar Castro",
      "Hugo Lobelos Canosa",
-     "Pedro Fernandez Paya",
-     "Martin Baeza Mendez"
+     "Pedro Fernández Paya",
+     "Martín Baeza Méndez"
     ],
     "e": [
      "Miguel Paz Souto",
-     "Pedro Fernandez Paya",
+     "Pedro Fernández Paya",
      "Hugo Lobelos Canosa",
      "Adrián Vilar Castro",
-     "Martin Baeza Mendez"
+     "Martín Baeza Méndez"
     ],
     "g": {
-     "Mauro Becerra Perez": 4,
-     "Xoel Yañez Souto": 1,
-     "Martin Baeza Mendez": 1
+     "Mauro Becerra Pérez": 4,
+     "Xoel Yáñez Souto": 1,
+     "Martín Baeza Méndez": 1
     },
     "a": [],
     "r": [],
     "d": {
-     "Nicolas Blanco Fernández": 13,
+     "Nicolás Blanco Fernández": 13,
      "Nicolás Alonso De Andrés": 2,
      "Mario Barral Bermejo": 4,
-     "Marcelo Piñon Uzcategui": 5,
+     "Marcelo Piñón Uzcátegui": 5,
      "Xoel Blanco Manteiga": 6,
-     "Samuel Vazquez Lago": 7,
+     "Samuel Vázquez Lago": 7,
      "Luis Alfonso Varela": 8,
-     "Mauro Becerra Perez": 9,
-     "Alejandro Sanchez Gallego": 10,
-     "Xoel Yañez Souto": 11,
+     "Mauro Becerra Pérez": 9,
+     "Alejandro Sánchez Gallego": 10,
+     "Xoel Yáñez Souto": 11,
      "Gian Arthur Peñaloza Arias": 18,
      "Miguel Paz Souto": 3,
      "Adrián Vilar Castro": 12,
      "Hugo Lobelos Canosa": 14,
-     "Pedro Fernandez Paya": 15,
-     "Martin Baeza Mendez": 16
+     "Pedro Fernández Paya": 15,
+     "Martín Baeza Méndez": 16
     },
     "id": "1496218"
    },
    "4": {
     "t": [
-     "Nicolas Blanco Fernández",
+     "Nicolás Blanco Fernández",
      "Nicolás Alonso De Andrés",
      "Miguel Paz Souto",
      "Mario Barral Bermejo",
-     "Diego Santos Sanchez",
+     "Diego Santos Sánchez",
      "Xoel Blanco Manteiga",
-     "Samuel Vazquez Lago",
-     "Mateo Vidal Perez",
-     "Mauro Becerra Perez",
-     "Martin Sanchez Caamaño",
-     "Xoel Yañez Souto"
+     "Samuel Vázquez Lago",
+     "Mateo Vidal Pérez",
+     "Mauro Becerra Pérez",
+     "Martín Sánchez Caamaño",
+     "Xoel Yáñez Souto"
     ],
     "s": [
      "Hugo Lobelos Canosa",
      "Gian Arthur Peñaloza Arias",
      "Luis Alfonso Varela",
-     "Pedro Fernandez Paya",
+     "Pedro Fernández Paya",
      "Adrián Vilar Castro"
     ],
     "e": [
      "Luis Alfonso Varela",
-     "Pedro Fernandez Paya",
+     "Pedro Fernández Paya",
      "Gian Arthur Peñaloza Arias",
      "Hugo Lobelos Canosa",
      "Adrián Vilar Castro"
     ],
     "g": {
-     "Pedro Fernandez Paya": 1
+     "Pedro Fernández Paya": 1
     },
     "a": [
-     "Samuel Vazquez Lago"
+     "Samuel Vázquez Lago"
     ],
     "r": [],
     "d": {
-     "Nicolas Blanco Fernández": 1,
+     "Nicolás Blanco Fernández": 1,
      "Nicolás Alonso De Andrés": 2,
      "Miguel Paz Souto": 3,
      "Mario Barral Bermejo": 4,
-     "Diego Santos Sanchez": 5,
+     "Diego Santos Sánchez": 5,
      "Xoel Blanco Manteiga": 6,
-     "Samuel Vazquez Lago": 7,
-     "Mateo Vidal Perez": 8,
-     "Mauro Becerra Perez": 9,
-     "Martin Sanchez Caamaño": 10,
-     "Xoel Yañez Souto": 21,
+     "Samuel Vázquez Lago": 7,
+     "Mateo Vidal Pérez": 8,
+     "Mauro Becerra Pérez": 9,
+     "Martín Sánchez Caamaño": 10,
+     "Xoel Yáñez Souto": 21,
      "Hugo Lobelos Canosa": 14,
      "Gian Arthur Peñaloza Arias": 15,
      "Luis Alfonso Varela": 16,
-     "Pedro Fernandez Paya": 17,
+     "Pedro Fernández Paya": 17,
      "Adrián Vilar Castro": 18
     },
     "id": "1496227"
    },
    "1": {
     "t": [
-     "Nicolas Blanco Fernández",
+     "Nicolás Blanco Fernández",
      "Nicolás Alonso De Andrés",
      "Miguel Paz Souto",
      "Mario Barral Bermejo",
-     "Mauro Becerra Perez",
-     "Mateo Vidal Perez",
+     "Mauro Becerra Pérez",
+     "Mateo Vidal Pérez",
      "Gian Arthur Peñaloza Arias",
      "Xoel Blanco Manteiga",
-     "Alejandro Sanchez Gallego",
-     "Xoel Yañez Souto",
-     "Valentin Seijo Abeledo"
+     "Alejandro Sánchez Gallego",
+     "Xoel Yáñez Souto",
+     "Valentín Seijo Abeledo"
     ],
     "s": [
-     "Marcelo Piñon Uzcategui",
-     "Martin Sanchez Caamaño",
-     "Pedro Fernandez Paya",
-     "Samuel Vazquez Lago",
+     "Marcelo Piñón Uzcátegui",
+     "Martín Sánchez Caamaño",
+     "Pedro Fernández Paya",
+     "Samuel Vázquez Lago",
      "Luis Alfonso Varela"
     ],
     "e": [
-     "Pedro Fernandez Paya",
-     "Martin Sanchez Caamaño",
-     "Samuel Vazquez Lago",
+     "Pedro Fernández Paya",
+     "Martín Sánchez Caamaño",
+     "Samuel Vázquez Lago",
      "Luis Alfonso Varela",
-     "Marcelo Piñon Uzcategui"
+     "Marcelo Piñón Uzcátegui"
     ],
     "g": {
      "Xoel Blanco Manteiga": 1,
-     "Alejandro Sanchez Gallego": 1
+     "Alejandro Sánchez Gallego": 1
     },
     "a": [
-     "Mateo Vidal Perez",
+     "Mateo Vidal Pérez",
      "Mario Barral Bermejo"
     ],
     "r": [
      "Xoel Blanco Manteiga"
     ],
     "d": {
-     "Nicolas Blanco Fernández": 13,
+     "Nicolás Blanco Fernández": 13,
      "Nicolás Alonso De Andrés": 2,
      "Miguel Paz Souto": 3,
      "Mario Barral Bermejo": 4,
-     "Mauro Becerra Perez": 5,
-     "Mateo Vidal Perez": 6,
+     "Mauro Becerra Pérez": 5,
+     "Mateo Vidal Pérez": 6,
      "Gian Arthur Peñaloza Arias": 7,
      "Xoel Blanco Manteiga": 10,
-     "Alejandro Sanchez Gallego": 11,
-     "Xoel Yañez Souto": 15,
-     "Valentin Seijo Abeledo": 18,
-     "Marcelo Piñon Uzcategui": 12,
-     "Martin Sanchez Caamaño": 14,
-     "Pedro Fernandez Paya": 16,
-     "Samuel Vazquez Lago": 17,
+     "Alejandro Sánchez Gallego": 11,
+     "Xoel Yáñez Souto": 15,
+     "Valentín Seijo Abeledo": 18,
+     "Marcelo Piñón Uzcátegui": 12,
+     "Martín Sánchez Caamaño": 14,
+     "Pedro Fernández Paya": 16,
+     "Samuel Vázquez Lago": 17,
      "Luis Alfonso Varela": 20
     },
     "id": "1496201"
    }
   },
   "dorsales": {
-   "Nicolas Blanco Fernández": 1,
    "Nicolás Alonso De Andrés": 2,
    "Miguel Paz Souto": 3,
    "Mario Barral Bermejo": 4,
-   "Mauro Becerra Perez": 9,
-   "Mateo Vidal Perez": 8,
-   "Gian Arthur Peñaloza Arias": 15,
-   "Xoel Blanco Manteiga": 6,
-   "Alejandro Sanchez Gallego": 10,
-   "Xoel Yañez Souto": 21,
-   "Valentin Seijo Abeledo": 14,
-   "Marcelo Piñon Uzcategui": 5,
-   "Martin Sanchez Caamaño": 10,
-   "Pedro Fernandez Paya": 17,
-   "Samuel Vazquez Lago": 7,
-   "Luis Alfonso Varela": 16,
-   "Diego Santos Sanchez": 5,
-   "Martin Baeza Mendez": 16,
+   "Samuel Vázquez Lago": 7,
+   "Mauro Becerra Pérez": 9,
+   "Nicolás Blanco Fernández": 1,
+   "Marcelo Piñón Uzcátegui": 5,
+   "Mateo Vidal Pérez": 6,
+   "Alejandro Sánchez Gallego": 10,
+   "Luis Alfonso Varela": 8,
+   "Xoel Yáñez Souto": 11,
+   "Hugo Lobelos Canosa": 14,
+   "Martín Baeza Méndez": 16,
+   "Pedro Fernández Paya": 17,
    "Adrián Vilar Castro": 18,
-   "Hugo Lobelos Canosa": 14
+   "Diego Santos Sánchez": 15,
+   "Gian Arthur Peñaloza Arias": 12,
+   "Martín Sánchez Caamaño": 13,
+   "Xoel Blanco Manteiga": 19,
+   "Valentín Seijo Abeledo": 20
   },
   "descargado": "2026-10-23T13:24"
  },
@@ -6029,22 +6029,22 @@ const EQUIPOS = [
   "liga": "División De Honor Infantil",
   "urlFederacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisEquipos?cod_primaria=1000119&Codigo_Equipo=1545",
   "plantilla": [
-   "Guillermo Alejandro Alvarez Rodriguez",
-   "Yuven Rodrigo Ayuni Lopez",
-   "Pablo Botana Gomez",
-   "Nicolas Calzas Mouzo",
+   "Guillermo Alejandro Álvarez Rodríguez",
+   "Yuven Rodrigo Ayuni López",
+   "Pablo Botana Gómez",
+   "Nicolás Calzas Mouzo",
    "Jacobo Casanova Parada",
    "Hugo Costa Ferreiro",
-   "Simeon Garcia Knezic",
+   "Simeón García Knezic",
    "Danny Leal Regueira",
    "Jacobo López Rey",
    "Gabriel Mosquera Lema",
    "Lucas Pérez Gómez",
-   "Anton Portela Solla",
-   "Roi Regueira Vazquez",
+   "Antón Portela Solla",
+   "Roi Regueira Vázquez",
    "Jacobo Rodríguez Canedo",
-   "Iago Sanchez Calvo",
-   "Roque Teiga Mantiñan",
+   "Iago Sánchez Calvo",
+   "Roque Teiga Mantiñán",
    "Luca Varela Codesal",
    "Enrique Vesteiro López"
   ],
@@ -6525,50 +6525,50 @@ const EQUIPOS = [
   "actas": {
    "4": {
     "t": [
-     "Guillermo Alejandro Alvarez Rodriguez",
+     "Guillermo Alejandro Álvarez Rodríguez",
      "Manuel Tato Rey",
-     "Anton Portela Solla",
-     "Alejandro Ramil Vazquez",
+     "Antón Portela Solla",
+     "Alejandro Ramil Vázquez",
      "Jacobo Casanova Parada",
      "Luca Varela Codesal",
      "Pablo Piñón Arévalo",
      "Danny Leal Regueira",
-     "Roi Regueira Vazquez",
-     "Pablo Botana Gomez",
-     "Roque Teiga Mantiñan"
+     "Roi Regueira Vázquez",
+     "Pablo Botana Gómez",
+     "Roque Teiga Mantiñán"
     ],
     "s": [
      "Hugo Costa Ferreiro",
      "Enrique Vesteiro López",
-     "Nicolas Calzas Mouzo",
+     "Nicolás Calzas Mouzo",
      "Lucas Pérez Gómez",
      "Jacobo López Rey"
     ],
     "e": [],
     "g": {
-     "Pablo Botana Gomez": 1,
+     "Pablo Botana Gómez": 1,
      "Luca Varela Codesal": 1,
-     "Roque Teiga Mantiñan": 1
+     "Roque Teiga Mantiñán": 1
     },
     "a": [
-     "Pablo Botana Gomez"
+     "Pablo Botana Gómez"
     ],
     "r": [],
     "d": {
-     "Guillermo Alejandro Alvarez Rodriguez": 1,
+     "Guillermo Alejandro Álvarez Rodríguez": 1,
      "Manuel Tato Rey": 2,
-     "Anton Portela Solla": 3,
-     "Alejandro Ramil Vazquez": 4,
+     "Antón Portela Solla": 3,
+     "Alejandro Ramil Vázquez": 4,
      "Jacobo Casanova Parada": 5,
      "Luca Varela Codesal": 6,
      "Pablo Piñón Arévalo": 8,
      "Danny Leal Regueira": 9,
-     "Roi Regueira Vazquez": 10,
-     "Pablo Botana Gomez": 11,
-     "Roque Teiga Mantiñan": 19,
+     "Roi Regueira Vázquez": 10,
+     "Pablo Botana Gómez": 11,
+     "Roque Teiga Mantiñán": 19,
      "Hugo Costa Ferreiro": 13,
      "Enrique Vesteiro López": 12,
-     "Nicolas Calzas Mouzo": 14,
+     "Nicolás Calzas Mouzo": 14,
      "Lucas Pérez Gómez": 15,
      "Jacobo López Rey": 17
     },
@@ -6577,46 +6577,46 @@ const EQUIPOS = [
    "5": {
     "t": [
      "Gabriel Mosquera Lema",
-     "Anton Portela Solla",
+     "Antón Portela Solla",
      "Lucas Pérez Gómez",
-     "Alejandro Ramil Vazquez",
+     "Alejandro Ramil Vázquez",
      "Jacobo Casanova Parada",
      "Luca Varela Codesal",
-     "Roque Teiga Mantiñan",
-     "Nicolas Calzas Mouzo",
-     "Roi Regueira Vazquez",
-     "Pablo Botana Gomez",
+     "Roque Teiga Mantiñán",
+     "Nicolás Calzas Mouzo",
+     "Roi Regueira Vázquez",
+     "Pablo Botana Gómez",
      "Manuel Tato Rey"
     ],
     "s": [
      "Hugo Costa Ferreiro",
      "Jacobo Rodríguez Canedo",
-     "Simeon Garcia Knezic",
-     "Yuven Rodrigo Ayuni Lopez",
+     "Simeón García Knezic",
+     "Yuven Rodrigo Ayuni López",
      "Jacobo López Rey"
     ],
     "e": [],
     "g": {
-     "Alejandro Ramil Vazquez": 1
+     "Alejandro Ramil Vázquez": 1
     },
     "a": [],
     "r": [],
     "d": {
      "Gabriel Mosquera Lema": 1,
-     "Anton Portela Solla": 2,
+     "Antón Portela Solla": 2,
      "Lucas Pérez Gómez": 3,
-     "Alejandro Ramil Vazquez": 4,
+     "Alejandro Ramil Vázquez": 4,
      "Jacobo Casanova Parada": 5,
      "Luca Varela Codesal": 6,
-     "Roque Teiga Mantiñan": 7,
-     "Nicolas Calzas Mouzo": 8,
-     "Roi Regueira Vazquez": 9,
-     "Pablo Botana Gomez": 10,
+     "Roque Teiga Mantiñán": 7,
+     "Nicolás Calzas Mouzo": 8,
+     "Roi Regueira Vázquez": 9,
+     "Pablo Botana Gómez": 10,
      "Manuel Tato Rey": 11,
      "Hugo Costa Ferreiro": 13,
      "Jacobo Rodríguez Canedo": 12,
-     "Simeon Garcia Knezic": 14,
-     "Yuven Rodrigo Ayuni Lopez": 16,
+     "Simeón García Knezic": 14,
+     "Yuven Rodrigo Ayuni López": 16,
      "Jacobo López Rey": 17
     },
     "id": "1437591"
@@ -6624,21 +6624,21 @@ const EQUIPOS = [
    "6": {
     "t": [
      "Gabriel Mosquera Lema",
-     "Anton Portela Solla",
-     "Roque Teiga Mantiñan",
-     "Alejandro Ramil Vazquez",
+     "Antón Portela Solla",
+     "Roque Teiga Mantiñán",
+     "Alejandro Ramil Vázquez",
      "Jacobo Casanova Parada",
      "Luca Varela Codesal",
-     "Pablo Botana Gomez",
-     "Nicolas Calzas Mouzo",
+     "Pablo Botana Gómez",
+     "Nicolás Calzas Mouzo",
      "Danny Leal Regueira",
-     "Roi Regueira Vazquez",
+     "Roi Regueira Vázquez",
      "Manuel Tato Rey"
     ],
     "s": [
      "Lucas Pérez Gómez",
-     "Guillermo Alejandro Alvarez Rodriguez",
-     "Iago Sanchez Calvo",
+     "Guillermo Alejandro Álvarez Rodríguez",
+     "Iago Sánchez Calvo",
      "Enrique Vesteiro López",
      "Pablo Piñón Arévalo"
     ],
@@ -6650,19 +6650,19 @@ const EQUIPOS = [
     "r": [],
     "d": {
      "Gabriel Mosquera Lema": 1,
-     "Anton Portela Solla": 2,
-     "Roque Teiga Mantiñan": 3,
-     "Alejandro Ramil Vazquez": 4,
+     "Antón Portela Solla": 2,
+     "Roque Teiga Mantiñán": 3,
+     "Alejandro Ramil Vázquez": 4,
      "Jacobo Casanova Parada": 5,
      "Luca Varela Codesal": 6,
-     "Pablo Botana Gomez": 7,
-     "Nicolas Calzas Mouzo": 8,
+     "Pablo Botana Gómez": 7,
+     "Nicolás Calzas Mouzo": 8,
      "Danny Leal Regueira": 9,
-     "Roi Regueira Vazquez": 10,
+     "Roi Regueira Vázquez": 10,
      "Manuel Tato Rey": 11,
      "Lucas Pérez Gómez": 12,
-     "Guillermo Alejandro Alvarez Rodriguez": 13,
-     "Iago Sanchez Calvo": 14,
+     "Guillermo Alejandro Álvarez Rodríguez": 13,
+     "Iago Sánchez Calvo": 14,
      "Enrique Vesteiro López": 15,
      "Pablo Piñón Arévalo": 16
     },
@@ -6672,27 +6672,27 @@ const EQUIPOS = [
     "t": [
      "Gabriel Mosquera Lema",
      "Manuel Tato Rey",
-     "Anton Portela Solla",
-     "Alejandro Ramil Vazquez",
+     "Antón Portela Solla",
+     "Alejandro Ramil Vázquez",
      "Lucas Pérez Gómez",
      "Luca Varela Codesal",
-     "Roque Teiga Mantiñan",
+     "Roque Teiga Mantiñán",
      "Pablo Piñón Arévalo",
      "Danny Leal Regueira",
-     "Roi Regueira Vazquez",
+     "Roi Regueira Vázquez",
      "Jacobo López Rey"
     ],
     "s": [
-     "Guillermo Alejandro Alvarez Rodriguez",
+     "Guillermo Alejandro Álvarez Rodríguez",
      "Enrique Vesteiro López",
-     "Iago Sanchez Calvo",
+     "Iago Sánchez Calvo",
      "Goodnews Ikiponwmosa John Onaguise",
-     "Pablo Botana Gomez"
+     "Pablo Botana Gómez"
     ],
     "e": [],
     "g": {
      "Danny Leal Regueira": 1,
-     "Pablo Botana Gomez": 1
+     "Pablo Botana Gómez": 1
     },
     "a": [
      "Lucas Pérez Gómez"
@@ -6701,40 +6701,40 @@ const EQUIPOS = [
     "d": {
      "Gabriel Mosquera Lema": 1,
      "Manuel Tato Rey": 2,
-     "Anton Portela Solla": 3,
-     "Alejandro Ramil Vazquez": 4,
+     "Antón Portela Solla": 3,
+     "Alejandro Ramil Vázquez": 4,
      "Lucas Pérez Gómez": 5,
      "Luca Varela Codesal": 6,
-     "Roque Teiga Mantiñan": 7,
+     "Roque Teiga Mantiñán": 7,
      "Pablo Piñón Arévalo": 8,
      "Danny Leal Regueira": 9,
-     "Roi Regueira Vazquez": 10,
+     "Roi Regueira Vázquez": 10,
      "Jacobo López Rey": 11,
-     "Guillermo Alejandro Alvarez Rodriguez": 13,
+     "Guillermo Alejandro Álvarez Rodríguez": 13,
      "Enrique Vesteiro López": 12,
-     "Iago Sanchez Calvo": 14,
+     "Iago Sánchez Calvo": 14,
      "Goodnews Ikiponwmosa John Onaguise": 15,
-     "Pablo Botana Gomez": 16
+     "Pablo Botana Gómez": 16
     },
     "id": "1437557"
    },
    "2": {
     "t": [
-     "Guillermo Alejandro Alvarez Rodriguez",
+     "Guillermo Alejandro Álvarez Rodríguez",
      "Manuel Tato Rey",
-     "Anton Portela Solla",
+     "Antón Portela Solla",
      "Lucas Pérez Gómez",
-     "Alejandro Ramil Vazquez",
+     "Alejandro Ramil Vázquez",
      "Luca Varela Codesal",
-     "Roque Teiga Mantiñan",
+     "Roque Teiga Mantiñán",
      "Pablo Piñón Arévalo",
      "Danny Leal Regueira",
-     "Roi Regueira Vazquez",
-     "Pablo Botana Gomez"
+     "Roi Regueira Vázquez",
+     "Pablo Botana Gómez"
     ],
     "s": [
      "Enrique Vesteiro López",
-     "Nicolas Calzas Mouzo",
+     "Nicolás Calzas Mouzo",
      "Jacobo Casanova Parada",
      "Jacobo Rodríguez Canedo",
      "Jacobo López Rey"
@@ -6744,19 +6744,19 @@ const EQUIPOS = [
     "a": [],
     "r": [],
     "d": {
-     "Guillermo Alejandro Alvarez Rodriguez": 1,
+     "Guillermo Alejandro Álvarez Rodríguez": 1,
      "Manuel Tato Rey": 2,
-     "Anton Portela Solla": 3,
+     "Antón Portela Solla": 3,
      "Lucas Pérez Gómez": 4,
-     "Alejandro Ramil Vazquez": 5,
+     "Alejandro Ramil Vázquez": 5,
      "Luca Varela Codesal": 6,
-     "Roque Teiga Mantiñan": 7,
+     "Roque Teiga Mantiñán": 7,
      "Pablo Piñón Arévalo": 8,
      "Danny Leal Regueira": 9,
-     "Roi Regueira Vazquez": 10,
-     "Pablo Botana Gomez": 11,
+     "Roi Regueira Vázquez": 10,
+     "Pablo Botana Gómez": 11,
      "Enrique Vesteiro López": 12,
-     "Nicolas Calzas Mouzo": 14,
+     "Nicolás Calzas Mouzo": 14,
      "Jacobo Casanova Parada": 15,
      "Jacobo Rodríguez Canedo": 16,
      "Jacobo López Rey": 17
@@ -6767,22 +6767,22 @@ const EQUIPOS = [
     "t": [
      "Gabriel Mosquera Lema",
      "Manuel Tato Rey",
-     "Roque Teiga Mantiñan",
+     "Roque Teiga Mantiñán",
      "Lucas Pérez Gómez",
-     "Alejandro Ramil Vazquez",
+     "Alejandro Ramil Vázquez",
      "Luca Varela Codesal",
      "Jacobo López Rey",
      "Pablo Piñón Arévalo",
      "Danny Leal Regueira",
-     "Roi Regueira Vazquez",
-     "Pablo Botana Gomez"
+     "Roi Regueira Vázquez",
+     "Pablo Botana Gómez"
     ],
     "s": [
-     "Guillermo Alejandro Alvarez Rodriguez",
-     "Iago Sanchez Calvo",
+     "Guillermo Alejandro Álvarez Rodríguez",
+     "Iago Sánchez Calvo",
      "Goodnews Ikiponwmosa John Onaguise",
      "Jacobo Casanova Parada",
-     "Simeon Garcia Knezic"
+     "Simeón García Knezic"
     ],
     "e": [],
     "g": {
@@ -6791,53 +6791,53 @@ const EQUIPOS = [
     "a": [
      "Luca Varela Codesal",
      "Lucas Pérez Gómez",
-     "Alejandro Ramil Vazquez"
+     "Alejandro Ramil Vázquez"
     ],
     "r": [],
     "d": {
      "Gabriel Mosquera Lema": 1,
      "Manuel Tato Rey": 2,
-     "Roque Teiga Mantiñan": 3,
+     "Roque Teiga Mantiñán": 3,
      "Lucas Pérez Gómez": 4,
-     "Alejandro Ramil Vazquez": 5,
+     "Alejandro Ramil Vázquez": 5,
      "Luca Varela Codesal": 6,
      "Jacobo López Rey": 7,
      "Pablo Piñón Arévalo": 8,
      "Danny Leal Regueira": 9,
-     "Roi Regueira Vazquez": 10,
-     "Pablo Botana Gomez": 11,
-     "Guillermo Alejandro Alvarez Rodriguez": 13,
-     "Iago Sanchez Calvo": 12,
+     "Roi Regueira Vázquez": 10,
+     "Pablo Botana Gómez": 11,
+     "Guillermo Alejandro Álvarez Rodríguez": 13,
+     "Iago Sánchez Calvo": 12,
      "Goodnews Ikiponwmosa John Onaguise": 14,
      "Jacobo Casanova Parada": 15,
-     "Simeon Garcia Knezic": 16
+     "Simeón García Knezic": 16
     },
     "id": "1437574"
    }
   },
   "dorsales": {
-   "Gabriel Mosquera Lema": 1,
-   "Manuel Tato Rey": 11,
-   "Anton Portela Solla": 2,
-   "Alejandro Ramil Vazquez": 4,
-   "Lucas Pérez Gómez": 12,
    "Luca Varela Codesal": 6,
-   "Roque Teiga Mantiñan": 3,
-   "Pablo Piñón Arévalo": 16,
    "Danny Leal Regueira": 9,
-   "Roi Regueira Vazquez": 10,
-   "Jacobo López Rey": 17,
-   "Guillermo Alejandro Alvarez Rodriguez": 13,
-   "Enrique Vesteiro López": 15,
-   "Iago Sanchez Calvo": 14,
-   "Goodnews Ikiponwmosa John Onaguise": 14,
-   "Pablo Botana Gomez": 7,
-   "Nicolas Calzas Mouzo": 8,
+   "Roi Regueira Vázquez": 10,
+   "Gabriel Mosquera Lema": 1,
+   "Manuel Tato Rey": 2,
+   "Alejandro Ramil Vázquez": 4,
+   "Pablo Piñón Arévalo": 8,
+   "Antón Portela Solla": 3,
    "Jacobo Casanova Parada": 5,
-   "Jacobo Rodríguez Canedo": 12,
-   "Simeon Garcia Knezic": 14,
-   "Hugo Costa Ferreiro": 13,
-   "Yuven Rodrigo Ayuni Lopez": 16
+   "Roque Teiga Mantiñán": 7,
+   "Pablo Botana Gómez": 11,
+   "Enrique Vesteiro López": 12,
+   "Guillermo Alejandro Álvarez Rodríguez": 13,
+   "Jacobo López Rey": 17,
+   "Iago Sánchez Calvo": 14,
+   "Goodnews Ikiponwmosa John Onaguise": 15,
+   "Jacobo Rodríguez Canedo": 16,
+   "Lucas Pérez Gómez": 18,
+   "Nicolás Calzas Mouzo": 19,
+   "Hugo Costa Ferreiro": 20,
+   "Simeón García Knezic": 21,
+   "Yuven Rodrigo Ayuni López": 22
   },
   "descargado": "2026-10-23T13:25"
  },
@@ -6851,31 +6851,31 @@ const EQUIPOS = [
   "plantilla": [
    "Aarón Anido Barroso",
    "Hugo Astray Losada",
-   "Jose Maria Fernandez Blanco",
+   "José María Fernández Blanco",
    "Breixo Fernández González",
-   "Lucas Garcia Rancaño",
+   "Lucas García Rancaño",
    "Goodnews Ikiponwmosa John Onaguise",
    "Enzo Miguel Álvaro",
-   "Anton Pato Mouzo",
+   "Antón Pato Mouzo",
    "Mateo Pereira Pedreira",
    "Pablo Piñón Arévalo",
-   "Alejandro Ramil Vazquez",
+   "Alejandro Ramil Vázquez",
    "Iñaki Ramos Ramos",
    "Mateo Reguera Alonso",
    "Oliver Rivera Iglesias",
-   "Anton Rodriguez Castro",
+   "Antón Rodríguez Castro",
    "Miguel Ruzo Pan",
    "Fabricio Scotti Paz",
    "Manuel Tato Rey",
-   "Jesus Joaquin Torreiro Marcos",
-   "Lucas Vazquez Garcia-Lluis"
+   "Jesús Joaquín Torreiro Marcos",
+   "Lucas Vázquez García-Lluis"
   ],
   "entrenadores": [
-   "Jorge Baldomir Galan",
+   "Jorge Baldomir Galán",
    "Pablo Fernández Segurado"
   ],
   "delegados": [
-   "Manuel Jose Varela Añon"
+   "Manuel José Varela Añón"
   ],
   "clasificacion": [
    {
@@ -7350,12 +7350,12 @@ const EQUIPOS = [
   "actas": {
    "3": {
     "t": [
-     "Jose Maria Fernandez Blanco",
+     "José María Fernández Blanco",
      "Breixo Fernández González",
      "Mateo Reguera Alonso",
      "Aarón Anido Barroso",
-     "Anton Pato Mouzo",
-     "Anton Rodriguez Castro",
+     "Antón Pato Mouzo",
+     "Antón Rodríguez Castro",
      "Hugo Astray Losada",
      "Fabricio Scotti Paz",
      "Mateo Pereira Pedreira",
@@ -7364,37 +7364,37 @@ const EQUIPOS = [
     ],
     "s": [
      "Oliver Rivera Iglesias",
-     "Lucas Vazquez Garcia-Lluis",
+     "Lucas Vázquez García-Lluis",
      "Goodnews Ikiponwmosa John Onaguise",
      "Nico Mosteiro Carro",
-     "Jesus Joaquin Torreiro Marcos"
+     "Jesús Joaquín Torreiro Marcos"
     ],
     "e": [],
     "g": {
      "Goodnews Ikiponwmosa John Onaguise": 3,
      "Nico Mosteiro Carro": 2,
      "Oliver Rivera Iglesias": 1,
-     "Anton Pato Mouzo": 1
+     "Antón Pato Mouzo": 1
     },
     "a": [],
     "r": [],
     "d": {
-     "Jose Maria Fernandez Blanco": 13,
+     "José María Fernández Blanco": 13,
      "Breixo Fernández González": 3,
      "Mateo Reguera Alonso": 6,
      "Aarón Anido Barroso": 9,
-     "Anton Pato Mouzo": 10,
-     "Anton Rodriguez Castro": 11,
+     "Antón Pato Mouzo": 10,
+     "Antón Rodríguez Castro": 11,
      "Hugo Astray Losada": 12,
      "Fabricio Scotti Paz": 14,
      "Mateo Pereira Pedreira": 15,
      "Iñaki Ramos Ramos": 16,
      "Miguel Ruzo Pan": 17,
      "Oliver Rivera Iglesias": 2,
-     "Lucas Vazquez Garcia-Lluis": 5,
+     "Lucas Vázquez García-Lluis": 5,
      "Goodnews Ikiponwmosa John Onaguise": 7,
      "Nico Mosteiro Carro": 8,
-     "Jesus Joaquin Torreiro Marcos": 18
+     "Jesús Joaquín Torreiro Marcos": 18
     },
     "id": "1471500"
    },
@@ -7402,27 +7402,27 @@ const EQUIPOS = [
     "t": [
      "Enzo Miguel Álvaro",
      "Oliver Rivera Iglesias",
-     "Lucas Vazquez Garcia-Lluis",
+     "Lucas Vázquez García-Lluis",
      "Mateo Reguera Alonso",
      "Goodnews Ikiponwmosa John Onaguise",
      "Aarón Anido Barroso",
-     "Anton Pato Mouzo",
-     "Anton Rodriguez Castro",
+     "Antón Pato Mouzo",
+     "Antón Rodríguez Castro",
      "Mateo Pereira Pedreira",
      "Iñaki Ramos Ramos",
-     "Jesus Joaquin Torreiro Marcos"
+     "Jesús Joaquín Torreiro Marcos"
     ],
     "s": [
-     "Jose Maria Fernandez Blanco",
+     "José María Fernández Blanco",
      "Breixo Fernández González",
      "Adrián Garay Amigo",
-     "Lucas Garcia Rancaño",
+     "Lucas García Rancaño",
      "Fabricio Scotti Paz"
     ],
     "e": [],
     "g": {
-     "Anton Pato Mouzo": 2,
-     "Lucas Garcia Rancaño": 4,
+     "Antón Pato Mouzo": 2,
+     "Lucas García Rancaño": 4,
      "Goodnews Ikiponwmosa John Onaguise": 1
     },
     "a": [
@@ -7432,32 +7432,32 @@ const EQUIPOS = [
     "d": {
      "Enzo Miguel Álvaro": 1,
      "Oliver Rivera Iglesias": 2,
-     "Lucas Vazquez Garcia-Lluis": 5,
+     "Lucas Vázquez García-Lluis": 5,
      "Mateo Reguera Alonso": 6,
      "Goodnews Ikiponwmosa John Onaguise": 7,
      "Aarón Anido Barroso": 9,
-     "Anton Pato Mouzo": 10,
-     "Anton Rodriguez Castro": 11,
+     "Antón Pato Mouzo": 10,
+     "Antón Rodríguez Castro": 11,
      "Mateo Pereira Pedreira": 15,
      "Iñaki Ramos Ramos": 16,
-     "Jesus Joaquin Torreiro Marcos": 18,
-     "Jose Maria Fernandez Blanco": 13,
+     "Jesús Joaquín Torreiro Marcos": 18,
+     "José María Fernández Blanco": 13,
      "Breixo Fernández González": 3,
      "Adrián Garay Amigo": 4,
-     "Lucas Garcia Rancaño": 8,
+     "Lucas García Rancaño": 8,
      "Fabricio Scotti Paz": 14
     },
     "id": "1471509"
    },
    "5": {
     "t": [
-     "Jose Maria Fernandez Blanco",
+     "José María Fernández Blanco",
      "Oliver Rivera Iglesias",
      "Breixo Fernández González",
      "Mateo Reguera Alonso",
-     "Lucas Garcia Rancaño",
+     "Lucas García Rancaño",
      "Aarón Anido Barroso",
-     "Anton Pato Mouzo",
+     "Antón Pato Mouzo",
      "Hugo Astray Losada",
      "Fabricio Scotti Paz",
      "Iñaki Ramos Ramos",
@@ -7468,24 +7468,24 @@ const EQUIPOS = [
      "Goodnews Ikiponwmosa John Onaguise",
      "Nico Mosteiro Carro",
      "Mateo Pereira Pedreira",
-     "Jesus Joaquin Torreiro Marcos"
+     "Jesús Joaquín Torreiro Marcos"
     ],
     "e": [],
     "g": {
      "Miguel Ruzo Pan": 1,
      "Goodnews Ikiponwmosa John Onaguise": 1,
-     "Jesus Joaquin Torreiro Marcos": 2
+     "Jesús Joaquín Torreiro Marcos": 2
     },
     "a": [],
     "r": [],
     "d": {
-     "Jose Maria Fernandez Blanco": 13,
+     "José María Fernández Blanco": 13,
      "Oliver Rivera Iglesias": 2,
      "Breixo Fernández González": 3,
      "Mateo Reguera Alonso": 6,
-     "Lucas Garcia Rancaño": 8,
+     "Lucas García Rancaño": 8,
      "Aarón Anido Barroso": 9,
-     "Anton Pato Mouzo": 10,
+     "Antón Pato Mouzo": 10,
      "Hugo Astray Losada": 12,
      "Fabricio Scotti Paz": 14,
      "Iñaki Ramos Ramos": 16,
@@ -7494,7 +7494,7 @@ const EQUIPOS = [
      "Goodnews Ikiponwmosa John Onaguise": 7,
      "Nico Mosteiro Carro": 11,
      "Mateo Pereira Pedreira": 15,
-     "Jesus Joaquin Torreiro Marcos": 18
+     "Jesús Joaquín Torreiro Marcos": 18
     },
     "id": "1471517"
    },
@@ -7503,30 +7503,30 @@ const EQUIPOS = [
      "Enzo Miguel Álvaro",
      "Oliver Rivera Iglesias",
      "Breixo Fernández González",
-     "Lucas Vazquez Garcia-Lluis",
+     "Lucas Vázquez García-Lluis",
      "Goodnews Ikiponwmosa John Onaguise",
-     "Anton Rodriguez Castro",
-     "Anton Pato Mouzo",
+     "Antón Rodríguez Castro",
+     "Antón Pato Mouzo",
      "Fabricio Scotti Paz",
      "Iñaki Ramos Ramos",
      "Miguel Ruzo Pan",
-     "Lucas Garcia Rancaño"
+     "Lucas García Rancaño"
     ],
     "s": [
      "Adrián Garay Amigo",
      "Mateo Reguera Alonso",
-     "Jesus Joaquin Torreiro Marcos",
+     "Jesús Joaquín Torreiro Marcos",
      "Hugo Astray Losada",
      "Mateo Pereira Pedreira"
     ],
     "e": [],
     "g": {
      "Goodnews Ikiponwmosa John Onaguise": 1,
-     "Lucas Garcia Rancaño": 3,
-     "Jesus Joaquin Torreiro Marcos": 2,
+     "Lucas García Rancaño": 3,
+     "Jesús Joaquín Torreiro Marcos": 2,
      "Oliver Rivera Iglesias": 3,
      "Hugo Astray Losada": 1,
-     "Anton Pato Mouzo": 1
+     "Antón Pato Mouzo": 1
     },
     "a": [],
     "r": [],
@@ -7534,17 +7534,17 @@ const EQUIPOS = [
      "Enzo Miguel Álvaro": 1,
      "Oliver Rivera Iglesias": 2,
      "Breixo Fernández González": 3,
-     "Lucas Vazquez Garcia-Lluis": 5,
+     "Lucas Vázquez García-Lluis": 5,
      "Goodnews Ikiponwmosa John Onaguise": 7,
-     "Anton Rodriguez Castro": 8,
-     "Anton Pato Mouzo": 10,
+     "Antón Rodríguez Castro": 8,
+     "Antón Pato Mouzo": 10,
      "Fabricio Scotti Paz": 14,
      "Iñaki Ramos Ramos": 16,
      "Miguel Ruzo Pan": 17,
-     "Lucas Garcia Rancaño": 18,
+     "Lucas García Rancaño": 18,
      "Adrián Garay Amigo": 4,
      "Mateo Reguera Alonso": 6,
-     "Jesus Joaquin Torreiro Marcos": 11,
+     "Jesús Joaquín Torreiro Marcos": 11,
      "Hugo Astray Losada": 12,
      "Mateo Pereira Pedreira": 15
     },
@@ -7552,28 +7552,28 @@ const EQUIPOS = [
    },
    "2": {
     "t": [
-     "Jose Maria Fernandez Blanco",
+     "José María Fernández Blanco",
      "Oliver Rivera Iglesias",
      "Breixo Fernández González",
-     "Lucas Vazquez Garcia-Lluis",
+     "Lucas Vázquez García-Lluis",
      "Mateo Reguera Alonso",
      "Goodnews Ikiponwmosa John Onaguise",
-     "Lucas Garcia Rancaño",
+     "Lucas García Rancaño",
      "Hugo Astray Losada",
      "Fabricio Scotti Paz",
      "Miguel Ruzo Pan",
-     "Jesus Joaquin Torreiro Marcos"
+     "Jesús Joaquín Torreiro Marcos"
     ],
     "s": [
      "Enzo Miguel Álvaro",
-     "Anton Pato Mouzo",
-     "Anton Rodriguez Castro",
+     "Antón Pato Mouzo",
+     "Antón Rodríguez Castro",
      "Nico Mosteiro Carro",
      "Iñaki Ramos Ramos"
     ],
     "e": [],
     "g": {
-     "Anton Pato Mouzo": 2,
+     "Antón Pato Mouzo": 2,
      "Goodnews Ikiponwmosa John Onaguise": 3,
      "Oliver Rivera Iglesias": 1
     },
@@ -7582,20 +7582,20 @@ const EQUIPOS = [
     ],
     "r": [],
     "d": {
-     "Jose Maria Fernandez Blanco": 13,
+     "José María Fernández Blanco": 13,
      "Oliver Rivera Iglesias": 2,
      "Breixo Fernández González": 3,
-     "Lucas Vazquez Garcia-Lluis": 5,
+     "Lucas Vázquez García-Lluis": 5,
      "Mateo Reguera Alonso": 6,
      "Goodnews Ikiponwmosa John Onaguise": 7,
-     "Lucas Garcia Rancaño": 9,
+     "Lucas García Rancaño": 9,
      "Hugo Astray Losada": 12,
      "Fabricio Scotti Paz": 14,
      "Miguel Ruzo Pan": 17,
-     "Jesus Joaquin Torreiro Marcos": 18,
+     "Jesús Joaquín Torreiro Marcos": 18,
      "Enzo Miguel Álvaro": 1,
-     "Anton Pato Mouzo": 10,
-     "Anton Rodriguez Castro": 11,
+     "Antón Pato Mouzo": 10,
+     "Antón Rodríguez Castro": 11,
      "Nico Mosteiro Carro": 15,
      "Iñaki Ramos Ramos": 16
     },
@@ -7603,25 +7603,25 @@ const EQUIPOS = [
    }
   },
   "dorsales": {
-   "Enzo Miguel Álvaro": 1,
    "Oliver Rivera Iglesias": 2,
    "Breixo Fernández González": 3,
-   "Lucas Vazquez Garcia-Lluis": 5,
+   "Mateo Reguera Alonso": 6,
    "Goodnews Ikiponwmosa John Onaguise": 7,
-   "Anton Rodriguez Castro": 11,
-   "Anton Pato Mouzo": 10,
+   "Antón Pato Mouzo": 10,
+   "Enzo Miguel Álvaro": 1,
+   "Lucas Vázquez García-Lluis": 5,
+   "Aarón Anido Barroso": 9,
+   "Antón Rodríguez Castro": 11,
+   "Adrián Garay Amigo": 4,
+   "Lucas García Rancaño": 8,
    "Fabricio Scotti Paz": 14,
    "Iñaki Ramos Ramos": 16,
-   "Miguel Ruzo Pan": 17,
-   "Lucas Garcia Rancaño": 8,
-   "Adrián Garay Amigo": 4,
-   "Mateo Reguera Alonso": 6,
-   "Jesus Joaquin Torreiro Marcos": 18,
    "Hugo Astray Losada": 12,
+   "José María Fernández Blanco": 13,
    "Mateo Pereira Pedreira": 15,
-   "Jose Maria Fernandez Blanco": 13,
-   "Nico Mosteiro Carro": 11,
-   "Aarón Anido Barroso": 9
+   "Miguel Ruzo Pan": 17,
+   "Jesús Joaquín Torreiro Marcos": 18,
+   "Nico Mosteiro Carro": 19
   },
   "descargado": "2026-10-23T13:25"
  },
@@ -7636,30 +7636,30 @@ const EQUIPOS = [
    "Andrés Castellanos Gil",
    "Álvaro Cousillas Santiago",
    "Eloy Fernández Pérez",
-   "Pedro Fernandez Llamazares Gesto",
+   "Pedro Fernández Llamazares Gesto",
    "Javier Ferreiro Abelaira",
    "Mateo Gago Gestal",
    "Iago González Touza",
    "Pablo Lourido Aldao",
-   "Yeray Martinez Vazquez",
+   "Yeray Martínez Vázquez",
    "Nicolás Meiras Guerra",
    "Kevin Mosquera Mantiñán",
    "Artai Nieto Ramos",
    "Sergio Otero Velo",
    "Fabio Paparella Rodríguez",
    "Pedro Prada Maroño",
-   "Adrian Rios Naya",
-   "Hugo Sanchez Sanchis",
-   "Alvaro Santamaria Cives",
+   "Adrián Ríos Naya",
+   "Hugo Sánchez Sanchis",
+   "Álvaro Santamaría Cives",
    "Teo Vallee Llorente"
   ],
   "entrenadores": [
-   "Pablo Alvarez Silva"
+   "Pablo Álvarez Silva"
   ],
   "delegados": [
    "Daniel Buide Modia",
    "Ignacio Lourido Fuertes",
-   "Faustino Vazquez Seoane"
+   "Faustino Vázquez Seoane"
   ],
   "clasificacion": [
    {
@@ -8140,23 +8140,23 @@ const EQUIPOS = [
      "Iago González Touza",
      "Sergio Otero Velo",
      "Fabio Paparella Rodríguez",
-     "Pedro Fernandez Llamazares Gesto",
+     "Pedro Fernández Llamazares Gesto",
      "Pablo Lourido Aldao",
-     "Yeray Martinez Vazquez",
-     "Adrian Rios Naya",
+     "Yeray Martínez Vázquez",
+     "Adrián Ríos Naya",
      "Nicolás Meiras Guerra"
     ],
     "s": [
      "Álvaro Cousillas Santiago",
      "Teo Vallee Llorente",
-     "Hugo Sanchez Sanchis",
+     "Hugo Sánchez Sanchis",
      "Andrés Castellanos Gil",
      "Javier Ferreiro Abelaira"
     ],
     "e": [],
     "g": {
-     "Yeray Martinez Vazquez": 3,
-     "Pedro Fernandez Llamazares Gesto": 1,
+     "Yeray Martínez Vázquez": 3,
+     "Pedro Fernández Llamazares Gesto": 1,
      "Pablo Lourido Aldao": 1
     },
     "a": [],
@@ -8168,14 +8168,14 @@ const EQUIPOS = [
      "Iago González Touza": 4,
      "Sergio Otero Velo": 5,
      "Fabio Paparella Rodríguez": 6,
-     "Pedro Fernandez Llamazares Gesto": 7,
+     "Pedro Fernández Llamazares Gesto": 7,
      "Pablo Lourido Aldao": 8,
-     "Yeray Martinez Vazquez": 9,
-     "Adrian Rios Naya": 10,
+     "Yeray Martínez Vázquez": 9,
+     "Adrián Ríos Naya": 10,
      "Nicolás Meiras Guerra": 11,
      "Álvaro Cousillas Santiago": 13,
      "Teo Vallee Llorente": 12,
-     "Hugo Sanchez Sanchis": 14,
+     "Hugo Sánchez Sanchis": 14,
      "Andrés Castellanos Gil": 15,
      "Javier Ferreiro Abelaira": 16
     },
@@ -8184,13 +8184,13 @@ const EQUIPOS = [
    "3": {
     "t": [
      "Álvaro Cousillas Santiago",
-     "Pedro Fernandez Llamazares Gesto",
+     "Pedro Fernández Llamazares Gesto",
      "Javier Ferreiro Abelaira",
      "Artai Nieto Ramos",
      "Fabio Paparella Rodríguez",
      "Pedro Prada Maroño",
-     "Yeray Martinez Vazquez",
-     "Adrian Rios Naya",
+     "Yeray Martínez Vázquez",
+     "Adrián Ríos Naya",
      "Nicolás Meiras Guerra",
      "Andrés Castellanos Gil",
      "Pablo Lourido Aldao"
@@ -8199,19 +8199,19 @@ const EQUIPOS = [
      "Eloy Fernández Pérez",
      "Mateo Gago Gestal",
      "Teo Vallee Llorente",
-     "Hugo Estraviz Lopez",
-     "Alvaro Santamaria Cives"
+     "Hugo Estraviz López",
+     "Álvaro Santamaría Cives"
     ],
     "e": [],
     "g": {
-     "Yeray Martinez Vazquez": 3,
+     "Yeray Martínez Vázquez": 3,
      "Nicolás Meiras Guerra": 3,
-     "Pedro Fernandez Llamazares Gesto": 1,
+     "Pedro Fernández Llamazares Gesto": 1,
      "Andrés Castellanos Gil": 1,
      "Fabio Paparella Rodríguez": 2,
-     "Adrian Rios Naya": 1,
+     "Adrián Ríos Naya": 1,
      "Artai Nieto Ramos": 1,
-     "Alvaro Santamaria Cives": 1,
+     "Álvaro Santamaría Cives": 1,
      "Javier Ferreiro Abelaira": 1,
      "Pedro Prada Maroño": 1
     },
@@ -8219,21 +8219,21 @@ const EQUIPOS = [
     "r": [],
     "d": {
      "Álvaro Cousillas Santiago": 13,
-     "Pedro Fernandez Llamazares Gesto": 2,
+     "Pedro Fernández Llamazares Gesto": 2,
      "Javier Ferreiro Abelaira": 3,
      "Artai Nieto Ramos": 4,
      "Fabio Paparella Rodríguez": 5,
      "Pedro Prada Maroño": 6,
-     "Yeray Martinez Vazquez": 9,
-     "Adrian Rios Naya": 10,
+     "Yeray Martínez Vázquez": 9,
+     "Adrián Ríos Naya": 10,
      "Nicolás Meiras Guerra": 11,
      "Andrés Castellanos Gil": 17,
      "Pablo Lourido Aldao": 21,
      "Eloy Fernández Pérez": 1,
      "Mateo Gago Gestal": 12,
      "Teo Vallee Llorente": 14,
-     "Hugo Estraviz Lopez": 15,
-     "Alvaro Santamaria Cives": 16
+     "Hugo Estraviz López": 15,
+     "Álvaro Santamaría Cives": 16
     },
     "id": "1497110"
    },
@@ -8245,10 +8245,10 @@ const EQUIPOS = [
      "Artai Nieto Ramos",
      "Fabio Paparella Rodríguez",
      "Pedro Prada Maroño",
-     "Pedro Fernandez Llamazares Gesto",
+     "Pedro Fernández Llamazares Gesto",
      "Pablo Lourido Aldao",
-     "Yeray Martinez Vazquez",
-     "Adrian Rios Naya",
+     "Yeray Martínez Vázquez",
+     "Adrián Ríos Naya",
      "Nicolás Meiras Guerra"
     ],
     "s": [
@@ -8260,16 +8260,16 @@ const EQUIPOS = [
     ],
     "e": [],
     "g": {
-     "Pedro Fernandez Llamazares Gesto": 1,
+     "Pedro Fernández Llamazares Gesto": 1,
      "Andrés Castellanos Gil": 2,
      "Nicolás Meiras Guerra": 3,
      "Artai Nieto Ramos": 2,
-     "Adrian Rios Naya": 1,
+     "Adrián Ríos Naya": 1,
      "Martiño Moar Moscoso": 1,
      "Pablo Lourido Aldao": 3,
      "Teo Vallee Llorente": 1,
      "Javier Ferreiro Abelaira": 1,
-     "Yeray Martinez Vazquez": 1
+     "Yeray Martínez Vázquez": 1
     },
     "a": [],
     "r": [],
@@ -8280,10 +8280,10 @@ const EQUIPOS = [
      "Artai Nieto Ramos": 4,
      "Fabio Paparella Rodríguez": 5,
      "Pedro Prada Maroño": 6,
-     "Pedro Fernandez Llamazares Gesto": 7,
+     "Pedro Fernández Llamazares Gesto": 7,
      "Pablo Lourido Aldao": 8,
-     "Yeray Martinez Vazquez": 9,
-     "Adrian Rios Naya": 10,
+     "Yeray Martínez Vázquez": 9,
+     "Adrián Ríos Naya": 10,
      "Nicolás Meiras Guerra": 11,
      "Álvaro Cousillas Santiago": 13,
      "Javier Ferreiro Abelaira": 12,
@@ -8301,18 +8301,18 @@ const EQUIPOS = [
      "Fabio Paparella Rodríguez",
      "Sergio Otero Velo",
      "Pedro Prada Maroño",
-     "Pedro Fernandez Llamazares Gesto",
+     "Pedro Fernández Llamazares Gesto",
      "Pablo Lourido Aldao",
-     "Adrian Rios Naya",
+     "Adrián Ríos Naya",
      "Nicolás Meiras Guerra",
-     "Yeray Martinez Vazquez"
+     "Yeray Martínez Vázquez"
     ],
     "s": [
      "Álvaro Cousillas Santiago",
-     "Hugo Estraviz Lopez",
+     "Hugo Estraviz López",
      "Artai Nieto Ramos",
      "Iago González Touza",
-     "Hugo Sanchez Sanchis"
+     "Hugo Sánchez Sanchis"
     ],
     "e": [],
     "g": {
@@ -8331,41 +8331,41 @@ const EQUIPOS = [
      "Fabio Paparella Rodríguez": 4,
      "Sergio Otero Velo": 5,
      "Pedro Prada Maroño": 6,
-     "Pedro Fernandez Llamazares Gesto": 7,
+     "Pedro Fernández Llamazares Gesto": 7,
      "Pablo Lourido Aldao": 8,
-     "Adrian Rios Naya": 10,
+     "Adrián Ríos Naya": 10,
      "Nicolás Meiras Guerra": 17,
-     "Yeray Martinez Vazquez": 18,
+     "Yeray Martínez Vázquez": 18,
      "Álvaro Cousillas Santiago": 13,
-     "Hugo Estraviz Lopez": 12,
+     "Hugo Estraviz López": 12,
      "Artai Nieto Ramos": 14,
      "Iago González Touza": 15,
-     "Hugo Sanchez Sanchis": 16
+     "Hugo Sánchez Sanchis": 16
     },
     "id": "1497095"
    }
   },
   "dorsales": {
    "Eloy Fernández Pérez": 1,
-   "Mateo Gago Gestal": 3,
-   "Teo Vallee Llorente": 2,
-   "Fabio Paparella Rodríguez": 5,
-   "Sergio Otero Velo": 15,
+   "Adrián Ríos Naya": 10,
    "Pedro Prada Maroño": 6,
-   "Pedro Fernandez Llamazares Gesto": 7,
+   "Pedro Fernández Llamazares Gesto": 7,
    "Pablo Lourido Aldao": 8,
-   "Adrian Rios Naya": 10,
+   "Yeray Martínez Vázquez": 9,
    "Nicolás Meiras Guerra": 11,
-   "Yeray Martinez Vazquez": 9,
-   "Álvaro Cousillas Santiago": 13,
-   "Hugo Estraviz Lopez": 15,
+   "Mateo Gago Gestal": 3,
    "Artai Nieto Ramos": 4,
-   "Iago González Touza": 4,
-   "Hugo Sanchez Sanchis": 14,
+   "Fabio Paparella Rodríguez": 5,
+   "Teo Vallee Llorente": 2,
+   "Álvaro Cousillas Santiago": 13,
+   "Hugo Estraviz López": 12,
    "Andrés Castellanos Gil": 14,
-   "Javier Ferreiro Abelaira": 12,
-   "Alvaro Santamaria Cives": 16,
-   "Martiño Moar Moscoso": 16
+   "Iago González Touza": 15,
+   "Hugo Sánchez Sanchis": 16,
+   "Javier Ferreiro Abelaira": 17,
+   "Sergio Otero Velo": 18,
+   "Martiño Moar Moscoso": 19,
+   "Álvaro Santamaría Cives": 20
   },
   "descargado": "2026-10-23T13:26"
  },
@@ -8377,19 +8377,19 @@ const EQUIPOS = [
   "liga": "3ª Futgal Infantil",
   "urlFederacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisEquipos?cod_primaria=1000119&Codigo_Equipo=27230871",
   "plantilla": [
-   "Noel Alcaraz Garcia",
+   "Noel Alcaraz García",
    "Xalo Bendaña Castro",
    "Lucas Bouzada Varela",
    "Teo Caamaño Brandariz",
    "Roi Castro Pose",
    "Hugo Espiñeira Esteban",
-   "Hugo Estraviz Lopez",
-   "Izan Fernandez Bouzas",
+   "Hugo Estraviz López",
+   "Izan Fernández Bouzas",
    "Antón Fernández Gómez-Pedreira",
    "Lucas Fresco Pérez",
    "Adrián Garay Amigo",
-   "Lucas Garcia Aldao",
-   "Adrian Garcia Rivademar",
+   "Lucas García Aldao",
+   "Adrián García Rivademar",
    "Martín Losada Peteiro",
    "Martiño Moar Moscoso",
    "Erick Mosteiro Carro",
@@ -8402,7 +8402,7 @@ const EQUIPOS = [
    "Jaime Suevos Varela"
   ],
   "entrenadores": [
-   "Pablo Alvarez Silva"
+   "Pablo Álvarez Silva"
   ],
   "delegados": [],
   "clasificacion": [
@@ -8820,13 +8820,13 @@ const EQUIPOS = [
     "t": [
      "Joel Ruiz-Moyano Plaza",
      "Hugo Espiñeira Esteban",
-     "Izan Fernandez Bouzas",
+     "Izan Fernández Bouzas",
      "Lucas Pan Rojo",
      "Antón Fernández Gómez-Pedreira",
      "Nico Mosteiro Carro",
-     "Lucas Garcia Aldao",
+     "Lucas García Aldao",
      "Teo Caamaño Brandariz",
-     "Noel Alcaraz Garcia",
+     "Noel Alcaraz García",
      "Martiño Moar Moscoso",
      "Erick Mosteiro Carro"
     ],
@@ -8839,10 +8839,10 @@ const EQUIPOS = [
     ],
     "e": [],
     "g": {
-     "Noel Alcaraz Garcia": 1,
+     "Noel Alcaraz García": 1,
      "Nico Mosteiro Carro": 2,
      "Teo Caamaño Brandariz": 3,
-     "Izan Fernandez Bouzas": 1,
+     "Izan Fernández Bouzas": 1,
      "Erick Mosteiro Carro": 1
     },
     "a": [],
@@ -8850,13 +8850,13 @@ const EQUIPOS = [
     "d": {
      "Joel Ruiz-Moyano Plaza": 13,
      "Hugo Espiñeira Esteban": 2,
-     "Izan Fernandez Bouzas": 3,
+     "Izan Fernández Bouzas": 3,
      "Lucas Pan Rojo": 4,
      "Antón Fernández Gómez-Pedreira": 6,
      "Nico Mosteiro Carro": 7,
-     "Lucas Garcia Aldao": 8,
+     "Lucas García Aldao": 8,
      "Teo Caamaño Brandariz": 10,
-     "Noel Alcaraz Garcia": 14,
+     "Noel Alcaraz García": 14,
      "Martiño Moar Moscoso": 16,
      "Erick Mosteiro Carro": 17,
      "Cibrán Rodríguez Otero": 5,
@@ -8872,25 +8872,25 @@ const EQUIPOS = [
      "Jaime Suevos Varela",
      "Erick Mosteiro Carro",
      "Adrián Garay Amigo",
-     "Lucas Garcia Aldao",
+     "Lucas García Aldao",
      "Antón Fernández Gómez-Pedreira",
      "Martiño Moar Moscoso",
      "Teo Caamaño Brandariz",
      "Lucas Bouzada Varela",
      "Nico Mosteiro Carro",
-     "Izan Fernandez Bouzas",
-     "Noel Alcaraz Garcia"
+     "Izan Fernández Bouzas",
+     "Noel Alcaraz García"
     ],
     "s": [
      "Joel Ruiz-Moyano Plaza",
      "Hugo Espiñeira Esteban",
      "Lucas Pan Rojo",
-     "Adrian Garcia Rivademar",
+     "Adrián García Rivademar",
      "Lucas Fresco Pérez"
     ],
     "e": [],
     "g": {
-     "Noel Alcaraz Garcia": 3,
+     "Noel Alcaraz García": 3,
      "Nico Mosteiro Carro": 3,
      "Teo Caamaño Brandariz": 1,
      "Lucas Fresco Pérez": 1,
@@ -8902,18 +8902,18 @@ const EQUIPOS = [
      "Jaime Suevos Varela": 13,
      "Erick Mosteiro Carro": 2,
      "Adrián Garay Amigo": 5,
-     "Lucas Garcia Aldao": 6,
+     "Lucas García Aldao": 6,
      "Antón Fernández Gómez-Pedreira": 7,
      "Martiño Moar Moscoso": 8,
      "Teo Caamaño Brandariz": 10,
      "Lucas Bouzada Varela": 11,
      "Nico Mosteiro Carro": 14,
-     "Izan Fernandez Bouzas": 16,
-     "Noel Alcaraz Garcia": 18,
+     "Izan Fernández Bouzas": 16,
+     "Noel Alcaraz García": 18,
      "Joel Ruiz-Moyano Plaza": 1,
      "Hugo Espiñeira Esteban": 3,
      "Lucas Pan Rojo": 4,
-     "Adrian Garcia Rivademar": 15,
+     "Adrián García Rivademar": 15,
      "Lucas Fresco Pérez": 17
     },
     "id": "1510063"
@@ -8925,23 +8925,23 @@ const EQUIPOS = [
      "Lucas Bouzada Varela",
      "Adrián Garay Amigo",
      "Cibrán Rodríguez Otero",
-     "Izan Fernandez Bouzas",
-     "Noel Alcaraz Garcia",
+     "Izan Fernández Bouzas",
+     "Noel Alcaraz García",
      "Teo Caamaño Brandariz",
      "Xalo Bendaña Castro",
      "Félix Romero Brión",
-     "Lucas Garcia Aldao"
+     "Lucas García Aldao"
     ],
     "s": [
      "Jaime Suevos Varela",
-     "Adrian Garcia Rivademar",
+     "Adrián García Rivademar",
      "Roi Castro Pose",
      "Martín Losada Peteiro",
      "Erick Mosteiro Carro"
     ],
     "e": [],
     "g": {
-     "Noel Alcaraz Garcia": 1,
+     "Noel Alcaraz García": 1,
      "Félix Romero Brión": 2,
      "Erick Mosteiro Carro": 2,
      "Martín Losada Peteiro": 2,
@@ -8956,14 +8956,14 @@ const EQUIPOS = [
      "Lucas Bouzada Varela": 3,
      "Adrián Garay Amigo": 4,
      "Cibrán Rodríguez Otero": 5,
-     "Izan Fernandez Bouzas": 6,
-     "Noel Alcaraz Garcia": 9,
+     "Izan Fernández Bouzas": 6,
+     "Noel Alcaraz García": 9,
      "Teo Caamaño Brandariz": 10,
      "Xalo Bendaña Castro": 11,
      "Félix Romero Brión": 14,
-     "Lucas Garcia Aldao": 21,
+     "Lucas García Aldao": 21,
      "Jaime Suevos Varela": 13,
-     "Adrian Garcia Rivademar": 15,
+     "Adrián García Rivademar": 15,
      "Roi Castro Pose": 19,
      "Martín Losada Peteiro": 20,
      "Erick Mosteiro Carro": 22
@@ -8972,28 +8972,28 @@ const EQUIPOS = [
    }
   },
   "dorsales": {
-   "Joel Ruiz-Moyano Plaza": 1,
-   "Hugo Espiñeira Esteban": 2,
-   "Izan Fernandez Bouzas": 6,
-   "Lucas Pan Rojo": 4,
-   "Antón Fernández Gómez-Pedreira": 7,
-   "Nico Mosteiro Carro": 14,
-   "Lucas Garcia Aldao": 21,
    "Teo Caamaño Brandariz": 10,
-   "Noel Alcaraz Garcia": 9,
-   "Martiño Moar Moscoso": 8,
-   "Erick Mosteiro Carro": 22,
+   "Hugo Espiñeira Esteban": 2,
+   "Lucas Pan Rojo": 4,
    "Cibrán Rodríguez Otero": 5,
    "Xalo Bendaña Castro": 11,
-   "Lucas Bouzada Varela": 3,
-   "Roi Castro Pose": 19,
-   "Martín Losada Peteiro": 20,
-   "Jaime Suevos Varela": 13,
-   "Adrián Garay Amigo": 4,
-   "Adrian Garcia Rivademar": 15,
-   "Lucas Fresco Pérez": 17,
    "Iván Pena Barriga": 1,
-   "Félix Romero Brión": 14
+   "Izan Fernández Bouzas": 3,
+   "Antón Fernández Gómez-Pedreira": 6,
+   "Nico Mosteiro Carro": 7,
+   "Lucas García Aldao": 8,
+   "Noel Alcaraz García": 9,
+   "Jaime Suevos Varela": 13,
+   "Adrián García Rivademar": 15,
+   "Lucas Bouzada Varela": 12,
+   "Félix Romero Brión": 14,
+   "Martiño Moar Moscoso": 16,
+   "Erick Mosteiro Carro": 17,
+   "Martín Losada Peteiro": 18,
+   "Roi Castro Pose": 19,
+   "Adrián Garay Amigo": 20,
+   "Joel Ruiz-Moyano Plaza": 21,
+   "Lucas Fresco Pérez": 22
   },
   "descargado": "2026-10-23T13:26"
  },
@@ -9019,22 +9019,22 @@ const EQUIPOS = [
   "liga": "Primera Alevin F-7",
   "urlFederacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisEquipos?cod_primaria=1000119&Codigo_Equipo=1549",
   "plantilla": [
-   "Alvaro Alvarez Escobar",
-   "Martin Arza Alvarez",
+   "Álvaro Álvarez Escobar",
+   "Martín Arza Álvarez",
    "Mathias Becerra Timiraos",
    "Mario Bello Varela",
-   "Pancho Boedo Mantiñan",
+   "Pancho Boedo Mantiñán",
    "Óliver Casasola Vázquez",
-   "Roberto Couceiro Gonzalez",
+   "Roberto Couceiro González",
    "Aleix Della Casa Loureiro",
    "Ilia Kondrashin",
-   "Sebastian Lopez Ganem",
-   "Tomas Mourelle Lopez",
+   "Sebastián López Ganem",
+   "Tomás Mourelle López",
    "Izan Pose Seijas",
-   "Hugo Vazquez Álvarez"
+   "Hugo Vázquez Álvarez"
   ],
   "entrenadores": [
-   "Jorge Baldomir Galan"
+   "Jorge Baldomir Galán"
   ],
   "delegados": [
    "Roberto Paz Rodríguez"
@@ -9514,17 +9514,17 @@ const EQUIPOS = [
     "t": [
      "Mario Bello Varela",
      "Mathias Becerra Timiraos",
-     "Alvaro Alvarez Escobar",
+     "Álvaro Álvarez Escobar",
      "Óliver Casasola Vázquez",
      "Aleix Della Casa Loureiro",
-     "Sebastian Lopez Ganem",
+     "Sebastián López Ganem",
      "Ilia Kondrashin"
     ],
     "s": [
-     "Roberto Couceiro Gonzalez",
-     "Pancho Boedo Mantiñan",
-     "Hugo Vazquez Álvarez",
-     "Martin Arza Alvarez",
+     "Roberto Couceiro González",
+     "Pancho Boedo Mantiñán",
+     "Hugo Vázquez Álvarez",
+     "Martín Arza Álvarez",
      "Izan Pose Seijas"
     ],
     "e": [],
@@ -9534,15 +9534,15 @@ const EQUIPOS = [
     "d": {
      "Mario Bello Varela": 1,
      "Mathias Becerra Timiraos": 7,
-     "Alvaro Alvarez Escobar": 8,
+     "Álvaro Álvarez Escobar": 8,
      "Óliver Casasola Vázquez": 11,
      "Aleix Della Casa Loureiro": 12,
-     "Sebastian Lopez Ganem": 17,
+     "Sebastián López Ganem": 17,
      "Ilia Kondrashin": 18,
-     "Roberto Couceiro Gonzalez": 4,
-     "Pancho Boedo Mantiñan": 6,
-     "Hugo Vazquez Álvarez": 9,
-     "Martin Arza Alvarez": 10,
+     "Roberto Couceiro González": 4,
+     "Pancho Boedo Mantiñán": 6,
+     "Hugo Vázquez Álvarez": 9,
+     "Martín Arza Álvarez": 10,
      "Izan Pose Seijas": 14
     },
     "id": "1486565"
@@ -9550,17 +9550,17 @@ const EQUIPOS = [
    "4": {
     "t": [
      "Mario Bello Varela",
-     "Tomas Mourelle Lopez",
-     "Pancho Boedo Mantiñan",
-     "Martin Arza Alvarez",
+     "Tomás Mourelle López",
+     "Pancho Boedo Mantiñán",
+     "Martín Arza Álvarez",
      "Óliver Casasola Vázquez",
      "Aleix Della Casa Loureiro",
-     "Sebastian Lopez Ganem"
+     "Sebastián López Ganem"
     ],
     "s": [
      "Mathias Becerra Timiraos",
-     "Alvaro Alvarez Escobar",
-     "Hugo Vazquez Álvarez",
+     "Álvaro Álvarez Escobar",
+     "Hugo Vázquez Álvarez",
      "Izan Pose Seijas"
     ],
     "e": [],
@@ -9569,15 +9569,15 @@ const EQUIPOS = [
     "r": [],
     "d": {
      "Mario Bello Varela": 1,
-     "Tomas Mourelle Lopez": 3,
-     "Pancho Boedo Mantiñan": 6,
-     "Martin Arza Alvarez": 10,
+     "Tomás Mourelle López": 3,
+     "Pancho Boedo Mantiñán": 6,
+     "Martín Arza Álvarez": 10,
      "Óliver Casasola Vázquez": 11,
      "Aleix Della Casa Loureiro": 12,
-     "Sebastian Lopez Ganem": 17,
+     "Sebastián López Ganem": 17,
      "Mathias Becerra Timiraos": 7,
-     "Alvaro Alvarez Escobar": 8,
-     "Hugo Vazquez Álvarez": 9,
+     "Álvaro Álvarez Escobar": 8,
+     "Hugo Vázquez Álvarez": 9,
      "Izan Pose Seijas": 14
     },
     "id": "1486573"
@@ -9585,18 +9585,18 @@ const EQUIPOS = [
    "5": {
     "t": [
      "Mario Bello Varela",
-     "Tomas Mourelle Lopez",
-     "Pancho Boedo Mantiñan",
-     "Martin Arza Alvarez",
+     "Tomás Mourelle López",
+     "Pancho Boedo Mantiñán",
+     "Martín Arza Álvarez",
      "Óliver Casasola Vázquez",
      "Aleix Della Casa Loureiro",
-     "Sebastian Lopez Ganem"
+     "Sebastián López Ganem"
     ],
     "s": [
      "Ilia Kondrashin",
      "Mathias Becerra Timiraos",
-     "Alvaro Alvarez Escobar",
-     "Hugo Vazquez Álvarez",
+     "Álvaro Álvarez Escobar",
+     "Hugo Vázquez Álvarez",
      "Izan Pose Seijas"
     ],
     "e": [],
@@ -9605,16 +9605,16 @@ const EQUIPOS = [
     "r": [],
     "d": {
      "Mario Bello Varela": 1,
-     "Tomas Mourelle Lopez": 3,
-     "Pancho Boedo Mantiñan": 6,
-     "Martin Arza Alvarez": 10,
+     "Tomás Mourelle López": 3,
+     "Pancho Boedo Mantiñán": 6,
+     "Martín Arza Álvarez": 10,
      "Óliver Casasola Vázquez": 11,
      "Aleix Della Casa Loureiro": 12,
-     "Sebastian Lopez Ganem": 16,
+     "Sebastián López Ganem": 16,
      "Ilia Kondrashin": 5,
      "Mathias Becerra Timiraos": 7,
-     "Alvaro Alvarez Escobar": 8,
-     "Hugo Vazquez Álvarez": 9,
+     "Álvaro Álvarez Escobar": 8,
+     "Hugo Vázquez Álvarez": 9,
      "Izan Pose Seijas": 14
     },
     "id": "1486580"
@@ -9622,19 +9622,19 @@ const EQUIPOS = [
    "1": {
     "t": [
      "Mario Bello Varela",
-     "Tomas Mourelle Lopez",
-     "Pancho Boedo Mantiñan",
-     "Hugo Vazquez Álvarez",
-     "Martin Arza Alvarez",
+     "Tomás Mourelle López",
+     "Pancho Boedo Mantiñán",
+     "Hugo Vázquez Álvarez",
+     "Martín Arza Álvarez",
      "Óliver Casasola Vázquez",
      "Ilia Kondrashin"
     ],
     "s": [
-     "Roberto Couceiro Gonzalez",
+     "Roberto Couceiro González",
      "Mathias Becerra Timiraos",
-     "Alvaro Alvarez Escobar",
+     "Álvaro Álvarez Escobar",
      "Aleix Della Casa Loureiro",
-     "Sebastian Lopez Ganem"
+     "Sebastián López Ganem"
     ],
     "e": [],
     "g": {},
@@ -9642,17 +9642,17 @@ const EQUIPOS = [
     "r": [],
     "d": {
      "Mario Bello Varela": 1,
-     "Tomas Mourelle Lopez": 3,
-     "Pancho Boedo Mantiñan": 6,
-     "Hugo Vazquez Álvarez": 9,
-     "Martin Arza Alvarez": 10,
+     "Tomás Mourelle López": 3,
+     "Pancho Boedo Mantiñán": 6,
+     "Hugo Vázquez Álvarez": 9,
+     "Martín Arza Álvarez": 10,
      "Óliver Casasola Vázquez": 11,
      "Ilia Kondrashin": 18,
-     "Roberto Couceiro Gonzalez": 4,
+     "Roberto Couceiro González": 4,
      "Mathias Becerra Timiraos": 7,
-     "Alvaro Alvarez Escobar": 8,
+     "Álvaro Álvarez Escobar": 8,
      "Aleix Della Casa Loureiro": 12,
-     "Sebastian Lopez Ganem": 17
+     "Sebastián López Ganem": 17
     },
     "id": "1486550"
    },
@@ -9660,39 +9660,39 @@ const EQUIPOS = [
     "t": [
      "Mario Bello Varela",
      "Mathias Becerra Timiraos",
-     "Alvaro Alvarez Escobar",
+     "Álvaro Álvarez Escobar",
      "Óliver Casasola Vázquez",
      "Aleix Della Casa Loureiro",
-     "Sebastian Lopez Ganem",
+     "Sebastián López Ganem",
      "Ilia Kondrashin"
     ],
     "s": [
-     "Roberto Couceiro Gonzalez",
-     "Pancho Boedo Mantiñan",
-     "Hugo Vazquez Álvarez",
-     "Martin Arza Alvarez",
+     "Roberto Couceiro González",
+     "Pancho Boedo Mantiñán",
+     "Hugo Vázquez Álvarez",
+     "Martín Arza Álvarez",
      "Izan Pose Seijas"
     ],
     "e": [],
     "g": {
      "Óliver Casasola Vázquez": 2,
      "Aleix Della Casa Loureiro": 1,
-     "Hugo Vazquez Álvarez": 1
+     "Hugo Vázquez Álvarez": 1
     },
     "a": [],
     "r": [],
     "d": {
      "Mario Bello Varela": 1,
      "Mathias Becerra Timiraos": 7,
-     "Alvaro Alvarez Escobar": 8,
+     "Álvaro Álvarez Escobar": 8,
      "Óliver Casasola Vázquez": 11,
      "Aleix Della Casa Loureiro": 12,
-     "Sebastian Lopez Ganem": 17,
+     "Sebastián López Ganem": 17,
      "Ilia Kondrashin": 18,
-     "Roberto Couceiro Gonzalez": 4,
-     "Pancho Boedo Mantiñan": 6,
-     "Hugo Vazquez Álvarez": 9,
-     "Martin Arza Alvarez": 10,
+     "Roberto Couceiro González": 4,
+     "Pancho Boedo Mantiñán": 6,
+     "Hugo Vázquez Álvarez": 9,
+     "Martín Arza Álvarez": 10,
      "Izan Pose Seijas": 14
     },
     "id": "1486558"
@@ -9700,17 +9700,17 @@ const EQUIPOS = [
   },
   "dorsales": {
    "Mario Bello Varela": 1,
-   "Tomas Mourelle Lopez": 3,
-   "Pancho Boedo Mantiñan": 6,
-   "Hugo Vazquez Álvarez": 9,
-   "Martin Arza Alvarez": 10,
+   "Tomás Mourelle López": 3,
+   "Pancho Boedo Mantiñán": 6,
+   "Hugo Vázquez Álvarez": 9,
+   "Martín Arza Álvarez": 10,
    "Óliver Casasola Vázquez": 11,
    "Ilia Kondrashin": 5,
-   "Roberto Couceiro Gonzalez": 4,
+   "Roberto Couceiro González": 4,
    "Mathias Becerra Timiraos": 7,
-   "Alvaro Alvarez Escobar": 8,
+   "Álvaro Álvarez Escobar": 8,
    "Aleix Della Casa Loureiro": 12,
-   "Sebastian Lopez Ganem": 16,
+   "Sebastián López Ganem": 16,
    "Izan Pose Seijas": 14
   },
   "descargado": "2026-10-22T22:20"
@@ -9725,22 +9725,22 @@ const EQUIPOS = [
   "plantilla": [
    "Xoel Antelo Barros",
    "Lucas Caride López",
-   "Alvaro Durán Parra",
+   "Álvaro Durán Parra",
    "Susana Espiñeira Varela",
    "Beltrán Fuentes García",
-   "Angel Moreno Garcia-Pelayo",
-   "Santiago Piñón Uzcategui",
-   "Cruz Rocha Sanchez",
-   "Jorge Rodriguez De Castro Castro",
+   "Ángel Moreno García-Pelayo",
+   "Santiago Piñón Uzcátegui",
+   "Cruz Rocha Sánchez",
+   "Jorge Rodríguez De Castro Castro",
    "Brais Sánchez Naveira",
    "Carlos Taboada Abelenda",
    "Brais Vázquez Carreira",
-   "Romeo Vazquez Iglesias",
+   "Romeo Vázquez Iglesias",
    "Gael Zapata Grandal"
   ],
   "entrenadores": [
    "Hugo Blanco Vázquez",
-   "Gonzalo Conde Sanchez"
+   "Gonzalo Conde Sánchez"
   ],
   "delegados": [],
   "clasificacion": [
@@ -9957,20 +9957,20 @@ const EQUIPOS = [
     "t": [
      "Susana Espiñeira Varela",
      "Beltrán Fuentes García",
-     "Santiago Piñón Uzcategui",
-     "Romeo Vazquez Iglesias",
-     "Alvaro Durán Parra",
+     "Santiago Piñón Uzcátegui",
+     "Romeo Vázquez Iglesias",
+     "Álvaro Durán Parra",
      "Lucas Caride López",
      "Gael Zapata Grandal"
     ],
     "s": [
      "Daniel Castellanos Gil",
      "Mateo Casal Mourelle",
-     "Jorge Rodriguez De Castro Castro",
+     "Jorge Rodríguez De Castro Castro",
      "Carlos Taboada Abelenda",
-     "Cruz Rocha Sanchez",
+     "Cruz Rocha Sánchez",
      "Brais Sánchez Naveira",
-     "Angel Moreno Garcia-Pelayo"
+     "Ángel Moreno García-Pelayo"
     ],
     "e": [],
     "g": {},
@@ -9979,18 +9979,18 @@ const EQUIPOS = [
     "d": {
      "Susana Espiñeira Varela": 13,
      "Beltrán Fuentes García": 4,
-     "Santiago Piñón Uzcategui": 7,
-     "Romeo Vazquez Iglesias": 8,
-     "Alvaro Durán Parra": 11,
+     "Santiago Piñón Uzcátegui": 7,
+     "Romeo Vázquez Iglesias": 8,
+     "Álvaro Durán Parra": 11,
      "Lucas Caride López": 14,
      "Gael Zapata Grandal": 16,
      "Daniel Castellanos Gil": 1,
      "Mateo Casal Mourelle": 3,
-     "Jorge Rodriguez De Castro Castro": 6,
+     "Jorge Rodríguez De Castro Castro": 6,
      "Carlos Taboada Abelenda": 9,
-     "Cruz Rocha Sanchez": 10,
+     "Cruz Rocha Sánchez": 10,
      "Brais Sánchez Naveira": 12,
-     "Angel Moreno Garcia-Pelayo": 15
+     "Ángel Moreno García-Pelayo": 15
     },
     "id": "1509735"
    },
@@ -9999,17 +9999,17 @@ const EQUIPOS = [
      "Susana Espiñeira Varela",
      "Brais Vázquez Carreira",
      "Mateo Casal Mourelle",
-     "Santiago Piñón Uzcategui",
-     "Romeo Vazquez Iglesias",
-     "Alvaro Durán Parra",
+     "Santiago Piñón Uzcátegui",
+     "Romeo Vázquez Iglesias",
+     "Álvaro Durán Parra",
      "Lucas Caride López"
     ],
     "s": [
-     "Fabio Gundin Candia",
+     "Fabio Gundín Candia",
      "Beltrán Fuentes García",
      "Xoel Antelo Barros",
      "Brais Sánchez Naveira",
-     "Angel Moreno Garcia-Pelayo",
+     "Ángel Moreno García-Pelayo",
      "Gael Zapata Grandal"
     ],
     "e": [],
@@ -10020,15 +10020,15 @@ const EQUIPOS = [
      "Susana Espiñeira Varela": 13,
      "Brais Vázquez Carreira": 2,
      "Mateo Casal Mourelle": 3,
-     "Santiago Piñón Uzcategui": 7,
-     "Romeo Vazquez Iglesias": 8,
-     "Alvaro Durán Parra": 11,
+     "Santiago Piñón Uzcátegui": 7,
+     "Romeo Vázquez Iglesias": 8,
+     "Álvaro Durán Parra": 11,
      "Lucas Caride López": 14,
-     "Fabio Gundin Candia": 1,
+     "Fabio Gundín Candia": 1,
      "Beltrán Fuentes García": 4,
      "Xoel Antelo Barros": 5,
      "Brais Sánchez Naveira": 12,
-     "Angel Moreno Garcia-Pelayo": 15,
+     "Ángel Moreno García-Pelayo": 15,
      "Gael Zapata Grandal": 16
     },
     "id": "1509741"
@@ -10041,16 +10041,16 @@ const EQUIPOS = [
      "Carlos Taboada Abelenda",
      "Brais Sánchez Naveira",
      "Lucas Caride López",
-     "Angel Moreno Garcia-Pelayo"
+     "Ángel Moreno García-Pelayo"
     ],
     "s": [
      "Susana Espiñeira Varela",
      "Brais Vázquez Carreira",
      "Mateo Casal Mourelle",
-     "Jorge Rodriguez De Castro Castro",
-     "Santiago Piñón Uzcategui",
-     "Romeo Vazquez Iglesias",
-     "Alvaro Durán Parra"
+     "Jorge Rodríguez De Castro Castro",
+     "Santiago Piñón Uzcátegui",
+     "Romeo Vázquez Iglesias",
+     "Álvaro Durán Parra"
     ],
     "e": [],
     "g": {},
@@ -10063,36 +10063,36 @@ const EQUIPOS = [
      "Carlos Taboada Abelenda": 9,
      "Brais Sánchez Naveira": 12,
      "Lucas Caride López": 14,
-     "Angel Moreno Garcia-Pelayo": 15,
+     "Ángel Moreno García-Pelayo": 15,
      "Susana Espiñeira Varela": 13,
      "Brais Vázquez Carreira": 2,
      "Mateo Casal Mourelle": 3,
-     "Jorge Rodriguez De Castro Castro": 6,
-     "Santiago Piñón Uzcategui": 7,
-     "Romeo Vazquez Iglesias": 8,
-     "Alvaro Durán Parra": 11
+     "Jorge Rodríguez De Castro Castro": 6,
+     "Santiago Piñón Uzcátegui": 7,
+     "Romeo Vázquez Iglesias": 8,
+     "Álvaro Durán Parra": 11
     },
     "id": "1509746"
    }
   },
   "dorsales": {
-   "Susana Espiñeira Varela": 13,
-   "Beltrán Fuentes García": 4,
-   "Santiago Piñón Uzcategui": 7,
-   "Romeo Vazquez Iglesias": 8,
-   "Alvaro Durán Parra": 11,
-   "Lucas Caride López": 14,
-   "Gael Zapata Grandal": 16,
-   "Daniel Castellanos Gil": 1,
    "Mateo Casal Mourelle": 3,
-   "Jorge Rodriguez De Castro Castro": 6,
-   "Carlos Taboada Abelenda": 9,
-   "Cruz Rocha Sanchez": 10,
-   "Brais Sánchez Naveira": 12,
-   "Angel Moreno Garcia-Pelayo": 15,
+   "Beltrán Fuentes García": 4,
+   "Santiago Piñón Uzcátegui": 7,
+   "Romeo Vázquez Iglesias": 8,
+   "Álvaro Durán Parra": 11,
+   "Daniel Castellanos Gil": 1,
    "Brais Vázquez Carreira": 2,
-   "Fabio Gundin Candia": 1,
-   "Xoel Antelo Barros": 5
+   "Xoel Antelo Barros": 5,
+   "Jorge Rodríguez De Castro Castro": 6,
+   "Carlos Taboada Abelenda": 9,
+   "Cruz Rocha Sánchez": 10,
+   "Brais Sánchez Naveira": 12,
+   "Susana Espiñeira Varela": 13,
+   "Lucas Caride López": 14,
+   "Ángel Moreno García-Pelayo": 15,
+   "Gael Zapata Grandal": 16,
+   "Fabio Gundín Candia": 17
   },
   "descargado": "2026-10-23T01:29"
  },
@@ -10110,10 +10110,10 @@ const EQUIPOS = [
    "Pierre Leo Fontanel Gavela",
    "Matteo Gadaleta Pérez",
    "El Hadji Gaye",
-   "Adrian Gomez Carcedo",
-   "Fabio Gundin Candia",
+   "Adrián Gómez Carcedo",
+   "Fabio Gundín Candia",
    "Lucas Iglesias Carballal",
-   "Manuel Lobelos Dominguez",
+   "Manuel Lobelos Domínguez",
    "Mario Lobelos Domínguez",
    "Jorge López López",
    "Mateo Marauri Campo",
@@ -10122,11 +10122,11 @@ const EQUIPOS = [
    "Izan Rilo Guimarey",
    "Meissa Birame Sall",
    "Mauro Viana López",
-   "Irai Vieito Martinez",
-   "Tomas Zapata Casal"
+   "Irai Vieito Martínez",
+   "Tomás Zapata Casal"
   ],
   "entrenadores": [
-   "Alberto Gundin Rey"
+   "Alberto Gundín Rey"
   ],
   "delegados": [],
   "clasificacion": [
@@ -10341,43 +10341,43 @@ const EQUIPOS = [
   "actas": {
    "1": {
     "t": [
-     "Fabio Gundin Candia",
+     "Fabio Gundín Candia",
      "Mateo Marauri Campo",
-     "Manuel Lobelos Dominguez",
+     "Manuel Lobelos Domínguez",
      "Meissa Birame Sall",
      "Lucas Montero Rey",
-     "Tomas Zapata Casal",
+     "Tomás Zapata Casal",
      "Mario Lobelos Domínguez"
     ],
     "s": [
      "Lucas Iglesias Carballal",
      "El Hadji Gaye",
-     "Irai Vieito Martinez",
+     "Irai Vieito Martínez",
      "Matteo Gadaleta Pérez",
      "Enzo Martínez Díaz",
-     "Adrian Gomez Carcedo",
+     "Adrián Gómez Carcedo",
      "Izan Rilo Guimarey"
     ],
     "e": [],
     "g": {
-     "Irai Vieito Martinez": 1
+     "Irai Vieito Martínez": 1
     },
     "a": [],
     "r": [],
     "d": {
-     "Fabio Gundin Candia": 13,
+     "Fabio Gundín Candia": 13,
      "Mateo Marauri Campo": 3,
-     "Manuel Lobelos Dominguez": 7,
+     "Manuel Lobelos Domínguez": 7,
      "Meissa Birame Sall": 8,
      "Lucas Montero Rey": 11,
-     "Tomas Zapata Casal": 15,
+     "Tomás Zapata Casal": 15,
      "Mario Lobelos Domínguez": 18,
      "Lucas Iglesias Carballal": 2,
      "El Hadji Gaye": 5,
-     "Irai Vieito Martinez": 6,
+     "Irai Vieito Martínez": 6,
      "Matteo Gadaleta Pérez": 10,
      "Enzo Martínez Díaz": 12,
-     "Adrian Gomez Carcedo": 14,
+     "Adrián Gómez Carcedo": 14,
      "Izan Rilo Guimarey": 17
     },
     "id": "1509645"
@@ -10386,11 +10386,11 @@ const EQUIPOS = [
     "t": [
      "Daniel Castellanos Gil",
      "Mateo Marauri Campo",
-     "Irai Vieito Martinez",
-     "Manuel Lobelos Dominguez",
+     "Irai Vieito Martínez",
+     "Manuel Lobelos Domínguez",
      "Isaac De Araujo Lima",
      "Lucas Montero Rey",
-     "Tomas Zapata Casal"
+     "Tomás Zapata Casal"
     ],
     "s": [
      "Jorge López López",
@@ -10408,11 +10408,11 @@ const EQUIPOS = [
     "d": {
      "Daniel Castellanos Gil": 1,
      "Mateo Marauri Campo": 3,
-     "Irai Vieito Martinez": 6,
-     "Manuel Lobelos Dominguez": 7,
+     "Irai Vieito Martínez": 6,
+     "Manuel Lobelos Domínguez": 7,
      "Isaac De Araujo Lima": 9,
      "Lucas Montero Rey": 11,
-     "Tomas Zapata Casal": 15,
+     "Tomás Zapata Casal": 15,
      "Jorge López López": 4,
      "El Hadji Gaye": 5,
      "Meissa Birame Sall": 8,
@@ -10425,18 +10425,18 @@ const EQUIPOS = [
    },
    "3": {
     "t": [
-     "Fabio Gundin Candia",
+     "Fabio Gundín Candia",
      "Mateo Marauri Campo",
      "El Hadji Gaye",
-     "Irai Vieito Martinez",
-     "Manuel Lobelos Dominguez",
+     "Irai Vieito Martínez",
+     "Manuel Lobelos Domínguez",
      "Isaac De Araujo Lima",
      "Lucas Montero Rey"
     ],
     "s": [
      "Lucas Iglesias Carballal",
      "Jorge López López",
-     "Adrian Gomez Carcedo",
+     "Adrián Gómez Carcedo",
      "Pierre Leo Fontanel Gavela",
      "Enzo Martínez Díaz",
      "Mauro Viana López",
@@ -10447,16 +10447,16 @@ const EQUIPOS = [
     "a": [],
     "r": [],
     "d": {
-     "Fabio Gundin Candia": 1,
+     "Fabio Gundín Candia": 1,
      "Mateo Marauri Campo": 3,
      "El Hadji Gaye": 5,
-     "Irai Vieito Martinez": 6,
-     "Manuel Lobelos Dominguez": 7,
+     "Irai Vieito Martínez": 6,
+     "Manuel Lobelos Domínguez": 7,
      "Isaac De Araujo Lima": 9,
      "Lucas Montero Rey": 11,
      "Lucas Iglesias Carballal": 2,
      "Jorge López López": 4,
-     "Adrian Gomez Carcedo": 14,
+     "Adrián Gómez Carcedo": 14,
      "Pierre Leo Fontanel Gavela": 16,
      "Enzo Martínez Díaz": 20,
      "Mauro Viana López": 21,
@@ -10466,25 +10466,25 @@ const EQUIPOS = [
    }
   },
   "dorsales": {
-   "Fabio Gundin Candia": 1,
    "Mateo Marauri Campo": 3,
-   "Manuel Lobelos Dominguez": 7,
-   "Meissa Birame Sall": 8,
-   "Lucas Montero Rey": 11,
-   "Tomas Zapata Casal": 15,
-   "Mario Lobelos Domínguez": 18,
-   "Lucas Iglesias Carballal": 2,
    "El Hadji Gaye": 5,
-   "Irai Vieito Martinez": 6,
-   "Matteo Gadaleta Pérez": 10,
-   "Enzo Martínez Díaz": 20,
-   "Adrian Gomez Carcedo": 14,
-   "Izan Rilo Guimarey": 22,
-   "Daniel Castellanos Gil": 1,
-   "Isaac De Araujo Lima": 9,
+   "Irai Vieito Martínez": 6,
+   "Manuel Lobelos Domínguez": 7,
+   "Lucas Montero Rey": 11,
+   "Lucas Iglesias Carballal": 2,
    "Jorge López López": 4,
-   "Mauro Viana López": 21,
-   "Pierre Leo Fontanel Gavela": 16
+   "Meissa Birame Sall": 8,
+   "Isaac De Araujo Lima": 9,
+   "Matteo Gadaleta Pérez": 10,
+   "Daniel Castellanos Gil": 1,
+   "Adrián Gómez Carcedo": 14,
+   "Tomás Zapata Casal": 15,
+   "Izan Rilo Guimarey": 17,
+   "Mario Lobelos Domínguez": 18,
+   "Enzo Martínez Díaz": 12,
+   "Fabio Gundín Candia": 13,
+   "Pierre Leo Fontanel Gavela": 16,
+   "Mauro Viana López": 21
   },
   "descargado": "2026-10-23T01:31"
  },
@@ -10497,7 +10497,7 @@ const EQUIPOS = [
   "urlFederacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisEquipos?cod_primaria=1000119&Codigo_Equipo=3509460",
   "plantilla": [
    "Gonzalo Aguado Perala",
-   "Adrian Bestilleiro Pallas",
+   "Adrián Bestilleiro Pallas",
    "Pablo Nicolás Carballo Iniesto",
    "Nicolás Couselo González",
    "Thiago Dias Gonsalves",
@@ -10507,10 +10507,10 @@ const EQUIPOS = [
    "Aritz Loureda Mato",
    "Iago Márquez Barros",
    "Roi Rodríguez Castro",
-   "Jacobo Rodriguez De Castro Castro"
+   "Jacobo Rodríguez De Castro Castro"
   ],
   "entrenadores": [
-   "Roman Feas Capelete"
+   "Román Feas Capelete"
   ],
   "delegados": [],
   "clasificacion": [
@@ -10986,20 +10986,20 @@ const EQUIPOS = [
   "actas": {
    "3": {
     "t": [
-     "Jeremy Henao Ramirez",
+     "Jeremy Henao Ramírez",
      "Nicolás Couselo González",
      "Thiago Dias Gonsalves",
      "Pedro Fernández López",
      "Aritz Loureda Mato",
      "Pablo Nicolás Carballo Iniesto",
      "Iago Márquez Barros",
-     "Adrian Bestilleiro Pallas"
+     "Adrián Bestilleiro Pallas"
     ],
     "s": [
      "Pedro Garay Amigo",
      "Roi Rodríguez Castro",
      "Iago Leira Fraga",
-     "Jacobo Rodriguez De Castro Castro",
+     "Jacobo Rodríguez De Castro Castro",
      "Gonzalo Aguado Perala"
     ],
     "e": [],
@@ -11007,31 +11007,31 @@ const EQUIPOS = [
     "a": [],
     "r": [],
     "d": {
-     "Jeremy Henao Ramirez": 1,
+     "Jeremy Henao Ramírez": 1,
      "Nicolás Couselo González": 2,
      "Thiago Dias Gonsalves": 5,
      "Pedro Fernández López": 6,
      "Aritz Loureda Mato": 7,
      "Pablo Nicolás Carballo Iniesto": 8,
      "Iago Márquez Barros": 9,
-     "Adrian Bestilleiro Pallas": 10,
+     "Adrián Bestilleiro Pallas": 10,
      "Pedro Garay Amigo": 4,
      "Roi Rodríguez Castro": 11,
      "Iago Leira Fraga": 12,
-     "Jacobo Rodriguez De Castro Castro": 14,
+     "Jacobo Rodríguez De Castro Castro": 14,
      "Gonzalo Aguado Perala": 15
     },
     "id": "1490250"
    },
    "4": {
     "t": [
-     "Jeremy Henao Ramirez",
+     "Jeremy Henao Ramírez",
      "Pedro Garay Amigo",
      "Pedro Fernández López",
      "Aritz Loureda Mato",
      "Pablo Nicolás Carballo Iniesto",
      "Iago Márquez Barros",
-     "Adrian Bestilleiro Pallas",
+     "Adrián Bestilleiro Pallas",
      "Roi Rodríguez Castro"
     ],
     "s": [
@@ -11044,13 +11044,13 @@ const EQUIPOS = [
     "a": [],
     "r": [],
     "d": {
-     "Jeremy Henao Ramirez": 1,
+     "Jeremy Henao Ramírez": 1,
      "Pedro Garay Amigo": 4,
      "Pedro Fernández López": 6,
      "Aritz Loureda Mato": 7,
      "Pablo Nicolás Carballo Iniesto": 8,
      "Iago Márquez Barros": 9,
-     "Adrian Bestilleiro Pallas": 10,
+     "Adrián Bestilleiro Pallas": 10,
      "Roi Rodríguez Castro": 11,
      "Lorenzo Pacheco Lazarino": 2,
      "Thiago Dias Gonsalves": 5,
@@ -11060,13 +11060,13 @@ const EQUIPOS = [
    },
    "5": {
     "t": [
-     "Jeremy Henao Ramirez",
+     "Jeremy Henao Ramírez",
      "Pedro Garay Amigo",
-     "Jacobo Rodriguez De Castro Castro",
+     "Jacobo Rodríguez De Castro Castro",
      "Aritz Loureda Mato",
      "Gonzalo Aguado Perala",
      "Iago Márquez Barros",
-     "Adrian Bestilleiro Pallas",
+     "Adrián Bestilleiro Pallas",
      "Roi Rodríguez Castro"
     ],
     "s": [
@@ -11080,13 +11080,13 @@ const EQUIPOS = [
     "a": [],
     "r": [],
     "d": {
-     "Jeremy Henao Ramirez": 1,
+     "Jeremy Henao Ramírez": 1,
      "Pedro Garay Amigo": 4,
-     "Jacobo Rodriguez De Castro Castro": 5,
+     "Jacobo Rodríguez De Castro Castro": 5,
      "Aritz Loureda Mato": 7,
      "Gonzalo Aguado Perala": 8,
      "Iago Márquez Barros": 9,
-     "Adrian Bestilleiro Pallas": 10,
+     "Adrián Bestilleiro Pallas": 10,
      "Roi Rodríguez Castro": 11,
      "Thiago Dias Gonsalves": 3,
      "Pedro Fernández López": 6,
@@ -11103,12 +11103,12 @@ const EQUIPOS = [
      "Aritz Loureda Mato",
      "Nicolás Couselo González",
      "Iago Márquez Barros",
-     "Adrian Bestilleiro Pallas",
+     "Adrián Bestilleiro Pallas",
      "Roi Rodríguez Castro"
     ],
     "s": [
-     "Jacobo Rodriguez De Castro Castro",
-     "Manuel Aydillo Gonzalez",
+     "Jacobo Rodríguez De Castro Castro",
+     "Manuel Aydillo González",
      "Pedro Garay Amigo",
      "Iago Leira Fraga",
      "Pablo Nicolás Carballo Iniesto"
@@ -11124,10 +11124,10 @@ const EQUIPOS = [
      "Aritz Loureda Mato": 7,
      "Nicolás Couselo González": 8,
      "Iago Márquez Barros": 9,
-     "Adrian Bestilleiro Pallas": 10,
+     "Adrián Bestilleiro Pallas": 10,
      "Roi Rodríguez Castro": 11,
-     "Jacobo Rodriguez De Castro Castro": 2,
-     "Manuel Aydillo Gonzalez": 3,
+     "Jacobo Rodríguez De Castro Castro": 2,
+     "Manuel Aydillo González": 3,
      "Pedro Garay Amigo": 4,
      "Iago Leira Fraga": 12,
      "Pablo Nicolás Carballo Iniesto": 14
@@ -11137,16 +11137,16 @@ const EQUIPOS = [
    "2": {
     "t": [
      "Mateo Teijido Ceniceros",
-     "Manuel Aydillo Gonzalez",
+     "Manuel Aydillo González",
      "Thiago Dias Gonsalves",
      "Pedro Fernández López",
      "Gonzalo Aguado Perala",
      "Iago Márquez Barros",
-     "Adrian Bestilleiro Pallas",
+     "Adrián Bestilleiro Pallas",
      "Nicolás Couselo González"
     ],
     "s": [
-     "Oscar Aydillo Gonzalez",
+     "Óscar Aydillo González",
      "Pedro Garay Amigo",
      "Aritz Loureda Mato",
      "Iago Leira Fraga"
@@ -11157,14 +11157,14 @@ const EQUIPOS = [
     "r": [],
     "d": {
      "Mateo Teijido Ceniceros": 1,
-     "Manuel Aydillo Gonzalez": 3,
+     "Manuel Aydillo González": 3,
      "Thiago Dias Gonsalves": 5,
      "Pedro Fernández López": 6,
      "Gonzalo Aguado Perala": 8,
      "Iago Márquez Barros": 9,
-     "Adrian Bestilleiro Pallas": 10,
+     "Adrián Bestilleiro Pallas": 10,
      "Nicolás Couselo González": 11,
-     "Oscar Aydillo Gonzalez": 2,
+     "Óscar Aydillo González": 2,
      "Pedro Garay Amigo": 4,
      "Aritz Loureda Mato": 7,
      "Iago Leira Fraga": 12
@@ -11173,23 +11173,23 @@ const EQUIPOS = [
    }
   },
   "dorsales": {
-   "Mateo Teijido Ceniceros": 1,
-   "Thiago Dias Gonsalves": 3,
+   "Pedro Garay Amigo": 4,
    "Pedro Fernández López": 6,
    "Aritz Loureda Mato": 7,
-   "Nicolás Couselo González": 2,
    "Iago Márquez Barros": 9,
-   "Adrian Bestilleiro Pallas": 10,
+   "Adrián Bestilleiro Pallas": 10,
+   "Thiago Dias Gonsalves": 5,
    "Roi Rodríguez Castro": 11,
-   "Jacobo Rodriguez De Castro Castro": 5,
-   "Manuel Aydillo Gonzalez": 3,
-   "Pedro Garay Amigo": 4,
+   "Jeremy Henao Ramírez": 1,
+   "Manuel Aydillo González": 3,
+   "Gonzalo Aguado Perala": 8,
+   "Jacobo Rodríguez De Castro Castro": 2,
    "Iago Leira Fraga": 12,
    "Pablo Nicolás Carballo Iniesto": 14,
-   "Gonzalo Aguado Perala": 8,
-   "Oscar Aydillo Gonzalez": 2,
-   "Jeremy Henao Ramirez": 1,
-   "Lorenzo Pacheco Lazarino": 2
+   "Nicolás Couselo González": 13,
+   "Mateo Teijido Ceniceros": 15,
+   "Lorenzo Pacheco Lazarino": 16,
+   "Óscar Aydillo González": 17
   },
   "descargado": "2026-10-23T07:30"
  },
@@ -11201,22 +11201,22 @@ const EQUIPOS = [
   "liga": "Segunda Benjamin F-8",
   "urlFederacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisEquipos?cod_primaria=1000119&Codigo_Equipo=3509462",
   "plantilla": [
-   "Jaime Alvarez De Mon Caffrey",
+   "Jaime Álvarez De Mon Caffrey",
    "Gael Cerqueiro Gestal",
    "Alan Díaz López",
    "Guillermo Espiñeira Sobrido",
-   "Mateo Fernandez Gonzalez",
-   "Mario Fernandez Lamela",
-   "Santiago Lopez Alvarez",
+   "Mateo Fernández González",
+   "Mario Fernández Lamela",
+   "Santiago López Álvarez",
    "Leo Maroño Ben",
    "Luca Martínez Díaz",
-   "Saul Otero Velo",
+   "Saúl Otero Velo",
    "Pablo Pena Barriga",
    "Noah Rawson-Higgins González",
    "Noel Rey Diz",
    "Lucas Santalla Fernández-Porto",
    "Alejandro Sexto López",
-   "Borja Uria Ramos",
+   "Borja Uría Ramos",
    "Thiago Vázquez Lago"
   ],
   "entrenadores": [
@@ -11444,14 +11444,14 @@ const EQUIPOS = [
      "Lucas Santalla Fernández-Porto",
      "Pablo Pena Barriga",
      "Luca Martínez Díaz",
-     "Mateo Fernandez Gonzalez"
+     "Mateo Fernández González"
     ],
     "s": [
      "Noel Rey Diz",
      "Leo Maroño Ben",
-     "Borja Uria Ramos",
-     "Saul Otero Velo",
-     "Santiago Lopez Alvarez"
+     "Borja Uría Ramos",
+     "Saúl Otero Velo",
+     "Santiago López Álvarez"
     ],
     "e": [],
     "g": {},
@@ -11465,12 +11465,12 @@ const EQUIPOS = [
      "Lucas Santalla Fernández-Porto": 7,
      "Pablo Pena Barriga": 8,
      "Luca Martínez Díaz": 10,
-     "Mateo Fernandez Gonzalez": 14,
+     "Mateo Fernández González": 14,
      "Noel Rey Diz": 13,
      "Leo Maroño Ben": 2,
-     "Borja Uria Ramos": 9,
-     "Saul Otero Velo": 11,
-     "Santiago Lopez Alvarez": 12
+     "Borja Uría Ramos": 9,
+     "Saúl Otero Velo": 11,
+     "Santiago López Álvarez": 12
     },
     "id": "1510287"
    },
@@ -11481,13 +11481,13 @@ const EQUIPOS = [
      "Guillermo Espiñeira Sobrido",
      "Alejandro Sexto López",
      "Gael Cerqueiro Gestal",
-     "Borja Uria Ramos",
+     "Borja Uría Ramos",
      "Luca Martínez Díaz",
-     "Mario Fernandez Lamela"
+     "Mario Fernández Lamela"
     ],
     "s": [
      "Alan Díaz López",
-     "Mateo Fernandez Gonzalez"
+     "Mateo Fernández González"
     ],
     "e": [],
     "g": {},
@@ -11499,11 +11499,11 @@ const EQUIPOS = [
      "Guillermo Espiñeira Sobrido": 3,
      "Alejandro Sexto López": 5,
      "Gael Cerqueiro Gestal": 6,
-     "Borja Uria Ramos": 9,
+     "Borja Uría Ramos": 9,
      "Luca Martínez Díaz": 10,
-     "Mario Fernandez Lamela": 15,
+     "Mario Fernández Lamela": 15,
      "Alan Díaz López": 4,
-     "Mateo Fernandez Gonzalez": 14
+     "Mateo Fernández González": 14
     },
     "id": "1510293"
    },
@@ -11515,15 +11515,15 @@ const EQUIPOS = [
      "Lucas Santalla Fernández-Porto",
      "Pablo Pena Barriga",
      "Luca Martínez Díaz",
-     "Saul Otero Velo",
-     "Mario Fernandez Lamela"
+     "Saúl Otero Velo",
+     "Mario Fernández Lamela"
     ],
     "s": [
      "Gael Cerqueiro Gestal",
-     "Borja Uria Ramos",
-     "Santiago Lopez Alvarez",
+     "Borja Uría Ramos",
+     "Santiago López Álvarez",
      "Noel Rey Diz",
-     "Mateo Fernandez Gonzalez",
+     "Mateo Fernández González",
      "Noah Rawson-Higgins González"
     ],
     "e": [],
@@ -11537,13 +11537,13 @@ const EQUIPOS = [
      "Lucas Santalla Fernández-Porto": 7,
      "Pablo Pena Barriga": 8,
      "Luca Martínez Díaz": 10,
-     "Saul Otero Velo": 11,
-     "Mario Fernandez Lamela": 15,
+     "Saúl Otero Velo": 11,
+     "Mario Fernández Lamela": 15,
      "Gael Cerqueiro Gestal": 6,
-     "Borja Uria Ramos": 9,
-     "Santiago Lopez Alvarez": 12,
+     "Borja Uría Ramos": 9,
+     "Santiago López Álvarez": 12,
      "Noel Rey Diz": 13,
-     "Mateo Fernandez Gonzalez": 14,
+     "Mateo Fernández González": 14,
      "Noah Rawson-Higgins González": 16
     },
     "id": "1510298"
@@ -11557,13 +11557,13 @@ const EQUIPOS = [
    "Lucas Santalla Fernández-Porto": 7,
    "Pablo Pena Barriga": 8,
    "Luca Martínez Díaz": 10,
-   "Mateo Fernandez Gonzalez": 14,
+   "Mateo Fernández González": 14,
    "Noel Rey Diz": 13,
    "Leo Maroño Ben": 2,
-   "Borja Uria Ramos": 9,
-   "Saul Otero Velo": 11,
-   "Santiago Lopez Alvarez": 12,
-   "Mario Fernandez Lamela": 15,
+   "Borja Uría Ramos": 9,
+   "Saúl Otero Velo": 11,
+   "Santiago López Álvarez": 12,
+   "Mario Fernández Lamela": 15,
    "Alan Díaz López": 4,
    "Noah Rawson-Higgins González": 16
   },
@@ -11577,24 +11577,24 @@ const EQUIPOS = [
   "liga": "Segunda Benjamin F-8",
   "urlFederacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisEquipos?cod_primaria=1000119&Codigo_Equipo=3509461",
   "plantilla": [
-   "Alessandro De Jesus Bermudez Moreno",
+   "Alessandro De Jesús Bermúdez Moreno",
    "Roi Bustelo Iglesias",
    "Iago Camacho Teijo",
-   "Lois Diaz Lopez",
+   "Lois Díaz López",
    "Mateo Fernández Martínez",
    "Lucca Gadaleta Pérez",
-   "Jeremy Henao Ramirez",
+   "Jeremy Henao Ramírez",
    "Matteo Marozzi Ramos",
    "Lorenzo Pacheco Lazarino",
    "Sergio Rama Pena",
-   "Pablo Ramil Vazquez",
+   "Pablo Ramil Vázquez",
    "Martiño Rodríguez Otero",
    "Guillem Sellas Castellanos",
    "Mateo Teijido Ceniceros",
-   "Dario Viana López"
+   "Darío Viana López"
   ],
   "entrenadores": [
-   "Ivan Sanda Lopez"
+   "Iván Sanda López"
   ],
   "delegados": [],
   "clasificacion": [
@@ -11815,14 +11815,14 @@ const EQUIPOS = [
      "Matteo Marozzi Ramos",
      "Mateo Fernández Martínez",
      "Iago Camacho Teijo",
-     "Alessandro De Jesus Bermudez Moreno",
+     "Alessandro De Jesús Bermúdez Moreno",
      "Lucca Gadaleta Pérez"
     ],
     "s": [
      "Guillem Sellas Castellanos",
-     "Pablo Ramil Vazquez",
-     "Lois Diaz Lopez",
-     "Dario Viana López",
+     "Pablo Ramil Vázquez",
+     "Lois Díaz López",
+     "Darío Viana López",
      "Sergio Rama Pena"
     ],
     "e": [],
@@ -11836,12 +11836,12 @@ const EQUIPOS = [
      "Matteo Marozzi Ramos": 6,
      "Mateo Fernández Martínez": 8,
      "Iago Camacho Teijo": 10,
-     "Alessandro De Jesus Bermudez Moreno": 12,
+     "Alessandro De Jesús Bermúdez Moreno": 12,
      "Lucca Gadaleta Pérez": 14,
      "Guillem Sellas Castellanos": 3,
-     "Pablo Ramil Vazquez": 5,
-     "Lois Diaz Lopez": 7,
-     "Dario Viana López": 9,
+     "Pablo Ramil Vázquez": 5,
+     "Lois Díaz López": 7,
+     "Darío Viana López": 9,
      "Sergio Rama Pena": 15
     },
     "id": "1510381"
@@ -11851,16 +11851,16 @@ const EQUIPOS = [
      "Mateo Teijido Ceniceros",
      "Roi Bustelo Iglesias",
      "Matteo Marozzi Ramos",
-     "Lois Diaz Lopez",
+     "Lois Díaz López",
      "Iago Camacho Teijo",
-     "Alessandro De Jesus Bermudez Moreno",
+     "Alessandro De Jesús Bermúdez Moreno",
      "Lucca Gadaleta Pérez",
      "Sergio Rama Pena"
     ],
     "s": [
      "Guillem Sellas Castellanos",
-     "Pablo Ramil Vazquez",
-     "Dario Viana López"
+     "Pablo Ramil Vázquez",
+     "Darío Viana López"
     ],
     "e": [],
     "g": {},
@@ -11870,14 +11870,14 @@ const EQUIPOS = [
      "Mateo Teijido Ceniceros": 1,
      "Roi Bustelo Iglesias": 4,
      "Matteo Marozzi Ramos": 6,
-     "Lois Diaz Lopez": 7,
+     "Lois Díaz López": 7,
      "Iago Camacho Teijo": 10,
-     "Alessandro De Jesus Bermudez Moreno": 12,
+     "Alessandro De Jesús Bermúdez Moreno": 12,
      "Lucca Gadaleta Pérez": 14,
      "Sergio Rama Pena": 15,
      "Guillem Sellas Castellanos": 3,
-     "Pablo Ramil Vazquez": 5,
-     "Dario Viana López": 9
+     "Pablo Ramil Vázquez": 5,
+     "Darío Viana López": 9
     },
     "id": "1510386"
    },
@@ -11886,18 +11886,18 @@ const EQUIPOS = [
      "Mateo Teijido Ceniceros",
      "Roi Bustelo Iglesias",
      "Matteo Marozzi Ramos",
-     "Lois Diaz Lopez",
+     "Lois Díaz López",
      "Iago Camacho Teijo",
-     "Alessandro De Jesus Bermudez Moreno",
+     "Alessandro De Jesús Bermúdez Moreno",
      "Lucca Gadaleta Pérez",
      "Sergio Rama Pena"
     ],
     "s": [
      "Lorenzo Pacheco Lazarino",
      "Guillem Sellas Castellanos",
-     "Pablo Ramil Vazquez",
+     "Pablo Ramil Vázquez",
      "Mateo Fernández Martínez",
-     "Dario Viana López"
+     "Darío Viana López"
     ],
     "e": [],
     "g": {},
@@ -11907,16 +11907,16 @@ const EQUIPOS = [
      "Mateo Teijido Ceniceros": 1,
      "Roi Bustelo Iglesias": 4,
      "Matteo Marozzi Ramos": 6,
-     "Lois Diaz Lopez": 7,
+     "Lois Díaz López": 7,
      "Iago Camacho Teijo": 10,
-     "Alessandro De Jesus Bermudez Moreno": 12,
+     "Alessandro De Jesús Bermúdez Moreno": 12,
      "Lucca Gadaleta Pérez": 14,
      "Sergio Rama Pena": 15,
      "Lorenzo Pacheco Lazarino": 2,
      "Guillem Sellas Castellanos": 3,
-     "Pablo Ramil Vazquez": 5,
+     "Pablo Ramil Vázquez": 5,
      "Mateo Fernández Martínez": 8,
-     "Dario Viana López": 9
+     "Darío Viana López": 9
     },
     "id": "1510390"
    }
@@ -11928,12 +11928,12 @@ const EQUIPOS = [
    "Matteo Marozzi Ramos": 6,
    "Mateo Fernández Martínez": 8,
    "Iago Camacho Teijo": 10,
-   "Alessandro De Jesus Bermudez Moreno": 12,
+   "Alessandro De Jesús Bermúdez Moreno": 12,
    "Lucca Gadaleta Pérez": 14,
    "Guillem Sellas Castellanos": 3,
-   "Pablo Ramil Vazquez": 5,
-   "Lois Diaz Lopez": 7,
-   "Dario Viana López": 9,
+   "Pablo Ramil Vázquez": 5,
+   "Lois Díaz López": 7,
+   "Darío Viana López": 9,
    "Sergio Rama Pena": 15
   },
   "descargado": "2026-10-23T07:30"
@@ -11947,20 +11947,20 @@ const EQUIPOS = [
   "urlFederacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisEquipos?cod_primaria=1000119&Codigo_Equipo=3509463",
   "plantilla": [
    "Anxo Antelo Barros",
-   "Angel Esmoris Galindo",
-   "Alvaro Fernandez Dans",
-   "Cibran Fernandez Gonzalez",
+   "Ángel Esmoris Galindo",
+   "Álvaro Fernández Dans",
+   "Cibrán Fernández González",
    "Lucas Gómez Carcedo",
    "Matheus Lopes Dias",
    "Enzo Martínez Ávila",
-   "Iago Naveira Garcia",
+   "Iago Naveira García",
    "Enzo Paparella Rodríguez",
    "Noah Rocha Sánchez",
-   "Ian Sanchez Arias",
+   "Ian Sánchez Arias",
    "Jorge Sepúlveda Domínguez"
   ],
   "entrenadores": [
-   "Pablo Alvarez Silva",
+   "Pablo Álvarez Silva",
    "Diego Longueira Enjamio"
   ],
   "delegados": [],
@@ -12377,19 +12377,19 @@ const EQUIPOS = [
   "actas": {
    "1": {
     "t": [
-     "Ian Sanchez Arias",
-     "Cibran Fernandez Gonzalez",
+     "Ian Sánchez Arias",
+     "Cibrán Fernández González",
      "Matheus Lopes Dias",
      "Noah Rocha Sánchez",
      "Jorge Sepúlveda Domínguez",
      "Anxo Antelo Barros",
      "Lucas Gómez Carcedo",
-     "Alvaro Fernandez Dans"
+     "Álvaro Fernández Dans"
     ],
     "s": [
-     "Iago Naveira Garcia",
+     "Iago Naveira García",
      "Enzo Paparella Rodríguez",
-     "Angel Esmoris Galindo",
+     "Ángel Esmoris Galindo",
      "Enzo Martínez Ávila"
     ],
     "e": [],
@@ -12397,25 +12397,25 @@ const EQUIPOS = [
     "a": [],
     "r": [],
     "d": {
-     "Ian Sanchez Arias": 1,
-     "Cibran Fernandez Gonzalez": 2,
+     "Ian Sánchez Arias": 1,
+     "Cibrán Fernández González": 2,
      "Matheus Lopes Dias": 4,
      "Noah Rocha Sánchez": 5,
      "Jorge Sepúlveda Domínguez": 8,
      "Anxo Antelo Barros": 9,
      "Lucas Gómez Carcedo": 10,
-     "Alvaro Fernandez Dans": 12,
-     "Iago Naveira Garcia": 3,
+     "Álvaro Fernández Dans": 12,
+     "Iago Naveira García": 3,
      "Enzo Paparella Rodríguez": 6,
-     "Angel Esmoris Galindo": 7,
+     "Ángel Esmoris Galindo": 7,
      "Enzo Martínez Ávila": 11
     },
     "id": "1501478"
    },
    "2": {
     "t": [
-     "Ian Sanchez Arias",
-     "Cibran Fernandez Gonzalez",
+     "Ian Sánchez Arias",
+     "Cibrán Fernández González",
      "Matheus Lopes Dias",
      "Noah Rocha Sánchez",
      "Jorge Sepúlveda Domínguez",
@@ -12424,10 +12424,10 @@ const EQUIPOS = [
      "Enzo Martínez Ávila"
     ],
     "s": [
-     "Iago Naveira Garcia",
+     "Iago Naveira García",
      "Enzo Paparella Rodríguez",
-     "Angel Esmoris Galindo",
-     "Alvaro Fernandez Dans",
+     "Ángel Esmoris Galindo",
+     "Álvaro Fernández Dans",
      "Raphael De Araujo Lima"
     ],
     "e": [],
@@ -12435,35 +12435,35 @@ const EQUIPOS = [
     "a": [],
     "r": [],
     "d": {
-     "Ian Sanchez Arias": 1,
-     "Cibran Fernandez Gonzalez": 2,
+     "Ian Sánchez Arias": 1,
+     "Cibrán Fernández González": 2,
      "Matheus Lopes Dias": 4,
      "Noah Rocha Sánchez": 5,
      "Jorge Sepúlveda Domínguez": 8,
      "Anxo Antelo Barros": 9,
      "Lucas Gómez Carcedo": 10,
      "Enzo Martínez Ávila": 11,
-     "Iago Naveira Garcia": 3,
+     "Iago Naveira García": 3,
      "Enzo Paparella Rodríguez": 6,
-     "Angel Esmoris Galindo": 7,
-     "Alvaro Fernandez Dans": 12,
+     "Ángel Esmoris Galindo": 7,
+     "Álvaro Fernández Dans": 12,
      "Raphael De Araujo Lima": 14
     },
     "id": "1501486"
    }
   },
   "dorsales": {
-   "Ian Sanchez Arias": 1,
-   "Cibran Fernandez Gonzalez": 2,
+   "Ian Sánchez Arias": 1,
+   "Cibrán Fernández González": 2,
    "Matheus Lopes Dias": 4,
    "Noah Rocha Sánchez": 5,
    "Jorge Sepúlveda Domínguez": 8,
    "Anxo Antelo Barros": 9,
    "Lucas Gómez Carcedo": 10,
-   "Alvaro Fernandez Dans": 12,
-   "Iago Naveira Garcia": 3,
+   "Álvaro Fernández Dans": 12,
+   "Iago Naveira García": 3,
    "Enzo Paparella Rodríguez": 6,
-   "Angel Esmoris Galindo": 7,
+   "Ángel Esmoris Galindo": 7,
    "Enzo Martínez Ávila": 11,
    "Raphael De Araujo Lima": 14
   },
@@ -12484,18 +12484,18 @@ const EQUIPOS = [
    "Raphael De Araujo Lima",
    "Erick Fuentes Lago",
    "Alan Gota De La Fuente",
-   "Eithan Ignacio Quiroga Alegria",
-   "Julen Jimenez Santana",
-   "Marco Mouzo Diaz Del Campo",
-   "Miguel Angel Ossa Briceño",
+   "Eithan Ignacio Quiroga Alegría",
+   "Julen Jiménez Santana",
+   "Marco Mouzo Díaz Del Campo",
+   "Miguel Ángel Ossa Briceño",
    "Mateo Puig Agraso",
-   "Luka Pulpeiro Duran",
+   "Luka Pulpeiro Durán",
    "Enzo Rodríguez Iglesias",
-   "Anton Varela Blanco"
+   "Antón Varela Blanco"
   ],
   "entrenadores": [
    "Fernando José Piñeiro Lameiro",
-   "Vicente Dopico Rios"
+   "Vicente Dopico Ríos"
   ],
   "delegados": [],
   "clasificacion": [
@@ -12715,13 +12715,13 @@ const EQUIPOS = [
      "Daniel Cardama Souto",
      "Alejandro Eyden Cuba Balbela",
      "Alan Gota De La Fuente",
-     "Marco Mouzo Diaz Del Campo",
+     "Marco Mouzo Díaz Del Campo",
      "Erick Fuentes Lago",
-     "Luka Pulpeiro Duran"
+     "Luka Pulpeiro Durán"
     ],
     "s": [
      "Enzo Rodríguez Iglesias",
-     "Anton Varela Blanco"
+     "Antón Varela Blanco"
     ],
     "e": [],
     "g": {},
@@ -12733,11 +12733,11 @@ const EQUIPOS = [
      "Daniel Cardama Souto": 3,
      "Alejandro Eyden Cuba Balbela": 4,
      "Alan Gota De La Fuente": 5,
-     "Marco Mouzo Diaz Del Campo": 7,
+     "Marco Mouzo Díaz Del Campo": 7,
      "Erick Fuentes Lago": 9,
-     "Luka Pulpeiro Duran": 10,
+     "Luka Pulpeiro Durán": 10,
      "Enzo Rodríguez Iglesias": 11,
-     "Anton Varela Blanco": 12
+     "Antón Varela Blanco": 12
     },
     "id": "1509960"
    },
@@ -12750,11 +12750,11 @@ const EQUIPOS = [
      "Raphael De Araujo Lima",
      "Erick Fuentes Lago",
      "Alan Gota De La Fuente",
-     "Julen Jimenez Santana"
+     "Julen Jiménez Santana"
     ],
     "s": [
-     "Marco Mouzo Diaz Del Campo",
-     "Miguel Angel Ossa Briceño",
+     "Marco Mouzo Díaz Del Campo",
+     "Miguel Ángel Ossa Briceño",
      "Mateo Puig Agraso"
     ],
     "e": [],
@@ -12769,9 +12769,9 @@ const EQUIPOS = [
      "Raphael De Araujo Lima": 5,
      "Erick Fuentes Lago": 6,
      "Alan Gota De La Fuente": 7,
-     "Julen Jimenez Santana": 8,
-     "Marco Mouzo Diaz Del Campo": 9,
-     "Miguel Angel Ossa Briceño": 10,
+     "Julen Jiménez Santana": 8,
+     "Marco Mouzo Díaz Del Campo": 9,
+     "Miguel Ángel Ossa Briceño": 10,
      "Mateo Puig Agraso": 11
     },
     "id": "1509966"
@@ -12779,17 +12779,17 @@ const EQUIPOS = [
    "3": {
     "t": [
      "Carlos Castro Wagner Aller",
-     "Luka Pulpeiro Duran",
+     "Luka Pulpeiro Durán",
      "Alan Gota De La Fuente",
      "Alejandro Eyden Cuba Balbela",
      "Daniel Cardama Souto",
      "Mateo Puig Agraso",
      "Erick Fuentes Lago",
-     "Julen Jimenez Santana"
+     "Julen Jiménez Santana"
     ],
     "s": [
-     "Anton Varela Blanco",
-     "Marco Mouzo Diaz Del Campo",
+     "Antón Varela Blanco",
+     "Marco Mouzo Díaz Del Campo",
      "Enzo Rodríguez Iglesias"
     ],
     "e": [],
@@ -12798,35 +12798,35 @@ const EQUIPOS = [
     "r": [],
     "d": {
      "Carlos Castro Wagner Aller": 13,
-     "Luka Pulpeiro Duran": 4,
+     "Luka Pulpeiro Durán": 4,
      "Alan Gota De La Fuente": 6,
      "Alejandro Eyden Cuba Balbela": 7,
      "Daniel Cardama Souto": 8,
      "Mateo Puig Agraso": 9,
      "Erick Fuentes Lago": 11,
-     "Julen Jimenez Santana": 15,
-     "Anton Varela Blanco": 3,
-     "Marco Mouzo Diaz Del Campo": 5,
+     "Julen Jiménez Santana": 15,
+     "Antón Varela Blanco": 3,
+     "Marco Mouzo Díaz Del Campo": 5,
      "Enzo Rodríguez Iglesias": 10
     },
     "id": "1509971"
    }
   },
   "dorsales": {
-   "Carlos Castro Wagner Aller": 13,
+   "Alejandro Eyden Cuba Balbela": 4,
    "Leo Baña Yusta": 1,
-   "Daniel Cardama Souto": 8,
-   "Alejandro Eyden Cuba Balbela": 7,
-   "Alan Gota De La Fuente": 6,
-   "Marco Mouzo Diaz Del Campo": 5,
-   "Erick Fuentes Lago": 11,
-   "Luka Pulpeiro Duran": 4,
+   "Daniel Cardama Souto": 2,
+   "Antón Varela Blanco": 3,
+   "Alan Gota De La Fuente": 5,
+   "Erick Fuentes Lago": 6,
+   "Marco Mouzo Díaz Del Campo": 7,
+   "Julen Jiménez Santana": 8,
+   "Mateo Puig Agraso": 9,
    "Enzo Rodríguez Iglesias": 10,
-   "Anton Varela Blanco": 3,
-   "Raphael De Araujo Lima": 5,
-   "Julen Jimenez Santana": 15,
-   "Miguel Angel Ossa Briceño": 10,
-   "Mateo Puig Agraso": 9
+   "Carlos Castro Wagner Aller": 13,
+   "Luka Pulpeiro Durán": 12,
+   "Miguel Ángel Ossa Briceño": 14,
+   "Raphael De Araujo Lima": 15
   },
   "descargado": "2026-10-23T07:31"
  }

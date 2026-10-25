@@ -343,7 +343,7 @@ button { font: inherit; color: inherit; }
 }
 .ficha-cifras { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px 12px; }
 .ficha-cifras b { display: block; font: 700 clamp(2rem, 3.6vw, 2.8rem)/1 var(--rotulo); }
-.ficha-cifras small { font-size: 0.85rem; color: var(--tinta-suave); }
+.ficha-cifras small { display: block; font-size: 0.85rem; color: var(--tinta-suave); hyphens: auto; overflow-wrap: anywhere; } /* «Convocatorias» no cabe en columnas estrechas */
 .ficha-panel > h3:first-of-type { margin-top: 34px; }
 
 /* Gráfica de goles por jornada (color validado contra el fondo oscuro: #b96fd8) */

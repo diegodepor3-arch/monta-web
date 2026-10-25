@@ -99,7 +99,7 @@ function inicio() {
     ${tira.length ? cinta(tira) : ""}
     <div class="contenedor">
       <section class="bloque">
-        <div class="bloque-cab"><h2>Esta semana en la Canteira</h2><a href="#/canteira">Todos los equipos</a></div>
+        <div class="bloque-cab"><h2>Esta semana en la Cantera</h2><a href="#/canteira">Todos los equipos</a></div>
         ${cantera.length ? `<div class="partidos">${cantera.map((p) => tarjetaPartido(p, false, true)).join("")}</div>`
           : vacio("La federación aún no ha publicado partidos de la cantera para esta semana.")}
       </section>
@@ -150,7 +150,7 @@ function vistaEquipo(id, sub = "", jugador = "") {
   const conPortada = e.categoria === "senior";
   const migas = conPortada
     ? (sub ? `<p class="migas"><a href="${rutaEquipo(e)}">${esc(nombreEquipo(e))}</a></p>` : "")
-    : `<p class="migas"><a href="#/canteira">Canteira Morada</a> / <a href="#/canteira/${e.categoria}">${esc(categoria(e.categoria).nombre)}</a></p>`;
+    : `<p class="migas"><a href="#/canteira">Cantera Morada</a> / <a href="#/canteira/${e.categoria}">${esc(categoria(e.categoria).nombre)}</a></p>`;
   const mesProx = p ? fmt(p.fecha, { month: "long" }) : "";
   const pos = filaPropia(e);
 
@@ -521,11 +521,11 @@ function vistaFicha(e, id) {
     </section>`;
 }
 
-// --- Canteira -----------------------------------------------------------
+// --- Cantera -----------------------------------------------------------
 function canteira(catId) {
   if (!catId) {
     const cats = CATEGORIAS.filter((c) => c.id !== "senior" && EQUIPOS.some((e) => e.categoria === c.id));
-    return `${cabeceraSimple("Canteira Morada", "De prebenjamín a juvenil")}
+    return `${cabeceraSimple("Cantera Morada", "De prebenjamín a juvenil")}
       <div class="contenedor bloque"><div class="rejilla-tarjetas">${cats.map((c) => {
         const eqs = EQUIPOS.filter((e) => e.categoria === c.id);
         return `<a class="tarjeta-cat" href="#/canteira/${c.id}">
@@ -538,7 +538,7 @@ function canteira(catId) {
   const c = categoria(catId);
   if (!c) return noEncontrado();
   const eqs = EQUIPOS.filter((e) => e.categoria === catId);
-  return `${cabeceraSimple(c.nombre, `${eqs.length} equipo${eqs.length > 1 ? "s" : ""} esta temporada`, `<p class="migas"><a href="#/canteira">Canteira Morada</a></p>`)}
+  return `${cabeceraSimple(c.nombre, `${eqs.length} equipo${eqs.length > 1 ? "s" : ""} esta temporada`, `<p class="migas"><a href="#/canteira">Cantera Morada</a></p>`)}
     <div class="contenedor bloque"><div class="rejilla-tarjetas">${eqs.map((e) => {
       const p = proximo(e), pos = filaPropia(e);
       return `<a class="tarjeta-equipo" href="${rutaEquipo(e)}">
@@ -592,6 +592,25 @@ function buscar(q) {
     </div>`;
 }
 
+// --- Socios -------------------------------------------------------------
+// Pendiente: precios, ventajas y forma de pago los confirma el club.
+const socios = () => `${cabeceraSimple("Hazte socio", "Apoya al club y ven a ver los partidos")}
+  <article class="contenedor articulo">
+    <p>Con el carné de socio del Atlético Coruña Montañeros entras a ver los partidos del club y ayudas a que la Cantera Morada siga creciendo.</p>
+    <p class="vacio">Precios y ventajas: pendiente de confirmar con el club.</p>
+    <p><a class="pastilla" href="mailto:${esc(CLUB.email)}?subject=${encodeURIComponent("Quiero hacerme socio")}">Escríbenos para hacerte socio ${icono("i-flecha")}</a></p>
+
+    <h2>Merchandising</h2>
+    <img src="img/merchandising.webp" alt="Camiseta oficial morada (40 €) y bufanda del club (8 €), a la venta bajo pedido" width="900" height="896" loading="lazy" style="width: 100%; height: auto; max-width: 560px; border-radius: 16px;">
+    <p>Lleva los colores del club. A la venta bajo pedido, con recogida en nuestras oficinas (${esc(CLUB.direccion)}).</p>
+    <ul>
+      <li><strong>Camiseta oficial:</strong> 40 €</li>
+      <li><strong>Bufanda:</strong> 8 €</li>
+    </ul>
+    <p>Pídela por correo a <a href="mailto:${esc(CLUB.email)}">${esc(CLUB.email)}</a> o por Instagram en <a href="https://www.instagram.com/atlcorunamonta/" target="_blank" rel="noopener">@atlcorunamonta</a>.</p>
+    <p><a class="pastilla" href="mailto:${esc(CLUB.email)}?subject=${encodeURIComponent("Pedido de merchandising")}">Hacer un pedido ${icono("i-flecha")}</a></p>
+  </article>`;
+
 const noEncontrado = () => cabeceraSimple("Fuera de juego", `Esta página no existe. <a href="#/">Volver al inicio</a>`);
 
 // --- Navegación ---------------------------------------------------------
@@ -604,6 +623,7 @@ function render() {
     ruta === "canteira" ? canteira(a) :
     ruta === "noticias" ? `${cabeceraSimple("Noticias", "La actualidad del club")}<div class="contenedor bloque">${listaNoticias(NOTICIAS)}</div>` :
     ruta === "noticia" ? noticia(a) :
+    ruta === "socios" ? socios() :
     ruta === "buscar" ? buscar(a) :
     noEncontrado();
   app.querySelectorAll(".carrusel").forEach(colocarCarrusel);

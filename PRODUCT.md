@@ -20,7 +20,7 @@ Todos por igual (confirmado por el club):
 
 ## Product Purpose
 
-Web informativa oficial del Atlético Coruña Montañeros C.F. (A Coruña). Reúne en un sitio el primer equipo y toda la cantera ("Canteira Morada", de prebenjamín a juvenil), con partidos, resultados y clasificaciones sacados automáticamente de la Real Federación Galega de Fútbol (futgal.es). Éxito: nadie tiene que entrar en futgal para saber cuándo y dónde juega un equipo del club.
+Web informativa oficial del Atlético Coruña Montañeros C.F. (A Coruña). Reúne en un sitio el primer equipo y toda la cantera ("Cantera Morada", de prebenjamín a juvenil), con partidos, resultados y clasificaciones sacados automáticamente de la Real Federación Galega de Fútbol (futgal.es). Éxito: nadie tiene que entrar en futgal para saber cuándo y dónde juega un equipo del club.
 
 ## Positioning
 
@@ -34,16 +34,16 @@ Es el único sitio con los 20 equipos del club juntos y al día: un padre ve el 
 
 ## Capabilities and Constraints
 
-- Secciones: Inicio (carrusel de partidos de la semana de todas las categorías + noticias), Primer equipo (plantilla, clasificación, partidos, highlights y entrevistas de TVG/Tivigal vía YouTube), Canteira Morada (tarjeta por categoría → subtarjeta por equipo A/B/C/D → plantilla, entrenadores, clasificación, partidos), Noticias, buscador interno.
+- Secciones: Inicio (carrusel de partidos de la semana de todas las categorías + noticias), Primer equipo (plantilla, clasificación, partidos, highlights y entrevistas de TVG/Tivigal vía YouTube), Cantera Morada (tarjeta por categoría → subtarjeta por equipo A/B/C/D → plantilla, entrenadores, clasificación, partidos), Noticias, buscador interno.
 - Protección de menores: fotos de jugadores solo en juvenil y primer equipo; el código lo fuerza.
 - La federación no publica dorsales ni fotos de jugadores, ni una ficha individual pública por jugador: el enlace va a la ficha del equipo en futgal.
 - Highlights: se insertan, no se copian, los vídeos de TVG/Tivigal.
 
 ## Brand Commitments
 
-- Nombre: Atlético Coruña Montañeros C.F. Cantera: "Canteira Morada".
+- Nombre: Atlético Coruña Montañeros C.F. Cantera: "Cantera Morada".
 - Color del club: morado (camiseta, pantalón y medias morados según la federación).
-- Idioma: castellano (con términos gallegos propios como "Canteira").
+- Idioma: castellano, también en la cantera ("Cantera Morada", no "Canteira"; las rutas siguen siendo `#/canteira`).
 
 ## Evidence on Hand
 

@@ -12,7 +12,9 @@ import re
 import sys
 import time
 import urllib.request
+from collections import Counter
 from datetime import datetime
+from itertools import count
 
 BASE = "https://www.futgal.es/pnfg/NPcd/"
 CLUB = 1175  # Atlético Coruña Montañeros C.F. en futgal
@@ -50,9 +52,23 @@ def celdas(fila):
     return [texto(c) for c in re.findall(r"<td.*?>(.*?)</td>", fila, flags=re.S)]
 
 
+# La federación escribe muchos nombres sin tilde. Solo palabras sin duda; las dudosas se dejan como vienen.
+ACENTOS = {w.translate(str.maketrans("áéíóúÁÓ", "aeiouAO")): w for w in """
+    Aarón Adrián Alegría Álvarez Álvaro Andrés Ángel Antón Añón Arévalo Bermúdez Bernárdez Cibrán
+    Cortés Darío Díaz Domínguez Durán Eirín Enríquez Fernández Galán García Gómez González Gundín
+    Gutiérrez Hernández Ibáñez Iván Jesús Jiménez Joaquín José Lobón López Mantiñán María Martín
+    Martínez Méndez Nicolás Óscar Pérez Piñón Ramírez Ramón Rifón Río Ríos Rodríguez Román Rubén
+    Sánchez Santamaría Saúl Sebastián Simeón Solís Suárez Tomás Tomé Uría Uzcátegui Valentín
+    Vázquez Yáñez""".split()}
+
+
+def acentos(s):
+    return re.sub(r"[^\W\d_]+", lambda m: ACENTOS.get(m.group(), m.group()), s)
+
+
 def nombre_persona(s):
     apellidos, _, nombre = s.partition(",")
-    return f"{nombre.strip()} {apellidos.strip()}".strip().title()
+    return acentos(f"{nombre.strip()} {apellidos.strip()}".strip().title())
 
 
 def es_club(nombre):
@@ -182,6 +198,25 @@ def leer_acta(s):
     return acta
 
 
+def dorsales(actas_):
+    """El dorsal más reciente de cada jugador. Si así se repite algún número (equipos sin dorsal fijo),
+    cada número es para quien más partidos lo ha llevado, primero del 1 al 11 y luego los demás;
+    quien se queda sin ninguno recibe el primer número libre del 12 en adelante."""
+    reciente = {n: d for j in sorted(actas_, key=int) for n, d in actas_[j]["d"].items()}
+    if len(set(reciente.values())) == len(reciente):
+        return reciente
+    usos = Counter((n, d) for a in actas_.values() for n, d in a["d"].items())
+    jugados = Counter(n for a in actas_.values() for n in a["d"])
+    out = {}
+    for titulares in (True, False):
+        for (n, d), _ in sorted(usos.items(), key=lambda x: (-x[1], x[0][1], x[0][0])):
+            if (d <= 11) == titulares and n not in out and d not in out.values():
+                out[n] = d
+    for n in sorted(jugados.keys() - out.keys(), key=lambda n: (-jugados[n], n)):
+        out[n] = next(d for d in count(12) if d not in out.values())
+    return out
+
+
 def acta_html(cod_acta):
     """Copia local de cada acta (.cache/): si cambia la forma de leerla no hay que volver a pedirla a futgal."""
     ruta = os.path.join(".cache", f"acta-{cod_acta}.html")
@@ -277,9 +312,9 @@ def descargar_equipo(cod, nombre, cat, anterior=None):
         proximo = next((p for p in e["partidos"] if not p["resultado"]), None)
         if proximo:
             completar_proximo(proximo, cod, cc, grupo, e)
-        # actas de todas las categorías: estadísticas y dorsal más reciente de cada jugador
+        # actas de todas las categorías: estadísticas y dorsal de cada jugador
         e["actas"] = actas(cod, cc, grupo, [p for p in e["partidos"] if p["resultado"]], (anterior or {}).get("actas"))
-        e["dorsales"] = {n: d for j in sorted(e["actas"], key=int) for n, d in e["actas"][j]["d"].items()}
+        e["dorsales"] = dorsales(e["actas"])
     if cid == "senior":
         previo_p = (anterior or {}).get("perfiles", {})
         e["perfiles"] = previo_p

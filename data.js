@@ -39,7 +39,7 @@ const NOTICIAS = [
     id: "nueva-web",
     fecha: "2026-10-19",
     titulo: "Estrenamos web",
-    resumen: "Toda la información del primer equipo y de la Canteira Morada en un solo sitio, con los partidos y clasificaciones al día.",
+    resumen: "Toda la información del primer equipo y de la Cantera Morada en un solo sitio, con los partidos y clasificaciones al día.",
     cuerpo: "Texto de ejemplo: sustituir por la noticia real.\n\nCada línea en blanco separa párrafos.",
   },
 ];
