@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-25T06:07";
+const ACTUALIZADO = "2026-10-25T11:25";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -1162,7 +1162,7 @@ const EQUIPOS = [
     }
    }
   },
-  "descargado": "2026-10-24T20:48"
+  "descargado": "2026-10-25T11:24"
  },
  {
   "id": "juvenil-a",
@@ -2182,7 +2182,7 @@ const EQUIPOS = [
    "Miguel Rodriguez Lamela": 16,
    "Martin Rodriguez Martinez": 12
   },
-  "descargado": "2026-10-24T23:11"
+  "descargado": "2026-10-25T11:24"
  },
  {
   "id": "juvenil-b",
@@ -3054,7 +3054,7 @@ const EQUIPOS = [
    "Nicolás Ramos Moreno": 8,
    "Jose Aaron Bouzas Rial": 4
   },
-  "descargado": "2026-10-24T23:12"
+  "descargado": "2026-10-25T11:25"
  },
  {
   "id": "juvenil-c",
@@ -9322,7 +9322,7 @@ const EQUIPOS = [
   "delegados": [],
   "clasificacion": [],
   "partidos": [],
-  "descargado": "2026-10-24T20:47"
+  "descargado": "2026-10-25T11:24"
  },
  {
   "id": "alevin-a",
@@ -10063,7 +10063,7 @@ const EQUIPOS = [
    "Sebastian Lopez Ganem": 17,
    "Izan Pose Seijas": 14
   },
-  "descargado": "2026-10-24T23:12"
+  "descargado": "2026-10-25T11:25"
  },
  {
   "id": "alevin-b",
@@ -10107,13 +10107,13 @@ const EQUIPOS = [
    },
    {
     "equipo": "ATL. CORUÑA MONTAÑEROS C.F \"B\"",
-    "pts": 9,
-    "pj": 3,
-    "g": 3,
+    "pts": 12,
+    "pj": 4,
+    "g": 4,
     "e": 0,
     "p": 0,
-    "gf": 26,
-    "gc": 5,
+    "gf": 37,
+    "gc": 9,
     "propio": true
    },
    {
@@ -10125,17 +10125,6 @@ const EQUIPOS = [
     "p": 1,
     "gf": 36,
     "gc": 13,
-    "propio": false
-   },
-   {
-    "equipo": "URAL ESPAÑOL C.F. \"E\"",
-    "pts": 6,
-    "pj": 3,
-    "g": 2,
-    "e": 0,
-    "p": 1,
-    "gf": 19,
-    "gc": 11,
     "propio": false
    },
    {
@@ -10158,6 +10147,17 @@ const EQUIPOS = [
     "p": 2,
     "gf": 17,
     "gc": 14,
+    "propio": false
+   },
+   {
+    "equipo": "URAL ESPAÑOL C.F. \"E\"",
+    "pts": 6,
+    "pj": 4,
+    "g": 2,
+    "e": 0,
+    "p": 2,
+    "gf": 23,
+    "gc": 22,
     "propio": false
    },
    {
@@ -10239,8 +10239,8 @@ const EQUIPOS = [
     "hora": "09:30",
     "local": false,
     "rival": "URAL ESPAÑOL C.F. \"E\"",
-    "resultado": "",
-    "campo": "San Pedro de Visma 1"
+    "resultado": "4-11",
+    "campo": ""
    },
    {
     "jornada": 5,
@@ -10249,7 +10249,7 @@ const EQUIPOS = [
     "local": true,
     "rival": "ATLETICO CASTROS",
     "resultado": "",
-    "campo": ""
+    "campo": "Torre Nº 2"
    },
    {
     "jornada": 6,
@@ -10291,16 +10291,16 @@ const EQUIPOS = [
   "competicion": "Alevin F-7 - Segunda Futgal · A Coruña | 1ª Fase G5",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=28989125&codcompeticion=26991597",
   "escudos": {
-   "COLEGIO LICEO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000798377_Logo_Liceo_FONDO_BLANCO_sin_margen.jpg",
-   "ESCOLAS DEPORTIVAS NA PEGADA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001611037_escudo128.png",
-   "ATLETICO CASTROS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001611037_escudo128.png",
-   "OZA JUVENIL S.D. \"D\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
+   "COMPAÑIA DE MARIA \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004468_logo.png",
    "ORILLAMAR S.D. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000941018_ESCUDO_OFICIAL_ORILLAMAR_SD_PRINCIPAL.jpg",
    "CLUB XESUITINAS \"A\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001224529_CLUB_XESUITINAS__A_Corun__a___2_.png",
-   "COMPAÑIA DE MARIA \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004468_logo.png",
-   "VICTORIA C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
    "URAL ESPAÑOL C.F. \"E\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000891301_ESCUDO_URAL_B.jpg",
-   "ATL. CORUÑA MONTAÑEROS C.F \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png"
+   "ATL. CORUÑA MONTAÑEROS C.F \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
+   "ATLETICO CASTROS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001611037_escudo128.png",
+   "OZA JUVENIL S.D. \"D\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
+   "COLEGIO LICEO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000798377_Logo_Liceo_FONDO_BLANCO_sin_margen.jpg",
+   "VICTORIA C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
+   "ESCOLAS DEPORTIVAS NA PEGADA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg"
   },
   "actas": {
    "1": {
@@ -10423,6 +10423,47 @@ const EQUIPOS = [
      "Alvaro Durán Parra": 11
     },
     "id": "1509746"
+   },
+   "4": {
+    "t": [
+     "Susana Espiñeira Varela",
+     "Brais Vázquez Carreira",
+     "Beltrán Fuentes García",
+     "Jorge Rodriguez De Castro Castro",
+     "Carlos Taboada Abelenda",
+     "Cruz Rocha Sanchez",
+     "Brais Sánchez Naveira"
+    ],
+    "s": [
+     "Daniel Castellanos Gil",
+     "Mateo Casal Mourelle",
+     "Xoel Antelo Barros",
+     "Romeo Vazquez Iglesias",
+     "Alvaro Durán Parra",
+     "Lucas Caride López",
+     "Gael Zapata Grandal"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Susana Espiñeira Varela": 13,
+     "Brais Vázquez Carreira": 2,
+     "Beltrán Fuentes García": 4,
+     "Jorge Rodriguez De Castro Castro": 6,
+     "Carlos Taboada Abelenda": 9,
+     "Cruz Rocha Sanchez": 10,
+     "Brais Sánchez Naveira": 12,
+     "Daniel Castellanos Gil": 1,
+     "Mateo Casal Mourelle": 3,
+     "Xoel Antelo Barros": 5,
+     "Romeo Vazquez Iglesias": 8,
+     "Alvaro Durán Parra": 11,
+     "Lucas Caride López": 14,
+     "Gael Zapata Grandal": 16
+    },
+    "id": "1509752"
    }
   },
   "dorsales": {
@@ -10444,7 +10485,7 @@ const EQUIPOS = [
    "Fabio Gundin Candia": 1,
    "Xoel Antelo Barros": 5
   },
-  "descargado": "2026-10-24T23:13"
+  "descargado": "2026-10-25T11:25"
  },
  {
   "id": "alevin-c",
