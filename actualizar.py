@@ -165,8 +165,9 @@ def escudos(s):
 
 def leer_acta(s):
     """Lo que hizo cada jugador del club en un partido: t=titular, s=suplente, e=entró,
-    g=goles, a=amarillas, r=rojas, d=dorsal."""
-    acta = {"t": [], "s": [], "e": [], "g": {}, "a": [], "r": [], "d": {}}
+    g=goles, a=amarillas, r=rojas, d=dorsal, c=cambios [entra, sale, minuto], rm=minuto de cada roja.
+    Infantil y categorías menores no publican cambios (se puede volver a entrar): ahí c queda vacío."""
+    acta = {"t": [], "s": [], "e": [], "g": {}, "a": [], "r": [], "d": {}, "c": [], "rm": {}}
     for bloque in re.split(r"class=number[^>]*>", s)[1:]:
         if not es_club(texto(bloque.split("</div>")[0])):
             continue
@@ -189,13 +190,27 @@ def leer_acta(s):
     for m in re.finditer(r"tarj_(\w+)\.gif.*?</td>\s*<td[^>]*>(.*?)</td>", s, flags=re.S):
         n = nombre_fila(m.group(2))
         if n in nuestros:
-            acta["r" if ("roj" in m.group(1) or "2" in m.group(1)) else "a"].append(n)
+            roja = "roj" in m.group(1) or "2" in m.group(1)
+            acta["r" if roja else "a"].append(n)
+            if roja and (mi := minuto(m.group(2))) is not None:
+                acta["rm"][n] = mi
+    entra = None
     for f in filas(s[s.find("Sustituciones"):]):
+        n = next((nombre_fila(x) for x in celdas(f) if "," in x), None)
         if "arrow-up" in f or "font-green" in f:  # entra: flecha hacia arriba (RFEF) o flecha verde (futgal)
-            n = next((nombre_persona(x) for x in celdas(f) if "," in x), None)
+            entra = n
             if n in acta["s"]:
                 acta["e"].append(n)
+        elif entra in nuestros and (mi := minuto(f)) is not None:  # la fila siguiente es la de quien sale, con el minuto
+            acta["c"].append([entra, n, mi])
+            entra = None
     return acta
+
+
+def minuto(html_):
+    """(46') → 46; (90'+2) → 90."""
+    m = re.search(r"\((\d+)'", texto(html_))
+    return int(m.group(1)) if m else None
 
 
 def dorsales(actas_):
@@ -236,7 +251,8 @@ def actas(cod, comp, grupo, jugados, previas):
     for j, a in out.items():  # las que tienen copia local se vuelven a leer gratis (por si mejora la lectura)
         if a.get("id") and os.path.exists(os.path.join(".cache", f"acta-{a['id']}.html")):
             out[j] = dict(leer_acta(acta_html(a["id"])), id=a["id"])
-    nuevas = [p for p in jugados if str(p["jornada"]) not in out or not out[str(p["jornada"])].get("id")]
+    # sin "c": leída antes de guardar los cambios (minutos jugados); se vuelve a pedir
+    nuevas = [p for p in jugados if not out.get(str(p["jornada"]), {}).get("id") or "c" not in out[str(p["jornada"])]]
     for p in nuevas[-MAX_ACTAS:]:  # ponytail: pocas actas por ejecución para no provocar el bloqueo de futgal
         s = jornada(comp, grupo, p["jornada"])
         i = s.find(f"Codigo_Equipo={cod}\"")

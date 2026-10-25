@@ -382,16 +382,25 @@ const ordenJugadores = (e) => [...e.plantilla].sort((a, b) => (dorsal(e, a) ?? 9
 const rutaFicha = (e, n) => `${rutaEquipo(e)}/plantilla/${slug(n)}`;
 const ultimaFicha = {}; // al volver, el carrusel queda centrado en el último jugador visto
 
+// Minutos de partido. Infantil y menores quedan fuera: se puede volver a entrar y la federación no publica los cambios
+const DURACION = { senior: 90, juvenil: 90, cadete: 80 };
+
 // Cuenta lo que hizo el jugador en las actas guardadas
 function estadisticas(e, n) {
-  const k = normal(n), es = (x) => normal(x) === k;
-  const r = { actas: 0, convocado: 0, titular: 0, jugados: 0, goles: 0, amarillas: 0, rojas: 0, jornadas: [] };
+  const k = normal(n), es = (x) => normal(x) === k, dura = DURACION[e.categoria];
+  const r = { actas: 0, convocado: 0, titular: 0, jugados: 0, goles: 0, amarillas: 0, rojas: 0, minutos: null, jornadas: [] };
   for (const [j, a] of Object.entries(e.actas || {}).sort((x, y) => x[0] - y[0])) {
     const t = a.t.some(es), s = a.s.some(es), en = a.e.some(es);
     const g = Object.entries(a.g).filter(([x]) => es(x)).reduce((suma, [, v]) => suma + v, 0);
     r.actas++; r.convocado += t || s; r.titular += t; r.jugados += t || en; r.goles += g;
     r.amarillas += a.a.filter(es).length; r.rojas += a.r.filter(es).length;
     r.jornadas.push({ j, estado: t ? "titular" : en ? "entra" : s ? "banquillo" : "no", g });
+    if (dura && a.c) { // actas leídas antes de guardar los cambios no tienen "c": no cuentan
+      const entra = t ? 0 : a.c.find(([x]) => es(x))?.[2];
+      const sale = Math.min(dura, a.c.find(([, x]) => es(x))?.[2] ?? dura,
+        Object.entries(a.rm || {}).find(([x]) => es(x))?.[1] ?? dura);
+      r.minutos = (r.minutos ?? 0) + (entra == null ? 0 : Math.max(0, sale - Math.min(entra, dura)));
+    }
   }
   return r;
 }
@@ -484,7 +493,7 @@ function vistaFicha(e, id) {
                 </div>
               </div>
               <div class="ficha-cifras">
-                ${cifra(est.jugados, "Partidos")}${cifra(est.goles, "Goles")}${cifra(num ?? "–", "Dorsal")}
+                ${cifra(est.jugados, "Partidos")}${cifra(est.goles, "Goles")}${est.minutos != null ? cifra(est.minutos, "Minutos") : cifra(num ?? "–", "Dorsal")}
                 ${cifra(manual.edad ?? "–", "Edad")}${cifra(est.convocado, "Convocatorias")}${cifra(est.rojas, "Rojas")}
               </div>
             </div>
