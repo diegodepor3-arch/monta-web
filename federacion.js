@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-25T19:06";
+const ACTUALIZADO = "2026-10-25T21:47";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -8309,12 +8309,12 @@ const EQUIPOS = [
    },
    {
     "equipo": "SDC ORDENES",
-    "pts": 0,
-    "pj": 5,
-    "g": 0,
+    "pts": 3,
+    "pj": 6,
+    "g": 1,
     "e": 0,
     "p": 5,
-    "gf": 7,
+    "gf": 11,
     "gc": 21,
     "propio": false
    },
@@ -8332,12 +8332,12 @@ const EQUIPOS = [
    {
     "equipo": "U.D. PAIOSACO- H. AÑON",
     "pts": 0,
-    "pj": 5,
+    "pj": 6,
     "g": 0,
     "e": 0,
-    "p": 5,
+    "p": 6,
     "gf": 5,
-    "gc": 34,
+    "gc": 38,
     "propio": false
    }
   ],
@@ -8733,6 +8733,8 @@ const EQUIPOS = [
      "Lucas García Rancaño": 8,
      "Fabricio Scotti Paz": 14
     },
+    "c": [],
+    "rm": {},
     "id": "1471509"
    },
    "5": {
@@ -8782,6 +8784,8 @@ const EQUIPOS = [
      "Mateo Pereira Pedreira": 15,
      "Jesús Joaquín Torreiro Marcos": 18
     },
+    "c": [],
+    "rm": {},
     "id": "1471517"
    },
    "1": {
@@ -8934,6 +8938,8 @@ const EQUIPOS = [
      "Hugo Astray Losada": 12,
      "Miguel Ruzo Pan": 17
     },
+    "c": [],
+    "rm": {},
     "id": "1471526"
    }
   },
@@ -8958,7 +8964,7 @@ const EQUIPOS = [
    "Jesús Joaquín Torreiro Marcos": 18,
    "Nico Mosteiro Carro": 19
   },
-  "descargado": "2026-10-25T06:07"
+  "descargado": "2026-10-25T21:47"
  },
  {
   "id": "infantil-c",
@@ -14155,13 +14161,13 @@ const EQUIPOS = [
   "clasificacion": [
    {
     "equipo": "C. P. ESCLAVAS",
-    "pts": 9,
-    "pj": 3,
-    "g": 3,
+    "pts": 12,
+    "pj": 4,
+    "g": 4,
     "e": 0,
     "p": 0,
-    "gf": 10,
-    "gc": 2,
+    "gf": 13,
+    "gc": 3,
     "propio": false
    },
    {
@@ -14189,24 +14195,13 @@ const EQUIPOS = [
    {
     "equipo": "ATL. CORUÑA MONTAÑEROS \"B\"",
     "pts": 6,
-    "pj": 3,
+    "pj": 4,
     "g": 2,
     "e": 0,
-    "p": 1,
-    "gf": 7,
-    "gc": 4,
+    "p": 2,
+    "gf": 8,
+    "gc": 6,
     "propio": true
-   },
-   {
-    "equipo": "SANTA MARIA DEL MAR \"C\"",
-    "pts": 6,
-    "pj": 3,
-    "g": 2,
-    "e": 0,
-    "p": 1,
-    "gf": 7,
-    "gc": 4,
-    "propio": false
    },
    {
     "equipo": "IMPERATOR O.A.R.",
@@ -14220,36 +14215,47 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "C.F. BATALLADOR S.D. \"B\"",
-    "pts": 3,
-    "pj": 3,
-    "g": 1,
+    "equipo": "SANTA MARIA DEL MAR \"C\"",
+    "pts": 6,
+    "pj": 4,
+    "g": 2,
     "e": 0,
     "p": 2,
-    "gf": 5,
-    "gc": 4,
+    "gf": 8,
+    "gc": 6,
     "propio": false
    },
    {
     "equipo": "ATLETICO CASTROS \"B\"",
-    "pts": 1,
-    "pj": 3,
-    "g": 0,
+    "pts": 4,
+    "pj": 4,
+    "g": 1,
     "e": 1,
     "p": 2,
-    "gf": 1,
-    "gc": 8,
+    "gf": 3,
+    "gc": 9,
+    "propio": false
+   },
+   {
+    "equipo": "C.F. BATALLADOR S.D. \"B\"",
+    "pts": 3,
+    "pj": 4,
+    "g": 1,
+    "e": 0,
+    "p": 3,
+    "gf": 6,
+    "gc": 7,
     "propio": false
    },
    {
     "equipo": "RELÁMPAGO S. D.",
-    "pts": 0,
-    "pj": 3,
-    "g": 0,
+    "pts": 3,
+    "pj": 4,
+    "g": 1,
     "e": 0,
     "p": 3,
-    "gf": 2,
-    "gc": 7,
+    "gf": 4,
+    "gc": 8,
     "propio": false
    },
    {
@@ -14298,8 +14304,8 @@ const EQUIPOS = [
     "hora": "15:30",
     "local": false,
     "rival": "RELÁMPAGO S. D.",
-    "resultado": "",
-    "campo": "Torre Nº 5"
+    "resultado": "2-1",
+    "campo": ""
    },
    {
     "jornada": 5,
@@ -14308,7 +14314,7 @@ const EQUIPOS = [
     "local": true,
     "rival": "ATLETICO CASTROS \"B\"",
     "resultado": "",
-    "campo": ""
+    "campo": "Torre Nº2.2"
    },
    {
     "jornada": 6,
@@ -14350,16 +14356,16 @@ const EQUIPOS = [
   "competicion": "Prebenjamin - Segunda Futgal · A Coruña | 1ª Fase G2",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=28989633&codcompeticion=26991921",
   "escudos": {
-   "C.D. CALASANZ \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
-   "C.D. CIUDAD JARDÍN": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001218414_Imagen_de_WhatsApp_2024_04_26_a_las_20.12.37_97ce5fe8.jpg",
    "C.D. CIUDAD": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001223589_CD_CIUDAD_TR_2.png",
-   "IMPERATOR O.A.R.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png",
+   "C.F. BATALLADOR S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000918106_ESCUDO_.jpg",
+   "C. P. ESCLAVAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001133115_4DA7C320_0949_4D89_A088_624E6471CBA6.jpeg",
    "RELÁMPAGO S. D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000894509_Escudo.PNG",
    "ATL. CORUÑA MONTAÑEROS \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
    "ATLETICO CASTROS \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001611037_escudo128.png",
    "SANTA MARIA DEL MAR \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001611104_Escudo_sin_fondo.png",
-   "C.F. BATALLADOR S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000918106_ESCUDO_.jpg",
-   "C. P. ESCLAVAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001133115_4DA7C320_0949_4D89_A088_624E6471CBA6.jpeg"
+   "C.D. CALASANZ \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
+   "IMPERATOR O.A.R.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png",
+   "C.D. CIUDAD JARDÍN": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001218414_Imagen_de_WhatsApp_2024_04_26_a_las_20.12.37_97ce5fe8.jpg"
   },
   "actas": {
    "1": {
@@ -14428,6 +14434,8 @@ const EQUIPOS = [
      "Miguel Ángel Ossa Briceño": 10,
      "Mateo Puig Agraso": 11
     },
+    "c": [],
+    "rm": {},
     "id": "1509966"
    },
    "3": {
@@ -14463,25 +14471,69 @@ const EQUIPOS = [
      "Marco Mouzo Díaz Del Campo": 5,
      "Enzo Rodríguez Iglesias": 10
     },
+    "c": [],
+    "rm": {},
     "id": "1509971"
+   },
+   "4": {
+    "t": [
+     "Carlos Castro Wagner Aller",
+     "Luka Pulpeiro Durán",
+     "Alan Gota De La Fuente",
+     "Daniel Cardama Souto",
+     "Enzo Rodríguez Iglesias",
+     "Erick Fuentes Lago",
+     "Leo Baña Yusta",
+     "Julen Jiménez Santana"
+    ],
+    "s": [
+     "Eithan Ignacio Quiroga Alegría",
+     "Antón Varela Blanco",
+     "Marco Mouzo Díaz Del Campo",
+     "Alejandro Eyden Cuba Balbela",
+     "Mateo Puig Agraso"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Carlos Castro Wagner Aller": 13,
+     "Luka Pulpeiro Durán": 4,
+     "Alan Gota De La Fuente": 6,
+     "Daniel Cardama Souto": 8,
+     "Enzo Rodríguez Iglesias": 10,
+     "Erick Fuentes Lago": 11,
+     "Leo Baña Yusta": 12,
+     "Julen Jiménez Santana": 15,
+     "Eithan Ignacio Quiroga Alegría": 2,
+     "Antón Varela Blanco": 3,
+     "Marco Mouzo Díaz Del Campo": 5,
+     "Alejandro Eyden Cuba Balbela": 7,
+     "Mateo Puig Agraso": 9
+    },
+    "c": [],
+    "rm": {},
+    "id": "1509977"
    }
   },
   "dorsales": {
-   "Alejandro Eyden Cuba Balbela": 4,
-   "Leo Baña Yusta": 1,
-   "Daniel Cardama Souto": 2,
    "Antón Varela Blanco": 3,
-   "Alan Gota De La Fuente": 5,
-   "Erick Fuentes Lago": 6,
-   "Marco Mouzo Díaz Del Campo": 7,
-   "Julen Jiménez Santana": 8,
+   "Alejandro Eyden Cuba Balbela": 4,
+   "Marco Mouzo Díaz Del Campo": 5,
+   "Alan Gota De La Fuente": 6,
+   "Daniel Cardama Souto": 8,
    "Mateo Puig Agraso": 9,
    "Enzo Rodríguez Iglesias": 10,
+   "Erick Fuentes Lago": 11,
+   "Leo Baña Yusta": 1,
+   "Eithan Ignacio Quiroga Alegría": 2,
    "Carlos Castro Wagner Aller": 13,
+   "Julen Jiménez Santana": 15,
    "Luka Pulpeiro Durán": 12,
    "Miguel Ángel Ossa Briceño": 14,
-   "Raphael De Araujo Lima": 15
+   "Raphael De Araujo Lima": 16
   },
-  "descargado": "2026-10-25T06:06"
+  "descargado": "2026-10-25T21:46"
  }
 ];
