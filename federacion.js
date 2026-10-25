@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-25T01:11";
+const ACTUALIZADO = "2026-10-25T06:07";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -5578,6 +5578,17 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "TORRE S.D.",
+    "pts": 6,
+    "pj": 5,
+    "g": 2,
+    "e": 0,
+    "p": 3,
+    "gf": 11,
+    "gc": 25,
+    "propio": false
+   },
+   {
     "equipo": "IMPERATOR O.A.R. \"B\"",
     "pts": 3,
     "pj": 5,
@@ -5589,25 +5600,14 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "TORRE S.D.",
-    "pts": 3,
-    "pj": 4,
-    "g": 1,
-    "e": 0,
-    "p": 3,
-    "gf": 6,
-    "gc": 25,
-    "propio": false
-   },
-   {
     "equipo": "CLUB ROSALÍA MERA",
     "pts": 2,
-    "pj": 4,
+    "pj": 5,
     "g": 0,
     "e": 2,
-    "p": 2,
+    "p": 3,
     "gf": 9,
-    "gc": 12,
+    "gc": 17,
     "propio": false
    },
    {
@@ -6187,7 +6187,7 @@ const EQUIPOS = [
    "Adrián Vilar Castro": 18,
    "Hugo Lobelos Canosa": 14
   },
-  "descargado": "2026-10-24T18:08"
+  "descargado": "2026-10-25T06:06"
  },
  {
   "id": "infantil-a",
@@ -7056,7 +7056,7 @@ const EQUIPOS = [
    "Yuven Rodrigo Ayuni Lopez": 16,
    "Adrian Rios Naya": 10
   },
-  "descargado": "2026-10-24T18:09"
+  "descargado": "2026-10-25T06:06"
  },
  {
   "id": "infantil-b",
@@ -7889,7 +7889,7 @@ const EQUIPOS = [
    "Nico Mosteiro Carro": 14,
    "Aarón Anido Barroso": 9
   },
-  "descargado": "2026-10-24T20:47"
+  "descargado": "2026-10-25T06:07"
  },
  {
   "id": "infantil-c",
@@ -8680,7 +8680,7 @@ const EQUIPOS = [
    "Martiño Moar Moscoso": 16,
    "Joel Ruiz-Moyano Plaza": 13
   },
-  "descargado": "2026-10-24T20:47"
+  "descargado": "2026-10-25T06:07"
  },
  {
   "id": "infantil-d",
@@ -9308,7 +9308,7 @@ const EQUIPOS = [
    "Iván Pena Barriga": 1,
    "Félix Romero Brión": 14
   },
-  "descargado": "2026-10-24T20:47"
+  "descargado": "2026-10-25T06:07"
  },
  {
   "id": "alevin-a-f11",
@@ -13372,6 +13372,6 @@ const EQUIPOS = [
    "Miguel Angel Ossa Briceño": 10,
    "Mateo Puig Agraso": 9
   },
-  "descargado": "2026-10-24T18:08"
+  "descargado": "2026-10-25T06:06"
  }
 ];
