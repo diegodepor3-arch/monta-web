@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-26T12:59";
+const ACTUALIZADO = "2026-10-26T19:19";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -6111,14 +6111,14 @@ const EQUIPOS = [
    "SAN TIRSO S.D. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000916862_ESCUDO_20_21.jpg",
    "A.D. CRISTO REY": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001837770_ESCUDO_NARANJA_SIN_FONDO.png",
    "SPORTING MEICENDE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001010506_ESCUDO_SP.MEICENDE___GRANDE_.jpg",
-   "SPORTING CAMBRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
-   "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg",
    "PORTAZGO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801957_19700101_010000_1573847035.jpg",
    "C.D. CALASANZ \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
    "SPORTING CORUÑES S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801946_escudo-4154.jpg",
    "OZA JUVENIL S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
    "U.D. CARRAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001484347_Carral.jpg",
-   "SDC ORDENES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000914840_SDC__rdenes_Escudo.jpg"
+   "SDC ORDENES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000914840_SDC__rdenes_Escudo.jpg",
+   "SPORTING CAMBRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
+   "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg"
   },
   "actas": {
    "3": {
@@ -6610,7 +6610,7 @@ const EQUIPOS = [
    "Gabriel Mosquera Lema": 19,
    "Rubén García Viñán": 20
   },
-  "descargado": "2026-10-25T19:05"
+  "descargado": "2026-10-26T19:18"
  },
  {
   "id": "cadete-c",
@@ -7114,12 +7114,12 @@ const EQUIPOS = [
    "ATL. CORUÑA MONTAÑEROS C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
    "SILVA S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001103292_escudo_rfgf.jpg",
    "U.D. PAIOSACO- HIERROS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0012024828_escudo_66px.png",
-   "ATLETICO ARTEIXO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001414249_Escudo_Arteixo.png",
-   "RELÁMPAGO S. D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000894509_Escudo.PNG",
    "C.F. DEPORTIVO ORZÁN": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001623837_RANSPARENTE.png",
    "ORILLAMAR S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000941018_ESCUDO_OFICIAL_ORILLAMAR_SD_PRINCIPAL.jpg",
    "CLUB ROSALÍA MERA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001008004_ROSALIA_MERA_ESCUDO_GRANDE.jpg",
-   "IMPERATOR O.A.R. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png"
+   "IMPERATOR O.A.R. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png",
+   "ATLETICO ARTEIXO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001414249_Escudo_Arteixo.png",
+   "RELÁMPAGO S. D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000894509_Escudo.PNG"
   },
   "actas": {
    "2": {
@@ -7233,6 +7233,34 @@ const EQUIPOS = [
      "Pedro Fernández Paya": 15,
      "Martín Baeza Méndez": 16
     },
+    "c": [
+     [
+      "Miguel Paz Souto",
+      "Marcelo Piñón Uzcátegui",
+      40
+     ],
+     [
+      "Pedro Fernández Paya",
+      "Gian Arthur Peñaloza Arias",
+      54
+     ],
+     [
+      "Hugo Lobelos Canosa",
+      "Samuel Vázquez Lago",
+      62
+     ],
+     [
+      "Adrián Vilar Castro",
+      "Luis Alfonso Varela",
+      66
+     ],
+     [
+      "Martín Baeza Méndez",
+      "Xoel Yáñez Souto",
+      66
+     ]
+    ],
+    "rm": {},
     "id": "1496218"
    },
    "4": {
@@ -7288,6 +7316,34 @@ const EQUIPOS = [
      "Pedro Fernández Paya": 17,
      "Adrián Vilar Castro": 18
     },
+    "c": [
+     [
+      "Luis Alfonso Varela",
+      "Xoel Yáñez Souto",
+      40
+     ],
+     [
+      "Pedro Fernández Paya",
+      "Mario Barral Bermejo",
+      40
+     ],
+     [
+      "Gian Arthur Peñaloza Arias",
+      "Diego Santos Sánchez",
+      40
+     ],
+     [
+      "Hugo Lobelos Canosa",
+      "Mateo Vidal Pérez",
+      49
+     ],
+     [
+      "Adrián Vilar Castro",
+      "Miguel Paz Souto",
+      65
+     ]
+    ],
+    "rm": {},
     "id": "1496227"
    },
    "1": {
@@ -7405,6 +7461,34 @@ const EQUIPOS = [
      "Daniel Álvarez López": 16,
      "Xoel Yáñez Souto": 17
     },
+    "c": [
+     [
+      "Daniel Álvarez López",
+      "Samuel Vázquez Lago",
+      55
+     ],
+     [
+      "Gian Arthur Peñaloza Arias",
+      "Martín Sánchez Caamaño",
+      55
+     ],
+     [
+      "Xoel Yáñez Souto",
+      "Pedro Fernández Paya",
+      60
+     ],
+     [
+      "Brais Portela Solla",
+      "Mauro Becerra Pérez",
+      69
+     ],
+     [
+      "Martín Baeza Méndez",
+      "Adrián Vilar Castro",
+      69
+     ]
+    ],
+    "rm": {},
     "id": "1496235"
    }
   },
@@ -7433,7 +7517,7 @@ const EQUIPOS = [
    "Valentín Seijo Abeledo": 22,
    "Daniel Álvarez López": 23
   },
-  "descargado": "2026-10-25T19:05"
+  "descargado": "2026-10-26T19:19"
  },
  {
   "id": "infantil-a",
@@ -13732,6 +13816,8 @@ const EQUIPOS = [
      "Pablo Ramil Vázquez": 5,
      "Darío Viana López": 9
     },
+    "c": [],
+    "rm": {},
     "id": "1510386"
    },
    "3": {
@@ -13771,6 +13857,8 @@ const EQUIPOS = [
      "Mateo Fernández Martínez": 8,
      "Darío Viana López": 9
     },
+    "c": [],
+    "rm": {},
     "id": "1510390"
    },
    "4": {
@@ -13810,6 +13898,8 @@ const EQUIPOS = [
      "Darío Viana López": 9,
      "Alessandro De Jesús Bermúdez Moreno": 12
     },
+    "c": [],
+    "rm": {},
     "id": "1510395"
    }
   },
@@ -13829,7 +13919,7 @@ const EQUIPOS = [
    "Sergio Rama Pena": 15,
    "Jeremy Henao Ramírez": 13
   },
-  "descargado": "2026-10-25T19:04"
+  "descargado": "2026-10-26T19:18"
  },
  {
   "id": "prebenjamin-a",
