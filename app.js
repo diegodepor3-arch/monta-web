@@ -34,8 +34,10 @@ function marcador(p) {
 }
 
 const iniciales = (n) => n.replace(/[^A-ZÁÉÍÓÚÑ ]/gi, "").trim().split(/\s+/).slice(0, 2).map((x) => x[0]).join("").toUpperCase();
+// Escudo sin fondo (escudos.py lo recorta y lo guarda en img/escudos); si aún no está, el de la federación
+const sinFondo = (url) => (typeof ESCUDOS === "object" && ESCUDOS[url]) || url;
 const escudoDe = (e, nombre) => e.escudos?.[nombre]
-  ? `<img class="escudo" src="${esc(e.escudos[nombre])}" alt="" loading="lazy">`
+  ? `<img class="escudo" src="${esc(sinFondo(e.escudos[nombre]))}" alt="" loading="lazy">`
   : `<span class="escudo escudo--vacio" aria-hidden="true">${esc(iniciales(nombre))}</span>`;
 const nuestro = `<img class="escudo" src="img/escudo.png" alt="">`;
 const vacio = (txt) => `<p class="vacio">${txt}</p>`;
@@ -81,8 +83,11 @@ function inicio() {
   const todos = todosLosPartidos().filter((p) => p.fecha);
   const tira = todos.filter((p) => dia(p.fecha) >= sumarDias(lunes, -7) && dia(p.fecha) <= domingo)
     .sort((a, b) => (a.fecha + a.hora).localeCompare(b.fecha + b.hora));
+  // De mayores a pequeños (juvenil A, B, C, cadete A…), como en CATEGORIAS; dentro de cada equipo, por fecha
+  const orden = (p) => CATEGORIAS.findIndex((c) => c.id === p.e.categoria);
   const cantera = todos.filter((p) => !p.resultado && p.e.categoria !== "senior" && dia(p.fecha) >= lunes && dia(p.fecha) <= domingo)
-    .sort((a, b) => (a.fecha + (a.hora || "99")).localeCompare(b.fecha + (b.hora || "99")));
+    .sort((a, b) => orden(a) - orden(b) || a.e.letra.localeCompare(b.e.letra) || EQUIPOS.indexOf(a.e) - EQUIPOS.indexOf(b.e)
+      || (a.fecha + (a.hora || "99")).localeCompare(b.fecha + (b.hora || "99")));
   const primer = equipo("primer-equipo"), pp = primer && proximo(primer), pos = primer ? filaPropia(primer) : -1;
 
   return `
@@ -137,7 +142,7 @@ function cinta(partidos) {
 }
 
 // --- Equipo -------------------------------------------------------------
-// El primer equipo tiene portada con dos tarjetas (plantilla / partidos); la cantera, todo en una página.
+// Cada equipo tiene portada con dos tarjetas: plantilla / partidos y clasificación.
 function vistaEquipo(id, sub = "", jugador = "") {
   const e = equipo(id);
   if (!e) return noEncontrado();
@@ -147,10 +152,9 @@ function vistaEquipo(id, sub = "", jugador = "") {
   const jugados = e.partidos.filter((x) => x.resultado).map((x) => ({ ...x, e })).reverse();
   const extra = EXTRA[e.id] || {};
   const videos = (tipo) => (extra.videos || []).filter((v) => v.tipo === tipo && v.youtube);
-  const conPortada = e.categoria === "senior";
-  const migas = conPortada
-    ? (sub ? `<p class="migas"><a href="${rutaEquipo(e)}">${esc(nombreEquipo(e))}</a></p>` : "")
-    : `<p class="migas"><a href="#/canteira">Cantera Morada</a> / <a href="#/canteira/${e.categoria}">${esc(categoria(e.categoria).nombre)}</a></p>`;
+  const cantera = e.categoria === "senior" ? [] : [`<a href="#/canteira">Cantera Morada</a>`, `<a href="#/canteira/${e.categoria}">${esc(categoria(e.categoria).nombre)}</a>`];
+  const trozos = [...cantera, ...(sub ? [`<a href="${rutaEquipo(e)}">${esc(nombreEquipo(e))}</a>`] : [])];
+  const migas = trozos.length ? `<p class="migas">${trozos.join(" / ")}</p>` : "";
   const mesProx = p ? fmt(p.fecha, { month: "long" }) : "";
   const pos = filaPropia(e);
 
@@ -200,38 +204,35 @@ function vistaEquipo(id, sub = "", jugador = "") {
       ${videos("entrevista").length ? `<section class="bloque"><div class="bloque-cab"><h2>Entrevistas</h2></div>${listaVideos(videos("entrevista"))}</section>` : ""}
 `;
 
-  if (conPortada && sub === "plantilla") {
+  if (sub === "plantilla") {
     return `${cabeceraSimple("Plantilla", `${esc(nombreEquipo(e))} · ${esc(e.competicion || e.liga)}`, migas)}
       <div class="contenedor">${plantilla(e, "Temporada 2026-27")}</div>`;
   }
-  if (conPortada && sub === "partidos") return `${cabecera("Partidos")}<div class="contenedor">${seccionPartidos}</div>`;
-  if (conPortada) {
-    const num = e.plantilla.map((n) => dorsal(e, n)).filter((d) => d != null).sort((x, y) => x - y)[0] ?? "";
-    return `
-      ${cabecera(nombreEquipo(e))}
-      <div class="contenedor">
-        <div class="hub">
-          <a class="hub-tarjeta" href="${rutaEquipo(e)}/plantilla">
-            <span class="hub-camiseta">${camiseta(num)}</span>
-            <span class="hub-texto">
-              <strong>Plantilla</strong>
-              <small>${e.plantilla.length} jugadores · cuerpo técnico</small>
-            </span>
-            ${icono("i-flecha", "icono hub-flecha")}
-          </a>
-          <a class="hub-tarjeta" href="${rutaEquipo(e)}/partidos">
-            <span class="hub-pos" aria-hidden="true">${pos >= 0 ? `<b>${pos + 1}º</b><small>${e.clasificacion[pos].pts} pts</small>` : "<b>VS</b>"}</span>
-            <span class="hub-texto">
-              <strong>Partidos y clasificación</strong>
-              <small>Calendario, resultados y la tabla de la liga</small>
-            </span>
-            ${icono("i-flecha", "icono hub-flecha")}
-          </a>
-        </div>
-        ${seccionVideos}
-      </div>`;
-  }
-  return `${cabecera(nombreEquipo(e))}<div class="contenedor">${seccionPartidos}${plantilla(e)}${seccionVideos}</div>`;
+  if (sub === "partidos") return `${cabecera("Partidos")}<div class="contenedor">${seccionPartidos}</div>`;
+  const num = e.plantilla.map((n) => dorsal(e, n)).filter((d) => d != null).sort((x, y) => x - y)[0] ?? "";
+  return `
+    ${cabecera(nombreEquipo(e))}
+    <div class="contenedor">
+      <div class="hub">
+        <a class="hub-tarjeta" href="${rutaEquipo(e)}/plantilla">
+          <span class="hub-camiseta">${camiseta(num)}</span>
+          <span class="hub-texto">
+            <strong>Plantilla</strong>
+            <small>${e.plantilla.length} jugadores · cuerpo técnico</small>
+          </span>
+          ${icono("i-flecha", "icono hub-flecha")}
+        </a>
+        <a class="hub-tarjeta" href="${rutaEquipo(e)}/partidos">
+          <span class="hub-pos" aria-hidden="true">${pos >= 0 ? `<b>${pos + 1}º</b><small>${e.clasificacion[pos].pts} pts</small>` : "<b>VS</b>"}</span>
+          <span class="hub-texto">
+            <strong>Partidos y clasificación</strong>
+            <small>Calendario, resultados y la tabla de la liga</small>
+          </span>
+          ${icono("i-flecha", "icono hub-flecha")}
+        </a>
+      </div>
+      ${seccionVideos}
+    </div>`;
 }
 
 // Los 3 primeros a la vista; el resto, plegado tras un botón (details nativo)
@@ -465,7 +466,7 @@ function vistaFicha(e, id) {
   const manual = perfil(e, n);
   ultimaFicha[e.id] = id;
   const est = estadisticas(e, n);
-  const volver = e.categoria === "senior" ? `${rutaEquipo(e)}/plantilla` : `${rutaEquipo(e)}#plantilla`;
+  const volver = `${rutaEquipo(e)}/plantilla`;
   const ant = jugadores[(i - 1 + jugadores.length) % jugadores.length], sig = jugadores[(i + 1) % jugadores.length];
   const proximos = e.partidos.filter((x) => !x.resultado).slice(0, 6).map((x) => ({ ...x, e }));
   const cifra = (v, t) => `<div><b>${v}</b><small>${t}</small></div>`;
@@ -594,7 +595,7 @@ function buscar(q) {
   return `${cabeceraSimple(`“${q.trim()}”`, total ? `${total} resultado${total === 1 ? "" : "s"}` : "Sin resultados. Prueba con otro nombre o apellido.")}
     <div class="contenedor">
       ${personas.length ? `<section class="bloque"><div class="bloque-cab"><h2>Personas</h2></div>${lista(personas.map(({ n, e }) =>
-        `<li><a href="${e.plantilla.includes(n) ? rutaFicha(e, n) : e.categoria === "senior" ? `${rutaEquipo(e)}/plantilla` : `${rutaEquipo(e)}#plantilla`}"><strong>${esc(n)}</strong><span>${esc(nombreEquipo(e))}</span></a></li>`).join(""))}</section>` : ""}
+        `<li><a href="${e.plantilla.includes(n) ? rutaFicha(e, n) : `${rutaEquipo(e)}/plantilla`}"><strong>${esc(n)}</strong><span>${esc(nombreEquipo(e))}</span></a></li>`).join(""))}</section>` : ""}
       ${equipos.length ? `<section class="bloque"><div class="bloque-cab"><h2>Equipos</h2></div>${lista(equipos.map((e) =>
         `<li><a href="${rutaEquipo(e)}"><strong>${esc(nombreEquipo(e))}</strong><span>${esc(e.liga)}</span></a></li>`).join(""))}</section>` : ""}
       ${noticias.length ? `<section class="bloque"><div class="bloque-cab"><h2>Noticias</h2></div>${listaNoticias(noticias)}</section>` : ""}

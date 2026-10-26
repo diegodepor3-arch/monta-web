@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-26T06:12";
+const ACTUALIZADO = "2026-10-26T12:40";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -3832,17 +3832,6 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "SPORTING CORUÑES \"B\"",
-    "pts": 9,
-    "pj": 3,
-    "g": 3,
-    "e": 0,
-    "p": 0,
-    "gf": 17,
-    "gc": 1,
-    "propio": false
-   },
-   {
     "equipo": "ATLETICO CASTROS",
     "pts": 9,
     "pj": 3,
@@ -3865,6 +3854,39 @@ const EQUIPOS = [
     "propio": true
    },
    {
+    "equipo": "OZA JUVENIL S.D. \"B\"",
+    "pts": 7,
+    "pj": 3,
+    "g": 2,
+    "e": 1,
+    "p": 0,
+    "gf": 16,
+    "gc": 6,
+    "propio": false
+   },
+   {
+    "equipo": "SPORTING CORUÑES \"B\"",
+    "pts": 6,
+    "pj": 3,
+    "g": 2,
+    "e": 0,
+    "p": 1,
+    "gf": 18,
+    "gc": 7,
+    "propio": false
+   },
+   {
+    "equipo": "C.D. CIUDAD JARDIN",
+    "pts": 6,
+    "pj": 3,
+    "g": 2,
+    "e": 0,
+    "p": 1,
+    "gf": 9,
+    "gc": 7,
+    "propio": false
+   },
+   {
     "equipo": "ORILLAMAR S.D. \"B\"",
     "pts": 4,
     "pj": 3,
@@ -3873,39 +3895,6 @@ const EQUIPOS = [
     "p": 1,
     "gf": 16,
     "gc": 5,
-    "propio": false
-   },
-   {
-    "equipo": "OZA JUVENIL S.D. \"B\"",
-    "pts": 4,
-    "pj": 3,
-    "g": 1,
-    "e": 1,
-    "p": 1,
-    "gf": 10,
-    "gc": 5,
-    "propio": false
-   },
-   {
-    "equipo": "DEPORTIVO ORZÁN",
-    "pts": 3,
-    "pj": 2,
-    "g": 1,
-    "e": 0,
-    "p": 1,
-    "gf": 7,
-    "gc": 8,
-    "propio": false
-   },
-   {
-    "equipo": "C.D. CIUDAD JARDIN",
-    "pts": 3,
-    "pj": 2,
-    "g": 1,
-    "e": 0,
-    "p": 1,
-    "gf": 4,
-    "gc": 6,
     "propio": false
    },
    {
@@ -3920,25 +3909,36 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "LICEO DE MONELOS S.D. \"B\"",
+    "equipo": "DEPORTIVO ORZÁN",
     "pts": 3,
-    "pj": 2,
+    "pj": 3,
     "g": 1,
     "e": 0,
-    "p": 1,
-    "gf": 6,
+    "p": 2,
+    "gf": 8,
     "gc": 11,
     "propio": false
    },
    {
     "equipo": "TORRE S.D.",
-    "pts": 0,
-    "pj": 2,
-    "g": 0,
+    "pts": 3,
+    "pj": 3,
+    "g": 1,
     "e": 0,
     "p": 2,
-    "gf": 5,
-    "gc": 12,
+    "gf": 8,
+    "gc": 13,
+    "propio": false
+   },
+   {
+    "equipo": "LICEO DE MONELOS S.D. \"B\"",
+    "pts": 3,
+    "pj": 3,
+    "g": 1,
+    "e": 0,
+    "p": 2,
+    "gf": 7,
+    "gc": 16,
     "propio": false
    },
    {
@@ -4515,7 +4515,7 @@ const EQUIPOS = [
    "Lucas García Lema": 19,
    "Nicolás De La Campa García": 20
   },
-  "descargado": "2026-10-25T16:15"
+  "descargado": "2026-10-26T12:39"
  },
  {
   "id": "cadete-a",
@@ -11702,6 +11702,8 @@ const EQUIPOS = [
      "Ángel Moreno García-Pelayo": 15,
      "Gael Zapata Grandal": 16
     },
+    "c": [],
+    "rm": {},
     "id": "1509741"
    },
    "3": {
@@ -11743,6 +11745,8 @@ const EQUIPOS = [
      "Romeo Vázquez Iglesias": 8,
      "Álvaro Durán Parra": 11
     },
+    "c": [],
+    "rm": {},
     "id": "1509746"
    },
    "4": {
@@ -11784,6 +11788,8 @@ const EQUIPOS = [
      "Lucas Caride López": 14,
      "Gael Zapata Grandal": 16
     },
+    "c": [],
+    "rm": {},
     "id": "1509752"
    }
   },
@@ -11806,7 +11812,7 @@ const EQUIPOS = [
    "Gael Zapata Grandal": 16,
    "Fabio Gundín Candia": 17
   },
-  "descargado": "2026-10-25T11:25"
+  "descargado": "2026-10-26T12:39"
  },
  {
   "id": "alevin-c",
@@ -12133,6 +12139,8 @@ const EQUIPOS = [
      "Izan Rilo Guimarey": 17,
      "Mario Lobelos Domínguez": 18
     },
+    "c": [],
+    "rm": {},
     "id": "1509650"
    },
    "3": {
@@ -12174,6 +12182,8 @@ const EQUIPOS = [
      "Mauro Viana López": 21,
      "Izan Rilo Guimarey": 22
     },
+    "c": [],
+    "rm": {},
     "id": "1509655"
    },
    "4": {
@@ -12215,6 +12225,8 @@ const EQUIPOS = [
      "Enzo Martínez Díaz": 20,
      "Mauro Viana López": 21
     },
+    "c": [],
+    "rm": {},
     "id": "1509661"
    }
   },
@@ -12239,7 +12251,7 @@ const EQUIPOS = [
    "Mauro Viana López": 21,
    "Daniel Castellanos Gil": 12
   },
-  "descargado": "2026-10-25T16:15"
+  "descargado": "2026-10-26T12:40"
  },
  {
   "id": "benjamin-a",
