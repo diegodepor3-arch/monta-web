@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-26T19:19";
+const ACTUALIZADO = "2026-10-26T23:53";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -8117,6 +8117,8 @@ const EQUIPOS = [
      "Yuven Rodrigo Ayuni López": 16,
      "Jacobo López Rey": 17
     },
+    "c": [],
+    "rm": {},
     "id": "1437591"
    },
    "6": {
@@ -8164,6 +8166,8 @@ const EQUIPOS = [
      "Enrique Vesteiro López": 15,
      "Pablo Piñón Arévalo": 16
     },
+    "c": [],
+    "rm": {},
     "id": "1437600"
    },
    "1": {
@@ -8358,6 +8362,8 @@ const EQUIPOS = [
      "Jacobo López Rey": 17,
      "Simeón García Knezic": 18
     },
+    "c": [],
+    "rm": {},
     "id": "1437608"
    }
   },
@@ -8386,7 +8392,7 @@ const EQUIPOS = [
    "Adrián Ríos Naya": 22,
    "Yuven Rodrigo Ayuni López": 23
   },
-  "descargado": "2026-10-25T19:06"
+  "descargado": "2026-10-26T23:52"
  },
  {
   "id": "infantil-b",
@@ -14342,8 +14348,6 @@ const EQUIPOS = [
   "competicion": "Prebenjamin - Primera Futgal · A Coruña | G1",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26991242&codcompeticion=26991233",
   "escudos": {
-   "OLIMPICO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg",
-   "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg",
    "OZA JUVENIL S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
    "ATLETICO ARTEIXO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001414249_Escudo_Arteixo.png",
    "SANTA MARIA DEL MAR": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001611104_Escudo_sin_fondo.png",
@@ -14354,6 +14358,8 @@ const EQUIPOS = [
    "SPORTING CAMBRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
    "C.D. CALASANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
    "SPORTING CORUÑES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801946_escudo-4154.jpg",
+   "OLIMPICO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg",
+   "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg",
    "E.D. LUIS CALVO SANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004731_LOGO_ALTA_RES_ESCOLAS_CALVO.jpg",
    "SADA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000931604_Sada_CF_escudo_FUTGAL.png"
   },
@@ -14393,6 +14399,8 @@ const EQUIPOS = [
      "Ángel Esmoris Galindo": 7,
      "Enzo Martínez Ávila": 11
     },
+    "c": [],
+    "rm": {},
     "id": "1501478"
    },
    "2": {
@@ -14432,6 +14440,8 @@ const EQUIPOS = [
      "Álvaro Fernández Dans": 12,
      "Raphael De Araujo Lima": 14
     },
+    "c": [],
+    "rm": {},
     "id": "1501486"
    },
    "3": {
@@ -14469,6 +14479,8 @@ const EQUIPOS = [
      "Ángel Esmoris Galindo": 7,
      "Álvaro Fernández Dans": 12
     },
+    "c": [],
+    "rm": {},
     "id": "1501493"
    }
   },
@@ -14487,7 +14499,7 @@ const EQUIPOS = [
    "Enzo Martínez Ávila": 11,
    "Raphael De Araujo Lima": 14
   },
-  "descargado": "2026-10-25T19:05"
+  "descargado": "2026-10-26T23:52"
  },
  {
   "id": "prebenjamin-b",
@@ -14759,6 +14771,8 @@ const EQUIPOS = [
      "Enzo Rodríguez Iglesias": 11,
      "Antón Varela Blanco": 12
     },
+    "c": [],
+    "rm": {},
     "id": "1509960"
    },
    "2": {
@@ -14894,6 +14908,6 @@ const EQUIPOS = [
    "Miguel Ángel Ossa Briceño": 14,
    "Raphael De Araujo Lima": 16
   },
-  "descargado": "2026-10-25T21:46"
+  "descargado": "2026-10-26T23:53"
  }
 ];
