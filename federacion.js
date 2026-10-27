@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-26T23:53";
+const ACTUALIZADO = "2026-10-27T05:02";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -8883,8 +8883,6 @@ const EQUIPOS = [
   "competicion": "Infantil - 1ª Futgal · A Coruña | Grupo Único",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26991296&codcompeticion=26991286",
   "escudos": {
-   "SDC ORDENES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000914840_SDC__rdenes_Escudo.jpg",
-   "SILVA S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001103292_escudo_rfgf.jpg",
    "C.D. CALASANZ \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
    "VICTORIA C.F. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
    "ATLETICO CASTROS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001611037_escudo128.png",
@@ -8898,7 +8896,9 @@ const EQUIPOS = [
    "SPORTING CORUÑES S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801946_escudo-4154.jpg",
    "IMPERATOR O.A.R.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png",
    "U.D. PAIOSACO- H. AÑON": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0012024828_escudo_66px.png",
-   "ATLETICO SAN PEDRO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg"
+   "ATLETICO SAN PEDRO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg",
+   "SDC ORDENES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000914840_SDC__rdenes_Escudo.jpg",
+   "SILVA S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001103292_escudo_rfgf.jpg"
   },
   "actas": {
    "3": {
@@ -8949,6 +8949,8 @@ const EQUIPOS = [
      "Nico Mosteiro Carro": 8,
      "Jesús Joaquín Torreiro Marcos": 18
     },
+    "c": [],
+    "rm": {},
     "id": "1471500"
    },
    "4": {
@@ -9105,6 +9107,8 @@ const EQUIPOS = [
      "Hugo Astray Losada": 12,
      "Mateo Pereira Pedreira": 15
     },
+    "c": [],
+    "rm": {},
     "id": "1471483"
    },
    "2": {
@@ -9156,6 +9160,8 @@ const EQUIPOS = [
      "Nico Mosteiro Carro": 15,
      "Iñaki Ramos Ramos": 16
     },
+    "c": [],
+    "rm": {},
     "id": "1471492"
    },
    "6": {
@@ -9231,7 +9237,7 @@ const EQUIPOS = [
    "Jesús Joaquín Torreiro Marcos": 18,
    "Nico Mosteiro Carro": 19
   },
-  "descargado": "2026-10-25T21:47"
+  "descargado": "2026-10-27T05:01"
  },
  {
   "id": "infantil-c",
@@ -9787,6 +9793,8 @@ const EQUIPOS = [
      "Andrés Castellanos Gil": 15,
      "Javier Ferreiro Abelaira": 16
     },
+    "c": [],
+    "rm": {},
     "id": "1497103"
    },
    "3": {
@@ -9954,6 +9962,8 @@ const EQUIPOS = [
      "Iago González Touza": 15,
      "Hugo Sánchez Sanchis": 16
     },
+    "c": [],
+    "rm": {},
     "id": "1497095"
    },
    "5": {
@@ -10028,7 +10038,7 @@ const EQUIPOS = [
    "Martiño Moar Moscoso": 20,
    "Álvaro Santamaría Cives": 21
   },
-  "descargado": "2026-10-26T00:22"
+  "descargado": "2026-10-27T05:01"
  },
  {
   "id": "infantil-d",
@@ -10463,8 +10473,6 @@ const EQUIPOS = [
   "escudos": {
    "C. D. CALASANZ \"D\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
    "CORUÑA ARBOCO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001103292_escudo_rfgf.jpg",
-   "UNION CAMPESTRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000645928_escudo_grande_(1).jpg",
-   "U.D.J. ALMEIRAS \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000809377_IMG-20191007-WA0003.jpg",
    "RELÁMPAGO S. D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000894509_Escudo.PNG",
    "SP CORUÑES SDC \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801946_escudo-4154.jpg",
    "ESCUELA DE FUTBOL ZENIT": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001228447_escudo_zenit.jpg",
@@ -10473,6 +10481,8 @@ const EQUIPOS = [
    "SPORTING CAMBRE \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
    "COMPAÑIA DE MARIA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004468_logo.png",
    "CLUB ROSALÍA MERA \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001008004_ROSALIA_MERA_ESCUDO_GRANDE.jpg",
+   "UNION CAMPESTRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000645928_escudo_grande_(1).jpg",
+   "U.D.J. ALMEIRAS \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000809377_IMG-20191007-WA0003.jpg",
    "ATLETICO SAN PEDRO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg",
    "ONCE CABALLEROS C.F \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000601679_ONCECAB.jpg"
   },
@@ -10526,6 +10536,8 @@ const EQUIPOS = [
      "Roi Castro Pose": 15,
      "Martín Losada Peteiro": 18
     },
+    "c": [],
+    "rm": {},
     "id": "1510056"
    },
    "2": {
@@ -10713,7 +10725,7 @@ const EQUIPOS = [
    "Lucas Pan Rojo": 21,
    "Martiño Moar Moscoso": 22
   },
-  "descargado": "2026-10-26T00:22"
+  "descargado": "2026-10-27T05:02"
  },
  {
   "id": "alevin-a-f11",
