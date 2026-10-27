@@ -383,13 +383,14 @@ function plantilla(e, titulo = "Plantilla") {
     </section>`;
 }
 
-function colocarCarrusel(c) {
+// arrastre: cuántas camisetas se ha movido el dedo (con decimales) mientras desliza
+function colocarCarrusel(c, arrastre = 0) {
   const activo = Number(c.dataset.activo), cartas = [...c.querySelectorAll(".carta")];
   cartas.forEach((carta, i) => {
-    const d = i - activo, a = Math.abs(d);
-    carta.style.transform = `translateX(calc(-50% + ${d * 72}%)) scale(${a === 0 ? 1 : a === 1 ? 0.78 : 0.62})`;
-    carta.style.zIndex = 10 - a;
-    carta.style.opacity = a > 2 ? 0 : a === 0 ? 1 : 0.75;
+    const d = i - activo + arrastre, a = Math.abs(i - activo), x = Math.min(Math.abs(d), 3);
+    carta.style.transform = `translateX(calc(-50% + ${d * 72}%)) scale(${x <= 1 ? 1 - 0.22 * x : Math.max(0.62, 0.78 - 0.16 * (x - 1))})`;
+    carta.style.zIndex = 10 - Math.round(Math.abs(d));
+    carta.style.opacity = x >= 3 ? 0 : x <= 1 ? 1 - 0.25 * x : x <= 2 ? 0.75 : 0.75 * (3 - x);
     carta.tabIndex = a === 0 ? 0 : -1;
     carta.classList.toggle("carta--activa", a === 0);
   });
@@ -704,7 +705,9 @@ app.addEventListener("click", (ev) => {
   if (paso) return moverCarrusel(paso.closest(".carrusel"), Number(paso.dataset.paso));
   const carta = t.closest("[data-carta]");
   if (carta) {
-    if (carta.classList.contains("carta--activa")) { location.hash = carta.dataset.ficha; return; }
+    if (Date.now() - deslizado < 400) return; // el dedo estaba deslizando, no tocando
+    // en el móvil, tocar cualquier camiseta abre su ficha; con ratón, la de un lado se pone en el centro
+    if (carta.classList.contains("carta--activa") || tocado) { location.hash = carta.dataset.ficha; return; }
     const c = carta.closest(".carrusel"); c.dataset.activo = carta.dataset.carta; return colocarCarrusel(c);
   }
   const pestana = t.closest("[data-pestana]");
@@ -714,6 +717,42 @@ app.addEventListener("click", (ev) => {
     sec.querySelectorAll("[data-panel]").forEach((p) => (p.hidden = p.dataset.panel !== pestana.dataset.pestana));
   }
 });
+
+// Deslizar el dedo por las camisetas: siguen al dedo y al soltar se quedan en la más cercana
+let arrastre = null, deslizado = 0, tocado = false;
+app.addEventListener("pointerdown", (ev) => {
+  tocado = ev.pointerType !== "mouse";
+  const pista = ev.target.closest(".carrusel-pista");
+  if (!pista || ev.pointerType === "mouse") return;
+  const carta = pista.querySelector(".carta");
+  arrastre = { c: pista.closest(".carrusel"), x: ev.clientX, y: ev.clientY, ancho: carta.offsetWidth * 0.72, movido: false };
+});
+app.addEventListener("pointermove", (ev) => {
+  if (!arrastre) return;
+  const dx = ev.clientX - arrastre.x;
+  if (!arrastre.movido && Math.abs(dx) < 8) return;
+  if (!arrastre.movido && Math.abs(ev.clientY - arrastre.y) > Math.abs(dx)) { arrastre = null; return; } // está bajando la página
+  arrastre.movido = true;
+  arrastre.c.classList.add("carrusel--arrastre");
+  const total = arrastre.c.querySelectorAll(".carta").length, activo = Number(arrastre.c.dataset.activo);
+  // en los extremos cuesta más (no hay más camisetas)
+  const f = dx / arrastre.ancho, fuera = activo - f < 0 || activo - f > total - 1;
+  colocarCarrusel(arrastre.c, fuera ? f / 3 : f);
+});
+const soltar = (ev) => {
+  if (!arrastre) return;
+  const { c, x, ancho, movido } = arrastre;
+  arrastre = null;
+  c.classList.remove("carrusel--arrastre");
+  if (!movido) return;
+  deslizado = Date.now();
+  const dx = (ev.clientX ?? x) - x;
+  // un toque rápido ya pasa a la siguiente; uno largo pasa varias
+  const pasos = Math.abs(dx) < ancho * 0.5 ? Math.sign(dx) : Math.round(dx / ancho);
+  moverCarrusel(c, -pasos);
+};
+app.addEventListener("pointerup", soltar);
+app.addEventListener("pointercancel", soltar);
 
 addEventListener("keydown", (ev) => {
   const f = app.querySelector(".ficha");
