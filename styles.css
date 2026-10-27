@@ -268,6 +268,9 @@ button { font: inherit; color: inherit; }
 /* ---------- Plantilla: carrusel de camisetas ---------- */
 .carrusel { position: relative; display: flex; align-items: center; gap: 12px; }
 .carrusel-pista { position: relative; flex: 1; height: clamp(260px, 34vw, 380px); overflow: hidden; }
+/* En el móvil las camisetas se deslizan con el dedo; la página sigue bajando en vertical */
+.carrusel-pista { touch-action: pan-y; user-select: none; -webkit-user-select: none; }
+.carrusel--arrastre .carta { transition: none; }
 .carta {
   position: absolute; left: 50%; top: 50%; translate: 0 -50%; width: clamp(170px, 22vw, 260px); aspect-ratio: 3 / 4;
   padding: 0; border: 0; border-radius: 20px; background: none; cursor: pointer;
