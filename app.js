@@ -105,7 +105,7 @@ function inicio() {
     <div class="contenedor">
       <section class="bloque">
         <div class="bloque-cab"><h2>Esta semana en la Cantera</h2><a href="#/canteira">Todos los equipos</a></div>
-        ${cantera.length ? `<div class="partidos">${cantera.map((p) => tarjetaPartido(p, false, true)).join("")}</div>`
+        ${cantera.length ? semanaPorCategorias(cantera)
           : vacio("La federación aún no ha publicado partidos de la cantera para esta semana.")}
       </section>
       <section class="bloque">
@@ -113,6 +113,29 @@ function inicio() {
         ${listaNoticias(NOTICIAS.slice(0, 3))}
       </section>
     </div>`;
+}
+
+// Partidos de la semana de la cantera: una tarjeta por categoría; al pulsarla se despliegan sus partidos
+let semanaAbierta = "";
+function semanaPorCategorias(partidos) {
+  const cats = CATEGORIAS.filter((c) => partidos.some((p) => p.e.categoria === c.id));
+  if (!cats.some((c) => c.id === semanaAbierta)) semanaAbierta = "";
+  return `
+    <div class="semana-cats">${cats.map((c) => {
+      const suyos = partidos.filter((p) => p.e.categoria === c.id);
+      const equipos = [...new Set(suyos.map((p) => p.e))];
+      const abierta = c.id === semanaAbierta;
+      return `
+        <button type="button" class="semana-cat${abierta ? " semana-cat--abierta" : ""}" data-semana="${c.id}" aria-expanded="${abierta}" aria-controls="semana-${c.id}">
+          <strong>${esc(c.nombre)}</strong>
+          <span class="tarjeta-letras">${equipos.map((e) => `<span>${esc(e.letra)}${e.liga.includes("F-11") ? "<small>11</small>" : ""}</span>`).join("")}</span>
+          <small>${suyos.length} partido${suyos.length > 1 ? "s" : ""} esta semana</small>
+          ${icono("i-der", "icono semana-flecha")}
+        </button>
+        <div class="semana-panel" id="semana-${c.id}"${abierta ? "" : " hidden"}>
+          <div class="partidos">${suyos.map((p) => tarjetaPartido(p, false, true)).join("")}</div>
+        </div>`;
+    }).join("")}</div>`;
 }
 
 // Cinta de partidos de la semana: se desplaza sola, en bucle; la segunda copia es solo visual
@@ -660,6 +683,18 @@ function moverCarrusel(c, paso) {
 
 app.addEventListener("click", (ev) => {
   const t = ev.target;
+  const semana = t.closest("[data-semana]");
+  if (semana) {
+    semanaAbierta = semanaAbierta === semana.dataset.semana ? "" : semana.dataset.semana;
+    const bloque = semana.closest(".bloque");
+    bloque.querySelectorAll("[data-semana]").forEach((b) => {
+      const si = b.dataset.semana === semanaAbierta;
+      b.setAttribute("aria-expanded", si);
+      b.classList.toggle("semana-cat--abierta", si);
+    });
+    bloque.querySelectorAll(".semana-panel").forEach((p) => (p.hidden = p.id !== `semana-${semanaAbierta}`));
+    return;
+  }
   const desliza = t.closest("[data-desliza]");
   if (desliza) {
     const fila = desliza.closest(".ficha-panel").querySelector(".desliza");
