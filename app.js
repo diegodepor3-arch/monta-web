@@ -308,22 +308,33 @@ const LOGO = {
       </g>
       <path d="M128.9 93.2A11.5 11.5 0 0 1 121.1 114.8Z" fill="${det}"/>
       <text x="101" y="129" text-anchor="middle" fill="${det}" class="camiseta-sponsor">COFFEE DESIGNER</text>`,
-  // ponytail: provisional hasta tener la foto de la camiseta de la cantera
-  jaecoo: (det) => `<text x="100" y="112" text-anchor="middle" fill="${det}" class="camiseta-jaecoo">JAECOO</text>`,
+  // Letras geométricas como en la camiseta: J con gancho, A sin palo, E, C y O redondeadas
+  jaecoo: (det) => {
+    const x = (i) => 69 + i * 10.6;
+    return `<path transform="translate(100 100) scale(1.22) translate(-100 -100)" stroke="${det}" stroke-width="2.3" fill="none" d="
+      M${x(0)} 101v4h8v-10
+      M${x(1)} 105l4-10 4 10
+      M${x(2) + 8} 95h-8v10h8M${x(2)} 100h7
+      M${x(3) + 8} 95h-5.5a2.5 2.5 0 0 0-2.5 2.5v5a2.5 2.5 0 0 0 2.5 2.5h5.5
+      ${[4, 5].map((i) => `M${x(i) + 2.5} 95h3a2.5 2.5 0 0 1 2.5 2.5v5a2.5 2.5 0 0 1-2.5 2.5h-3a2.5 2.5 0 0 1-2.5-2.5v-5a2.5 2.5 0 0 1 2.5-2.5z`).join("")}"/>`;
+  },
 };
+// La cantera con JAECOO lleva otra equipación: azul morado oscuro y lisa; portero verde de manga corta.
 function camiseta(num, portero = false, espalda = "", patrocinio = "inzo") {
-  const forma = SILUETA[portero ? "larga" : "corta"];
-  const det = portero ? "#16140d" : "#fff";
-  const cuello = portero ? "#cdbf1c" : "#2c1273";
+  const cantera = patrocinio === "jaecoo";
+  const forma = SILUETA[portero && !cantera ? "larga" : "corta"];
+  const tela = `tela-${portero ? "portero" : "jugador"}${cantera ? "-cantera" : ""}`;
+  const det = portero && !cantera ? "#16140d" : "#fff";
+  const cuello = cantera ? (portero ? "#2d7445" : "#1b1c4c") : portero ? "#cdbf1c" : "#2c1273";
   const barras = [0, 1, 2].map((i) => { // logo de la marca: tres barras inclinadas
     const x = 64 + i * 4.6, h = 5 + i * 3.5;
     return `<path d="M${x} 59h3.4l${h * 0.58} -${h}h-3.4z"/>`;
   }).join("");
   const base = `
-      <path d="${forma}" fill="url(#tela-${portero ? "portero" : "jugador"})"/>
+      <path d="${forma}" fill="url(#${tela})"/>
       <path d="${forma}" fill="url(#pliegues)"/>
       <g class="camiseta-textura"><path d="${forma}" fill="url(#trama)"/><path d="${forma}" fill="url(#malla)"/><path d="${forma}" fill="url(#brillo)"/></g>`;
-  const rayas = `<g stroke="${det}" stroke-width="1.3" fill="none" opacity="0.95"><path d="M45.5 76v122M48 74v124M50.5 72v126M149.5 72v126M152 74v124M154.5 76v122"/></g>`;
+  const rayas = cantera ? "" : `<g stroke="${det}" stroke-width="1.3" fill="none" opacity="0.95"><path d="M45.5 76v122M48 74v124M50.5 72v126M149.5 72v126M152 74v124M154.5 76v122"/></g>`;
   if (espalda) {
     return `
     <svg class="camiseta" viewBox="0 0 200 210" aria-hidden="true">${base}
@@ -334,15 +345,12 @@ function camiseta(num, portero = false, espalda = "", patrocinio = "inzo") {
     </svg>`;
   }
   return `
-    <svg class="camiseta" viewBox="0 0 200 210" aria-hidden="true">
-      <path d="${forma}" fill="url(#tela-${portero ? "portero" : "jugador"})"/>
-      <path d="${forma}" fill="url(#pliegues)"/>
-      <g class="camiseta-textura"><path d="${forma}" fill="url(#trama)"/><path d="${forma}" fill="url(#malla)"/><path d="${forma}" fill="url(#brillo)"/></g>
+    <svg class="camiseta" viewBox="0 0 200 210" aria-hidden="true">${base}
       <path d="M62 8c4 14 20 24 38 24s34-10 38-24" fill="none" stroke="${cuello}" stroke-width="6"/>
-      <g stroke="${det}" stroke-width="1.3" fill="none" opacity="0.95"><path d="M45.5 76v122M48 74v124M50.5 72v126M149.5 72v126M152 74v124M154.5 76v122"/></g>
+      ${rayas}
       <g fill="${det}">${barras}</g>
-      <image href="img/escudo-blanco.png" x="121" y="39" width="22" height="29"${portero ? ' style="filter: brightness(0)"' : ""}/>
-      ${portero ? "" : `<g transform="translate(24 46)"><circle r="7" fill="#e9ecdf"/><path d="M-4 3a6 6 0 0 1 8-6M-2 4a4 4 0 0 1 6-4" stroke="#7da36b" stroke-width="1.1" fill="none"/></g>`}
+      <image href="img/escudo-blanco.png" x="121" y="39" width="22" height="29"${det !== "#fff" ? ' style="filter: brightness(0)"' : ""}/>
+      ${portero || cantera ? "" : `<g transform="translate(24 46)"><circle r="7" fill="#e9ecdf"/><path d="M-4 3a6 6 0 0 1 8-6M-2 4a4 4 0 0 1 6-4" stroke="#7da36b" stroke-width="1.1" fill="none"/></g>`}
       ${LOGO[patrocinio]?.(det) ?? ""}
       ${num != null && num !== "" ? `<text x="100" y="182" class="camiseta-num" fill="${det}">${num}</text>` : ""}
     </svg>`;
@@ -554,7 +562,7 @@ function vistaFicha(e, id) {
             <a class="redondo" href="${rutaFicha(e, ant)}" aria-label="Jugador anterior: ${esc(ant)}">${icono("i-izq")}</a>
             <a class="redondo" href="${rutaFicha(e, sig)}" aria-label="Jugador siguiente: ${esc(sig)}">${icono("i-der")}</a>
           </div>
-          <div class="ficha-camiseta${portero ? " carta--portero" : ""}">${camiseta(num, portero, n.split(" ")[0])}</div>
+          <div class="ficha-camiseta${portero ? " carta--portero" : ""}">${camiseta(num, portero, n.split(" ")[0], patrocinioDe(e))}</div>
           <div class="ficha-anillos">
             ${anillo(est.jugados, est.actas, est.actas ? `${Math.round((est.jugados / est.actas) * 100)}%` : "0%", "Participación")}
             ${anillo(est.goles, est.jugados || 1, (est.jugados ? est.goles / est.jugados : 0).toFixed(2).replace(".", ","), "Goles por partido")}
