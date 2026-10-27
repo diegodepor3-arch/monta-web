@@ -238,7 +238,7 @@ function vistaEquipo(id, sub = "", jugador = "") {
     <div class="contenedor">
       <div class="hub">
         <a class="hub-tarjeta" href="${rutaEquipo(e)}/plantilla">
-          <span class="hub-camiseta">${camiseta(num)}</span>
+          <span class="hub-camiseta">${camiseta(num, false, "", patrocinioDe(e))}</span>
           <span class="hub-texto">
             <strong>Plantilla</strong>
             <small>${e.plantilla.length} jugadores · cuerpo técnico</small>
@@ -292,12 +292,26 @@ const esPortero = (e, n) => { const p = perfil(e, n).posicion; return p ? p === 
 
 // Réplica de la equipación 2026-27: jugador morado de manga corta con rayas blancas en los costados;
 // portero amarillo de manga larga con detalles negros. Mismo dibujo de frente: marca, escudo bordado,
-// patrocinador INZO y parche RFEF en la manga.
+// patrocinador y parche RFEF en la manga. Patrocinador según la categoría (PATROCINIO).
 const SILUETA = {
   corta: "M62 8 30 20 4 52l22 30 18-12v130h112V70l18 12 22-30-26-32-32-12c-4 14-20 24-38 24S66 22 62 8z",
   larga: "M62 8 30 20C18 40 10 90 8 150l22 4c4-42 10-68 14-82v128h112V72c4 14 10 40 14 82l22-4c-2-60-10-110-22-130L138 8c-4 14-20 24-38 24S66 22 62 8z",
 };
-function camiseta(num, portero = false, espalda = "") {
+// Primer equipo: INZO · juveniles: sin patrocinador · de cadete a prebenjamín: JAECOO
+const PATROCINIO = { senior: "inzo", juvenil: "", cadete: "jaecoo", infantil: "jaecoo", alevin: "jaecoo", benjamin: "jaecoo", prebenjamin: "jaecoo" };
+const patrocinioDe = (e) => PATROCINIO[e.categoria] ?? "";
+const LOGO = {
+  inzo: (det) => `
+      <g stroke="${det}" stroke-width="3.6" fill="none" stroke-linejoin="miter">
+        <path d="M66 91v26M74 117V91l15 26V91M95 91h16l-16 26h16"/>
+        <circle cx="125" cy="104" r="11.5"/>
+      </g>
+      <path d="M128.9 93.2A11.5 11.5 0 0 1 121.1 114.8Z" fill="${det}"/>
+      <text x="101" y="129" text-anchor="middle" fill="${det}" class="camiseta-sponsor">COFFEE DESIGNER</text>`,
+  // ponytail: provisional hasta tener la foto de la camiseta de la cantera
+  jaecoo: (det) => `<text x="100" y="112" text-anchor="middle" fill="${det}" class="camiseta-jaecoo">JAECOO</text>`,
+};
+function camiseta(num, portero = false, espalda = "", patrocinio = "inzo") {
   const forma = SILUETA[portero ? "larga" : "corta"];
   const det = portero ? "#16140d" : "#fff";
   const cuello = portero ? "#cdbf1c" : "#2c1273";
@@ -329,12 +343,7 @@ function camiseta(num, portero = false, espalda = "") {
       <g fill="${det}">${barras}</g>
       <image href="img/escudo-blanco.png" x="121" y="39" width="22" height="29"${portero ? ' style="filter: brightness(0)"' : ""}/>
       ${portero ? "" : `<g transform="translate(24 46)"><circle r="7" fill="#e9ecdf"/><path d="M-4 3a6 6 0 0 1 8-6M-2 4a4 4 0 0 1 6-4" stroke="#7da36b" stroke-width="1.1" fill="none"/></g>`}
-      <g stroke="${det}" stroke-width="3.6" fill="none" stroke-linejoin="miter">
-        <path d="M66 91v26M74 117V91l15 26V91M95 91h16l-16 26h16"/>
-        <circle cx="125" cy="104" r="11.5"/>
-      </g>
-      <path d="M128.9 93.2A11.5 11.5 0 0 1 121.1 114.8Z" fill="${det}"/>
-      <text x="101" y="129" text-anchor="middle" fill="${det}" class="camiseta-sponsor">COFFEE DESIGNER</text>
+      ${LOGO[patrocinio]?.(det) ?? ""}
       ${num != null && num !== "" ? `<text x="100" y="182" class="camiseta-num" fill="${det}">${num}</text>` : ""}
     </svg>`;
 }
@@ -350,7 +359,7 @@ function plantilla(e, titulo = "Plantilla") {
     const num = dorsal(e, n), foto = conFoto && fotos[n];
     return `
       <button type="button" class="carta${esPortero(e, n) ? " carta--portero" : ""}" data-carta="${i}" data-ficha="${rutaFicha(e, n)}" aria-label="${esc(n)}${num != null ? `, dorsal ${num}` : ""}">
-        ${foto ? `<img src="${esc(foto)}" alt="" loading="lazy">` : camiseta(num ?? iniciales(n), esPortero(e, n))}
+        ${foto ? `<img src="${esc(foto)}" alt="" loading="lazy">` : camiseta(num ?? iniciales(n), esPortero(e, n), "", patrocinioDe(e))}
       </button>`;
   };
   return `
@@ -505,7 +514,7 @@ function vistaFicha(e, id) {
           <p class="ficha-etiquetas"><span class="etiqueta">${esc(posicion)}</span>${nuestro}<span>Atlético Coruña Montañeros · ${esc(nombreEquipo(e))}</span></p>
           <div class="ficha-nombre">
             <h1>${esc(n)}</h1>
-            <span class="ficha-mini">${camiseta(num ?? iniciales(n), portero)}</span>
+            <span class="ficha-mini">${camiseta(num ?? iniciales(n), portero, "", patrocinioDe(e))}</span>
           </div>
 
           <div class="ficha-panel">
