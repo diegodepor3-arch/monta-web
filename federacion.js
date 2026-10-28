@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-28T08:28";
+const ACTUALIZADO = "2026-10-28T16:01";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -1448,7 +1448,7 @@ const EQUIPOS = [
     }
    }
   },
-  "descargado": "2026-10-27T21:18"
+  "descargado": "2026-10-28T16:01"
  },
  {
   "id": "juvenil-a",
@@ -8061,8 +8061,6 @@ const EQUIPOS = [
   "competicion": "Infantil - División De Honor · Grupo Único",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26991095&codcompeticion=26991094",
   "escudos": {
-   "E.D. VAL MIÑOR NIGRÁN": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001624693_Escudo_con_M__rgenes.jpg",
-   "C.D. LUGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000717289_CD_LUGO_logo_color_BAJA.jpg",
    "R.C. DEPORTIVO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001196017_ESCUDO_DEPOR.png",
    "E.D. XUVENTUDE OROSO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0012023275_ESCUDOS_EDXO_2.png",
    "URAL ESPAÑOL C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000891301_ESCUDO_URAL_B.jpg",
@@ -8076,7 +8074,9 @@ const EQUIPOS = [
    "RACING CLUB FERROL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001624274_ESCUDO.jpg",
    "CIDADE DE RIBEIRA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000932504_Escudo_Cidade_de_Ribeira_bis.jpg",
    "A.J. LÉREZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001793709_Logo_Juve_Imagen__1_.jpg",
-   "R.C. CELTA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000628703_RC_Celta.jpg"
+   "R.C. CELTA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000628703_RC_Celta.jpg",
+   "E.D. VAL MIÑOR NIGRÁN": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001624693_Escudo_con_M__rgenes.jpg",
+   "C.D. LUGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000717289_CD_LUGO_logo_color_BAJA.jpg"
   },
   "actas": {
    "4": {
@@ -8278,6 +8278,8 @@ const EQUIPOS = [
      "Goodnews Ikiponwmosa John Onaguise": 15,
      "Pablo Botana Gómez": 16
     },
+    "c": [],
+    "rm": {},
     "id": "1437557"
    },
    "2": {
@@ -8456,7 +8458,7 @@ const EQUIPOS = [
    "Adrián Ríos Naya": 22,
    "Yuven Rodrigo Ayuni López": 23
   },
-  "descargado": "2026-10-27T16:38"
+  "descargado": "2026-10-28T16:00"
  },
  {
   "id": "infantil-b",
@@ -9301,7 +9303,7 @@ const EQUIPOS = [
    "Jesús Joaquín Torreiro Marcos": 18,
    "Nico Mosteiro Carro": 19
   },
-  "descargado": "2026-10-27T21:17"
+  "descargado": "2026-10-28T16:01"
  },
  {
   "id": "infantil-c",
@@ -14085,13 +14087,13 @@ const EQUIPOS = [
    },
    {
     "equipo": "SANTA MARIA DEL MAR",
-    "pts": 7,
+    "pts": 9,
     "pj": 3,
-    "g": 2,
-    "e": 1,
+    "g": 3,
+    "e": 0,
     "p": 0,
-    "gf": 5,
-    "gc": 2,
+    "gf": 6,
+    "gc": 1,
     "propio": false
    },
    {
@@ -14117,17 +14119,6 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "VICTORIA C.F.",
-    "pts": 4,
-    "pj": 3,
-    "g": 1,
-    "e": 1,
-    "p": 1,
-    "gf": 3,
-    "gc": 5,
-    "propio": false
-   },
-   {
     "equipo": "C.D. CALASANZ",
     "pts": 3,
     "pj": 3,
@@ -14136,6 +14127,17 @@ const EQUIPOS = [
     "p": 2,
     "gf": 4,
     "gc": 7,
+    "propio": false
+   },
+   {
+    "equipo": "VICTORIA C.F.",
+    "pts": 3,
+    "pj": 3,
+    "g": 1,
+    "e": 0,
+    "p": 2,
+    "gf": 2,
+    "gc": 6,
     "propio": false
    },
    {
@@ -14595,7 +14597,7 @@ const EQUIPOS = [
    "Enzo Martínez Ávila": 11,
    "Raphael De Araujo Lima": 14
   },
-  "descargado": "2026-10-27T16:38"
+  "descargado": "2026-10-28T16:00"
  },
  {
   "id": "prebenjamin-b",
@@ -15004,6 +15006,6 @@ const EQUIPOS = [
    "Miguel Ángel Ossa Briceño": 14,
    "Raphael De Araujo Lima": 16
   },
-  "descargado": "2026-10-27T16:38"
+  "descargado": "2026-10-28T16:00"
  }
 ];
