@@ -1,8 +1,7 @@
 """Trae las últimas publicaciones del Instagram del club y las guarda en instagram.js para
-la sección de Noticias. Usa la API oficial de Instagram con inicio de sesión de Facebook.
+la sección de Noticias. Usa la API oficial de Instagram (Instagram API with Instagram Login).
 
-Necesita la variable IG_TOKEN: token de la página de Facebook conectada al Instagram del club
-(el token de página sacado de un token de usuario de larga duración no caduca).
+Necesita la variable IG_TOKEN: token de larga duración de la cuenta profesional del club.
 En GitHub va como secreto (Settings → Secrets and variables → Actions → IG_TOKEN).
 Uso local: IG_TOKEN=... python instagram.py
 """
@@ -11,7 +10,7 @@ import os
 import urllib.parse
 import urllib.request
 
-API = "https://graph.facebook.com"
+API = "https://graph.instagram.com"
 TOKEN = os.environ.get("IG_TOKEN", "").strip()
 CARPETA = "img/instagram"  # las URL de imagen de Instagram caducan: se guarda una copia
 MAXIMO = 12
@@ -48,8 +47,12 @@ def main():
     if not TOKEN:
         print("Sin IG_TOKEN: no se actualiza Instagram")
         return
-    cuenta = pedir("me", fields="instagram_business_account")["instagram_business_account"]["id"]
-    publicaciones = pedir(f"{cuenta}/media", limit=MAXIMO,
+    try:  # alarga la vida del token (dura 60 días desde la última renovación)
+        pedir("refresh_access_token", grant_type="ig_refresh_token")
+    except OSError as err:
+        print("No se pudo renovar el token de Instagram:", err)
+
+    publicaciones = pedir("me/media", limit=MAXIMO,
                           fields="id,caption,media_type,media_url,thumbnail_url,permalink,timestamp")["data"]
     os.makedirs(CARPETA, exist_ok=True)
     noticias = []
