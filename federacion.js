@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-28T16:01";
+const ACTUALIZADO = "2026-10-28T21:03";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -1766,12 +1766,12 @@ const EQUIPOS = [
    },
    {
     "jornada": 9,
-    "fecha": "2026-11-01",
-    "hora": "",
+    "fecha": "2026-10-31",
+    "hora": "16:15",
     "local": false,
     "rival": "AROSA S.C.",
     "resultado": "",
-    "campo": "A Lomba (Vilagarcía)"
+    "campo": "Manuel Jiménez Abalo (Vilagarcía)"
    },
    {
     "jornada": 10,
@@ -2012,10 +2012,10 @@ const EQUIPOS = [
    "PONTEVEDRA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001003273_pontevedra_plano.jpg",
    "BERGANTIÑOS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0011658042_IMG_0489.png",
    "CORUXO F.C.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001059_CORUXO.jpg",
-   "C.D. CHOCO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001007492_Logo_CD_Choco_sin_fondo__2_.jpg",
-   "ESCOLA DE FÚTBOL DSF": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001813655_logo_EFDS_by_Nortempo.png",
    "AROSA S.C.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0011661351_ESCUDO_AROSA_SC.png",
    "ATL. CORUÑA MONTAÑEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
+   "C.D. CHOCO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001007492_Logo_CD_Choco_sin_fondo__2_.jpg",
+   "ESCOLA DE FÚTBOL DSF": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001813655_logo_EFDS_by_Nortempo.png",
    "R.C. CELTA \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000628703_RC_Celta.jpg",
    "C.D. LUGO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000717289_CD_LUGO_logo_color_BAJA.jpg",
    "AURIENSE C.A.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001824860_AURIENSE_CA.png",
@@ -2748,7 +2748,7 @@ const EQUIPOS = [
    "Alberto Santos Fraga": 24,
    "Daniel Graña Rodríguez": 25
   },
-  "descargado": "2026-10-27T21:19"
+  "descargado": "2026-10-28T21:02"
  },
  {
   "id": "juvenil-b",
@@ -3778,7 +3778,7 @@ const EQUIPOS = [
    "Roi Lago Suárez": 21,
    "Sebastián Andrés Balza Aguilera": 22
   },
-  "descargado": "2026-10-27T21:19"
+  "descargado": "2026-10-28T21:03"
  },
  {
   "id": "juvenil-c",
@@ -10104,7 +10104,7 @@ const EQUIPOS = [
    "Martiño Moar Moscoso": 20,
    "Álvaro Santamaría Cives": 21
   },
-  "descargado": "2026-10-27T21:18"
+  "descargado": "2026-10-28T21:02"
  },
  {
   "id": "infantil-d",
@@ -10791,7 +10791,7 @@ const EQUIPOS = [
    "Lucas Pan Rojo": 21,
    "Martiño Moar Moscoso": 22
   },
-  "descargado": "2026-10-27T21:18"
+  "descargado": "2026-10-28T21:02"
  },
  {
   "id": "alevin-a-f11",
@@ -10805,7 +10805,7 @@ const EQUIPOS = [
   "delegados": [],
   "clasificacion": [],
   "partidos": [],
-  "descargado": "2026-10-28T01:19"
+  "descargado": "2026-10-28T21:03"
  },
  {
   "id": "alevin-a",
@@ -11558,7 +11558,7 @@ const EQUIPOS = [
    "Sebastián López Ganem": 17,
    "Izan Pose Seijas": 14
   },
-  "descargado": "2026-10-28T01:19"
+  "descargado": "2026-10-28T21:03"
  },
  {
   "id": "alevin-b",
