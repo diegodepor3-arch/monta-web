@@ -276,7 +276,6 @@ button { font: inherit; color: inherit; }
   padding: 0; border: 0; border-radius: 20px; background: none; cursor: pointer;
   transition: transform 0.6s var(--salida), opacity 0.4s;
 }
-.carta img { width: 100%; height: 100%; object-fit: cover; border-radius: 20px; box-shadow: 0 24px 50px -20px rgb(0 0 0 / 0.7); }
 .camiseta { width: 100%; height: 100%; filter: drop-shadow(0 22px 26px rgb(0 0 0 / 0.45)); overflow: visible; }
 /* Equipación real: morado violeta con rayas blancas; portero amarillo con detalles negros */
 .camiseta { transition: transform 0.5s var(--salida); }
@@ -388,7 +387,10 @@ button { font: inherit; color: inherit; }
 .ficha-proximos { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); gap: 12px; }
 .ficha-visual { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: start; gap: 16px; }
 .ficha-flechas { position: absolute; right: 0; top: 0; z-index: 2; display: grid; gap: 10px; }
-.ficha-camiseta { grid-row: 1 / 3; }
+.ficha-camiseta, .ficha-foto { grid-row: 1 / 3; }
+/* Foto sin fondo cortada por la cintura (fotos.py ya la iguala y funde el corte) */
+.ficha-foto { width: min(100%, 440px); animation: llegar 0.8s var(--salida) both; }
+.ficha-foto img { display: block; width: 100%; height: auto; filter: drop-shadow(0 30px 40px rgb(0 0 0 / 0.5)); }
 .ficha-flechas a { text-decoration: none; font-weight: 700; }
 .ficha-camiseta { width: min(100%, 440px); aspect-ratio: 200 / 210; animation: llegar 0.8s var(--salida) both; }
 .ficha-camiseta .camiseta { filter: drop-shadow(0 40px 50px rgb(0 0 0 / 0.55)); }
@@ -398,7 +400,7 @@ button { font: inherit; color: inherit; }
 @media (max-width: 960px) {
   .ficha-visual { grid-template-columns: minmax(0, 1fr); justify-items: center; }
   .ficha-flechas { position: static; display: flex; justify-self: end; }
-  .ficha-camiseta { grid-row: auto; }
+  .ficha-camiseta, .ficha-foto { grid-row: auto; }
   .ficha-anillos { display: flex; padding-top: 0; }
 }
 .anillo { position: relative; display: grid; justify-items: center; gap: 4px; width: 112px; text-align: center; }
@@ -491,3 +493,159 @@ main { view-transition-name: contenido; }
 .semana-cat--abierta small { color: rgb(255 255 255 / 0.85); }
 .semana-cat--abierta .semana-flecha { rotate: 90deg; color: #fff; }
 .semana-panel { grid-column: 1 / -1; padding: 4px 0 8px; animation: aparecer 0.4s var(--salida); }
+
+/* ---------- Salón de la fama ---------- */
+.cabecera--fama h1 { font-size: clamp(3rem, 9vw, 6.4rem); }
+.fama-indice { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; }
+.fama-indice a {
+  padding: 10px 18px; border-radius: 999px; border: 1px solid var(--linea); background: rgb(255 255 255 / 0.05); text-decoration: none;
+  font: 700 0.78rem/1 var(--rotulo); text-transform: uppercase; letter-spacing: 0.1em; transition: background 0.25s, border-color 0.25s;
+}
+.fama-indice a:hover { background: var(--superficie-alta); border-color: var(--lila); }
+
+.leyenda {
+  display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); gap: clamp(24px, 4vw, 64px); align-items: start;
+  padding-block: clamp(44px, 6vw, 88px); border-bottom: 1px solid var(--linea);
+}
+.leyenda:last-child { border-bottom: 0; padding-bottom: clamp(64px, 9vw, 112px); }
+.leyenda--espejo { grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr); }
+.leyenda--espejo .leyenda-foto { order: 2; }
+@media (max-width: 860px) { .leyenda, .leyenda--espejo { grid-template-columns: minmax(0, 1fr); } .leyenda--espejo .leyenda-foto { order: 0; } }
+
+/* la foto se queda fija mientras se leen sus datos; el morado unifica fotos de equipaciones distintas */
+.leyenda-foto { position: sticky; top: calc(var(--alto-menu) + 20px); margin: 0; animation: subir 0.7s var(--salida) both; }
+@media (max-width: 860px) { .leyenda-foto { position: relative; top: 0; width: min(100%, 460px); justify-self: center; } }
+.leyenda-foto::after {
+  content: ""; position: absolute; inset: 0 0 26px; border-radius: 22px; pointer-events: none;
+  background: linear-gradient(180deg, transparent 55%, rgb(35 10 32 / 0.85)), linear-gradient(160deg, rgb(155 47 135 / 0.25), transparent 60%);
+}
+.leyenda-foto img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 22px; box-shadow: 0 30px 60px -24px rgb(0 0 0 / 0.75); }
+.leyenda-sello {
+  position: absolute; z-index: 1; left: 18px; bottom: 44px; display: grid; gap: 4px; padding: 12px 16px; border-radius: 14px;
+  background: var(--morado-vivo); box-shadow: 0 12px 24px -10px rgb(0 0 0 / 0.6);
+}
+.leyenda-sello small { font: 700 0.62rem/1 var(--rotulo); text-transform: uppercase; letter-spacing: 0.18em; color: rgb(255 255 255 / 0.8); }
+.leyenda-sello b { font: 800 1.35rem/1 var(--rotulo); }
+.leyenda-foto figcaption { margin-top: 8px; font-size: 0.72rem; color: var(--tinta-suave); }
+.leyenda-foto figcaption a { color: inherit; }
+
+.leyenda-pos { margin: 0 0 10px; font: 700 0.75rem/1.4 var(--rotulo); text-transform: uppercase; letter-spacing: 0.18em; color: var(--lila); }
+.leyenda h2 { font: 800 clamp(2.6rem, 6vw, 4.6rem)/0.95 var(--rotulo); letter-spacing: -0.035em; }
+.leyenda-completo { margin: 10px 0 0; color: var(--tinta-suave); }
+.leyenda-actual {
+  display: inline-block; margin: 16px 0 0; padding: 8px 14px; border-radius: 8px; border: 1px solid var(--linea);
+  background: rgb(255 255 255 / 0.05); font: 600 0.85rem/1.3 var(--rotulo);
+}
+.leyenda-monta {
+  margin: 26px 0 0; padding: 18px 20px; border-left: 4px solid var(--morado-vivo); border-radius: 0 14px 14px 0;
+  background: linear-gradient(90deg, rgb(155 47 135 / 0.22), rgb(155 47 135 / 0.04)); font-size: 1.02rem; line-height: 1.6;
+}
+.leyenda-monta small { display: block; margin-bottom: 6px; font: 700 0.68rem/1.2 var(--rotulo); text-transform: uppercase; letter-spacing: 0.16em; color: var(--lila); }
+.leyenda-cifras { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-top: 28px; }
+.leyenda-cifras div { padding: 16px 14px; border-radius: 14px; border: 1px solid var(--linea); background: rgb(255 255 255 / 0.03); }
+.leyenda-cifras b { display: block; font: 800 clamp(1.8rem, 3.4vw, 2.6rem)/1 var(--rotulo); }
+.leyenda-cifras small { display: block; margin-top: 6px; font-size: 0.8rem; color: var(--tinta-suave); }
+@media (max-width: 520px) { .leyenda-cifras { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.leyenda h3 { margin: 34px 0 14px; font: 700 0.7rem/1 var(--rotulo); text-transform: uppercase; letter-spacing: 0.2em; color: var(--lila); }
+
+/* Vitrina 3D: caja con fondo, techo, suelo y laterales de verdad (preserve-3d); las copas se apoyan
+   en mitad de la balda (translateZ) y las placas quedan en la peana, delante del cristal */
+.vitrina { --fondo-vitrina: 120px; perspective: 1100px; perspective-origin: 50% -10%; max-width: 640px; }
+.vitrina-caja {
+  position: relative; height: 210px; transform-style: preserve-3d;
+  border: 10px solid #1a0718; border-bottom: 0; border-radius: 16px 16px 0 0;
+  box-shadow: inset 0 0 0 1px rgb(231 191 224 / 0.25), 0 0 0 1px rgb(231 191 224 / 0.12);
+}
+.vitrina-cara { position: absolute; display: block; }
+.vitrina-fondo {
+  inset: 0; transform: translateZ(calc(-1 * var(--fondo-vitrina)));
+  background: radial-gradient(ellipse 60% 70% at 50% 0%, rgb(255 236 190 / 0.22), transparent 70%), linear-gradient(180deg, #3a1235, #24081f);
+}
+.vitrina-techo {
+  inset: 0 0 auto; height: var(--fondo-vitrina); transform-origin: top; transform: rotateX(-90deg);
+  background: linear-gradient(180deg, #fff6dc 0 3px, #4a1843 3px, #2b0b27);
+}
+.vitrina-suelo {
+  inset: auto 0 0; height: var(--fondo-vitrina); transform-origin: bottom; transform: rotateX(90deg);
+  background: radial-gradient(ellipse 70% 60% at 50% 40%, rgb(255 236 190 / 0.18), transparent 75%), linear-gradient(0deg, #5b2152, #2e0d2a);
+}
+.vitrina-izq, .vitrina-der { top: 0; bottom: 0; width: var(--fondo-vitrina); background: linear-gradient(90deg, #2a0a26, #3d1238); }
+.vitrina-izq { left: 0; transform-origin: left; transform: rotateY(90deg); }
+.vitrina-der { right: 0; transform-origin: right; transform: rotateY(-90deg); background: linear-gradient(270deg, #2a0a26, #3d1238); }
+.vitrina-balda {
+  list-style: none; margin: 0; padding: 0 12px; position: absolute; inset: 0; transform-style: preserve-3d;
+  display: flex; justify-content: space-evenly; align-items: flex-end;
+}
+.vitrina-balda li { position: relative; flex: 0 1 140px; height: 100%; display: flex; justify-content: center; align-items: flex-end; transform-style: preserve-3d; }
+.vitrina-copa { display: block; width: clamp(54px, 9vw, 74px); aspect-ratio: 60 / 92; transform: translateZ(calc(-0.5 * var(--fondo-vitrina))); transform-style: preserve-3d; }
+.vitrina-copa svg { width: 100%; height: 100%; filter: drop-shadow(0 6px 6px rgb(0 0 0 / 0.55)); transition: transform 0.8s var(--salida); }
+.vitrina-balda li:hover .vitrina-copa svg { transform: rotateY(30deg) translateY(-4px); }
+.vitrina-cristal {
+  position: absolute; inset: 0; pointer-events: none; transform: translateZ(1px);
+  background: linear-gradient(115deg, transparent 22%, rgb(255 255 255 / 0.1) 30%, transparent 37%, transparent 62%, rgb(255 255 255 / 0.06) 68%, transparent 73%);
+}
+.vitrina-peana {
+  height: 84px; border-radius: 0 0 12px 12px; border: 10px solid #1a0718; border-top-width: 6px;
+  background: linear-gradient(180deg, #3a1235, #1f071c); box-shadow: 0 0 0 1px rgb(231 191 224 / 0.12), 0 24px 40px -18px rgb(0 0 0 / 0.8);
+}
+/* las placas se dibujan en la peana: absolutas bajo su copa, en el plano del cristal */
+.vitrina-placa {
+  position: absolute; top: calc(100% + 18px); left: 50%; translate: -50% 0; width: min(100%, 132px); padding: 6px 8px 7px; text-align: center;
+  border-radius: 4px; background: linear-gradient(180deg, #f0d68b, #b48a33); color: #2a1606; box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.5), 0 2px 4px rgb(0 0 0 / 0.5);
+}
+.vitrina-placa strong { display: block; font: 700 0.66rem/1.15 var(--rotulo); text-transform: uppercase; letter-spacing: 0.04em; }
+.vitrina-placa small { display: block; margin-top: 2px; font: 600 0.62rem/1.2 var(--texto); }
+
+/* barras de goles: la altura sale de --h (goles / máximo del jugador) */
+.leyenda-barras { list-style: none; margin: 0; padding: 0; display: flex; align-items: flex-end; gap: 4px; height: 150px; }
+.leyenda-barras li { flex: 1; min-width: 0; display: grid; grid-template-rows: auto 1fr auto; justify-items: center; gap: 4px; height: 100%; }
+.leyenda-barras b { align-self: end; font: 700 0.72rem/1 var(--rotulo); }
+.leyenda-barras i {
+  width: 100%; max-width: 34px; height: calc(var(--h) * 100%); min-height: 3px; align-self: end; border-radius: 6px 6px 2px 2px;
+  background: linear-gradient(180deg, #c98be3, #9b2f87); transform-origin: bottom; animation: crecer 0.9s var(--salida) both;
+}
+.leyenda-barras li:hover i { background: linear-gradient(180deg, #fff, var(--lila)); }
+.leyenda-barras small { font: 600 0.62rem/1 var(--rotulo); color: var(--tinta-suave); white-space: nowrap; }
+@keyframes crecer { from { transform: scaleY(0); } }
+@media (max-width: 520px) { .leyenda-barras small { writing-mode: vertical-rl; rotate: 180deg; } }
+
+/* Trayectoria: línea del tiempo horizontal; si no cabe se desliza de lado (Lucas tiene 15 etapas) */
+.leyenda-ruta {
+  list-style: none; margin: 0; padding: 0 0 12px; display: grid; grid-auto-flow: column; grid-auto-columns: minmax(100px, 1fr);
+  overflow-x: auto; mask-image: linear-gradient(90deg, #000 calc(100% - 40px), transparent); scroll-snap-type: x proximity; scrollbar-width: thin; scrollbar-color: var(--morado) transparent;
+}
+.leyenda-ruta li { position: relative; padding: 26px 16px 0 0; scroll-snap-align: start; }
+.leyenda-ruta li:last-child { padding-right: 40px; } /* que el fundido no tape la última etapa */
+/* tramo de línea de cada etapa hasta la siguiente */
+.leyenda-ruta li::after { content: ""; position: absolute; left: 0; right: 0; top: 7px; height: 2px; background: var(--linea); }
+.leyenda-ruta li:last-child::after { right: auto; width: 24px; background: linear-gradient(90deg, var(--linea), transparent); }
+.leyenda-ruta li::before {
+  content: ""; position: absolute; z-index: 1; left: 0; top: 2px; width: 12px; height: 12px; border-radius: 50%;
+  background: var(--fondo); border: 2px solid var(--lila);
+}
+.leyenda-ruta strong { display: block; font: 700 0.86rem/1.2 var(--rotulo); }
+.leyenda-ruta small { display: block; margin-top: 4px; color: var(--tinta-suave); font-size: 0.78rem; line-height: 1.35; }
+.leyenda-ruta li.leyenda-ruta--monta::before { background: var(--morado-vivo); border-color: #fff; box-shadow: 0 0 0 4px rgb(155 47 135 / 0.35); }
+.leyenda-ruta li.leyenda-ruta--monta::after { background: linear-gradient(90deg, var(--morado-vivo), var(--linea)); }
+.leyenda-ruta--monta strong { color: var(--lila); }
+
+.leyenda-destacados { list-style: none; margin: 30px 0 0; padding: 0; display: grid; gap: 10px; }
+.leyenda-destacados li { display: flex; gap: 10px; align-items: flex-start; line-height: 1.45; }
+.leyenda-destacados .icono { flex: none; width: 18px; height: 18px; margin-top: 2px; color: var(--lila); }
+.leyenda-fuentes { margin: 26px 0 0; font-size: 0.78rem; color: var(--tinta-suave); }
+.leyenda-fuentes a { color: inherit; }
+/* Publicación de Instagram en lugar de la foto: sin degradado encima y el sello arriba, sin tapar nada */
+.leyenda-foto--instagram::after { content: none; }
+.leyenda-foto--instagram .leyenda-sello { position: static; display: inline-grid; margin-bottom: 12px; }
+.leyenda-foto--instagram .instagram-media { width: 100% !important; min-width: 0 !important; max-width: 100% !important; margin: 0 !important; border-radius: 22px !important; overflow: hidden; }
+
+/* ---------- Hazte socio: tarjeta del abono ---------- */
+.abono {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px 28px; margin: 28px 0;
+  padding: clamp(20px, 3vw, 28px); border-radius: 20px; border: 1px solid var(--linea);
+  background: linear-gradient(160deg, rgb(155 47 135 / 0.35), rgb(69 22 65 / 0.5));
+}
+.abono small { display: block; font: 700 0.72rem/1.3 var(--rotulo); text-transform: uppercase; letter-spacing: 0.16em; color: var(--lila); }
+.abono b { display: block; margin: 6px 0 4px; font: 800 clamp(2.4rem, 6vw, 3.4rem)/1 var(--rotulo); letter-spacing: -0.02em; }
+.abono span { font-size: 0.9rem; color: var(--tinta-suave); }
+.abono .boton-ficha { margin: 0; padding: 14px 24px; font-size: 0.85rem; }

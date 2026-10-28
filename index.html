@@ -33,8 +33,19 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
     <symbol id="i-trofeo" viewBox="0 0 24 24"><path d="M7 3h10v5a5 5 0 0 1-10 0z" fill="#f2c94c"/><path d="M7 5H3.5c0 3 1.5 4.5 3.8 4.8M17 5h3.5c0 3-1.5 4.5-3.8 4.8" stroke="#f2c94c" stroke-width="1.6" fill="none"/><path d="M10.5 13h3v4h-3zM7.5 18h9v3h-9z" fill="#f2c94c"/></symbol>
     <symbol id="i-amarilla" viewBox="0 0 24 24"><rect x="6.5" y="3" width="11" height="16" rx="1.6" transform="rotate(8 12 11)" fill="#f2d33a"/></symbol>
     <symbol id="i-roja" viewBox="0 0 24 24"><rect x="6.5" y="3" width="11" height="16" rx="1.6" transform="rotate(8 12 11)" fill="#ef4b5f"/></symbol>
+    <!-- Copa de la vitrina del salón de la fama: oro con brillo de metal pulido -->
+    <symbol id="i-copa" viewBox="0 0 60 92">
+      <path d="M15 14c-9 0-11 5-11 9 0 6 6 11 14 11M45 14c9 0 11 5 11 9 0 6-6 11-14 11" fill="none" stroke="url(#oro)" stroke-width="3.4" stroke-linecap="round"/>
+      <path d="M12 6h36v16c0 16-8 25-18 25S12 38 12 22z" fill="url(#oro)"/>
+      <path d="M17 9h5v13c0 9 3 15 6 18-7-2-11-9-11-18z" fill="#fff" opacity="0.4"/>
+      <ellipse cx="30" cy="6" rx="18" ry="3" fill="#6d4a0e"/><ellipse cx="30" cy="6" rx="16" ry="2" fill="#3b2806"/>
+      <path d="M27 46h6v13h-6z" fill="url(#oro)"/><ellipse cx="30" cy="59" rx="8" ry="2.6" fill="url(#oro)"/>
+      <path d="M19 64h22l3 12H16z" fill="url(#oro)"/>
+      <rect x="12" y="76" width="36" height="12" rx="1.5" fill="#2a1408"/><rect x="12" y="76" width="36" height="2" fill="#5a3418"/>
+    </symbol>
     <!-- Tela de las camisetas (las dibuja camiseta() en app.js) -->
     <defs>
+      <linearGradient id="oro" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7a5310"/><stop offset="0.3" stop-color="#e9bd4f"/><stop offset="0.45" stop-color="#fff1b8"/><stop offset="0.62" stop-color="#d9a637"/><stop offset="1" stop-color="#6b470c"/></linearGradient>
       <linearGradient id="tela-jugador" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5329b8"/><stop offset="0.55" stop-color="#4622a6"/><stop offset="1" stop-color="#361a86"/></linearGradient>
       <linearGradient id="tela-portero" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbef4f"/><stop offset="1" stop-color="#ead92c"/></linearGradient>
       <linearGradient id="tela-jugador-cantera" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#383c8c"/><stop offset="0.55" stop-color="#2e3176"/><stop offset="1" stop-color="#23255e"/></linearGradient>
@@ -59,6 +70,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
       <a href="#/equipo/primer-equipo" data-seccion="equipo/primer-equipo">Primer equipo</a>
       <a href="#/canteira" data-seccion="canteira">Cantera Morada</a>
       <a href="#/noticias" data-seccion="noticias">Noticias</a>
+      <a href="#/leyendas" data-seccion="leyendas">Salón de la fama</a>
       <a href="#/socios" data-seccion="socios">Hazte socio</a>
     </nav>
     <button class="menu-buscar" type="button" aria-label="Buscar" aria-expanded="false" aria-controls="buscador">
@@ -85,6 +97,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
         <a href="#/equipo/primer-equipo">Primer equipo</a>
         <a href="#/canteira">Cantera Morada</a>
         <a href="#/noticias">Noticias</a>
+        <a href="#/leyendas">Salón de la fama</a>
         <a href="#/socios">Hazte socio</a>
         <a href="https://www.futgal.es/pnfg/NPcd/NFG_VerClub?cod_primaria=1000118&codigo_club=1175" target="_blank" rel="noopener">El club en la federación</a>
       </nav>
