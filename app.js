@@ -515,6 +515,8 @@ function vistaFicha(e, id) {
   const manual = perfil(e, n);
   ultimaFicha[e.id] = id;
   const est = estadisticas(e, n);
+  // misma regla que en el carrusel: foto solo en primer equipo y juveniles
+  const foto = CATEGORIAS_CON_FOTO.has(e.categoria) && ((EXTRA[e.id] || {}).fotos || {})[n];
   const volver = `${rutaEquipo(e)}/plantilla`;
   const ant = jugadores[(i - 1 + jugadores.length) % jugadores.length], sig = jugadores[(i + 1) % jugadores.length];
   const proximos = e.partidos.filter((x) => !x.resultado).slice(0, 6).map((x) => ({ ...x, e }));
@@ -570,7 +572,8 @@ function vistaFicha(e, id) {
             <a class="redondo" href="${rutaFicha(e, ant)}" aria-label="Jugador anterior: ${esc(ant)}">${icono("i-izq")}</a>
             <a class="redondo" href="${rutaFicha(e, sig)}" aria-label="Jugador siguiente: ${esc(sig)}">${icono("i-der")}</a>
           </div>
-          <div class="ficha-camiseta${portero ? " carta--portero" : ""}">${camiseta(num, portero, n.split(" ")[0], patrocinioDe(e))}</div>
+          ${foto ? `<div class="ficha-camiseta ficha-foto"><img src="${esc(foto)}" alt="${esc(n)}"></div>`
+            : `<div class="ficha-camiseta${portero ? " carta--portero" : ""}">${camiseta(num, portero, n.split(" ")[0], patrocinioDe(e))}</div>`}
           <div class="ficha-anillos">
             ${anillo(est.jugados, est.actas, est.actas ? `${Math.round((est.jugados / est.actas) * 100)}%` : "0%", "Participación")}
             ${anillo(est.goles, est.jugados || 1, (est.jugados ? est.goles / est.jugados : 0).toFixed(2).replace(".", ","), "Goles por partido")}
