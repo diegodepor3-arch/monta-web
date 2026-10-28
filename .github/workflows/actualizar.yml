@@ -19,8 +19,12 @@ jobs:
       - run: python actualizar.py
       - run: pip install pillow && python escudos.py
         continue-on-error: true  # si falla, se suben igual los datos; los escudos se intentan la próxima hora
+      - run: python instagram.py  # publicaciones del club para Noticias; sin el secreto IG_TOKEN no hace nada
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        continue-on-error: true
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add federacion.js escudos.js img/escudos
+          git add federacion.js escudos.js img/escudos instagram.js img/instagram
           git diff --cached --quiet || (git commit -m "Datos de la federación" && git push)

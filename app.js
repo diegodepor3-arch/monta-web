@@ -118,7 +118,7 @@ function inicio() {
       </section>
       <section class="bloque">
         <div class="bloque-cab"><h2>Últimas noticias</h2><a href="#/noticias">Ver todas</a></div>
-        ${listaNoticias(NOTICIAS.slice(0, 3))}
+        ${listaNoticias(todasNoticias().slice(0, 3))}
       </section>
     </div>`;
 }
@@ -613,11 +613,16 @@ function canteira(catId) {
 }
 
 // --- Noticias y búsqueda ------------------------------------------------
+// Las de data.js y las publicaciones del Instagram del club (instagram.js), de la más nueva a la más vieja
+const todasNoticias = () => [...NOTICIAS, ...(typeof INSTAGRAM === "undefined" ? [] : INSTAGRAM)]
+  .sort((a, b) => b.fecha.localeCompare(a.fecha));
+
 const listaNoticias = (ns) => ns.length ? `<div class="rejilla-tarjetas">${ns.map((n) => `
-  <a class="tarjeta-noticia" href="#/noticia/${esc(n.id)}">
+  <a class="tarjeta-noticia${n.imagen ? " tarjeta-noticia--foto" : ""}" href="#/noticia/${esc(n.id)}">
+    ${n.imagen ? `<span class="noticia-foto"><img src="${esc(n.imagen)}" alt="" loading="lazy">${n.enlace ? `<span class="noticia-ig">${icono("i-instagram")} Instagram</span>` : ""}</span>` : ""}
     <time datetime="${esc(n.fecha)}">${esc(fmt(n.fecha, { day: "numeric", month: "long", year: "numeric" }))}</time>
     <strong>${esc(n.titulo)}</strong>
-    <p>${esc(n.resumen)}</p>
+    ${n.resumen ? `<p>${esc(n.resumen)}</p>` : ""}
   </a>`).join("")}</div>` : vacio("Todavía no hay noticias.");
 
 const listaVideos = (vs) => `<div class="rejilla-tarjetas">${vs.map((v) => `
@@ -628,10 +633,14 @@ const cabeceraSimple = (titulo, sub = "", migas = "") => `
   <section class="cabecera cabecera--simple"><div class="contenedor">${migas}<h1>${esc(titulo)}</h1>${sub ? `<p class="cabecera-liga">${sub}</p>` : ""}</div></section>`;
 
 function noticia(id) {
-  const n = NOTICIAS.find((x) => x.id === id);
+  const n = todasNoticias().find((x) => x.id === id);
   if (!n) return noEncontrado();
   return `${cabeceraSimple(n.titulo, esc(fmt(n.fecha, { day: "numeric", month: "long", year: "numeric" })), `<p class="migas"><a href="#/noticias">Noticias</a></p>`)}
-    <article class="contenedor articulo">${n.cuerpo.split(/\n\s*\n/).map((p) => `<p>${esc(p)}</p>`).join("")}</article>`;
+    <article class="contenedor articulo">
+      ${n.imagen ? `<img class="articulo-foto" src="${esc(n.imagen)}" alt="">` : ""}
+      ${n.cuerpo.split(/\n\s*\n/).filter((p) => p.trim() !== n.titulo).map((p) => `<p>${esc(p).replace(/\n/g, "<br>")}</p>`).join("")}
+      ${n.enlace ? `<a class="boton-ficha" href="${esc(n.enlace)}" target="_blank" rel="noopener">${n.video ? "Ver el vídeo" : "Ver la publicación"} en Instagram ${icono("i-externo")}</a>` : ""}
+    </article>`;
 }
 
 function buscar(q) {
@@ -640,7 +649,7 @@ function buscar(q) {
   const coincide = (...s) => normal(s.join(" ")).includes(t);
   const personas = EQUIPOS.flatMap((e) => [...jugadoresDe(e), ...e.entrenadores].filter((n) => coincide(n)).map((n) => ({ n, e })));
   const equipos = EQUIPOS.filter((e) => coincide(nombreEquipo(e), e.liga, categoria(e.categoria).nombre));
-  const noticias = NOTICIAS.filter((n) => coincide(n.titulo, n.resumen, n.cuerpo));
+  const noticias = todasNoticias().filter((n) => coincide(n.titulo, n.resumen, n.cuerpo));
   const total = personas.length + equipos.length + noticias.length;
   const lista = (items) => `<ul class="lista-busqueda">${items}</ul>`;
   return `${cabeceraSimple(`“${q.trim()}”`, total ? `${total} resultado${total === 1 ? "" : "s"}` : "Sin resultados. Prueba con otro nombre o apellido.")}
@@ -761,7 +770,7 @@ function render() {
     !ruta ? inicio() :
     ruta === "equipo" ? vistaEquipo(a, sub, extra) :
     ruta === "canteira" ? canteira(a) :
-    ruta === "noticias" ? `${cabeceraSimple("Noticias", "La actualidad del club")}<div class="contenedor bloque">${listaNoticias(NOTICIAS)}</div>` :
+    ruta === "noticias" ? `${cabeceraSimple("Noticias", "La actualidad del club")}<div class="contenedor bloque">${listaNoticias(todasNoticias())}</div>` :
     ruta === "noticia" ? noticia(a) :
     ruta === "socios" ? socios() :
     ruta === "leyendas" ? salonFama() :
