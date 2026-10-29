@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-28T21:03";
+const ACTUALIZADO = "2026-10-29T00:56";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -4515,7 +4515,7 @@ const EQUIPOS = [
    "Lucas García Lema": 19,
    "Nicolás De La Campa García": 20
   },
-  "descargado": "2026-10-28T01:20"
+  "descargado": "2026-10-29T00:54"
  },
  {
   "id": "cadete-a",
@@ -4528,7 +4528,6 @@ const EQUIPOS = [
    "Bruno Barreiro Ramos",
    "Juan Bescansa Álvarez",
    "Alejandro Buide Modia",
-   "Nicolás Caraballo Hernández",
    "Pedro De Artaza Galante",
    "Álvaro Díaz Boquete",
    "Iván López Carcedo",
@@ -5615,7 +5614,7 @@ const EQUIPOS = [
    "Franco Santino Mesa Vázquez": 19,
    "Nicolás Alonso De Andrés": 21
   },
-  "descargado": "2026-10-28T01:21"
+  "descargado": "2026-10-29T00:55"
  },
  {
   "id": "cadete-b",
@@ -6610,7 +6609,7 @@ const EQUIPOS = [
    "Gabriel Mosquera Lema": 19,
    "Rubén García Viñán": 20
   },
-  "descargado": "2026-10-28T08:27"
+  "descargado": "2026-10-29T00:55"
  },
  {
   "id": "cadete-c",
@@ -11988,7 +11987,7 @@ const EQUIPOS = [
    "Gael Zapata Grandal": 16,
    "Fabio Gundín Candia": 17
   },
-  "descargado": "2026-10-28T01:20"
+  "descargado": "2026-10-29T00:54"
  },
  {
   "id": "alevin-c",
@@ -12429,7 +12428,7 @@ const EQUIPOS = [
    "Mauro Viana López": 21,
    "Daniel Castellanos Gil": 12
   },
-  "descargado": "2026-10-28T01:20"
+  "descargado": "2026-10-29T00:55"
  },
  {
   "id": "benjamin-a",
@@ -13181,7 +13180,7 @@ const EQUIPOS = [
    "Nicolás Couselo González": 16,
    "Óscar Aydillo González": 17
   },
-  "descargado": "2026-10-28T08:27"
+  "descargado": "2026-10-29T00:56"
  },
  {
   "id": "benjamin-c",
