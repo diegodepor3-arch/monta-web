@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-29T07:04";
+const ACTUALIZADO = "2026-10-29T14:17";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -1448,7 +1448,7 @@ const EQUIPOS = [
     }
    }
   },
-  "descargado": "2026-10-28T16:01"
+  "descargado": "2026-10-29T14:16"
  },
  {
   "id": "juvenil-a",
@@ -2748,7 +2748,7 @@ const EQUIPOS = [
    "Alberto Santos Fraga": 24,
    "Daniel Graña Rodríguez": 25
   },
-  "descargado": "2026-10-28T21:02"
+  "descargado": "2026-10-29T14:16"
  },
  {
   "id": "juvenil-b",
@@ -3778,7 +3778,7 @@ const EQUIPOS = [
    "Roi Lago Suárez": 21,
    "Sebastián Andrés Balza Aguilera": 22
   },
-  "descargado": "2026-10-28T21:03"
+  "descargado": "2026-10-29T14:17"
  },
  {
   "id": "juvenil-c",
@@ -9302,7 +9302,7 @@ const EQUIPOS = [
    "Jesús Joaquín Torreiro Marcos": 18,
    "Nico Mosteiro Carro": 19
   },
-  "descargado": "2026-10-28T16:01"
+  "descargado": "2026-10-29T14:16"
  },
  {
   "id": "infantil-c",
@@ -10103,7 +10103,7 @@ const EQUIPOS = [
    "Martiño Moar Moscoso": 20,
    "Álvaro Santamaría Cives": 21
   },
-  "descargado": "2026-10-28T21:02"
+  "descargado": "2026-10-29T14:17"
  },
  {
   "id": "infantil-d",
@@ -10790,7 +10790,7 @@ const EQUIPOS = [
    "Lucas Pan Rojo": 21,
    "Martiño Moar Moscoso": 22
   },
-  "descargado": "2026-10-28T21:02"
+  "descargado": "2026-10-29T14:17"
  },
  {
   "id": "alevin-a-f11",
