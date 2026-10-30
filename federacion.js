@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-29T23:57";
+const ACTUALIZADO = "2026-10-30T05:46";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -1448,7 +1448,7 @@ const EQUIPOS = [
     }
    }
   },
-  "descargado": "2026-10-29T14:16"
+  "descargado": "2026-10-30T05:45"
  },
  {
   "id": "juvenil-a",
@@ -2748,7 +2748,7 @@ const EQUIPOS = [
    "Alberto Santos Fraga": 24,
    "Daniel Graña Rodríguez": 25
   },
-  "descargado": "2026-10-29T14:16"
+  "descargado": "2026-10-30T05:46"
  },
  {
   "id": "juvenil-b",
@@ -3778,7 +3778,7 @@ const EQUIPOS = [
    "Roi Lago Suárez": 21,
    "Sebastián Andrés Balza Aguilera": 22
   },
-  "descargado": "2026-10-29T14:17"
+  "descargado": "2026-10-30T05:46"
  },
  {
   "id": "juvenil-c",
@@ -9302,7 +9302,7 @@ const EQUIPOS = [
    "Jesús Joaquín Torreiro Marcos": 18,
    "Nico Mosteiro Carro": 19
   },
-  "descargado": "2026-10-29T14:16"
+  "descargado": "2026-10-30T05:46"
  },
  {
   "id": "infantil-c",
@@ -14596,7 +14596,7 @@ const EQUIPOS = [
    "Enzo Martínez Ávila": 11,
    "Raphael De Araujo Lima": 14
   },
-  "descargado": "2026-10-29T07:03"
+  "descargado": "2026-10-30T05:45"
  },
  {
   "id": "prebenjamin-b",
@@ -15005,6 +15005,6 @@ const EQUIPOS = [
    "Miguel Ángel Ossa Briceño": 14,
    "Raphael De Araujo Lima": 16
   },
-  "descargado": "2026-10-29T07:04"
+  "descargado": "2026-10-30T05:45"
  }
 ];
