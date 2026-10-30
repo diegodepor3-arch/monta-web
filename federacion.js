@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-30T18:38";
+const ACTUALIZADO = "2026-10-30T22:59";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -30,6 +30,7 @@ const EQUIPOS = [
    "Brais Pérez Moreta",
    "Samuel Rey Corral",
    "Diego Rodríguez Sánchez",
+   "Noah Rodríguez Varela",
    "Axel Sánchez Iglesias",
    "Jorge Tomé Vila",
    "Xoel Vilariño Escariz"
@@ -1448,7 +1449,7 @@ const EQUIPOS = [
     }
    }
   },
-  "descargado": "2026-10-30T05:45"
+  "descargado": "2026-10-30T22:58"
  },
  {
   "id": "juvenil-a",
@@ -2748,7 +2749,7 @@ const EQUIPOS = [
    "Alberto Santos Fraga": 24,
    "Daniel Graña Rodríguez": 25
   },
-  "descargado": "2026-10-30T05:46"
+  "descargado": "2026-10-30T22:59"
  },
  {
   "id": "juvenil-b",
@@ -13605,7 +13606,7 @@ const EQUIPOS = [
    "Alan Díaz López": 4,
    "Noah Rawson-Higgins González": 16
   },
-  "descargado": "2026-10-29T23:57"
+  "descargado": "2026-10-30T22:57"
  },
  {
   "id": "benjamin-b",
@@ -14022,7 +14023,7 @@ const EQUIPOS = [
    "Sergio Rama Pena": 15,
    "Jeremy Henao Ramírez": 13
   },
-  "descargado": "2026-10-29T23:57"
+  "descargado": "2026-10-30T22:58"
  },
  {
   "id": "prebenjamin-a",
@@ -14596,7 +14597,7 @@ const EQUIPOS = [
    "Enzo Martínez Ávila": 11,
    "Raphael De Araujo Lima": 14
   },
-  "descargado": "2026-10-30T05:45"
+  "descargado": "2026-10-30T22:58"
  },
  {
   "id": "prebenjamin-b",
@@ -15005,6 +15006,6 @@ const EQUIPOS = [
    "Miguel Ángel Ossa Briceño": 14,
    "Raphael De Araujo Lima": 16
   },
-  "descargado": "2026-10-30T05:45"
+  "descargado": "2026-10-30T22:58"
  }
 ];
