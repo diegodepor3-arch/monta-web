@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-10-31T02:22";
+const ACTUALIZADO = "2026-10-31T09:38";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -4516,7 +4516,7 @@ const EQUIPOS = [
    "Lucas García Lema": 19,
    "Nicolás De La Campa García": 20
   },
-  "descargado": "2026-10-30T12:53"
+  "descargado": "2026-10-31T09:36"
  },
  {
   "id": "cadete-a",
@@ -5615,7 +5615,7 @@ const EQUIPOS = [
    "Franco Santino Mesa Vázquez": 19,
    "Nicolás Alonso De Andrés": 21
   },
-  "descargado": "2026-10-30T12:53"
+  "descargado": "2026-10-31T09:37"
  },
  {
   "id": "cadete-b",
@@ -6610,7 +6610,7 @@ const EQUIPOS = [
    "Gabriel Mosquera Lema": 19,
    "Rubén García Viñán": 20
   },
-  "descargado": "2026-10-30T18:36"
+  "descargado": "2026-10-31T09:37"
  },
  {
   "id": "cadete-c",
@@ -7575,7 +7575,7 @@ const EQUIPOS = [
    "Valentín Seijo Abeledo": 22,
    "Daniel Álvarez López": 23
   },
-  "descargado": "2026-10-30T18:37"
+  "descargado": "2026-10-31T09:38"
  },
  {
   "id": "infantil-a",
@@ -11988,7 +11988,7 @@ const EQUIPOS = [
    "Gael Zapata Grandal": 16,
    "Fabio Gundín Candia": 17
   },
-  "descargado": "2026-10-30T18:36"
+  "descargado": "2026-10-31T09:37"
  },
  {
   "id": "alevin-c",
@@ -12059,12 +12059,12 @@ const EQUIPOS = [
    },
    {
     "equipo": "IMPERATOR O.A.R.",
-    "pts": 7,
-    "pj": 4,
-    "g": 2,
+    "pts": 10,
+    "pj": 5,
+    "g": 3,
     "e": 1,
     "p": 1,
-    "gf": 25,
+    "gf": 35,
     "gc": 10,
     "propio": false
    },
@@ -12104,12 +12104,12 @@ const EQUIPOS = [
    {
     "equipo": "C.D. CALASANZ \"E\"",
     "pts": 4,
-    "pj": 4,
+    "pj": 5,
     "g": 1,
     "e": 1,
-    "p": 2,
+    "p": 3,
     "gf": 12,
-    "gc": 19,
+    "gc": 29,
     "propio": false
    },
    {
@@ -12429,7 +12429,7 @@ const EQUIPOS = [
    "Mauro Viana López": 21,
    "Daniel Castellanos Gil": 12
   },
-  "descargado": "2026-10-30T18:37"
+  "descargado": "2026-10-31T09:38"
  },
  {
   "id": "benjamin-a",
