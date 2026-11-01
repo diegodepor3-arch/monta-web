@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-01T13:20";
+const ACTUALIZADO = "2026-11-01T18:56";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -1590,36 +1590,36 @@ const EQUIPOS = [
   ],
   "clasificacion": [
    {
-    "equipo": "AURIENSE C.A.",
-    "pts": 22,
-    "pj": 8,
-    "g": 7,
-    "e": 1,
-    "p": 0,
-    "gf": 20,
-    "gc": 6,
-    "propio": false
-   },
-   {
     "equipo": "E.D. XUVENTUDE OROSO",
-    "pts": 20,
-    "pj": 8,
-    "g": 6,
+    "pts": 23,
+    "pj": 9,
+    "g": 7,
     "e": 2,
     "p": 0,
-    "gf": 26,
+    "gf": 28,
     "gc": 6,
     "propio": false
    },
    {
     "equipo": "R.C. CELTA \"B\"",
-    "pts": 20,
-    "pj": 8,
-    "g": 6,
+    "pts": 23,
+    "pj": 9,
+    "g": 7,
     "e": 2,
     "p": 0,
-    "gf": 23,
-    "gc": 6,
+    "gf": 26,
+    "gc": 7,
+    "propio": false
+   },
+   {
+    "equipo": "AURIENSE C.A.",
+    "pts": 22,
+    "pj": 9,
+    "g": 7,
+    "e": 1,
+    "p": 1,
+    "gf": 20,
+    "gc": 8,
     "propio": false
    },
    {
@@ -1779,12 +1779,12 @@ const EQUIPOS = [
    {
     "equipo": "C.D. LUGO \"B\"",
     "pts": 3,
-    "pj": 8,
+    "pj": 9,
     "g": 1,
     "e": 0,
-    "p": 7,
-    "gf": 11,
-    "gc": 27,
+    "p": 8,
+    "gf": 12,
+    "gc": 30,
     "propio": false
    }
   ],
@@ -2930,7 +2930,7 @@ const EQUIPOS = [
    "Alberto Santos Fraga": 24,
    "Daniel Graña Rodríguez": 25
   },
-  "descargado": "2026-10-31T19:59"
+  "descargado": "2026-11-01T18:56"
  },
  {
   "id": "juvenil-b",
@@ -8030,6 +8030,17 @@ const EQUIPOS = [
   "delegados": [],
   "clasificacion": [
    {
+    "equipo": "R.C. CELTA",
+    "pts": 24,
+    "pj": 8,
+    "g": 8,
+    "e": 0,
+    "p": 0,
+    "gf": 45,
+    "gc": 4,
+    "propio": false
+   },
+   {
     "equipo": "R.C. DEPORTIVO",
     "pts": 21,
     "pj": 8,
@@ -8041,24 +8052,13 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "R.C. CELTA",
-    "pts": 21,
-    "pj": 7,
-    "g": 7,
-    "e": 0,
-    "p": 0,
-    "gf": 40,
-    "gc": 3,
-    "propio": false
-   },
-   {
     "equipo": "E.D. VAL MIÑOR NIGRÁN",
-    "pts": 15,
-    "pj": 7,
-    "g": 5,
+    "pts": 18,
+    "pj": 8,
+    "g": 6,
     "e": 0,
     "p": 2,
-    "gf": 23,
+    "gf": 27,
     "gc": 9,
     "propio": false
    },
@@ -8129,17 +8129,6 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "A.J. LÉREZ",
-    "pts": 8,
-    "pj": 7,
-    "g": 2,
-    "e": 2,
-    "p": 3,
-    "gf": 12,
-    "gc": 17,
-    "propio": false
-   },
-   {
     "equipo": "C.D. CONXO SANTIAGO",
     "pts": 8,
     "pj": 8,
@@ -8151,14 +8140,25 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "C.D. LUGO",
+    "equipo": "A.J. LÉREZ",
     "pts": 8,
-    "pj": 7,
+    "pj": 8,
     "g": 2,
     "e": 2,
-    "p": 3,
+    "p": 4,
+    "gf": 13,
+    "gc": 22,
+    "propio": false
+   },
+   {
+    "equipo": "C.D. LUGO",
+    "pts": 8,
+    "pj": 8,
+    "g": 2,
+    "e": 2,
+    "p": 4,
     "gf": 11,
-    "gc": 21,
+    "gc": 25,
     "propio": false
    },
    {
@@ -8927,7 +8927,7 @@ const EQUIPOS = [
    "Goodnews Ikiponwmosa John Onaguise": 22,
    "Yuven Rodrigo Ayuni López": 23
   },
-  "descargado": "2026-10-31T15:44"
+  "descargado": "2026-11-01T18:55"
  },
  {
   "id": "infantil-b",
@@ -13864,13 +13864,13 @@ const EQUIPOS = [
   "clasificacion": [
    {
     "equipo": "SPORTING CORUÑES",
-    "pts": 12,
-    "pj": 4,
-    "g": 4,
+    "pts": 15,
+    "pj": 5,
+    "g": 5,
     "e": 0,
     "p": 0,
-    "gf": 33,
-    "gc": 5,
+    "gf": 43,
+    "gc": 6,
     "propio": false
    },
    {
@@ -13908,12 +13908,12 @@ const EQUIPOS = [
    },
    {
     "equipo": "SANTA MARIA DEL MAR \"B\"",
-    "pts": 6,
-    "pj": 4,
-    "g": 2,
+    "pts": 9,
+    "pj": 5,
+    "g": 3,
     "e": 0,
     "p": 2,
-    "gf": 13,
+    "gf": 28,
     "gc": 16,
     "propio": false
    },
@@ -13942,12 +13942,12 @@ const EQUIPOS = [
    {
     "equipo": "COLEGIO OBRADOIRO",
     "pts": 3,
-    "pj": 4,
+    "pj": 5,
     "g": 1,
     "e": 0,
-    "p": 3,
-    "gf": 18,
-    "gc": 14,
+    "p": 4,
+    "gf": 19,
+    "gc": 24,
     "propio": false
    },
    {
@@ -13964,12 +13964,12 @@ const EQUIPOS = [
    {
     "equipo": "EIRIS S.D. \"B\"",
     "pts": 0,
-    "pj": 4,
+    "pj": 5,
     "g": 0,
     "e": 0,
-    "p": 4,
+    "p": 5,
     "gf": 2,
-    "gc": 58,
+    "gc": 73,
     "propio": false
    }
   ],
@@ -14295,7 +14295,7 @@ const EQUIPOS = [
    "Santiago López Álvarez": 12,
    "Noah Rawson-Higgins González": 16
   },
-  "descargado": "2026-10-31T15:44"
+  "descargado": "2026-11-01T18:55"
  },
  {
   "id": "benjamin-b",
@@ -14382,6 +14382,17 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "COLEGIO LICEO",
+    "pts": 6,
+    "pj": 5,
+    "g": 2,
+    "e": 0,
+    "p": 3,
+    "gf": 15,
+    "gc": 21,
+    "propio": false
+   },
+   {
     "equipo": "EIRÍS S.D.",
     "pts": 6,
     "pj": 5,
@@ -14393,25 +14404,14 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "COLEGIO LICEO",
-    "pts": 3,
-    "pj": 4,
-    "g": 1,
-    "e": 0,
-    "p": 3,
-    "gf": 13,
-    "gc": 20,
-    "propio": false
-   },
-   {
     "equipo": "ORILLAMAR S.D.",
     "pts": 3,
-    "pj": 4,
+    "pj": 5,
     "g": 1,
     "e": 0,
-    "p": 3,
-    "gf": 11,
-    "gc": 21,
+    "p": 4,
+    "gf": 12,
+    "gc": 23,
     "propio": false
    },
    {
@@ -14753,7 +14753,7 @@ const EQUIPOS = [
    "Sergio Rama Pena": 15,
    "Jeremy Henao Ramírez": 13
   },
-  "descargado": "2026-10-31T19:58"
+  "descargado": "2026-11-01T18:55"
  },
  {
   "id": "prebenjamin-a",
@@ -14860,6 +14860,17 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "UD CARRAL",
+    "pts": 5,
+    "pj": 4,
+    "g": 1,
+    "e": 2,
+    "p": 1,
+    "gf": 5,
+    "gc": 5,
+    "propio": false
+   },
+   {
     "equipo": "OLIMPICO C.F.",
     "pts": 4,
     "pj": 4,
@@ -14893,17 +14904,6 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "UD CARRAL",
-    "pts": 2,
-    "pj": 3,
-    "g": 0,
-    "e": 2,
-    "p": 1,
-    "gf": 2,
-    "gc": 4,
-    "propio": false
-   },
-   {
     "equipo": "ATLETICO ARTEIXO",
     "pts": 1,
     "pj": 4,
@@ -14928,12 +14928,12 @@ const EQUIPOS = [
    {
     "equipo": "SPORTING CAMBRE",
     "pts": 0,
-    "pj": 3,
+    "pj": 4,
     "g": 0,
     "e": 0,
-    "p": 3,
-    "gf": 2,
-    "gc": 8,
+    "p": 4,
+    "gf": 3,
+    "gc": 11,
     "propio": false
    }
   ],
@@ -15368,7 +15368,7 @@ const EQUIPOS = [
    "Enzo Martínez Ávila": 11,
    "Raphael De Araujo Lima": 14
   },
-  "descargado": "2026-10-31T19:58"
+  "descargado": "2026-11-01T18:56"
  },
  {
   "id": "prebenjamin-b",
@@ -15401,25 +15401,25 @@ const EQUIPOS = [
   "delegados": [],
   "clasificacion": [
    {
-    "equipo": "C. P. ESCLAVAS",
-    "pts": 12,
-    "pj": 4,
+    "equipo": "C.D. CIUDAD JARDÍN",
+    "pts": 13,
+    "pj": 5,
     "g": 4,
-    "e": 0,
+    "e": 1,
     "p": 0,
-    "gf": 13,
+    "gf": 8,
     "gc": 3,
     "propio": false
    },
    {
-    "equipo": "C.D. CIUDAD JARDÍN",
-    "pts": 10,
-    "pj": 4,
-    "g": 3,
-    "e": 1,
-    "p": 0,
-    "gf": 6,
-    "gc": 3,
+    "equipo": "C. P. ESCLAVAS",
+    "pts": 12,
+    "pj": 5,
+    "g": 4,
+    "e": 0,
+    "p": 1,
+    "gf": 14,
+    "gc": 5,
     "propio": false
    },
    {
@@ -15445,17 +15445,6 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "IMPERATOR O.A.R.",
-    "pts": 6,
-    "pj": 4,
-    "g": 2,
-    "e": 0,
-    "p": 2,
-    "gf": 8,
-    "gc": 6,
-    "propio": false
-   },
-   {
     "equipo": "ATLETICO CASTROS \"B\"",
     "pts": 7,
     "pj": 5,
@@ -15464,6 +15453,17 @@ const EQUIPOS = [
     "p": 2,
     "gf": 5,
     "gc": 9,
+    "propio": false
+   },
+   {
+    "equipo": "C.F. BATALLADOR S.D. \"B\"",
+    "pts": 6,
+    "pj": 5,
+    "g": 2,
+    "e": 0,
+    "p": 3,
+    "gf": 9,
+    "gc": 7,
     "propio": false
    },
    {
@@ -15478,36 +15478,36 @@ const EQUIPOS = [
     "propio": true
    },
    {
-    "equipo": "C.F. BATALLADOR S.D. \"B\"",
-    "pts": 3,
-    "pj": 4,
-    "g": 1,
+    "equipo": "IMPERATOR O.A.R.",
+    "pts": 6,
+    "pj": 5,
+    "g": 2,
     "e": 0,
     "p": 3,
-    "gf": 6,
-    "gc": 7,
+    "gf": 8,
+    "gc": 8,
     "propio": false
    },
    {
     "equipo": "RELÁMPAGO S. D.",
-    "pts": 3,
-    "pj": 4,
-    "g": 1,
+    "pts": 6,
+    "pj": 5,
+    "g": 2,
     "e": 0,
     "p": 3,
-    "gf": 4,
-    "gc": 8,
+    "gf": 6,
+    "gc": 9,
     "propio": false
    },
    {
     "equipo": "C.D. CIUDAD",
     "pts": 0,
-    "pj": 4,
+    "pj": 5,
     "g": 0,
     "e": 0,
-    "p": 4,
+    "p": 5,
     "gf": 1,
-    "gc": 15,
+    "gc": 18,
     "propio": false
    }
   ],
@@ -15818,6 +15818,6 @@ const EQUIPOS = [
    "Miguel Ángel Ossa Briceño": 12,
    "Raphael De Araujo Lima": 14
   },
-  "descargado": "2026-10-31T19:59"
+  "descargado": "2026-11-01T18:56"
  }
 ];
