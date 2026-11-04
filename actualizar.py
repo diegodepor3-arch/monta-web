@@ -21,6 +21,16 @@ CLUB = 1175  # Atlético Coruña Montañeros C.F. en futgal
 TEMPORADA = 22  # 2026-2027 (código interno de futgal)
 MAX_ACTAS = int(os.environ.get("MAX_ACTAS", 3))  # actas nuevas por equipo y ejecución
 
+# Equipos que futgal pone en el club pero no existen
+EXCLUIDOS = {"1547"}  # Alevín A F-11
+# Equipos de otros clubes que pertenecen al Montañeros. futgal no los lista en el club: se busca su
+# código en la liga del equipo "junto_a" (juegan en la misma) por las palabras de "propio".
+ASOCIADOS = [
+    {"id": "alevin-acea", "junto_a": "1549", "propio": ("ACEA", "AMA"), "letra": "Acea",
+     "nombre": "Alevín Acea de Ama", "corto": "Acea de Ama", "club": "S.D. Acea de Ama"},
+]
+PROPIO = ("MONTA", "CORU")  # palabras del nombre del equipo que se está descargando
+
 jar = http.cookiejar.CookieJar()
 web = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar))
 web.addheaders = [("User-Agent", "Mozilla/5.0 (web Atletico Coruna Montaneros)")]
@@ -72,7 +82,7 @@ def nombre_persona(s):
 
 
 def es_club(nombre):
-    return "MONTA" in nombre.upper() and "CORU" in nombre.upper()
+    return all(k in nombre.upper() for k in PROPIO)
 
 
 def categoria(cat):
@@ -300,7 +310,32 @@ def perfiles_lapreferente():
     return out
 
 
-def descargar_equipo(cod, nombre, cat, anterior=None):
+def codigo_asociado(a, previo):
+    """Código y nombre en futgal de un equipo asociado: los de la vez anterior o, si no, el enlace con
+    su nombre en la página de una jornada de la liga en la que juega con nuestro equipo."""
+    ya = next((e for e in previo.values() if e.get("id") == a["id"]), None)
+    if ya:
+        return ya["codigo"], ya["asociado"]["federacion"]
+    comp = competicion_actual(a["junto_a"])
+    if not comp:
+        return None, None
+    for num in (1, 2):  # por si descansa la primera jornada
+        for m in re.finditer(r'Codigo_Equipo=(\d+)">(.*?)</a>', jornada(comp[0], comp[2], num), flags=re.S):
+            if all(k in texto(m.group(2)).upper() for k in a["propio"]):
+                return m.group(1), texto(m.group(2))
+    return None, None
+
+
+def descargar_equipo(cod, nombre, cat, anterior=None, asociado=None):
+    global PROPIO
+    PROPIO = asociado["propio"] if asociado else ("MONTA", "CORU")
+    try:
+        return _descargar_equipo(cod, nombre, cat, anterior, asociado)
+    finally:
+        PROPIO = ("MONTA", "CORU")
+
+
+def _descargar_equipo(cod, nombre, cat, anterior, asociado):
     ficha = get(f"{BASE}NFG_VisEquipos?cod_primaria=1000119&Codigo_Equipo={cod}")
     letra = re.search(r'"([A-Z])"', nombre)
     cid = categoria(cat)
@@ -318,6 +353,9 @@ def descargar_equipo(cod, nombre, cat, anterior=None):
         "clasificacion": [],
         "partidos": [],
     }
+    if asociado:
+        e.update(id=asociado["id"], letra=asociado["letra"], nombre=asociado["nombre"],
+                 asociado={"corto": asociado["corto"], "club": asociado["club"], "federacion": nombre})
     comp = competicion_actual(cod)
     if comp:
         cc, cnombre, grupo, gnombre = comp
@@ -364,14 +402,23 @@ def main():
     se guarda al momento y cada ejecución empieza por los equipos con datos más viejos:
     programado cada hora, todos se mantienen al día aunque futgal corte a mitad."""
     previo = leer_previo()
-    club = equipos_del_club()
+    club = [t for t in equipos_del_club() if t[0] not in EXCLUIDOS]
+    asociados = {}
+    for a in ASOCIADOS:
+        junto = next((t for t in club if t[0] == a["junto_a"]), None)
+        cod, nombre = codigo_asociado(a, previo) if junto else (None, None)
+        if cod:
+            asociados[cod] = a
+            club.append((cod, nombre, junto[2]))  # misma liga que el equipo con el que juega
+        else:
+            print("No se encontró el equipo asociado:", a["nombre"])
     pendientes = sorted(club, key=lambda t: previo.get(t[0], {}).get("descargado", ""))
     # python actualizar.py senior juvenil -> esas categorías primero
     pendientes.sort(key=lambda t: categoria(t[2]) not in sys.argv[1:])
     try:
         for cod, nombre, cat in pendientes:
             print("·", nombre, "|", cat, flush=True)
-            previo[cod] = descargar_equipo(cod, nombre, cat, previo.get(cod))
+            previo[cod] = descargar_equipo(cod, nombre, cat, previo.get(cod), asociados.get(cod))
             guardar([previo[c] for c, _, _ in club if c in previo])
     except (RuntimeError, OSError) as err:
         print("Parado, se sigue en la próxima ejecución:", err)

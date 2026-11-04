@@ -18,8 +18,8 @@ const mayus = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 // --- Equipos ------------------------------------------------------------
 const categoria = (id) => CATEGORIAS.find((c) => c.id === id);
 const equipo = (id) => EQUIPOS.find((e) => e.id === id);
-const nombreEquipo = (e) => e.categoria === "senior" ? "Primer equipo"
-  : `${categoria(e.categoria).singular} ${e.letra}${e.liga.includes("F-11") ? " F-11" : ""}`;
+const nombreEquipo = (e) => e.nombre || (e.categoria === "senior" ? "Primer equipo"
+  : `${categoria(e.categoria).singular} ${e.letra}${e.liga.includes("F-11") ? " F-11" : ""}`);
 const rutaEquipo = (e) => `#/equipo/${e.id}`;
 const filaPropia = (e) => e.clasificacion.findIndex((f) => f.propio);
 const proximo = (e) => e.partidos.find((p) => !p.resultado);
@@ -48,6 +48,8 @@ const escudoDe = (e, nombre) => e.escudos?.[nombre]
   ? `<img class="escudo" src="${esc(sinFondo(e.escudos[nombre]))}" alt="" loading="lazy">`
   : `<span class="escudo escudo--vacio" aria-hidden="true">${esc(iniciales(nombre))}</span>`;
 const nuestro = `<img class="escudo" src="img/escudo.png" alt="">`;
+// Nuestro lado del partido: el Montañeros o, en un equipo asociado de otro club (Acea de Ama), ese club
+const propio = (e) => e.asociado ? { n: e.asociado.corto, img: escudoDe(e, e.asociado.federacion) } : { n: CLUB.corto, img: nuestro };
 const vacio = (txt) => `<p class="vacio">${txt}</p>`;
 
 // --- Piezas comunes -----------------------------------------------------
@@ -59,8 +61,8 @@ function cuentaAtras(p) {
 
 // El enfrentamiento: escudo y nombre de cada lado, VS en medio
 function versus(p, conHora = true) {
-  const casa = p.local ? { n: CLUB.corto, img: nuestro } : { n: p.rival, img: escudoDe(p.e, p.rival) };
-  const fuera = p.local ? { n: p.rival, img: escudoDe(p.e, p.rival) } : { n: CLUB.corto, img: nuestro };
+  const casa = p.local ? propio(p.e) : { n: p.rival, img: escudoDe(p.e, p.rival) };
+  const fuera = p.local ? { n: p.rival, img: escudoDe(p.e, p.rival) } : propio(p.e);
   const m = p.resultado && marcador(p);
   return `
     <div class="versus">
@@ -211,7 +213,7 @@ function vistaEquipo(id, sub = "", jugador = "") {
             <tbody>${e.clasificacion.map((f, i) => `
               <tr${f.propio ? ' class="propio"' : ""}>
                 <td class="tabla-pos">${i + 1}</td>
-                <th scope="row"><span class="tabla-equipo">${f.propio ? nuestro : escudoDe(e, f.equipo)}${esc(f.equipo)}</span></th>
+                <th scope="row"><span class="tabla-equipo">${f.propio ? propio(e).img : escudoDe(e, f.equipo)}${esc(f.equipo)}</span></th>
                 <td>${f.pj}</td><td class="opc-movil">${f.g}</td><td class="opc-movil">${f.e}</td><td class="opc-movil">${f.p}</td><td class="opc">${f.gf}</td><td class="opc">${f.gc}</td>
                 <td>${f.gf - f.gc > 0 ? "+" : ""}${f.gf - f.gc}</td><td class="tabla-pts">${f.pts}</td>
               </tr>`).join("")}
@@ -499,13 +501,13 @@ const edad = (nacimiento) => {
 
 const tarjetaProxima = (p) => `
   <article class="proxima">
-    ${p.local ? `<div class="proxima-equipo">${nuestro}<strong>${esc(CLUB.corto)}</strong></div>` : `<div class="proxima-equipo">${escudoDe(p.e, p.rival)}<strong>${esc(p.rival)}</strong></div>`}
+    ${p.local ? `<div class="proxima-equipo">${propio(p.e).img}<strong>${esc(propio(p.e).n)}</strong></div>` : `<div class="proxima-equipo">${escudoDe(p.e, p.rival)}<strong>${esc(p.rival)}</strong></div>`}
     <div class="proxima-centro">
       <small>${esc(fmt(p.fecha, { day: "numeric", month: "long" }))}</small>
       <b>${p.hora || "--:--"}</b>
       <small>Jornada ${p.jornada}</small>
     </div>
-    ${p.local ? `<div class="proxima-equipo">${escudoDe(p.e, p.rival)}<strong>${esc(p.rival)}</strong></div>` : `<div class="proxima-equipo">${nuestro}<strong>${esc(CLUB.corto)}</strong></div>`}
+    ${p.local ? `<div class="proxima-equipo">${escudoDe(p.e, p.rival)}<strong>${esc(p.rival)}</strong></div>` : `<div class="proxima-equipo">${propio(p.e).img}<strong>${esc(propio(p.e).n)}</strong></div>`}
   </article>`;
 
 function vistaFicha(e, id) {
@@ -528,7 +530,7 @@ function vistaFicha(e, id) {
       <div class="contenedor ficha-rejilla">
         <div class="ficha-info">
           <a class="pastilla" href="${volver}">${icono("i-izq")} Volver a la plantilla</a>
-          <p class="ficha-etiquetas"><span class="etiqueta">${esc(posicion)}</span>${nuestro}<span>Atlético Coruña Montañeros · ${esc(nombreEquipo(e))}</span></p>
+          <p class="ficha-etiquetas"><span class="etiqueta">${esc(posicion)}</span>${propio(e).img}<span>${e.asociado ? esc(e.asociado.club) : "Atlético Coruña Montañeros"} · ${esc(nombreEquipo(e))}</span></p>
           <div class="ficha-nombre">
             <h1>${esc(n)}</h1>
             <span class="ficha-mini">${camiseta(num ?? iniciales(n), portero, "", patrocinioDe(e))}</span>
