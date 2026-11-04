@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-04T08:58";
+const ACTUALIZADO = "2026-11-04T09:04";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -2930,7 +2930,7 @@ const EQUIPOS = [
    "Alberto Santos Fraga": 24,
    "Daniel Graña Rodríguez": 25
   },
-  "descargado": "2026-11-03T18:27"
+  "descargado": "2026-11-04T09:03"
  },
  {
   "id": "juvenil-b",
@@ -4033,7 +4033,7 @@ const EQUIPOS = [
    "Sebastián Andrés Balza Aguilera": 21,
    "Roi Lago Suárez": 22
   },
-  "descargado": "2026-11-03T23:58"
+  "descargado": "2026-11-04T09:04"
  },
  {
   "id": "juvenil-c",
@@ -14126,7 +14126,7 @@ const EQUIPOS = [
    "Manuel Aydillo González": 16,
    "Óscar Aydillo González": 17
   },
-  "descargado": "2026-11-03T18:26"
+  "descargado": "2026-11-04T09:03"
  },
  {
   "id": "benjamin-c",
@@ -14594,7 +14594,7 @@ const EQUIPOS = [
    "Santiago López Álvarez": 12,
    "Noah Rawson-Higgins González": 16
   },
-  "descargado": "2026-11-03T18:26"
+  "descargado": "2026-11-04T09:03"
  },
  {
   "id": "benjamin-b",
@@ -15052,7 +15052,7 @@ const EQUIPOS = [
    "Sergio Rama Pena": 15,
    "Jeremy Henao Ramírez": 13
   },
-  "descargado": "2026-11-03T18:27"
+  "descargado": "2026-11-04T09:04"
  },
  {
   "id": "prebenjamin-a",
@@ -15475,8 +15475,6 @@ const EQUIPOS = [
   "competicion": "Prebenjamin - Primera Futgal · A Coruña | G1",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26991242&codcompeticion=26991233",
   "escudos": {
-   "SPORTING CAMBRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
-   "C.D. CALASANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
    "VICTORIA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
    "UD CARRAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001484347_Carral.jpg",
    "ATLETICO ARTEIXO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001414249_Escudo_Arteixo.png",
@@ -15488,7 +15486,9 @@ const EQUIPOS = [
    "ATL. CORUÑA MONTAÑEROS C.F": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
    "URAL ESPAÑOL C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000891301_ESCUDO_URAL_B.jpg",
    "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg",
-   "SADA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000931604_Sada_CF_escudo_FUTGAL.png"
+   "SADA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000931604_Sada_CF_escudo_FUTGAL.png",
+   "SPORTING CAMBRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
+   "C.D. CALASANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg"
   },
   "actas": {
    "1": {
@@ -15667,7 +15667,7 @@ const EQUIPOS = [
    "Enzo Martínez Ávila": 11,
    "Raphael De Araujo Lima": 14
   },
-  "descargado": "2026-11-03T18:27"
+  "descargado": "2026-11-04T09:04"
  },
  {
   "id": "prebenjamin-b",
