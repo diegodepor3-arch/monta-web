@@ -11593,20 +11593,6 @@ const EQUIPOS = [
   "descargado": "2026-11-03T23:59"
  },
  {
-  "id": "alevin-a-f11",
-  "codigo": "1547",
-  "categoria": "alevin",
-  "letra": "A",
-  "liga": "Primera Alevin F-11",
-  "urlFederacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisEquipos?cod_primaria=1000119&Codigo_Equipo=1547",
-  "plantilla": [],
-  "entrenadores": [],
-  "delegados": [],
-  "clasificacion": [],
-  "partidos": [],
-  "descargado": "2026-11-04T06:16"
- },
- {
   "id": "alevin-a",
   "codigo": "1549",
   "categoria": "alevin",
