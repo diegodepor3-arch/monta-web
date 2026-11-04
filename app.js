@@ -187,7 +187,10 @@ function vistaEquipo(id, sub = "", jugador = "") {
   const videos = (tipo) => (extra.videos || []).filter((v) => v.tipo === tipo && v.youtube);
   const cantera = e.categoria === "senior" ? [] : [`<a href="#/canteira">Cantera Morada</a>`, `<a href="#/canteira/${e.categoria}">${esc(categoria(e.categoria).nombre)}</a>`];
   const trozos = [...cantera, ...(sub ? [`<a href="${rutaEquipo(e)}">${esc(nombreEquipo(e))}</a>`] : [])];
-  const migas = trozos.length ? `<p class="migas">${trozos.join(" / ")}</p>` : "";
+  // Flecha para volver un paso: de plantilla o partidos al equipo; del equipo a su categoría (o al inicio)
+  const [atras, haciaDonde] = sub ? [rutaEquipo(e), nombreEquipo(e)]
+    : e.categoria === "senior" ? ["#/", "Inicio"] : [`#/canteira/${e.categoria}`, categoria(e.categoria).nombre];
+  const migas = `<p class="migas"><a class="atras" href="${atras}" aria-label="Volver a ${esc(haciaDonde)}">${icono("i-izq")}</a>${trozos.join(" / ")}</p>`;
   const mesProx = p ? fmt(p.fecha, { month: "long" }) : "";
   const pos = filaPropia(e);
 
