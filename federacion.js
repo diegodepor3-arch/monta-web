@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-04T09:28";
+const ACTUALIZADO = "2026-11-04T14:39";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -1545,7 +1545,7 @@ const EQUIPOS = [
     }
    }
   },
-  "descargado": "2026-11-04T08:58"
+  "descargado": "2026-11-04T14:38"
  },
  {
   "id": "juvenil-a",
@@ -9092,7 +9092,7 @@ const EQUIPOS = [
    "Goodnews Ikiponwmosa John Onaguise": 22,
    "Yuven Rodrigo Ayuni López": 23
   },
-  "descargado": "2026-11-04T08:58"
+  "descargado": "2026-11-04T14:38"
  },
  {
   "id": "infantil-b",
@@ -13337,7 +13337,7 @@ const EQUIPOS = [
    "Enzo Martínez Díaz": 20,
    "Daniel Castellanos Gil": 12
   },
-  "descargado": "2026-11-04T08:58"
+  "descargado": "2026-11-04T14:39"
  },
  {
   "id": "benjamin-a",
@@ -16743,24 +16743,142 @@ const EQUIPOS = [
     "c": [],
     "rm": {},
     "id": "1486593"
+   },
+   "2": {
+    "t": [
+     "Hugo De Ramón Seijo",
+     "Martín Pérez Bra",
+     "Leo Estraviz López",
+     "Leo Bocigas Fernández",
+     "Asier González Liñayo",
+     "Antón Fernández López",
+     "Conrado López Barbeito"
+    ],
+    "s": [
+     "Leo Rivas Rey",
+     "Juanfra Fraga Caro",
+     "Xabi Bregua Piñeiro",
+     "Christian Rodrigues Bratti",
+     "Enzo Rodríguez Muiños"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Hugo De Ramón Seijo": 1,
+     "Martín Pérez Bra": 2,
+     "Leo Estraviz López": 3,
+     "Leo Bocigas Fernández": 6,
+     "Asier González Liñayo": 7,
+     "Antón Fernández López": 8,
+     "Conrado López Barbeito": 10,
+     "Leo Rivas Rey": 9,
+     "Juanfra Fraga Caro": 12,
+     "Xabi Bregua Piñeiro": 14,
+     "Christian Rodrigues Bratti": 16,
+     "Enzo Rodríguez Muiños": 17
+    },
+    "c": [],
+    "rm": {},
+    "id": "1486556"
+   },
+   "3": {
+    "t": [
+     "Xabi Bregua Piñeiro",
+     "Martín Pérez Bra",
+     "David Tardio Lastra",
+     "Enzo Rodríguez Muiños",
+     "Raul Sepúlveda Domínguez",
+     "Hugo De Ramón Seijo",
+     "Juanfra Fraga Caro"
+    ],
+    "s": [
+     "Leo Bocigas Fernández",
+     "Leo Estraviz López",
+     "Antón Fernández López",
+     "Asier González Liñayo",
+     "Christian Rodrigues Bratti"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Xabi Bregua Piñeiro": 13,
+     "Martín Pérez Bra": 3,
+     "David Tardio Lastra": 6,
+     "Enzo Rodríguez Muiños": 8,
+     "Raul Sepúlveda Domínguez": 9,
+     "Hugo De Ramón Seijo": 12,
+     "Juanfra Fraga Caro": 16,
+     "Leo Bocigas Fernández": 10,
+     "Leo Estraviz López": 11,
+     "Antón Fernández López": 14,
+     "Asier González Liñayo": 15,
+     "Christian Rodrigues Bratti": 17
+    },
+    "c": [],
+    "rm": {},
+    "id": "1486563"
+   },
+   "4": {
+    "t": [
+     "Xabi Bregua Piñeiro",
+     "Martín Pérez Bra",
+     "Enzo Rodríguez Muiños",
+     "Juanfra Fraga Caro",
+     "Hugo De Ramón Seijo",
+     "Asier González Liñayo",
+     "Leo Rivas Rey"
+    ],
+    "s": [
+     "Conrado López Barbeito",
+     "David Tardio Lastra",
+     "Raul Sepúlveda Domínguez",
+     "Leo Estraviz López",
+     "Elhadji Ousmane Faye Ba"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Xabi Bregua Piñeiro": 13,
+     "Martín Pérez Bra": 3,
+     "Enzo Rodríguez Muiños": 8,
+     "Juanfra Fraga Caro": 10,
+     "Hugo De Ramón Seijo": 12,
+     "Asier González Liñayo": 15,
+     "Leo Rivas Rey": 17,
+     "Conrado López Barbeito": 2,
+     "David Tardio Lastra": 6,
+     "Raul Sepúlveda Domínguez": 9,
+     "Leo Estraviz López": 11,
+     "Elhadji Ousmane Faye Ba": 14
+    },
+    "c": [],
+    "rm": {},
+    "id": "1486571"
    }
   },
   "dorsales": {
-   "Conrado López Barbeito": 2,
    "Martín Pérez Bra": 3,
    "Enzo Rodríguez Muiños": 8,
    "Raul Sepúlveda Domínguez": 9,
+   "Conrado López Barbeito": 2,
    "Leo Bocigas Fernández": 10,
    "Antón Fernández López": 6,
-   "Juanfra Fraga Caro": 11,
+   "Leo Estraviz López": 11,
+   "Hugo De Ramón Seijo": 1,
+   "Asier González Liñayo": 7,
    "Xabi Bregua Piñeiro": 13,
-   "Asier González Liñayo": 15,
    "Christian Rodrigues Bratti": 17,
-   "Leo Estraviz López": 12,
-   "Leo Rivas Rey": 16,
    "Elhadji Ousmane Faye Ba": 14,
-   "Hugo De Ramón Seijo": 18
+   "Leo Rivas Rey": 16,
+   "Juanfra Fraga Caro": 12,
+   "David Tardio Lastra": 15
   },
-  "descargado": "2026-11-04T08:57"
+  "descargado": "2026-11-04T14:38"
  }
 ];
