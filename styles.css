@@ -146,6 +146,15 @@ button { font: inherit; color: inherit; }
 .migas { margin: 0 0 12px; font: 600 0.75rem/1 var(--rotulo); text-transform: uppercase; letter-spacing: 0.16em; color: var(--lila); }
 .migas a { text-decoration: none; }
 .migas a:hover { color: #fff; }
+/* Flecha de volver, delante de las migas en las páginas de cada equipo */
+.migas:has(.atras) { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 6px; }
+.atras {
+  display: inline-grid; place-items: center; width: 36px; height: 36px; margin-right: 6px; border-radius: 50%; flex: none;
+  border: 1px solid var(--linea); background: rgb(255 255 255 / 0.06); color: var(--tinta);
+  transition: background 0.25s, color 0.25s, transform 0.2s var(--salida);
+}
+.migas a.atras:hover { background: var(--lila); color: var(--fondo); }
+.atras:active { transform: scale(0.92); }
 
 /* Tarjeta del próximo partido */
 .tarjeta-proximo {
