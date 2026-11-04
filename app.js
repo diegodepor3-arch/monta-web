@@ -190,7 +190,7 @@ function vistaEquipo(id, sub = "", jugador = "") {
   // Flecha para volver un paso: de plantilla o partidos al equipo; del equipo a su categoría (o al inicio)
   const [atras, haciaDonde] = sub ? [rutaEquipo(e), nombreEquipo(e)]
     : e.categoria === "senior" ? ["#/", "Inicio"] : [`#/canteira/${e.categoria}`, categoria(e.categoria).nombre];
-  const migas = `<p class="migas"><a class="atras" href="${atras}" aria-label="Volver a ${esc(haciaDonde)}">${icono("i-izq")}</a>${trozos.join(" / ")}</p>`;
+  const migas = migasConFlecha(atras, haciaDonde, trozos);
   const mesProx = p ? fmt(p.fecha, { month: "long" }) : "";
   const pos = filaPropia(e);
 
@@ -604,7 +604,7 @@ function canteira(catId) {
   const c = categoria(catId);
   if (!c) return noEncontrado();
   const eqs = EQUIPOS.filter((e) => e.categoria === catId);
-  return `${cabeceraSimple(c.nombre, `${eqs.length} equipo${eqs.length > 1 ? "s" : ""} esta temporada`, `<p class="migas"><a href="#/canteira">Cantera Morada</a></p>`)}
+  return `${cabeceraSimple(c.nombre, `${eqs.length} equipo${eqs.length > 1 ? "s" : ""} esta temporada`, migasConFlecha("#/canteira", "Cantera Morada", [`<a href="#/canteira">Cantera Morada</a>`]))}
     <div class="contenedor bloque"><div class="rejilla-tarjetas">${eqs.map((e) => {
       const p = proximo(e), pos = filaPropia(e);
       return `<a class="tarjeta-equipo" href="${rutaEquipo(e)}">
@@ -634,13 +634,17 @@ const listaVideos = (vs) => `<div class="rejilla-tarjetas">${vs.map((v) => `
   <figure class="video"><iframe src="https://www.youtube-nocookie.com/embed/${esc(v.youtube)}" title="${esc(v.titulo)}" loading="lazy" allowfullscreen></iframe>
   <figcaption>${esc(v.titulo)}</figcaption></figure>`).join("")}</div>`;
 
+// Migas con la flecha redonda de volver un paso delante
+const migasConFlecha = (atras, haciaDonde, trozos) =>
+  `<p class="migas"><a class="atras" href="${atras}" aria-label="Volver a ${esc(haciaDonde)}">${icono("i-izq")}</a>${trozos.join(" / ")}</p>`;
+
 const cabeceraSimple = (titulo, sub = "", migas = "") => `
   <section class="cabecera cabecera--simple"><div class="contenedor">${migas}<h1>${esc(titulo)}</h1>${sub ? `<p class="cabecera-liga">${sub}</p>` : ""}</div></section>`;
 
 function noticia(id) {
   const n = todasNoticias().find((x) => x.id === id);
   if (!n) return noEncontrado();
-  return `${cabeceraSimple(n.titulo, esc(fmt(n.fecha, { day: "numeric", month: "long", year: "numeric" })), `<p class="migas"><a href="#/noticias">Noticias</a></p>`)}
+  return `${cabeceraSimple(n.titulo, esc(fmt(n.fecha, { day: "numeric", month: "long", year: "numeric" })), migasConFlecha("#/noticias", "Noticias", [`<a href="#/noticias">Noticias</a>`]))}
     <article class="contenedor articulo">
       ${n.imagen ? `<img class="articulo-foto" src="${esc(n.imagen)}" alt="">` : ""}
       ${n.cuerpo.split(/\n\s*\n/).filter((p) => p.trim() !== n.titulo).map((p) => `<p>${esc(p).replace(/\n/g, "<br>")}</p>`).join("")}
