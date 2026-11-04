@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-04T09:08";
+const ACTUALIZADO = "2026-11-04T09:28";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -7115,7 +7115,7 @@ const EQUIPOS = [
    "Gabriel Mosquera Lema": 19,
    "Rubén García Viñán": 20
   },
-  "descargado": "2026-11-04T06:16"
+  "descargado": "2026-11-04T09:28"
  },
  {
   "id": "cadete-c",
@@ -8160,7 +8160,7 @@ const EQUIPOS = [
    "Diego Santos Sánchez": 22,
    "Brais Portela Solla": 23
   },
-  "descargado": "2026-11-04T06:17"
+  "descargado": "2026-11-04T09:28"
  },
  {
   "id": "infantil-a",
@@ -12380,7 +12380,7 @@ const EQUIPOS = [
    "Sebastián López Ganem": 21,
    "Izan Pose Seijas": 14
   },
-  "descargado": "2026-11-04T06:16"
+  "descargado": "2026-11-04T09:28"
  },
  {
   "id": "alevin-b",
@@ -12853,7 +12853,7 @@ const EQUIPOS = [
    "Gael Zapata Grandal": 16,
    "Fabio Gundín Candia": 17
   },
-  "descargado": "2026-11-04T06:17"
+  "descargado": "2026-11-04T09:28"
  },
  {
   "id": "alevin-c",
