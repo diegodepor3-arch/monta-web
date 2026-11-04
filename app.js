@@ -118,7 +118,7 @@ function inicio() {
       </section>
       <section class="bloque">
         <div class="bloque-cab"><h2>Últimas noticias</h2><a href="#/noticias">Ver todas</a></div>
-        ${listaNoticias(NOTICIAS.slice(0, 3))}
+        ${listaNoticias(todasNoticias().slice(0, 3))}
       </section>
     </div>`;
 }
@@ -283,7 +283,7 @@ const tarjetaPartido = (p, destacado = false, conEquipo = false) => {
   </${etiqueta}>`;
 };
 
-// --- Plantilla: carrusel de camisetas (o fotos donde se permiten) --------
+// --- Plantilla: carrusel de camisetas (la foto, donde se permite, sale en la ficha) --------
 // ponytail: la federación no dice quién es portero; sin posición conocida se usan los dorsales habituales
 const PORTEROS = new Set([1, 13, 25]);
 
@@ -360,22 +360,22 @@ function camiseta(num, portero = false, espalda = "", patrocinio = "inzo") {
       <image href="img/escudo-blanco.png" x="121" y="39" width="22" height="29"${det !== "#fff" ? ' style="filter: brightness(0)"' : ""}/>
       ${portero || cantera ? "" : `<g transform="translate(24 46)"><circle r="7" fill="#e9ecdf"/><path d="M-4 3a6 6 0 0 1 8-6M-2 4a4 4 0 0 1 6-4" stroke="#7da36b" stroke-width="1.1" fill="none"/></g>`}
       ${LOGO[patrocinio]?.(det) ?? ""}
-      ${num != null && num !== "" ? `<text x="100" y="182" class="camiseta-num" fill="${det}">${num}</text>` : ""}
+      ${num == null || num === "" ? "" : patrocinio // sin patrocinador el número ocupa el pecho, grande como el de la espalda
+        ? `<text x="100" y="182" class="camiseta-num" fill="${det}">${num}</text>`
+        : `<text x="100" y="164" class="camiseta-num camiseta-num--dorso" fill="${det}">${num}</text>`}
     </svg>`;
 }
 function plantilla(e, titulo = "Plantilla") {
   if (!jugadoresDe(e).length && !e.entrenadores.length) {
     return `<section class="bloque" id="plantilla"><div class="bloque-cab"><h2>${titulo}</h2></div>${vacio("Plantilla pendiente de la federación.")}</section>`;
   }
-  const conFoto = CATEGORIAS_CON_FOTO.has(e.categoria);
-  const fotos = (EXTRA[e.id] || {}).fotos || {};
   const jugadores = ordenJugadores(e);
   const inicial = Math.max(0, jugadores.findIndex((n) => slug(n) === ultimaFicha[e.id]));
   const carta = (n, i) => {
-    const num = dorsal(e, n), foto = conFoto && fotos[n];
+    const num = dorsal(e, n);
     return `
       <button type="button" class="carta${esPortero(e, n) ? " carta--portero" : ""}" data-carta="${i}" data-ficha="${rutaFicha(e, n)}" aria-label="${esc(n)}${num != null ? `, dorsal ${num}` : ""}">
-        ${foto ? `<img src="${esc(foto)}" alt="" loading="lazy">` : camiseta(num ?? iniciales(n), esPortero(e, n), "", patrocinioDe(e))}
+        ${camiseta(num ?? iniciales(n), esPortero(e, n), "", patrocinioDe(e))}
       </button>`;
   };
   return `
@@ -515,14 +515,13 @@ function vistaFicha(e, id) {
   const manual = perfil(e, n);
   ultimaFicha[e.id] = id;
   const est = estadisticas(e, n);
-  // misma regla que en el carrusel: foto solo en primer equipo y juveniles
-  const foto = CATEGORIAS_CON_FOTO.has(e.categoria) && ((EXTRA[e.id] || {}).fotos || {})[n];
   const volver = `${rutaEquipo(e)}/plantilla`;
   const ant = jugadores[(i - 1 + jugadores.length) % jugadores.length], sig = jugadores[(i + 1) % jugadores.length];
   const proximos = e.partidos.filter((x) => !x.resultado).slice(0, 6).map((x) => ({ ...x, e }));
   const cifra = (v, t) => `<div><b>${v}</b><small>${t}</small></div>`;
   const palma = (icono_, t, v) => `<div class="palma"><svg class="palma-icono" aria-hidden="true"><use href="#${icono_}"/></svg><small>${t}</small><b>${v}</b></div>`;
   const posicion = manual.posicion || (portero ? "Portero" : "Jugador");
+  const foto = CATEGORIAS_CON_FOTO.has(e.categoria) && ((EXTRA[e.id] || {}).fotos || {})[n];
 
   return `
     <section class="ficha" data-anterior="${rutaFicha(e, ant)}" data-siguiente="${rutaFicha(e, sig)}" data-volver="${volver}">
@@ -572,7 +571,7 @@ function vistaFicha(e, id) {
             <a class="redondo" href="${rutaFicha(e, ant)}" aria-label="Jugador anterior: ${esc(ant)}">${icono("i-izq")}</a>
             <a class="redondo" href="${rutaFicha(e, sig)}" aria-label="Jugador siguiente: ${esc(sig)}">${icono("i-der")}</a>
           </div>
-          ${foto ? `<div class="ficha-camiseta ficha-foto"><img src="${esc(foto)}" alt="${esc(n)}"></div>`
+          ${foto ? `<div class="ficha-foto"><img src="${esc(foto)}" alt="${esc(n)}" width="900" height="1100"></div>`
             : `<div class="ficha-camiseta${portero ? " carta--portero" : ""}">${camiseta(num, portero, n.split(" ")[0], patrocinioDe(e))}</div>`}
           <div class="ficha-anillos">
             ${anillo(est.jugados, est.actas, est.actas ? `${Math.round((est.jugados / est.actas) * 100)}%` : "0%", "Participación")}
@@ -614,11 +613,16 @@ function canteira(catId) {
 }
 
 // --- Noticias y búsqueda ------------------------------------------------
+// Las de data.js y las publicaciones del Instagram del club (instagram.js), de la más nueva a la más vieja
+const todasNoticias = () => [...NOTICIAS, ...(typeof INSTAGRAM === "undefined" ? [] : INSTAGRAM)]
+  .sort((a, b) => b.fecha.localeCompare(a.fecha));
+
 const listaNoticias = (ns) => ns.length ? `<div class="rejilla-tarjetas">${ns.map((n) => `
-  <a class="tarjeta-noticia" href="#/noticia/${esc(n.id)}">
+  <a class="tarjeta-noticia${n.imagen ? " tarjeta-noticia--foto" : ""}" href="#/noticia/${esc(n.id)}">
+    ${n.imagen ? `<span class="noticia-foto"><img src="${esc(n.imagen)}" alt="" loading="lazy">${n.enlace ? `<span class="noticia-ig">${icono("i-instagram")} Instagram</span>` : ""}</span>` : ""}
     <time datetime="${esc(n.fecha)}">${esc(fmt(n.fecha, { day: "numeric", month: "long", year: "numeric" }))}</time>
     <strong>${esc(n.titulo)}</strong>
-    <p>${esc(n.resumen)}</p>
+    ${n.resumen ? `<p>${esc(n.resumen)}</p>` : ""}
   </a>`).join("")}</div>` : vacio("Todavía no hay noticias.");
 
 const listaVideos = (vs) => `<div class="rejilla-tarjetas">${vs.map((v) => `
@@ -629,10 +633,14 @@ const cabeceraSimple = (titulo, sub = "", migas = "") => `
   <section class="cabecera cabecera--simple"><div class="contenedor">${migas}<h1>${esc(titulo)}</h1>${sub ? `<p class="cabecera-liga">${sub}</p>` : ""}</div></section>`;
 
 function noticia(id) {
-  const n = NOTICIAS.find((x) => x.id === id);
+  const n = todasNoticias().find((x) => x.id === id);
   if (!n) return noEncontrado();
   return `${cabeceraSimple(n.titulo, esc(fmt(n.fecha, { day: "numeric", month: "long", year: "numeric" })), `<p class="migas"><a href="#/noticias">Noticias</a></p>`)}
-    <article class="contenedor articulo">${n.cuerpo.split(/\n\s*\n/).map((p) => `<p>${esc(p)}</p>`).join("")}</article>`;
+    <article class="contenedor articulo">
+      ${n.imagen ? `<img class="articulo-foto" src="${esc(n.imagen)}" alt="">` : ""}
+      ${n.cuerpo.split(/\n\s*\n/).filter((p) => p.trim() !== n.titulo).map((p) => `<p>${esc(p).replace(/\n/g, "<br>")}</p>`).join("")}
+      ${n.enlace ? `<a class="boton-ficha" href="${esc(n.enlace)}" target="_blank" rel="noopener">${n.video ? "Ver el vídeo" : "Ver la publicación"} en Instagram ${icono("i-externo")}</a>` : ""}
+    </article>`;
 }
 
 function buscar(q) {
@@ -641,7 +649,7 @@ function buscar(q) {
   const coincide = (...s) => normal(s.join(" ")).includes(t);
   const personas = EQUIPOS.flatMap((e) => [...jugadoresDe(e), ...e.entrenadores].filter((n) => coincide(n)).map((n) => ({ n, e })));
   const equipos = EQUIPOS.filter((e) => coincide(nombreEquipo(e), e.liga, categoria(e.categoria).nombre));
-  const noticias = NOTICIAS.filter((n) => coincide(n.titulo, n.resumen, n.cuerpo));
+  const noticias = todasNoticias().filter((n) => coincide(n.titulo, n.resumen, n.cuerpo));
   const total = personas.length + equipos.length + noticias.length;
   const lista = (items) => `<ul class="lista-busqueda">${items}</ul>`;
   return `${cabeceraSimple(`“${q.trim()}”`, total ? `${total} resultado${total === 1 ? "" : "s"}` : "Sin resultados. Prueba con otro nombre o apellido.")}
@@ -655,12 +663,15 @@ function buscar(q) {
 }
 
 // --- Socios -------------------------------------------------------------
-// Pendiente: precios, ventajas y forma de pago los confirma el club.
+// El alta y el pago se hacen en Cluber (CLUB.abono en data.js)
 const socios = () => `${cabeceraSimple("Hazte socio", "Apoya al club y ven a ver los partidos")}
   <article class="contenedor articulo">
     <p>Con el carné de socio del Atlético Coruña Montañeros entras a ver los partidos del club y ayudas a que la Cantera Morada siga creciendo.</p>
-    <p class="vacio">Precios y ventajas: pendiente de confirmar con el club.</p>
-    <p><a class="pastilla" href="mailto:${esc(CLUB.email)}?subject=${encodeURIComponent("Quiero hacerme socio")}">Escríbenos para hacerte socio ${icono("i-flecha")}</a></p>
+    <div class="abono">
+      <div><small>Abono temporada ${esc(CLUB.abono.temporada)}</small><b>${esc(CLUB.abono.precio)}</b><span>Un solo pago para toda la temporada · Impuestos incluidos</span></div>
+      <a class="boton-ficha" href="${esc(CLUB.abono.url)}" target="_blank" rel="noopener">Hazte socio ${icono("i-externo")}</a>
+    </div>
+    <p>El alta y el pago se hacen en línea a través de Cluber. ¿Dudas? Escríbenos a <a href="mailto:${esc(CLUB.email)}?subject=${encodeURIComponent("Quiero hacerme socio")}">${esc(CLUB.email)}</a>.</p>
 
     <h2>Merchandising</h2>
     <img src="img/merchandising.webp" alt="Camiseta oficial morada (40 €) y bufanda del club (8 €), a la venta bajo pedido" width="900" height="896" loading="lazy" style="width: 100%; height: auto; max-width: 560px; border-radius: 16px;">
@@ -673,7 +684,83 @@ const socios = () => `${cabeceraSimple("Hazte socio", "Apoya al club y ven a ver
     <p><a class="pastilla" href="mailto:${esc(CLUB.email)}?subject=${encodeURIComponent("Pedido de merchandising")}">Hacer un pedido ${icono("i-flecha")}</a></p>
   </article>`;
 
+// --- Salón de la fama ----------------------------------------------------
+// Totales: suma de las temporadas de data.js (solo liga); clubes sin repetir
+function leyenda(l, i) {
+  const partidos = l.temporadas.reduce((s, t) => s + t[1], 0), goles = l.temporadas.reduce((s, t) => s + t[2], 0);
+  const clubes = new Set(l.clubes.map((c) => c.club)).size;
+  const max = Math.max(1, ...l.temporadas.map((t) => t[2]));
+  const cifra = (v, t) => `<div><b>${v}</b><small>${t}</small></div>`;
+  return `
+    <article class="leyenda${i % 2 ? " leyenda--espejo" : ""}" id="${esc(l.id)}">
+      ${l.instagram ? `
+      <figure class="leyenda-foto leyenda-foto--instagram">
+        <span class="leyenda-sello"><small>Montañeros</small><b>${esc(l.monta.años)}</b></span>
+        <blockquote class="instagram-media" data-instgrm-permalink="${esc(l.instagram)}" data-instgrm-version="14">
+          <a href="${esc(l.instagram)}" target="_blank" rel="noopener">Ver la publicación de ${esc(l.nombre)} en Instagram</a>
+        </blockquote>
+      </figure>` : `
+      <figure class="leyenda-foto">
+        <img src="${esc(l.foto)}" alt="${esc(l.nombre)}" width="900" height="1125" loading="${i ? "lazy" : "eager"}">
+        <span class="leyenda-sello"><small>Montañeros</small><b>${esc(l.monta.años)}</b></span>
+        <figcaption>Foto: <a href="${esc(l.credito.url)}" target="_blank" rel="noopener">${esc(l.credito.autor)} · ${esc(l.credito.licencia)}</a></figcaption>
+      </figure>`}
+      <div class="leyenda-info">
+        <p class="leyenda-pos">${esc(l.posicion)} · ${esc(l.lugar)} · ${edad(l.nacimiento)} años</p>
+        <h2>${esc(l.nombre)}</h2>
+        <p class="leyenda-completo">${esc(l.completo)}</p>
+        <p class="leyenda-actual">${esc(l.actual)}</p>
+        <blockquote class="leyenda-monta"><small>En la Cantera Morada · ${esc(l.monta.años)}</small>${esc(l.monta.texto)}</blockquote>
+        <div class="leyenda-cifras">${cifra(partidos, "Partidos de liga")}${cifra(goles, "Goles de liga")}${cifra(l.titulos.length, l.titulos.length === 1 ? "Título" : "Títulos")}${cifra(clubes, "Clubes")}</div>
+
+        <h3>Palmarés</h3>
+        <div class="vitrina">
+          <div class="vitrina-caja">
+            <i class="vitrina-cara vitrina-fondo"></i><i class="vitrina-cara vitrina-techo"></i><i class="vitrina-cara vitrina-suelo"></i>
+            <i class="vitrina-cara vitrina-izq"></i><i class="vitrina-cara vitrina-der"></i>
+            <ul class="vitrina-balda">${l.titulos.map((t) => `
+              <li><span class="vitrina-copa">${icono("i-copa", "")}</span>
+                <span class="vitrina-placa"><strong>${esc(t.nombre)}</strong><small>${esc(t.club)} · ${esc(t.temporada)}</small></span></li>`).join("")}</ul>
+            <i class="vitrina-cristal"></i>
+          </div>
+          <div class="vitrina-peana"></div>
+        </div>
+
+        <h3>Goles en liga por temporada</h3>
+        <ol class="leyenda-barras" aria-label="Goles en liga por temporada">${l.temporadas.map(([t, pj, g, c]) => `
+          <li style="--h:${g / max}" title="${esc(t)} · ${esc(c)}: ${pj} partidos, ${g} goles"><b>${g}</b><i></i><small>${esc(t.slice(2))}</small></li>`).join("")}</ol>
+
+        <h3>Trayectoria</h3>
+        <ol class="leyenda-ruta">
+          <li class="leyenda-ruta--monta"><strong>Montañeros</strong><small>${esc(l.monta.años)} · Cantera Morada</small></li>
+          ${l.clubes.map((c) => `<li><strong>${esc(c.club)}</strong><small>${esc(c.años)}${c.nota ? ` · ${esc(c.nota)}` : ""}</small></li>`).join("")}
+        </ol>
+
+        <ul class="leyenda-destacados">${l.destacados.map((d) => `<li>${icono("i-estrella")}${esc(d)}</li>`).join("")}</ul>
+        <p class="leyenda-fuentes">Datos a octubre de 2026: ${l.fuentes.map((f) => `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.nombre)}</a>`).join(" · ")}.</p>
+      </div>
+    </article>`;
+}
+const salonFama = () => `
+  <section class="cabecera cabecera--simple cabecera--fama"><div class="contenedor">
+    <p class="migas">Cantera Morada</p>
+    <h1>Salón de la fama</h1>
+    <p class="cabecera-liga">Empezaron en nuestros campos. Hoy juegan en la élite.</p>
+    <nav class="fama-indice" aria-label="Jugadores">${LEYENDAS.map((l) => `<a href="#/leyendas#${esc(l.id)}">${esc(l.nombre)}</a>`).join("")}</nav>
+  </div></section>
+  <div class="contenedor">${LEYENDAS.map(leyenda).join("")}</div>`;
+
 const noEncontrado = () => cabeceraSimple("Fuera de juego", `Esta página no existe. <a href="#/">Volver al inicio</a>`);
+
+// Publicaciones de Instagram del salón de la fama: su script se carga solo en las páginas que las tienen
+function instagram() {
+  if (!app.querySelector(".instagram-media")) return;
+  if (window.instgrm) return instgrm.Embeds.process();
+  const s = document.createElement("script");
+  s.src = "https://www.instagram.com/embed.js";
+  s.async = true;
+  document.body.append(s);
+}
 
 // --- Navegación ---------------------------------------------------------
 function render() {
@@ -683,13 +770,15 @@ function render() {
     !ruta ? inicio() :
     ruta === "equipo" ? vistaEquipo(a, sub, extra) :
     ruta === "canteira" ? canteira(a) :
-    ruta === "noticias" ? `${cabeceraSimple("Noticias", "La actualidad del club")}<div class="contenedor bloque">${listaNoticias(NOTICIAS)}</div>` :
+    ruta === "noticias" ? `${cabeceraSimple("Noticias", "La actualidad del club")}<div class="contenedor bloque">${listaNoticias(todasNoticias())}</div>` :
     ruta === "noticia" ? noticia(a) :
     ruta === "socios" ? socios() :
+    ruta === "leyendas" ? salonFama() :
     ruta === "buscar" ? buscar(a) :
     noEncontrado();
   app.querySelectorAll(".carrusel").forEach(colocarCarrusel);
   tictac();
+  instagram();
   document.title = `${ruta ? app.querySelector("h1")?.textContent.trim() + " · " : ""}${CLUB.nombre}`;
   document.querySelectorAll(".menu-enlaces a").forEach((l) => {
     const s = l.dataset.seccion;
