@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-05T10:52";
+const ACTUALIZADO = "2026-11-05T18:46";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -2930,7 +2930,7 @@ const EQUIPOS = [
    "Alberto Santos Fraga": 24,
    "Daniel Graña Rodríguez": 25
   },
-  "descargado": "2026-11-04T21:20"
+  "descargado": "2026-11-05T18:45"
  },
  {
   "id": "juvenil-b",
@@ -13336,7 +13336,7 @@ const EQUIPOS = [
    "Enzo Martínez Díaz": 20,
    "Daniel Castellanos Gil": 12
   },
-  "descargado": "2026-11-04T14:39"
+  "descargado": "2026-11-05T18:45"
  },
  {
   "id": "benjamin-a",
@@ -14125,7 +14125,7 @@ const EQUIPOS = [
    "Manuel Aydillo González": 16,
    "Óscar Aydillo González": 17
   },
-  "descargado": "2026-11-04T21:20"
+  "descargado": "2026-11-05T18:45"
  },
  {
   "id": "benjamin-c",
@@ -14593,7 +14593,7 @@ const EQUIPOS = [
    "Santiago López Álvarez": 12,
    "Noah Rawson-Higgins González": 16
   },
-  "descargado": "2026-11-04T21:20"
+  "descargado": "2026-11-05T18:46"
  },
  {
   "id": "benjamin-b",
@@ -16859,6 +16859,45 @@ const EQUIPOS = [
     "c": [],
     "rm": {},
     "id": "1486571"
+   },
+   "1": {
+    "t": [
+     "Xabi Bregua Piñeiro",
+     "Conrado López Barbeito",
+     "Martín Pérez Bra",
+     "David Tardio Lastra",
+     "Raul Sepúlveda Domínguez",
+     "Hugo De Ramón Seijo",
+     "Juanfra Fraga Caro"
+    ],
+    "s": [
+     "Enzo Rodríguez Muiños",
+     "Leo Bocigas Fernández",
+     "Antón Fernández López",
+     "Leo Rivas Rey",
+     "Christian Rodrigues Bratti"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Xabi Bregua Piñeiro": 1,
+     "Conrado López Barbeito": 2,
+     "Martín Pérez Bra": 3,
+     "David Tardio Lastra": 6,
+     "Raul Sepúlveda Domínguez": 9,
+     "Hugo De Ramón Seijo": 12,
+     "Juanfra Fraga Caro": 16,
+     "Enzo Rodríguez Muiños": 8,
+     "Leo Bocigas Fernández": 10,
+     "Antón Fernández López": 14,
+     "Leo Rivas Rey": 15,
+     "Christian Rodrigues Bratti": 17
+    },
+    "c": [],
+    "rm": {},
+    "id": "1486548"
    }
   },
   "dorsales": {
@@ -16867,17 +16906,17 @@ const EQUIPOS = [
    "Raul Sepúlveda Domínguez": 9,
    "Conrado López Barbeito": 2,
    "Leo Bocigas Fernández": 10,
-   "Antón Fernández López": 6,
+   "David Tardio Lastra": 6,
    "Leo Estraviz López": 11,
    "Hugo De Ramón Seijo": 1,
    "Asier González Liñayo": 7,
    "Xabi Bregua Piñeiro": 13,
    "Christian Rodrigues Bratti": 17,
-   "Elhadji Ousmane Faye Ba": 14,
-   "Leo Rivas Rey": 16,
-   "Juanfra Fraga Caro": 12,
-   "David Tardio Lastra": 15
+   "Antón Fernández López": 14,
+   "Juanfra Fraga Caro": 16,
+   "Leo Rivas Rey": 15,
+   "Elhadji Ousmane Faye Ba": 18
   },
-  "descargado": "2026-11-04T14:38"
+  "descargado": "2026-11-05T18:44"
  }
 ];
