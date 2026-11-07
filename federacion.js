@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-07T00:57";
+const ACTUALIZADO = "2026-11-07T07:09";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -2930,7 +2930,7 @@ const EQUIPOS = [
    "Alberto Santos Fraga": 24,
    "Daniel Graña Rodríguez": 25
   },
-  "descargado": "2026-11-06T15:01"
+  "descargado": "2026-11-07T07:09"
  },
  {
   "id": "juvenil-b",
@@ -7116,7 +7116,7 @@ const EQUIPOS = [
    "Gabriel Mosquera Lema": 19,
    "Rubén García Viñán": 20
   },
-  "descargado": "2026-11-06T06:47"
+  "descargado": "2026-11-07T07:07"
  },
  {
   "id": "cadete-c",
@@ -8160,7 +8160,7 @@ const EQUIPOS = [
    "Diego Santos Sánchez": 22,
    "Brais Portela Solla": 23
   },
-  "descargado": "2026-11-06T06:47"
+  "descargado": "2026-11-07T07:08"
  },
  {
   "id": "infantil-a",
@@ -9092,7 +9092,7 @@ const EQUIPOS = [
    "Goodnews Ikiponwmosa John Onaguise": 22,
    "Yuven Rodrigo Ayuni López": 23
   },
-  "descargado": "2026-11-06T15:00"
+  "descargado": "2026-11-07T07:08"
  },
  {
   "id": "infantil-b",
@@ -12380,7 +12380,7 @@ const EQUIPOS = [
    "Sebastián López Ganem": 21,
    "Izan Pose Seijas": 14
   },
-  "descargado": "2026-11-06T15:00"
+  "descargado": "2026-11-07T07:08"
  },
  {
   "id": "alevin-b",
@@ -12853,7 +12853,7 @@ const EQUIPOS = [
    "Gael Zapata Grandal": 16,
    "Fabio Gundín Candia": 17
   },
-  "descargado": "2026-11-06T15:01"
+  "descargado": "2026-11-07T07:09"
  },
  {
   "id": "alevin-c",
