@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-06T20:54";
+const ACTUALIZADO = "2026-11-07T00:57";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -1545,7 +1545,7 @@ const EQUIPOS = [
     }
    }
   },
-  "descargado": "2026-11-06T06:47"
+  "descargado": "2026-11-07T00:57"
  },
  {
   "id": "juvenil-a",
@@ -6035,7 +6035,7 @@ const EQUIPOS = [
    "Franco Santino Mesa Vázquez": 19,
    "Nicolás Alonso De Andrés": 21
   },
-  "descargado": "2026-11-06T06:46"
+  "descargado": "2026-11-07T00:56"
  },
  {
   "id": "cadete-b",
@@ -9176,14 +9176,25 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "SPORTING CORUÑES S.D.",
+    "pts": 15,
+    "pj": 8,
+    "g": 5,
+    "e": 0,
+    "p": 3,
+    "gf": 16,
+    "gc": 12,
+    "propio": false
+   },
+   {
     "equipo": "ATLETICO SAN PEDRO",
     "pts": 14,
-    "pj": 7,
+    "pj": 8,
     "g": 4,
     "e": 2,
-    "p": 1,
+    "p": 2,
     "gf": 17,
-    "gc": 7,
+    "gc": 8,
     "propio": false
    },
    {
@@ -9206,17 +9217,6 @@ const EQUIPOS = [
     "p": 3,
     "gf": 16,
     "gc": 13,
-    "propio": false
-   },
-   {
-    "equipo": "SPORTING CORUÑES S.D.",
-    "pts": 12,
-    "pj": 7,
-    "g": 4,
-    "e": 0,
-    "p": 3,
-    "gf": 15,
-    "gc": 12,
     "propio": false
    },
    {
@@ -9989,7 +9989,7 @@ const EQUIPOS = [
    "Jesús Joaquín Torreiro Marcos": 18,
    "Nico Mosteiro Carro": 19
   },
-  "descargado": "2026-11-06T00:15"
+  "descargado": "2026-11-07T00:55"
  },
  {
   "id": "infantil-c",
@@ -10844,7 +10844,7 @@ const EQUIPOS = [
    "Martiño Moar Moscoso": 21,
    "Álvaro Santamaría Cives": 22
   },
-  "descargado": "2026-11-06T06:46"
+  "descargado": "2026-11-07T00:56"
  },
  {
   "id": "infantil-d",
@@ -11590,7 +11590,7 @@ const EQUIPOS = [
    "Adrián Garay Amigo": 12,
    "Jaime Suevos Varela": 21
   },
-  "descargado": "2026-11-06T06:46"
+  "descargado": "2026-11-07T00:56"
  },
  {
   "id": "alevin-a",
@@ -16117,7 +16117,7 @@ const EQUIPOS = [
    "Miguel Ángel Ossa Briceño": 12,
    "Raphael De Araujo Lima": 14
   },
-  "descargado": "2026-11-06T00:15"
+  "descargado": "2026-11-07T00:55"
  },
  {
   "id": "alevin-acea",
