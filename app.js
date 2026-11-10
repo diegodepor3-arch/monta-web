@@ -622,7 +622,15 @@ function canteira(catId) {
 const todasNoticias = () => [...NOTICIAS, ...(typeof INSTAGRAM === "undefined" ? [] : INSTAGRAM)]
   .sort((a, b) => b.fecha.localeCompare(a.fecha));
 
-const listaNoticias = (ns) => ns.length ? `<div class="rejilla-tarjetas">${ns.map((n) => `
+// Los posts que llegan por el formulario (embed) se enseñan con el recuadro oficial de Instagram
+const postInstagram = (n) => `
+  <figure class="tarjeta-noticia tarjeta-noticia--ig">
+    <blockquote class="instagram-media" data-instgrm-permalink="${esc(n.enlace)}" data-instgrm-version="14">
+      <a href="${esc(n.enlace)}" target="_blank" rel="noopener">${icono("i-instagram")} Ver la publicación en Instagram</a>
+    </blockquote>
+  </figure>`;
+
+const listaNoticias = (ns) => ns.length ? `<div class="rejilla-tarjetas">${ns.map((n) => n.embed ? postInstagram(n) : `
   <a class="tarjeta-noticia${n.imagen ? " tarjeta-noticia--foto" : ""}" href="#/noticia/${esc(n.id)}">
     ${n.imagen ? `<span class="noticia-foto"><img src="${esc(n.imagen)}" alt="" loading="lazy">${n.enlace ? `<span class="noticia-ig">${icono("i-instagram")} Instagram</span>` : ""}</span>` : ""}
     <time datetime="${esc(n.fecha)}">${esc(fmt(n.fecha, { day: "numeric", month: "long", year: "numeric" }))}</time>
