@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-12T02:59";
+const ACTUALIZADO = "2026-11-12T11:03";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -4295,7 +4295,7 @@ const EQUIPOS = [
    "Roi Lago Suárez": 22,
    "Hugo Felipez Pardiñas": 23
   },
-  "descargado": "2026-11-11T14:20"
+  "descargado": "2026-11-12T11:03"
  },
  {
   "id": "juvenil-c",
@@ -5205,7 +5205,7 @@ const EQUIPOS = [
    "Pedro Antón Costas": 19,
    "Lucas García Lema": 21
   },
-  "descargado": "2026-11-11T14:20"
+  "descargado": "2026-11-12T11:03"
  },
  {
   "id": "cadete-a",
@@ -12454,12 +12454,12 @@ const EQUIPOS = [
    },
    {
     "equipo": "FABRIL F.C.",
-    "pts": 16,
-    "pj": 8,
-    "g": 5,
+    "pts": 19,
+    "pj": 9,
+    "g": 6,
     "e": 1,
     "p": 2,
-    "gf": 46,
+    "gf": 56,
     "gc": 15,
     "propio": false
    },
@@ -12576,12 +12576,12 @@ const EQUIPOS = [
    {
     "equipo": "U.D. CARRAL",
     "pts": 1,
-    "pj": 8,
+    "pj": 9,
     "g": 0,
     "e": 1,
-    "p": 7,
+    "p": 8,
     "gf": 9,
-    "gc": 55,
+    "gc": 65,
     "propio": false
    },
    {
@@ -13215,7 +13215,7 @@ const EQUIPOS = [
    "Sebastián López Ganem": 21,
    "Izan Pose Seijas": 14
   },
-  "descargado": "2026-11-11T06:14"
+  "descargado": "2026-11-12T11:02"
  },
  {
   "id": "alevin-b",
@@ -13731,7 +13731,7 @@ const EQUIPOS = [
    "Gael Zapata Grandal": 16,
    "Fabio Gundín Candia": 17
   },
-  "descargado": "2026-11-11T06:14"
+  "descargado": "2026-11-12T11:02"
  },
  {
   "id": "alevin-c",
@@ -14252,7 +14252,7 @@ const EQUIPOS = [
    "Enzo Martínez Díaz": 20,
    "Daniel Castellanos Gil": 12
   },
-  "descargado": "2026-11-11T14:19"
+  "descargado": "2026-11-12T11:02"
  },
  {
   "id": "benjamin-a",
@@ -17298,12 +17298,12 @@ const EQUIPOS = [
    },
    {
     "equipo": "FABRIL F.C.",
-    "pts": 16,
-    "pj": 8,
-    "g": 5,
+    "pts": 19,
+    "pj": 9,
+    "g": 6,
     "e": 1,
     "p": 2,
-    "gf": 46,
+    "gf": 56,
     "gc": 15,
     "propio": false
    },
@@ -17420,12 +17420,12 @@ const EQUIPOS = [
    {
     "equipo": "U.D. CARRAL",
     "pts": 1,
-    "pj": 8,
+    "pj": 9,
     "g": 0,
     "e": 1,
-    "p": 7,
+    "p": 8,
     "gf": 9,
-    "gc": 55,
+    "gc": 65,
     "propio": false
    },
    {
@@ -18071,6 +18071,6 @@ const EQUIPOS = [
    "Leo Rivas Rey": 15,
    "David Tardio Lastra": 12
   },
-  "descargado": "2026-11-11T14:19"
+  "descargado": "2026-11-12T11:03"
  }
 ];
