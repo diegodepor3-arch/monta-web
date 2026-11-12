@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-12T11:03";
+const ACTUALIZADO = "2026-11-12T18:55";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -6459,7 +6459,7 @@ const EQUIPOS = [
    "Franco Santino Mesa Vázquez": 19,
    "Nicolás Alonso De Andrés": 21
   },
-  "descargado": "2026-11-11T21:55"
+  "descargado": "2026-11-12T18:54"
  },
  {
   "id": "cadete-b",
@@ -10682,7 +10682,7 @@ const EQUIPOS = [
    "Jesús Joaquín Torreiro Marcos": 18,
    "Nico Mosteiro Carro": 19
   },
-  "descargado": "2026-11-11T21:56"
+  "descargado": "2026-11-12T18:54"
  },
  {
   "id": "infantil-c",
@@ -15080,7 +15080,7 @@ const EQUIPOS = [
    "Manuel Aydillo González": 16,
    "Óscar Aydillo González": 17
   },
-  "descargado": "2026-11-11T14:20"
+  "descargado": "2026-11-12T18:53"
  },
  {
   "id": "benjamin-c",
@@ -15587,7 +15587,7 @@ const EQUIPOS = [
    "Alan Díaz López": 4,
    "Noah Rawson-Higgins González": 16
   },
-  "descargado": "2026-11-11T14:21"
+  "descargado": "2026-11-12T18:54"
  },
  {
   "id": "benjamin-b",
@@ -16086,7 +16086,7 @@ const EQUIPOS = [
    "Sergio Rama Pena": 15,
    "Mateo Teijido Ceniceros": 13
   },
-  "descargado": "2026-11-11T21:56"
+  "descargado": "2026-11-12T18:55"
  },
  {
   "id": "prebenjamin-a",
@@ -16740,7 +16740,7 @@ const EQUIPOS = [
    "Enzo Martínez Ávila": 11,
    "Raphael De Araujo Lima": 14
   },
-  "descargado": "2026-11-11T21:56"
+  "descargado": "2026-11-12T18:55"
  },
  {
   "id": "prebenjamin-b",
