@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-13T07:56";
+const ACTUALIZADO = "2026-11-13T16:21";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -4295,7 +4295,7 @@ const EQUIPOS = [
    "Roi Lago Suárez": 22,
    "Hugo Felipez Pardiñas": 23
   },
-  "descargado": "2026-11-12T11:03"
+  "descargado": "2026-11-13T16:19"
  },
  {
   "id": "juvenil-c",
@@ -5205,7 +5205,7 @@ const EQUIPOS = [
    "Pedro Antón Costas": 19,
    "Lucas García Lema": 21
   },
-  "descargado": "2026-11-12T11:03"
+  "descargado": "2026-11-13T16:19"
  },
  {
   "id": "cadete-a",
@@ -6459,7 +6459,7 @@ const EQUIPOS = [
    "Franco Santino Mesa Vázquez": 19,
    "Nicolás Alonso De Andrés": 21
   },
-  "descargado": "2026-11-12T18:54"
+  "descargado": "2026-11-13T16:20"
  },
  {
   "id": "cadete-b",
@@ -10682,7 +10682,7 @@ const EQUIPOS = [
    "Jesús Joaquín Torreiro Marcos": 18,
    "Nico Mosteiro Carro": 19
   },
-  "descargado": "2026-11-12T18:54"
+  "descargado": "2026-11-13T16:21"
  },
  {
   "id": "infantil-c",
@@ -15126,7 +15126,7 @@ const EQUIPOS = [
    "Manuel Aydillo González": 16,
    "Óscar Aydillo González": 17
   },
-  "descargado": "2026-11-12T18:53"
+  "descargado": "2026-11-13T16:20"
  },
  {
   "id": "benjamin-c",
@@ -17322,13 +17322,13 @@ const EQUIPOS = [
    },
    {
     "equipo": "ATL. CORUÑA MONTAÑEROS C.F.",
-    "pts": 21,
-    "pj": 8,
-    "g": 7,
+    "pts": 24,
+    "pj": 9,
+    "g": 8,
     "e": 0,
     "p": 1,
-    "gf": 34,
-    "gc": 10,
+    "gf": 39,
+    "gc": 11,
     "propio": false
    },
    {
@@ -17444,12 +17444,12 @@ const EQUIPOS = [
    {
     "equipo": "SAN TIRSO S.D.",
     "pts": 6,
-    "pj": 8,
+    "pj": 9,
     "g": 2,
     "e": 0,
-    "p": 6,
-    "gf": 18,
-    "gc": 42,
+    "p": 7,
+    "gf": 19,
+    "gc": 47,
     "propio": false
    },
    {
@@ -18117,6 +18117,6 @@ const EQUIPOS = [
    "Leo Rivas Rey": 15,
    "David Tardio Lastra": 12
   },
-  "descargado": "2026-11-12T11:03"
+  "descargado": "2026-11-13T16:20"
  }
 ];
