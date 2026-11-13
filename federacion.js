@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-13T00:21";
+const ACTUALIZADO = "2026-11-13T07:56";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -9732,7 +9732,7 @@ const EQUIPOS = [
    "Adrián Ríos Naya": 22,
    "Yuven Rodrigo Ayuni López": 23
   },
-  "descargado": "2026-11-12T02:58"
+  "descargado": "2026-11-13T07:55"
  },
  {
   "id": "infantil-b",
@@ -12388,7 +12388,7 @@ const EQUIPOS = [
    "Xalo Bendaña Castro": 21,
    "Cibrán Rodríguez Otero": 22
   },
-  "descargado": "2026-11-12T02:59"
+  "descargado": "2026-11-13T07:55"
  },
  {
   "id": "alevin-a",
@@ -12432,13 +12432,13 @@ const EQUIPOS = [
    },
    {
     "equipo": "ATL. CORUÑA MONTAÑEROS C.F.",
-    "pts": 21,
-    "pj": 8,
-    "g": 7,
+    "pts": 24,
+    "pj": 9,
+    "g": 8,
     "e": 0,
     "p": 1,
-    "gf": 34,
-    "gc": 10,
+    "gf": 39,
+    "gc": 11,
     "propio": true
    },
    {
@@ -12554,12 +12554,12 @@ const EQUIPOS = [
    {
     "equipo": "SAN TIRSO S.D.",
     "pts": 6,
-    "pj": 8,
+    "pj": 9,
     "g": 2,
     "e": 0,
-    "p": 6,
-    "gf": 18,
-    "gc": 42,
+    "p": 7,
+    "gf": 19,
+    "gc": 47,
     "propio": false
    },
    {
@@ -12675,8 +12675,8 @@ const EQUIPOS = [
     "hora": "18:00",
     "local": false,
     "rival": "SAN TIRSO S.D.",
-    "resultado": "",
-    "campo": "O Monte , (San Tirso)"
+    "resultado": "1-5",
+    "campo": ""
    },
    {
     "jornada": 10,
@@ -12685,7 +12685,7 @@ const EQUIPOS = [
     "local": true,
     "rival": "OZA JUVENIL S.D.",
     "resultado": "",
-    "campo": ""
+    "campo": "Torre Nº2.2"
    },
    {
     "jornada": 11,
@@ -12871,22 +12871,22 @@ const EQUIPOS = [
   "competicion": "Alevin F-7 - Primera Futgal · A Coruña | Grupo Unico",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26991572&codcompeticion=26991566",
   "escudos": {
-   "U.D. CARRAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001484347_Carral.jpg",
-   "FABRIL F.C.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001196159_EscudoFabrilFC_color.png",
-   "SAN TIRSO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000916862_ESCUDO_20_21.jpg",
-   "ATL. CORUÑA MONTAÑEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
-   "C. D. CALASANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
-   "S. D. ACEA DE AMA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001546559_IMG_20250120_WA0026.png",
-   "R.C. DEPORTIVO SAD": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001196017_ESCUDO_DEPOR.png",
-   "SADA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000931604_Sada_CF_escudo_FUTGAL.png",
-   "URAL ESPAÑOL C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000891301_ESCUDO_URAL_B.jpg",
    "ATLETICO ARTEIXO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001414249_Escudo_Arteixo.png",
-   "OZA JUVENIL S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
+   "U.D. CARRAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001484347_Carral.jpg",
+   "S. D. ACEA DE AMA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001546559_IMG_20250120_WA0026.png",
+   "URAL ESPAÑOL C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000891301_ESCUDO_URAL_B.jpg",
    "SPORTING CAMBRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
-   "E.D. LUIS CALVO SANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004731_LOGO_ALTA_RES_ESCOLAS_CALVO.jpg",
+   "C. D. CALASANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
+   "ATL. CORUÑA MONTAÑEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
+   "OZA JUVENIL S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
+   "SADA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000931604_Sada_CF_escudo_FUTGAL.png",
+   "SAN TIRSO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000916862_ESCUDO_20_21.jpg",
+   "VICTORIA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
+   "R.C. DEPORTIVO SAD": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001196017_ESCUDO_DEPOR.png",
    "ORILLAMAR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000941018_ESCUDO_OFICIAL_ORILLAMAR_SD_PRINCIPAL.jpg",
    "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg",
-   "VICTORIA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg"
+   "FABRIL F.C.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001196159_EscudoFabrilFC_color.png",
+   "E.D. LUIS CALVO SANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004731_LOGO_ALTA_RES_ESCOLAS_CALVO.jpg"
   },
   "actas": {
    "3": {
@@ -13198,6 +13198,52 @@ const EQUIPOS = [
     "c": [],
     "rm": {},
     "id": "1486603"
+   },
+   "9": {
+    "t": [
+     "Mario Bello Varela",
+     "Tomás Mourelle López",
+     "Mathias Becerra Timiraos",
+     "Hugo Vázquez Álvarez",
+     "Óliver Casasola Vázquez",
+     "Sebastián López Ganem",
+     "Ilia Kondrashin"
+    ],
+    "s": [
+     "Roberto Couceiro González",
+     "Pancho Boedo Mantiñán",
+     "Álvaro Álvarez Escobar",
+     "Martín Arza Álvarez",
+     "Aleix Della Casa Loureiro",
+     "Izan Pose Seijas"
+    ],
+    "e": [],
+    "g": {
+     "Aleix Della Casa Loureiro": 1,
+     "Pancho Boedo Mantiñán": 1,
+     "Mathias Becerra Timiraos": 2,
+     "Martín Arza Álvarez": 1
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Mario Bello Varela": 1,
+     "Tomás Mourelle López": 3,
+     "Mathias Becerra Timiraos": 7,
+     "Hugo Vázquez Álvarez": 9,
+     "Óliver Casasola Vázquez": 11,
+     "Sebastián López Ganem": 21,
+     "Ilia Kondrashin": 22,
+     "Roberto Couceiro González": 4,
+     "Pancho Boedo Mantiñán": 6,
+     "Álvaro Álvarez Escobar": 8,
+     "Martín Arza Álvarez": 10,
+     "Aleix Della Casa Loureiro": 12,
+     "Izan Pose Seijas": 14
+    },
+    "c": [],
+    "rm": {},
+    "id": "1486610"
    }
   },
   "dorsales": {
@@ -13215,7 +13261,7 @@ const EQUIPOS = [
    "Sebastián López Ganem": 21,
    "Izan Pose Seijas": 14
   },
-  "descargado": "2026-11-12T11:02"
+  "descargado": "2026-11-13T07:55"
  },
  {
   "id": "alevin-b",
@@ -13731,7 +13777,7 @@ const EQUIPOS = [
    "Gael Zapata Grandal": 16,
    "Fabio Gundín Candia": 17
   },
-  "descargado": "2026-11-12T11:02"
+  "descargado": "2026-11-13T07:56"
  },
  {
   "id": "alevin-c",
@@ -14252,7 +14298,7 @@ const EQUIPOS = [
    "Enzo Martínez Díaz": 20,
    "Daniel Castellanos Gil": 12
   },
-  "descargado": "2026-11-12T11:02"
+  "descargado": "2026-11-13T07:56"
  },
  {
   "id": "benjamin-a",
