@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-14T03:14";
+const ACTUALIZADO = "2026-11-14T10:24";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -4295,7 +4295,7 @@ const EQUIPOS = [
    "Roi Lago Suárez": 22,
    "Hugo Felipez Pardiñas": 23
   },
-  "descargado": "2026-11-13T16:19"
+  "descargado": "2026-11-14T10:23"
  },
  {
   "id": "juvenil-c",
@@ -5205,7 +5205,7 @@ const EQUIPOS = [
    "Pedro Antón Costas": 19,
    "Lucas García Lema": 21
   },
-  "descargado": "2026-11-13T16:19"
+  "descargado": "2026-11-14T10:23"
  },
  {
   "id": "cadete-a",
@@ -6459,7 +6459,7 @@ const EQUIPOS = [
    "Franco Santino Mesa Vázquez": 19,
    "Nicolás Alonso De Andrés": 21
   },
-  "descargado": "2026-11-13T16:20"
+  "descargado": "2026-11-14T10:23"
  },
  {
   "id": "cadete-b",
@@ -13294,12 +13294,12 @@ const EQUIPOS = [
   "clasificacion": [
    {
     "equipo": "VICTORIA C.F. \"C\"",
-    "pts": 18,
-    "pj": 6,
-    "g": 6,
+    "pts": 21,
+    "pj": 7,
+    "g": 7,
     "e": 0,
     "p": 0,
-    "gf": 62,
+    "gf": 76,
     "gc": 4,
     "propio": false
    },
@@ -13315,6 +13315,17 @@ const EQUIPOS = [
     "propio": true
    },
    {
+    "equipo": "URAL ESPAÑOL C.F. \"E\"",
+    "pts": 13,
+    "pj": 7,
+    "g": 4,
+    "e": 1,
+    "p": 2,
+    "gf": 37,
+    "gc": 28,
+    "propio": false
+   },
+   {
     "equipo": "CLUB XESUITINAS \"A\"",
     "pts": 10,
     "pj": 6,
@@ -13323,17 +13334,6 @@ const EQUIPOS = [
     "p": 2,
     "gf": 30,
     "gc": 25,
-    "propio": false
-   },
-   {
-    "equipo": "URAL ESPAÑOL C.F. \"E\"",
-    "pts": 10,
-    "pj": 6,
-    "g": 3,
-    "e": 1,
-    "p": 2,
-    "gf": 30,
-    "gc": 28,
     "propio": false
    },
    {
@@ -13381,25 +13381,25 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "OZA JUVENIL S.D. \"D\"",
+    "equipo": "ORILLAMAR S.D. \"C\"",
     "pts": 3,
-    "pj": 6,
+    "pj": 7,
     "g": 1,
     "e": 0,
-    "p": 5,
+    "p": 6,
     "gf": 13,
-    "gc": 42,
+    "gc": 55,
     "propio": false
    },
    {
-    "equipo": "ORILLAMAR S.D. \"C\"",
+    "equipo": "OZA JUVENIL S.D. \"D\"",
     "pts": 3,
-    "pj": 6,
+    "pj": 7,
     "g": 1,
     "e": 0,
-    "p": 5,
+    "p": 6,
     "gf": 13,
-    "gc": 48,
+    "gc": 56,
     "propio": false
    }
   ],
@@ -13777,7 +13777,7 @@ const EQUIPOS = [
    "Gael Zapata Grandal": 16,
    "Fabio Gundín Candia": 17
   },
-  "descargado": "2026-11-13T07:56"
+  "descargado": "2026-11-14T10:22"
  },
  {
   "id": "alevin-c",
@@ -13815,12 +13815,12 @@ const EQUIPOS = [
   "clasificacion": [
    {
     "equipo": "ACADEMIA CORUÑA DEPORTIVA \"B\"",
-    "pts": 18,
-    "pj": 6,
-    "g": 6,
+    "pts": 21,
+    "pj": 7,
+    "g": 7,
     "e": 0,
     "p": 0,
-    "gf": 32,
+    "gf": 42,
     "gc": 13,
     "propio": false
    },
@@ -13837,12 +13837,12 @@ const EQUIPOS = [
    },
    {
     "equipo": "IMPERATOR O.A.R.",
-    "pts": 13,
-    "pj": 6,
-    "g": 4,
+    "pts": 16,
+    "pj": 7,
+    "g": 5,
     "e": 1,
     "p": 1,
-    "gf": 44,
+    "gf": 47,
     "gc": 10,
     "propio": false
    },
@@ -13880,17 +13880,6 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "URAL ESPAÑOL C.F. \"D\"",
-    "pts": 5,
-    "pj": 6,
-    "g": 1,
-    "e": 2,
-    "p": 3,
-    "gf": 16,
-    "gc": 15,
-    "propio": false
-   },
-   {
     "equipo": "C.D. CALASANZ \"E\"",
     "pts": 5,
     "pj": 6,
@@ -13902,14 +13891,25 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "URAL ESPAÑOL C.F. \"D\"",
+    "pts": 5,
+    "pj": 7,
+    "g": 1,
+    "e": 2,
+    "p": 4,
+    "gf": 16,
+    "gc": 18,
+    "propio": false
+   },
+   {
     "equipo": "C.D. CIUDAD \"B\"",
     "pts": 3,
-    "pj": 6,
+    "pj": 7,
     "g": 1,
     "e": 0,
-    "p": 5,
+    "p": 6,
     "gf": 6,
-    "gc": 65,
+    "gc": 75,
     "propio": false
    },
    {
@@ -14298,7 +14298,7 @@ const EQUIPOS = [
    "Enzo Martínez Díaz": 20,
    "Daniel Castellanos Gil": 12
   },
-  "descargado": "2026-11-13T07:56"
+  "descargado": "2026-11-14T10:22"
  },
  {
   "id": "benjamin-a",
@@ -14405,24 +14405,24 @@ const EQUIPOS = [
    },
    {
     "equipo": "E.D. LUIS CALVO SANZ",
-    "pts": 15,
-    "pj": 8,
-    "g": 5,
+    "pts": 18,
+    "pj": 9,
+    "g": 6,
     "e": 0,
     "p": 3,
-    "gf": 26,
-    "gc": 28,
+    "gf": 32,
+    "gc": 29,
     "propio": false
    },
    {
     "equipo": "ATLETICO CASTROS",
     "pts": 12,
-    "pj": 8,
+    "pj": 9,
     "g": 4,
     "e": 0,
-    "p": 4,
-    "gf": 27,
-    "gc": 25,
+    "p": 5,
+    "gf": 28,
+    "gc": 31,
     "propio": false
    },
    {
@@ -15126,7 +15126,7 @@ const EQUIPOS = [
    "Manuel Aydillo González": 16,
    "Óscar Aydillo González": 17
   },
-  "descargado": "2026-11-13T16:20"
+  "descargado": "2026-11-14T10:24"
  },
  {
   "id": "benjamin-c",
