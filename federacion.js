@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-16T20:28";
+const ACTUALIZADO = "2026-11-17T03:52";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -4601,6 +4601,17 @@ const EQUIPOS = [
   "delegados": [],
   "clasificacion": [
    {
+    "equipo": "RELÁMPAGO S. D.",
+    "pts": 16,
+    "pj": 6,
+    "g": 5,
+    "e": 1,
+    "p": 0,
+    "gf": 27,
+    "gc": 5,
+    "propio": false
+   },
+   {
     "equipo": "OZA JUVENIL S.D. \"B\"",
     "pts": 14,
     "pj": 6,
@@ -4612,36 +4623,36 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "RELÁMPAGO S. D.",
+    "equipo": "ATLETICO CASTROS",
     "pts": 13,
-    "pj": 5,
+    "pj": 6,
     "g": 4,
     "e": 1,
-    "p": 0,
-    "gf": 23,
-    "gc": 4,
+    "p": 1,
+    "gf": 25,
+    "gc": 12,
     "propio": false
    },
    {
     "equipo": "ATL. CORUÑA MONTAÑEROS \"C\"",
     "pts": 13,
-    "pj": 5,
+    "pj": 6,
     "g": 4,
     "e": 1,
-    "p": 0,
-    "gf": 20,
-    "gc": 6,
+    "p": 1,
+    "gf": 21,
+    "gc": 8,
     "propio": true
    },
    {
-    "equipo": "ATLETICO CASTROS",
+    "equipo": "CLUB ROSALIA MERA",
     "pts": 10,
-    "pj": 5,
+    "pj": 6,
     "g": 3,
     "e": 1,
-    "p": 1,
-    "gf": 23,
-    "gc": 11,
+    "p": 2,
+    "gf": 29,
+    "gc": 14,
     "propio": false
    },
    {
@@ -4653,6 +4664,17 @@ const EQUIPOS = [
     "p": 3,
     "gf": 41,
     "gc": 17,
+    "propio": false
+   },
+   {
+    "equipo": "ORILLAMAR S.D. \"B\"",
+    "pts": 9,
+    "pj": 6,
+    "g": 2,
+    "e": 3,
+    "p": 1,
+    "gf": 24,
+    "gc": 9,
     "propio": false
    },
    {
@@ -4678,47 +4700,25 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "CLUB ROSALIA MERA",
-    "pts": 7,
-    "pj": 5,
-    "g": 2,
-    "e": 1,
-    "p": 2,
-    "gf": 24,
-    "gc": 12,
-    "propio": false
-   },
-   {
     "equipo": "DEPORTIVO ORZÁN",
     "pts": 7,
-    "pj": 5,
+    "pj": 6,
     "g": 2,
     "e": 1,
-    "p": 2,
-    "gf": 13,
-    "gc": 15,
-    "propio": false
-   },
-   {
-    "equipo": "ORILLAMAR S.D. \"B\"",
-    "pts": 6,
-    "pj": 5,
-    "g": 1,
-    "e": 3,
-    "p": 1,
-    "gf": 20,
-    "gc": 9,
+    "p": 3,
+    "gf": 14,
+    "gc": 19,
     "propio": false
    },
    {
     "equipo": "LICEO DE MONELOS S.D. \"B\"",
     "pts": 6,
-    "pj": 5,
+    "pj": 6,
     "g": 2,
     "e": 0,
-    "p": 3,
+    "p": 4,
     "gf": 12,
-    "gc": 20,
+    "gc": 24,
     "propio": false
    },
    {
@@ -4735,12 +4735,12 @@ const EQUIPOS = [
    {
     "equipo": "SILVA S.D. \"B\"",
     "pts": 2,
-    "pj": 5,
+    "pj": 6,
     "g": 0,
     "e": 2,
-    "p": 3,
-    "gf": 12,
-    "gc": 24,
+    "p": 4,
+    "gf": 14,
+    "gc": 29,
     "propio": false
    },
    {
@@ -4816,7 +4816,7 @@ const EQUIPOS = [
     "hora": "20:00",
     "local": true,
     "rival": "ATLETICO CASTROS",
-    "resultado": "",
+    "resultado": "1-2",
     "campo": ""
    },
    {
@@ -5443,32 +5443,115 @@ const EQUIPOS = [
     ],
     "rm": {},
     "id": "1501698"
+   },
+   "7": {
+    "t": [
+     "Lucas García Lema",
+     "Diego Bescansa Álvarez",
+     "Aitor García Casco",
+     "Jorge Benhamou Casado",
+     "Xavier Martínez Rodríguez",
+     "Nicolás Espiñeira Esteban",
+     "Elaji Ka Lobón",
+     "Bruno Alexandre Gomes Oliveira Ferreira",
+     "Juan José González Seoane",
+     "Vincenzo Brandariz Volpintesta",
+     "Carlos Regueiro Pereira"
+    ],
+    "s": [
+     "Pedro Antón Costas",
+     "Lucas Rama González",
+     "Adrián Neira López",
+     "Alejandro Herrero Mouriño",
+     "Nicolás De La Campa García"
+    ],
+    "e": [
+     "Alejandro Herrero Mouriño",
+     "Lucas Rama González",
+     "Pedro Antón Costas",
+     "Nicolás De La Campa García",
+     "Adrián Neira López"
+    ],
+    "g": {
+     "Diego Bescansa Álvarez": 1
+    },
+    "a": [
+     "Nicolás Espiñeira Esteban"
+    ],
+    "r": [],
+    "d": {
+     "Lucas García Lema": 13,
+     "Diego Bescansa Álvarez": 2,
+     "Aitor García Casco": 3,
+     "Jorge Benhamou Casado": 4,
+     "Xavier Martínez Rodríguez": 5,
+     "Nicolás Espiñeira Esteban": 6,
+     "Elaji Ka Lobón": 7,
+     "Bruno Alexandre Gomes Oliveira Ferreira": 10,
+     "Juan José González Seoane": 11,
+     "Vincenzo Brandariz Volpintesta": 12,
+     "Carlos Regueiro Pereira": 14,
+     "Pedro Antón Costas": 15,
+     "Lucas Rama González": 16,
+     "Adrián Neira López": 18,
+     "Alejandro Herrero Mouriño": 19,
+     "Nicolás De La Campa García": 20
+    },
+    "c": [
+     [
+      "Alejandro Herrero Mouriño",
+      "Juan José González Seoane",
+      60
+     ],
+     [
+      "Lucas Rama González",
+      "Elaji Ka Lobón",
+      69
+     ],
+     [
+      "Pedro Antón Costas",
+      "Bruno Alexandre Gomes Oliveira Ferreira",
+      69
+     ],
+     [
+      "Nicolás De La Campa García",
+      "Xavier Martínez Rodríguez",
+      81
+     ],
+     [
+      "Adrián Neira López",
+      "Jorge Benhamou Casado",
+      81
+     ]
+    ],
+    "rm": {},
+    "id": "1501705"
    }
   },
   "dorsales": {
    "Diego Bescansa Álvarez": 2,
    "Xavier Martínez Rodríguez": 5,
    "Nicolás Espiñeira Esteban": 6,
+   "Jorge Benhamou Casado": 4,
    "Diego Gómez Ramos": 10,
    "Bruno Prieto Rivero": 3,
-   "Jorge Benhamou Casado": 4,
+   "Juan José González Seoane": 11,
    "Daniel Dopico García": 7,
    "Vincenzo Brandariz Volpintesta": 8,
-   "Juan José González Seoane": 11,
    "Pablo Silva Molezun": 1,
    "Carlos Regueiro Pereira": 9,
    "Pablo Sanjurjo Dopico": 16,
    "Alejandro Herrero Mouriño": 18,
    "Aitor García Casco": 12,
    "Bruno Alexandre Gomes Oliveira Ferreira": 17,
+   "Nicolás De La Campa García": 20,
+   "Lucas García Lema": 13,
    "Adrián Neira López": 14,
    "Lucas Rama González": 15,
-   "Nicolás De La Campa García": 20,
-   "Elaji Ka Lobón": 13,
-   "Pedro Antón Costas": 19,
-   "Lucas García Lema": 21
+   "Elaji Ka Lobón": 19,
+   "Pedro Antón Costas": 21
   },
-  "descargado": "2026-11-15T09:23"
+  "descargado": "2026-11-17T03:51"
  },
  {
   "id": "cadete-a",
@@ -6811,7 +6894,7 @@ const EQUIPOS = [
    "Franco Santino Mesa Vázquez": 19,
    "Nicolás Alonso De Andrés": 21
   },
-  "descargado": "2026-11-15T21:47"
+  "descargado": "2026-11-17T03:51"
  },
  {
   "id": "cadete-b",
@@ -11314,7 +11397,7 @@ const EQUIPOS = [
    "Manuel Tato Rey": 20,
    "Pablo Piñón Arévalo": 21
   },
-  "descargado": "2026-11-15T21:48"
+  "descargado": "2026-11-17T03:52"
  },
  {
   "id": "infantil-c",
@@ -15990,7 +16073,7 @@ const EQUIPOS = [
    "Manuel Aydillo González": 16,
    "Óscar Aydillo González": 17
   },
-  "descargado": "2026-11-15T21:48"
+  "descargado": "2026-11-17T03:52"
  },
  {
   "id": "benjamin-c",
@@ -18795,8 +18878,6 @@ const EQUIPOS = [
    "U.D. CARRAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001484347_Carral.jpg",
    "S. D. ACEA DE AMA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001546559_IMG_20250120_WA0026.png",
    "URAL ESPAÑOL C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000891301_ESCUDO_URAL_B.jpg",
-   "SPORTING CAMBRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
-   "C. D. CALASANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
    "ATL. CORUÑA MONTAÑEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
    "OZA JUVENIL S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
    "SADA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000931604_Sada_CF_escudo_FUTGAL.png",
@@ -18806,7 +18887,9 @@ const EQUIPOS = [
    "ORILLAMAR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000941018_ESCUDO_OFICIAL_ORILLAMAR_SD_PRINCIPAL.jpg",
    "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg",
    "FABRIL F.C.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001196159_EscudoFabrilFC_color.png",
-   "E.D. LUIS CALVO SANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004731_LOGO_ALTA_RES_ESCOLAS_CALVO.jpg"
+   "E.D. LUIS CALVO SANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004731_LOGO_ALTA_RES_ESCOLAS_CALVO.jpg",
+   "SPORTING CAMBRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
+   "C. D. CALASANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg"
   },
   "actas": {
    "5": {
@@ -19180,6 +19263,6 @@ const EQUIPOS = [
    "Leo Rivas Rey": 15,
    "Elhadji Ousmane Faye Ba": 18
   },
-  "descargado": "2026-11-15T21:48"
+  "descargado": "2026-11-17T03:52"
  }
 ];
