@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-18T13:57";
+const ACTUALIZADO = "2026-11-18T21:57";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -3286,7 +3286,7 @@ const EQUIPOS = [
    "Alberto Santos Fraga": 24,
    "Daniel Graña Rodríguez": 25
   },
-  "descargado": "2026-11-17T13:23"
+  "descargado": "2026-11-18T21:55"
  },
  {
   "id": "juvenil-b",
@@ -9365,7 +9365,7 @@ const EQUIPOS = [
    "Brais Portela Solla": 23,
    "David Insua Cambeiro": 24
   },
-  "descargado": "2026-11-17T22:20"
+  "descargado": "2026-11-18T21:56"
  },
  {
   "id": "infantil-a",
@@ -9388,7 +9388,6 @@ const EQUIPOS = [
    "Lucas Pérez Gómez",
    "Antón Portela Solla",
    "Roi Regueira Vázquez",
-   "Jacobo Rodríguez Canedo",
    "Iago Sánchez Calvo",
    "Roque Teiga Mantiñán",
    "Luca Varela Codesal",
@@ -10391,7 +10390,7 @@ const EQUIPOS = [
    "Hugo Costa Ferreiro": 22,
    "Adrián Ríos Naya": 23
   },
-  "descargado": "2026-11-17T22:21"
+  "descargado": "2026-11-18T21:56"
  },
  {
   "id": "infantil-b",
@@ -12362,7 +12361,7 @@ const EQUIPOS = [
    "Lucas García Aldao": 22,
    "Martiño Moar Moscoso": 23
   },
-  "descargado": "2026-11-17T22:21"
+  "descargado": "2026-11-18T21:56"
  },
  {
   "id": "infantil-d",
@@ -17853,7 +17852,7 @@ const EQUIPOS = [
    "Álvaro Fernández Dans": 12,
    "Raphael De Araujo Lima": 14
   },
-  "descargado": "2026-11-17T13:22"
+  "descargado": "2026-11-18T21:55"
  },
  {
   "id": "prebenjamin-b",
@@ -18385,7 +18384,7 @@ const EQUIPOS = [
    "Miguel Ángel Ossa Briceño": 13,
    "Raphael De Araujo Lima": 14
   },
-  "descargado": "2026-11-17T22:21"
+  "descargado": "2026-11-18T21:57"
  },
  {
   "id": "alevin-acea",
