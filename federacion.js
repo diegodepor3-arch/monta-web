@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-19T13:02";
+const ACTUALIZADO = "2026-11-19T21:31";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -3286,7 +3286,7 @@ const EQUIPOS = [
    "Alberto Santos Fraga": 24,
    "Daniel Graña Rodríguez": 25
   },
-  "descargado": "2026-11-18T21:55"
+  "descargado": "2026-11-19T21:30"
  },
  {
   "id": "juvenil-b",
@@ -8150,7 +8150,7 @@ const EQUIPOS = [
    "Gabriel Mosquera Lema": 20,
    "Rubén García Viñán": 21
   },
-  "descargado": "2026-11-18T13:57"
+  "descargado": "2026-11-19T21:30"
  },
  {
   "id": "cadete-c",
@@ -9365,7 +9365,7 @@ const EQUIPOS = [
    "Brais Portela Solla": 23,
    "David Insua Cambeiro": 24
   },
-  "descargado": "2026-11-18T21:56"
+  "descargado": "2026-11-19T21:31"
  },
  {
   "id": "infantil-a",
@@ -10390,7 +10390,7 @@ const EQUIPOS = [
    "Hugo Costa Ferreiro": 22,
    "Adrián Ríos Naya": 23
   },
-  "descargado": "2026-11-18T21:56"
+  "descargado": "2026-11-19T21:31"
  },
  {
   "id": "infantil-b",
@@ -17159,7 +17159,7 @@ const EQUIPOS = [
    "Sergio Rama Pena": 15,
    "Mateo Teijido Ceniceros": 13
   },
-  "descargado": "2026-11-18T13:57"
+  "descargado": "2026-11-19T21:30"
  },
  {
   "id": "prebenjamin-a",
@@ -17288,6 +17288,17 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "UD CARRAL",
+    "pts": 8,
+    "pj": 7,
+    "g": 2,
+    "e": 2,
+    "p": 3,
+    "gf": 8,
+    "gc": 11,
+    "propio": false
+   },
+   {
     "equipo": "SADA C.F.",
     "pts": 6,
     "pj": 6,
@@ -17296,17 +17307,6 @@ const EQUIPOS = [
     "p": 4,
     "gf": 7,
     "gc": 15,
-    "propio": false
-   },
-   {
-    "equipo": "UD CARRAL",
-    "pts": 5,
-    "pj": 6,
-    "g": 1,
-    "e": 2,
-    "p": 3,
-    "gf": 6,
-    "gc": 10,
     "propio": false
    },
    {
@@ -17323,12 +17323,12 @@ const EQUIPOS = [
    {
     "equipo": "ATLETICO ARTEIXO",
     "pts": 1,
-    "pj": 6,
+    "pj": 7,
     "g": 0,
     "e": 1,
-    "p": 5,
-    "gf": 3,
-    "gc": 16,
+    "p": 6,
+    "gf": 4,
+    "gc": 18,
     "propio": false
    },
    {
@@ -17852,7 +17852,7 @@ const EQUIPOS = [
    "Álvaro Fernández Dans": 12,
    "Raphael De Araujo Lima": 14
   },
-  "descargado": "2026-11-18T21:55"
+  "descargado": "2026-11-19T21:31"
  },
  {
   "id": "prebenjamin-b",
