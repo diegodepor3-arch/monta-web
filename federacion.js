@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-19T03:25";
+const ACTUALIZADO = "2026-11-19T13:02";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -1730,7 +1730,7 @@ const EQUIPOS = [
     }
    }
   },
-  "descargado": "2026-11-18T13:56"
+  "descargado": "2026-11-19T13:01"
  },
  {
   "id": "juvenil-a",
@@ -5856,7 +5856,7 @@ const EQUIPOS = [
    {
     "jornada": 11,
     "fecha": "2026-11-21",
-    "hora": "16:00",
+    "hora": "19:30",
     "local": false,
     "rival": "S.D.C.y R. NARON O FREIXO",
     "resultado": "",
@@ -6043,14 +6043,14 @@ const EQUIPOS = [
    "S.D. RESIDENCIA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001672752_ESCUDO_RESIDENCIA.jpg",
    "RACING C. VILLALBES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001826551_ESCUDO_SIN_FONDO.png",
    "SADA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000931604_Sada_CF_escudo_FUTGAL.png",
-   "IMPERATOR O.A.R.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png",
-   "SAN TIRSO S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000916862_ESCUDO_20_21.jpg",
    "S.D. COMPOSTELA \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001010839_logo___copia.jpg",
    "RACING CLUB FERROL S.A.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001624274_ESCUDO.jpg",
-   "S.D.C.y R. NARON O FREIXO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000665884_escudo_freixo100x100.png",
-   "ATL. CORUÑA MONTAÑEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
    "S.D. VIVEIRO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000916034_ESCUDO_SD.jpg",
    "ATLETICO ARTEIXO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001414249_Escudo_Arteixo.png",
+   "IMPERATOR O.A.R.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png",
+   "SAN TIRSO S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000916862_ESCUDO_20_21.jpg",
+   "S.D.C.y R. NARON O FREIXO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000665884_escudo_freixo100x100.png",
+   "ATL. CORUÑA MONTAÑEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
    "URAL ESPAÑOL C.F. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000891301_ESCUDO_URAL_B.jpg",
    "GALICIA DE CARANZA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001017519_Escudo_Galicia.png"
   },
@@ -6895,7 +6895,7 @@ const EQUIPOS = [
    "Franco Santino Mesa Vázquez": 19,
    "Nicolás Alonso De Andrés": 21
   },
-  "descargado": "2026-11-18T04:19"
+  "descargado": "2026-11-19T13:00"
  },
  {
   "id": "cadete-b",
@@ -10691,11 +10691,11 @@ const EQUIPOS = [
    {
     "jornada": 10,
     "fecha": "2026-11-21",
-    "hora": "18:00",
+    "hora": "12:15",
     "local": false,
     "rival": "IMPERATOR O.A.R.",
     "resultado": "",
-    "campo": "Grela 1"
+    "campo": "San Pedro de Visma 1"
    },
    {
     "jornada": 11,
@@ -10885,10 +10885,10 @@ const EQUIPOS = [
    "ONCE CABALLEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000601679_ONCECAB.jpg",
    "VICTORIA C.F. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
    "U.D. PAIOSACO- H. AÑON": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0012024828_escudo_66px.png",
-   "ORILLAMAR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000941018_ESCUDO_OFICIAL_ORILLAMAR_SD_PRINCIPAL.jpg",
-   "C.D. CALASANZ \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
    "IMPERATOR O.A.R.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png",
    "ATL. CORUÑA MONTAÑEROS C.F. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
+   "ORILLAMAR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000941018_ESCUDO_OFICIAL_ORILLAMAR_SD_PRINCIPAL.jpg",
+   "C.D. CALASANZ \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
    "U.D. CARRAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001484347_Carral.jpg",
    "SDC ORDENES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000914840_SDC__rdenes_Escudo.jpg",
    "OLIMPICO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg",
@@ -11397,7 +11397,7 @@ const EQUIPOS = [
    "Manuel Tato Rey": 20,
    "Pablo Piñón Arévalo": 21
   },
-  "descargado": "2026-11-18T04:19"
+  "descargado": "2026-11-19T13:00"
  },
  {
   "id": "infantil-c",
@@ -16073,7 +16073,7 @@ const EQUIPOS = [
    "Manuel Aydillo González": 16,
    "Óscar Aydillo González": 17
   },
-  "descargado": "2026-11-18T13:55"
+  "descargado": "2026-11-19T13:01"
  },
  {
   "id": "benjamin-c",
@@ -16619,7 +16619,7 @@ const EQUIPOS = [
    "Alan Díaz López": 4,
    "Noah Rawson-Higgins González": 16
   },
-  "descargado": "2026-11-18T13:56"
+  "descargado": "2026-11-19T13:01"
  },
  {
   "id": "benjamin-b",
@@ -19263,6 +19263,6 @@ const EQUIPOS = [
    "Leo Rivas Rey": 15,
    "Elhadji Ousmane Faye Ba": 18
   },
-  "descargado": "2026-11-18T13:56"
+  "descargado": "2026-11-19T13:02"
  }
 ];
