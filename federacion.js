@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-20T11:35";
+const ACTUALIZADO = "2026-11-20T20:14";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -3286,7 +3286,7 @@ const EQUIPOS = [
    "Alberto Santos Fraga": 24,
    "Daniel Graña Rodríguez": 25
   },
-  "descargado": "2026-11-19T21:30"
+  "descargado": "2026-11-20T20:13"
  },
  {
   "id": "juvenil-b",
@@ -8150,7 +8150,7 @@ const EQUIPOS = [
    "Gabriel Mosquera Lema": 20,
    "Rubén García Viñán": 21
   },
-  "descargado": "2026-11-19T21:30"
+  "descargado": "2026-11-20T20:14"
  },
  {
   "id": "cadete-c",
@@ -9365,7 +9365,7 @@ const EQUIPOS = [
    "Brais Portela Solla": 23,
    "David Insua Cambeiro": 24
   },
-  "descargado": "2026-11-19T21:31"
+  "descargado": "2026-11-20T20:14"
  },
  {
   "id": "infantil-a",
@@ -16619,7 +16619,7 @@ const EQUIPOS = [
    "Alan Díaz López": 4,
    "Noah Rawson-Higgins González": 16
   },
-  "descargado": "2026-11-19T13:01"
+  "descargado": "2026-11-20T20:13"
  },
  {
   "id": "benjamin-b",
@@ -17159,7 +17159,7 @@ const EQUIPOS = [
    "Sergio Rama Pena": 15,
    "Mateo Teijido Ceniceros": 13
   },
-  "descargado": "2026-11-19T21:30"
+  "descargado": "2026-11-20T20:14"
  },
  {
   "id": "prebenjamin-a",
@@ -19263,6 +19263,6 @@ const EQUIPOS = [
    "Leo Rivas Rey": 15,
    "Elhadji Ousmane Faye Ba": 18
   },
-  "descargado": "2026-11-19T13:02"
+  "descargado": "2026-11-20T20:13"
  }
 ];
