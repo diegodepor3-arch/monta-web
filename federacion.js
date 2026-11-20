@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-19T21:31";
+const ACTUALIZADO = "2026-11-20T03:13";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -4559,7 +4559,7 @@ const EQUIPOS = [
    "Sebastián Andrés Balza Aguilera": 22,
    "Roi Lago Suárez": 23
   },
-  "descargado": "2026-11-19T03:24"
+  "descargado": "2026-11-20T03:12"
  },
  {
   "id": "juvenil-c",
@@ -11472,12 +11472,12 @@ const EQUIPOS = [
    {
     "equipo": "SILVA S.D. \"B\"",
     "pts": 18,
-    "pj": 7,
+    "pj": 8,
     "g": 6,
     "e": 0,
-    "p": 1,
-    "gf": 42,
-    "gc": 20,
+    "p": 2,
+    "gf": 43,
+    "gc": 26,
     "propio": false
    },
    {
@@ -11489,6 +11489,17 @@ const EQUIPOS = [
     "p": 2,
     "gf": 31,
     "gc": 28,
+    "propio": false
+   },
+   {
+    "equipo": "C.F. BATALLADOR S.D.",
+    "pts": 16,
+    "pj": 8,
+    "g": 5,
+    "e": 1,
+    "p": 2,
+    "gf": 43,
+    "gc": 15,
     "propio": false
    },
    {
@@ -11511,17 +11522,6 @@ const EQUIPOS = [
     "p": 3,
     "gf": 33,
     "gc": 18,
-    "propio": false
-   },
-   {
-    "equipo": "C.F. BATALLADOR S.D.",
-    "pts": 13,
-    "pj": 7,
-    "g": 4,
-    "e": 1,
-    "p": 2,
-    "gf": 37,
-    "gc": 14,
     "propio": false
    },
    {
@@ -12361,7 +12361,7 @@ const EQUIPOS = [
    "Lucas García Aldao": 22,
    "Martiño Moar Moscoso": 23
   },
-  "descargado": "2026-11-18T21:56"
+  "descargado": "2026-11-20T03:11"
  },
  {
   "id": "infantil-d",
@@ -13210,7 +13210,7 @@ const EQUIPOS = [
    "Xalo Bendaña Castro": 16,
    "Iván Pena Barriga": 20
   },
-  "descargado": "2026-11-19T03:23"
+  "descargado": "2026-11-20T03:12"
  },
  {
   "id": "alevin-a",
@@ -14083,7 +14083,7 @@ const EQUIPOS = [
    "Sebastián López Ganem": 21,
    "Izan Pose Seijas": 14
   },
-  "descargado": "2026-11-19T03:24"
+  "descargado": "2026-11-20T03:13"
  },
  {
   "id": "alevin-b",
@@ -14642,7 +14642,7 @@ const EQUIPOS = [
    "Gael Zapata Grandal": 16,
    "Fabio Gundín Candia": 17
   },
-  "descargado": "2026-11-19T03:24"
+  "descargado": "2026-11-20T03:13"
  },
  {
   "id": "alevin-c",
@@ -18384,7 +18384,7 @@ const EQUIPOS = [
    "Miguel Ángel Ossa Briceño": 13,
    "Raphael De Araujo Lima": 14
   },
-  "descargado": "2026-11-18T21:57"
+  "descargado": "2026-11-20T03:12"
  },
  {
   "id": "alevin-acea",
