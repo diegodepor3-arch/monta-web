@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-20T03:13";
+const ACTUALIZADO = "2026-11-20T11:35";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -1730,7 +1730,7 @@ const EQUIPOS = [
     }
    }
   },
-  "descargado": "2026-11-19T13:01"
+  "descargado": "2026-11-20T11:35"
  },
  {
   "id": "juvenil-a",
@@ -5552,7 +5552,7 @@ const EQUIPOS = [
    "Elaji Ka Lobón": 19,
    "Pedro Antón Costas": 21
   },
-  "descargado": "2026-11-19T03:25"
+  "descargado": "2026-11-20T11:34"
  },
  {
   "id": "cadete-a",
@@ -6895,7 +6895,7 @@ const EQUIPOS = [
    "Franco Santino Mesa Vázquez": 19,
    "Nicolás Alonso De Andrés": 21
   },
-  "descargado": "2026-11-19T13:00"
+  "descargado": "2026-11-20T11:34"
  },
  {
   "id": "cadete-b",
@@ -11397,7 +11397,7 @@ const EQUIPOS = [
    "Manuel Tato Rey": 20,
    "Pablo Piñón Arévalo": 21
   },
-  "descargado": "2026-11-19T13:00"
+  "descargado": "2026-11-20T11:35"
  },
  {
   "id": "infantil-c",
@@ -15206,7 +15206,7 @@ const EQUIPOS = [
    "Enzo Martínez Díaz": 12,
    "Daniel Castellanos Gil": 13
   },
-  "descargado": "2026-11-19T03:25"
+  "descargado": "2026-11-20T11:34"
  },
  {
   "id": "benjamin-a",
@@ -16073,7 +16073,7 @@ const EQUIPOS = [
    "Manuel Aydillo González": 16,
    "Óscar Aydillo González": 17
   },
-  "descargado": "2026-11-19T13:01"
+  "descargado": "2026-11-20T11:35"
  },
  {
   "id": "benjamin-c",
