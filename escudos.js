@@ -56,7 +56,6 @@ const ESCUDOS = {
  "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000990782_190D6AB5_6874_4016_B08B_0FD1552E489C.jpeg": "img/escudos/00100_0000990782_190D6AB5_6874_4016_B08B_0FD1552E489C.webp",
  "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000994690_Escudo_Colegio_Obradoiro.jpg": "img/escudos/00100_0000994690_Escudo_Colegio_Obradoiro.webp",
  "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001003273_pontevedra_plano.jpg": "img/escudos/00100_0001003273_pontevedra_plano.webp",
- "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004468_logo.png": "img/escudos/00100_0001004468_logo.webp",
  "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004731_LOGO_ALTA_RES_ESCOLAS_CALVO.jpg": "img/escudos/00100_0001004731_LOGO_ALTA_RES_ESCOLAS_CALVO.webp",
  "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001007492_Logo_CD_Choco_sin_fondo__2_.jpg": "img/escudos/00100_0001007492_Logo_CD_Choco_sin_fondo__2_.webp",
  "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001008004_ROSALIA_MERA_ESCUDO_GRANDE.jpg": "img/escudos/00100_0001008004_ROSALIA_MERA_ESCUDO_GRANDE.webp",
