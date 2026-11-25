@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-24T17:41";
+const ACTUALIZADO = "2026-11-25T02:26";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -7360,7 +7360,7 @@ const EQUIPOS = [
     "g": 9,
     "e": 0,
     "p": 1,
-    "gf": 39,
+    "gf": 40,
     "gc": 15,
     "propio": false
    },
@@ -7372,7 +7372,7 @@ const EQUIPOS = [
     "e": 2,
     "p": 1,
     "gf": 29,
-    "gc": 10,
+    "gc": 11,
     "propio": true
    },
    {
@@ -7404,8 +7404,8 @@ const EQUIPOS = [
     "g": 6,
     "e": 1,
     "p": 3,
-    "gf": 34,
-    "gc": 23,
+    "gf": 35,
+    "gc": 27,
     "propio": false
    },
    {
@@ -7492,8 +7492,8 @@ const EQUIPOS = [
     "g": 2,
     "e": 2,
     "p": 6,
-    "gf": 17,
-    "gc": 40,
+    "gf": 21,
+    "gc": 41,
     "propio": false
    },
    {
@@ -7618,17 +7618,17 @@ const EQUIPOS = [
     "hora": "10:30",
     "local": false,
     "rival": "C.D. CALASANZ \"B\"",
-    "resultado": "",
-    "campo": "San Pedro de Visma 1"
+    "resultado": "3-0",
+    "campo": ""
    },
    {
     "jornada": 11,
     "fecha": "2026-11-28",
-    "hora": "",
+    "hora": "20:00",
     "local": true,
     "rival": "OZA JUVENIL S.D.",
     "resultado": "",
-    "campo": ""
+    "campo": "San Pedro de Visma 1"
    },
    {
     "jornada": 12,
@@ -7805,22 +7805,22 @@ const EQUIPOS = [
   "competicion": "Cadete - 1ª Futgal · A Coruña | Grupo Unico",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26991278&codcompeticion=26991273",
   "escudos": {
-   "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg",
+   "BETANZOS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000665955_Escudo_DEFINITIVO.jpg",
+   "SAN TIRSO S.D. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000916862_ESCUDO_20_21.jpg",
+   "U.D. CARRAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001484347_Carral.jpg",
+   "PORTAZGO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801957_19700101_010000_1573847035.jpg",
    "ORILLAMAR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000941018_ESCUDO_OFICIAL_ORILLAMAR_SD_PRINCIPAL.jpg",
-   "SDC ORDENES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000914840_SDC__rdenes_Escudo.jpg",
+   "C.D. CALASANZ \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
+   "SILVA S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001103292_escudo_rfgf.jpg",
+   "SPORTING MEICENDE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001010506_ESCUDO_SP.MEICENDE___GRANDE_.jpg",
    "SPORTING CAMBRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
    "SPORTING CORUÑES S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801946_escudo-4154.jpg",
-   "PORTAZGO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801957_19700101_010000_1573847035.jpg",
-   "BETANZOS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000665955_Escudo_DEFINITIVO.jpg",
-   "U.D. CARRAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001484347_Carral.jpg",
-   "SPORTING MEICENDE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001010506_ESCUDO_SP.MEICENDE___GRANDE_.jpg",
-   "VICTORIA C.F. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
-   "OZA JUVENIL S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
    "A.D. CRISTO REY": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001837770_ESCUDO_NARANJA_SIN_FONDO.png",
-   "C.D. CALASANZ \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
+   "SDC ORDENES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000914840_SDC__rdenes_Escudo.jpg",
+   "VICTORIA C.F. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
+   "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg",
    "ATL. CORUÑA MONTAÑEROS C.F. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
-   "SAN TIRSO S.D. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000916862_ESCUDO_20_21.jpg",
-   "SILVA S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001103292_escudo_rfgf.jpg"
+   "OZA JUVENIL S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg"
   },
   "actas": {
    "3": {
@@ -8547,32 +8547,122 @@ const EQUIPOS = [
     ],
     "rm": {},
     "id": "1471070"
+   },
+   "10": {
+    "t": [
+     "Ramón Saavedra Trigo",
+     "Manuel Anido Pose",
+     "Nicolás Ávarez Fernández",
+     "Romeo Mateo Comesaña Pérez",
+     "Julio Santos Fraga",
+     "Franco Santino Mesa Vázquez",
+     "Naim Blanco Solís",
+     "Santiago López Ganem",
+     "Andrew Silva Mosquera",
+     "Iván Vázquez López",
+     "Bruno Camiños Blanco"
+    ],
+    "s": [
+     "Aimar Lagoa Rodríguez",
+     "Darío Lorenzo Fraga",
+     "Iago Rey Ibáñez",
+     "Víctor Antelo Baldomir",
+     "Xavier Taboada Manteiga"
+    ],
+    "e": [
+     "Aimar Lagoa Rodríguez",
+     "Víctor Antelo Baldomir",
+     "Xavier Taboada Manteiga",
+     "Iago Rey Ibáñez",
+     "Darío Lorenzo Fraga"
+    ],
+    "g": {},
+    "a": [
+     "Manuel Anido Pose",
+     "Naim Blanco Solís",
+     "Romeo Mateo Comesaña Pérez",
+     "Andrew Silva Mosquera",
+     "Ramón Saavedra Trigo",
+     "Víctor Antelo Baldomir"
+    ],
+    "r": [
+     "Julio Santos Fraga"
+    ],
+    "d": {
+     "Ramón Saavedra Trigo": 1,
+     "Manuel Anido Pose": 2,
+     "Nicolás Ávarez Fernández": 3,
+     "Romeo Mateo Comesaña Pérez": 4,
+     "Julio Santos Fraga": 5,
+     "Franco Santino Mesa Vázquez": 6,
+     "Naim Blanco Solís": 7,
+     "Santiago López Ganem": 8,
+     "Andrew Silva Mosquera": 9,
+     "Iván Vázquez López": 10,
+     "Bruno Camiños Blanco": 11,
+     "Aimar Lagoa Rodríguez": 14,
+     "Darío Lorenzo Fraga": 15,
+     "Iago Rey Ibáñez": 16,
+     "Víctor Antelo Baldomir": 17,
+     "Xavier Taboada Manteiga": 18
+    },
+    "c": [
+     [
+      "Aimar Lagoa Rodríguez",
+      "Naim Blanco Solís",
+      41
+     ],
+     [
+      "Víctor Antelo Baldomir",
+      "Nicolás Ávarez Fernández",
+      41
+     ],
+     [
+      "Xavier Taboada Manteiga",
+      "Iván Vázquez López",
+      67
+     ],
+     [
+      "Iago Rey Ibáñez",
+      "Santiago López Ganem",
+      67
+     ],
+     [
+      "Darío Lorenzo Fraga",
+      "Andrew Silva Mosquera",
+      67
+     ]
+    ],
+    "rm": {
+     "Julio Santos Fraga": 63
+    },
+    "id": "1471079"
    }
   },
   "dorsales": {
    "Romeo Mateo Comesaña Pérez": 4,
    "Julio Santos Fraga": 5,
    "Franco Santino Mesa Vázquez": 6,
-   "Aimar Lagoa Rodríguez": 8,
    "Bruno Camiños Blanco": 11,
    "Naim Blanco Solís": 7,
-   "Santiago López Ganem": 9,
+   "Aimar Lagoa Rodríguez": 8,
    "Iván Vázquez López": 10,
+   "Nicolás Ávarez Fernández": 3,
+   "Santiago López Ganem": 9,
    "Diego Blanco Fernández": 1,
-   "Manuel Anido Pose": 3,
-   "Víctor Antelo Baldomir": 2,
+   "Manuel Anido Pose": 2,
    "Xavier Taboada Manteiga": 14,
    "Darío Lorenzo Fraga": 15,
    "Iago Rey Ibáñez": 16,
    "Luis Cea Raña": 12,
    "Ramón Saavedra Trigo": 13,
-   "Nicolás Ávarez Fernández": 18,
    "Andrew Silva Mosquera": 17,
-   "Bruno Blanco Salorio": 19,
-   "Gabriel Mosquera Lema": 20,
-   "Rubén García Viñán": 21
+   "Víctor Antelo Baldomir": 22,
+   "Bruno Blanco Salorio": 18,
+   "Gabriel Mosquera Lema": 19,
+   "Rubén García Viñán": 20
   },
-  "descargado": "2026-11-22T11:20"
+  "descargado": "2026-11-25T02:25"
  },
  {
   "id": "cadete-c",
@@ -8724,6 +8814,17 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "IMPERATOR O.A.R. \"B\"",
+    "pts": 12,
+    "pj": 9,
+    "g": 4,
+    "e": 0,
+    "p": 5,
+    "gf": 24,
+    "gc": 21,
+    "propio": false
+   },
+   {
     "equipo": "TORRE S.D.",
     "pts": 10,
     "pj": 9,
@@ -8732,17 +8833,6 @@ const EQUIPOS = [
     "p": 5,
     "gf": 21,
     "gc": 39,
-    "propio": false
-   },
-   {
-    "equipo": "IMPERATOR O.A.R. \"B\"",
-    "pts": 9,
-    "pj": 8,
-    "g": 3,
-    "e": 0,
-    "p": 5,
-    "gf": 15,
-    "gc": 21,
     "propio": false
    },
    {
@@ -8781,12 +8871,12 @@ const EQUIPOS = [
    {
     "equipo": "RELÁMPAGO S. D.",
     "pts": 0,
-    "pj": 8,
+    "pj": 9,
     "g": 0,
     "e": 0,
-    "p": 8,
+    "p": 9,
     "gf": 3,
-    "gc": 50,
+    "gc": 59,
     "propio": false
    }
   ],
@@ -8874,8 +8964,8 @@ const EQUIPOS = [
    },
    {
     "jornada": 10,
-    "fecha": "2026-11-28",
-    "hora": "",
+    "fecha": "2026-11-29",
+    "hora": "16:00",
     "local": false,
     "rival": "CLUB ROSALÍA MERA",
     "resultado": "",
@@ -9065,22 +9155,22 @@ const EQUIPOS = [
   "competicion": "Cadete - 2ª Futgal · A Coruña | Grupo 1",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26991173&codcompeticion=26991169",
   "escudos": {
-   "OZA JUVENIL S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
-   "TORRE S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000957278_descarga__3_.jpg",
-   "S.C.D. PASTORIZA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001134_O_NOSO_ESCUDO_2.jpg",
-   "LICEO DE MONELOS S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000884334_liceo_monelos_1.png",
-   "SILVA S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001103292_escudo_rfgf.jpg",
-   "COMPAÑIA DE MARIA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004468_logo.png",
-   "C.F. DEPORTIVO ORZÁN": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001623837_RANSPARENTE.png",
-   "ATLETICO CASTROS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001611037_escudo128.png",
-   "CLUB ROSALÍA MERA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001008004_ROSALIA_MERA_ESCUDO_GRANDE.jpg",
-   "ATL. CORUÑA MONTAÑEROS C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
    "IMPERATOR O.A.R. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png",
    "U.D. PAIOSACO- HIERROS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0012024828_escudo_66px.png",
+   "C.F. DEPORTIVO ORZÁN": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001623837_RANSPARENTE.png",
+   "ATLETICO CASTROS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001611037_escudo128.png",
+   "S.C.D. PASTORIZA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001134_O_NOSO_ESCUDO_2.jpg",
+   "LICEO DE MONELOS S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000884334_liceo_monelos_1.png",
+   "ATLETICO ARTEIXO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001414249_Escudo_Arteixo.png",
+   "CLUB POLIDEPORTIVO ESCLAVAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001133115_4DA7C320_0949_4D89_A088_624E6471CBA6.jpeg",
    "ORILLAMAR S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000941018_ESCUDO_OFICIAL_ORILLAMAR_SD_PRINCIPAL.jpg",
    "RELÁMPAGO S. D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000894509_Escudo.PNG",
-   "ATLETICO ARTEIXO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001414249_Escudo_Arteixo.png",
-   "CLUB POLIDEPORTIVO ESCLAVAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001133115_4DA7C320_0949_4D89_A088_624E6471CBA6.jpeg"
+   "CLUB ROSALÍA MERA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001008004_ROSALIA_MERA_ESCUDO_GRANDE.jpg",
+   "ATL. CORUÑA MONTAÑEROS C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
+   "SILVA S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001103292_escudo_rfgf.jpg",
+   "COMPAÑIA DE MARIA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0012079561_Logo_Nuevo.png",
+   "OZA JUVENIL S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
+   "TORRE S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000957278_descarga__3_.jpg"
   },
   "actas": {
    "2": {
@@ -9872,7 +9962,7 @@ const EQUIPOS = [
    "Brais Portela Solla": 23,
    "David Insua Cambeiro": 24
   },
-  "descargado": "2026-11-22T19:35"
+  "descargado": "2026-11-25T02:25"
  },
  {
   "id": "infantil-a",
@@ -10185,11 +10275,11 @@ const EQUIPOS = [
    {
     "jornada": 12,
     "fecha": "2026-11-28",
-    "hora": "",
+    "hora": "18:00",
     "local": true,
     "rival": "R.C. CELTA",
     "resultado": "",
-    "campo": "Grela 1"
+    "campo": "Víctor Fernández Alonso - Antigua Leyma"
    },
    {
     "jornada": 13,
@@ -10359,20 +10449,20 @@ const EQUIPOS = [
   "escudos": {
    "U.D. OURENSE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000029838_Escudo_Union_Deportiva_Ourense.jpg",
    "E.D. XUVENTUDE OROSO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0012023275_ESCUDOS_EDXO_2.png",
-   "E.D. VAL MIÑOR NIGRÁN": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001624693_Escudo_con_M__rgenes.jpg",
-   "URAL ESPAÑOL C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000891301_ESCUDO_URAL_B.jpg",
-   "RACING CLUB FERROL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001624274_ESCUDO.jpg",
-   "R.C. DEPORTIVO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001196017_ESCUDO_DEPOR.png",
-   "PABELLON OURENSE C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000905211_IMG_20200628_WA0014.jpg",
-   "PONTEVEDRA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001003273_pontevedra_plano.jpg",
    "C.D. CALASANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
    "C.D. LUGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000717289_CD_LUGO_logo_color_BAJA.jpg",
-   "SAN TIRSO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000916862_ESCUDO_20_21.jpg",
-   "CIDADE DE RIBEIRA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000932504_Escudo_Cidade_de_Ribeira_bis.jpg",
+   "E.D. VAL MIÑOR NIGRÁN": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001624693_Escudo_con_M__rgenes.jpg",
+   "URAL ESPAÑOL C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000891301_ESCUDO_URAL_B.jpg",
+   "PABELLON OURENSE C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000905211_IMG_20200628_WA0014.jpg",
+   "PONTEVEDRA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001003273_pontevedra_plano.jpg",
+   "RACING CLUB FERROL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001624274_ESCUDO.jpg",
+   "R.C. DEPORTIVO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001196017_ESCUDO_DEPOR.png",
+   "A.J. LÉREZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001793709_Logo_Juve_Imagen__1_.jpg",
+   "C.D. CONXO SANTIAGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000727207_ESCUDO_CD_CONXO_SANTIAGO.jpg",
    "ATL. CORUÑA MONTAÑEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
    "R.C. CELTA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000628703_RC_Celta.jpg",
-   "A.J. LÉREZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001793709_Logo_Juve_Imagen__1_.jpg",
-   "C.D. CONXO SANTIAGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000727207_ESCUDO_CD_CONXO_SANTIAGO.jpg"
+   "SAN TIRSO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000916862_ESCUDO_20_21.jpg",
+   "CIDADE DE RIBEIRA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000932504_Escudo_Cidade_de_Ribeira_bis.jpg"
   },
   "actas": {
    "4": {
@@ -10947,7 +11037,7 @@ const EQUIPOS = [
    "Hugo Costa Ferreiro": 22,
    "Adrián Ríos Naya": 23
   },
-  "descargado": "2026-11-22T19:36"
+  "descargado": "2026-11-25T02:26"
  },
  {
   "id": "infantil-b",
@@ -17170,25 +17260,25 @@ const EQUIPOS = [
    },
    {
     "jornada": 9,
-    "fecha": "2026-11-28",
-    "hora": "",
+    "fecha": "2026-11-29",
+    "hora": "09:30",
     "local": true,
     "rival": "VICTORIA C.F. \"C\"",
     "resultado": "",
-    "campo": "MUNICIPAL EIRIS - LAMADOSA 1"
+    "campo": "Torre Nº1.2"
    }
   ],
   "competicion": "Benjamin F-8 - Segunda Futgal · A Coruña | 1ª Fase G2",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=28997333&codcompeticion=26991813",
   "escudos": {
-   "SPORTING CORUÑES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801946_escudo-4154.jpg",
-   "C.D. CALASANZ \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
    "SANTA MARIA DEL MAR \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001611104_Escudo_sin_fondo.png",
-   "COMPAÑIA DE MARIA \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004468_logo.png",
-   "EIRIS S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000934032_Eiris.png",
-   "IMPERATOR O.A.R.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png",
+   "COMPAÑIA DE MARIA \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0012079561_Logo_Nuevo.png",
    "COLEGIO OBRADOIRO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000994690_Escudo_Colegio_Obradoiro.jpg",
    "S.D. SANTA MARGARITA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000942895_Escudo_Santa_peque_o.png",
+   "SPORTING CORUÑES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801946_escudo-4154.jpg",
+   "C.D. CALASANZ \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
+   "EIRIS S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000934032_Eiris.png",
+   "IMPERATOR O.A.R.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png",
    "ATLETICO CORUÑA MONTAÑEROS \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
    "VICTORIA C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg"
   },
@@ -17536,7 +17626,7 @@ const EQUIPOS = [
    "Alan Díaz López": 4,
    "Noah Rawson-Higgins González": 16
   },
-  "descargado": "2026-11-22T11:19"
+  "descargado": "2026-11-25T02:24"
  },
  {
   "id": "benjamin-b",
@@ -19500,12 +19590,12 @@ const EQUIPOS = [
    },
    {
     "equipo": "C. D. CALASANZ",
-    "pts": 17,
-    "pj": 9,
-    "g": 5,
+    "pts": 20,
+    "pj": 10,
+    "g": 6,
     "e": 2,
     "p": 2,
-    "gf": 42,
+    "gf": 53,
     "gc": 14,
     "propio": false
    },
@@ -19609,17 +19699,6 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "SPORTING CAMBRE",
-    "pts": 1,
-    "pj": 9,
-    "g": 0,
-    "e": 1,
-    "p": 8,
-    "gf": 9,
-    "gc": 90,
-    "propio": false
-   },
-   {
     "equipo": "U.D. CARRAL",
     "pts": 1,
     "pj": 10,
@@ -19628,6 +19707,17 @@ const EQUIPOS = [
     "p": 9,
     "gf": 9,
     "gc": 67,
+    "propio": false
+   },
+   {
+    "equipo": "SPORTING CAMBRE",
+    "pts": 1,
+    "pj": 10,
+    "g": 0,
+    "e": 1,
+    "p": 9,
+    "gf": 9,
+    "gc": 101,
     "propio": false
    }
   ],
@@ -19725,7 +19815,7 @@ const EQUIPOS = [
    {
     "jornada": 11,
     "fecha": "2026-11-28",
-    "hora": "",
+    "hora": "11:15",
     "local": false,
     "rival": "ATLETICO ARTEIXO",
     "resultado": "",
@@ -19912,22 +20002,22 @@ const EQUIPOS = [
   "competicion": "Alevin F-7 - Primera Futgal · A Coruña | Grupo Unico",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26991572&codcompeticion=26991566",
   "escudos": {
-   "ATLETICO ARTEIXO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001414249_Escudo_Arteixo.png",
-   "S. D. ACEA DE AMA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001546559_IMG_20250120_WA0026.png",
-   "URAL ESPAÑOL C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000891301_ESCUDO_URAL_B.jpg",
-   "SPORTING CAMBRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
    "C. D. CALASANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
    "ATL. CORUÑA MONTAÑEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
-   "OZA JUVENIL S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
-   "SADA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000931604_Sada_CF_escudo_FUTGAL.png",
-   "SAN TIRSO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000916862_ESCUDO_20_21.jpg",
-   "VICTORIA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
    "R.C. DEPORTIVO SAD": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001196017_ESCUDO_DEPOR.png",
    "ORILLAMAR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000941018_ESCUDO_OFICIAL_ORILLAMAR_SD_PRINCIPAL.jpg",
+   "URAL ESPAÑOL C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000891301_ESCUDO_URAL_B.jpg",
+   "SPORTING CAMBRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
+   "OZA JUVENIL S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
+   "SADA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000931604_Sada_CF_escudo_FUTGAL.png",
    "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg",
    "FABRIL F.C.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001196159_EscudoFabrilFC_color.png",
+   "ATLETICO ARTEIXO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001414249_Escudo_Arteixo.png",
+   "S. D. ACEA DE AMA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001546559_IMG_20250120_WA0026.png",
    "U.D. CARRAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001484347_Carral.jpg",
-   "E.D. LUIS CALVO SANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004731_LOGO_ALTA_RES_ESCOLAS_CALVO.jpg"
+   "E.D. LUIS CALVO SANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004731_LOGO_ALTA_RES_ESCOLAS_CALVO.jpg",
+   "SAN TIRSO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000916862_ESCUDO_20_21.jpg",
+   "VICTORIA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg"
   },
   "actas": {
    "5": {
@@ -20338,6 +20428,6 @@ const EQUIPOS = [
    "Elhadji Ousmane Faye Ba": 16,
    "Leo Rivas Rey": 15
   },
-  "descargado": "2026-11-22T11:19"
+  "descargado": "2026-11-25T02:24"
  }
 ];
