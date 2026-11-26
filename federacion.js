@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-26T15:12";
+const ACTUALIZADO = "2026-11-26T23:51";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -5896,7 +5896,7 @@ const EQUIPOS = [
    "Elaji Ka Lobón": 19,
    "Pedro Antón Costas": 21
   },
-  "descargado": "2026-11-25T22:30"
+  "descargado": "2026-11-26T23:51"
  },
  {
   "id": "cadete-a",
@@ -7316,7 +7316,7 @@ const EQUIPOS = [
    "Rubén García Viñán": 20,
    "Nicolás Caraballo Hernández": 21
   },
-  "descargado": "2026-11-25T22:30"
+  "descargado": "2026-11-26T23:51"
  },
  {
   "id": "cadete-b",
@@ -14015,7 +14015,7 @@ const EQUIPOS = [
    "Cibrán Rodríguez Otero": 21,
    "Iván Pena Barriga": 22
   },
-  "descargado": "2026-11-25T12:51"
+  "descargado": "2026-11-26T23:50"
  },
  {
   "id": "alevin-a",
@@ -14925,7 +14925,7 @@ const EQUIPOS = [
    "Sebastián López Ganem": 17,
    "Izan Pose Seijas": 14
   },
-  "descargado": "2026-11-25T22:29"
+  "descargado": "2026-11-26T23:51"
  },
  {
   "id": "alevin-b",
@@ -15527,7 +15527,7 @@ const EQUIPOS = [
    "Gael Zapata Grandal": 16,
    "Fabio Gundín Candia": 17
   },
-  "descargado": "2026-11-25T22:30"
+  "descargado": "2026-11-26T23:51"
  },
  {
   "id": "alevin-c",
@@ -18971,25 +18971,25 @@ const EQUIPOS = [
   "delegados": [],
   "clasificacion": [
    {
-    "equipo": "C.D. CIUDAD JARDÍN",
-    "pts": 19,
-    "pj": 7,
-    "g": 6,
-    "e": 1,
-    "p": 0,
-    "gf": 10,
-    "gc": 3,
+    "equipo": "C. P. ESCLAVAS",
+    "pts": 21,
+    "pj": 8,
+    "g": 7,
+    "e": 0,
+    "p": 1,
+    "gf": 21,
+    "gc": 7,
     "propio": false
    },
    {
-    "equipo": "C. P. ESCLAVAS",
-    "pts": 18,
-    "pj": 7,
+    "equipo": "C.D. CIUDAD JARDÍN",
+    "pts": 19,
+    "pj": 8,
     "g": 6,
-    "e": 0,
+    "e": 1,
     "p": 1,
-    "gf": 19,
-    "gc": 6,
+    "gf": 11,
+    "gc": 5,
     "propio": false
    },
    {
@@ -19511,7 +19511,7 @@ const EQUIPOS = [
    "Raphael De Araujo Lima": 13,
    "Miguel Ángel Ossa Briceño": 14
   },
-  "descargado": "2026-11-25T12:51"
+  "descargado": "2026-11-26T23:50"
  },
  {
   "id": "alevin-acea",
