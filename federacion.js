@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-26T05:01";
+const ACTUALIZADO = "2026-11-26T15:12";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -4815,7 +4815,7 @@ const EQUIPOS = [
    "Sebastián Andrés Balza Aguilera": 22,
    "Roi Lago Suárez": 23
   },
-  "descargado": "2026-11-25T12:50"
+  "descargado": "2026-11-26T15:11"
  },
  {
   "id": "juvenil-c",
@@ -8964,7 +8964,7 @@ const EQUIPOS = [
    {
     "jornada": 10,
     "fecha": "2026-11-29",
-    "hora": "16:00",
+    "hora": "14:30",
     "local": false,
     "rival": "CLUB ROSALÍA MERA",
     "resultado": "",
@@ -9961,7 +9961,7 @@ const EQUIPOS = [
    "Brais Portela Solla": 23,
    "David Insua Cambeiro": 24
   },
-  "descargado": "2026-11-25T02:25"
+  "descargado": "2026-11-26T15:10"
  },
  {
   "id": "infantil-a",
@@ -11036,7 +11036,7 @@ const EQUIPOS = [
    "Hugo Costa Ferreiro": 22,
    "Adrián Ríos Naya": 23
   },
-  "descargado": "2026-11-25T02:26"
+  "descargado": "2026-11-26T15:11"
  },
  {
   "id": "infantil-b",
@@ -13113,7 +13113,7 @@ const EQUIPOS = [
    "Lucas García Aldao": 23,
    "Martiño Moar Moscoso": 24
   },
-  "descargado": "2026-11-25T12:51"
+  "descargado": "2026-11-26T15:12"
  },
  {
   "id": "infantil-d",
@@ -18204,7 +18204,7 @@ const EQUIPOS = [
    "Sergio Rama Pena": 15,
    "Mateo Teijido Ceniceros": 13
   },
-  "descargado": "2026-11-25T12:50"
+  "descargado": "2026-11-26T15:11"
  },
  {
   "id": "prebenjamin-a",
@@ -18938,7 +18938,7 @@ const EQUIPOS = [
    "Enzo Martínez Ávila": 11,
    "Raphael De Araujo Lima": 14
   },
-  "descargado": "2026-11-25T12:50"
+  "descargado": "2026-11-26T15:12"
  },
  {
   "id": "prebenjamin-b",
