@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-27T08:27";
+const ACTUALIZADO = "2026-11-27T18:58";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -4814,7 +4814,7 @@ const EQUIPOS = [
    "Sebastián Andrés Balza Aguilera": 22,
    "Roi Lago Suárez": 23
   },
-  "descargado": "2026-11-26T15:11"
+  "descargado": "2026-11-27T18:57"
  },
  {
   "id": "juvenil-c",
@@ -8677,7 +8677,6 @@ const EQUIPOS = [
    "Mario Barral Bermejo",
    "Mauro Becerra Pérez",
    "Nicolás Blanco Fernández",
-   "Xoel Blanco Manteiga",
    "Pedro Fernández Paya",
    "David Insua Cambeiro",
    "Hugo Lobelos Canosa",
@@ -9165,10 +9164,10 @@ const EQUIPOS = [
    "RELÁMPAGO S. D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000894509_Escudo.PNG",
    "CLUB ROSALÍA MERA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001008004_ROSALIA_MERA_ESCUDO_GRANDE.jpg",
    "ATL. CORUÑA MONTAÑEROS C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
-   "SILVA S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001103292_escudo_rfgf.jpg",
-   "COMPAÑIA DE MARIA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0012079561_Logo_Nuevo.png",
    "OZA JUVENIL S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
-   "TORRE S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000957278_descarga__3_.jpg"
+   "TORRE S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000957278_descarga__3_.jpg",
+   "SILVA S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001103292_escudo_rfgf.jpg",
+   "COMPAÑIA DE MARIA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0012079561_Logo_Nuevo.png"
   },
   "actas": {
    "2": {
@@ -9960,7 +9959,7 @@ const EQUIPOS = [
    "Brais Portela Solla": 23,
    "David Insua Cambeiro": 24
   },
-  "descargado": "2026-11-26T15:10"
+  "descargado": "2026-11-27T18:57"
  },
  {
   "id": "infantil-a",
@@ -11035,7 +11034,7 @@ const EQUIPOS = [
    "Hugo Costa Ferreiro": 22,
    "Adrián Ríos Naya": 23
   },
-  "descargado": "2026-11-26T15:11"
+  "descargado": "2026-11-27T18:58"
  },
  {
   "id": "infantil-b",
@@ -17624,7 +17623,7 @@ const EQUIPOS = [
    "Alan Díaz López": 4,
    "Noah Rawson-Higgins González": 16
   },
-  "descargado": "2026-11-26T05:01"
+  "descargado": "2026-11-27T18:56"
  },
  {
   "id": "benjamin-b",
@@ -18203,7 +18202,7 @@ const EQUIPOS = [
    "Sergio Rama Pena": 15,
    "Mateo Teijido Ceniceros": 13
   },
-  "descargado": "2026-11-26T15:11"
+  "descargado": "2026-11-27T18:58"
  },
  {
   "id": "prebenjamin-a",
@@ -20426,6 +20425,6 @@ const EQUIPOS = [
    "Elhadji Ousmane Faye Ba": 16,
    "Leo Rivas Rey": 15
   },
-  "descargado": "2026-11-26T05:01"
+  "descargado": "2026-11-27T18:57"
  }
 ];
