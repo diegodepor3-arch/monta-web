@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-28T01:59";
+const ACTUALIZADO = "2026-11-28T10:24";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -1817,7 +1817,7 @@ const EQUIPOS = [
     }
    }
   },
-  "descargado": "2026-11-27T08:25"
+  "descargado": "2026-11-28T10:23"
  },
  {
   "id": "juvenil-a",
@@ -1844,7 +1844,6 @@ const EQUIPOS = [
    "Javier Neira Arévalo",
    "Alex Quinteiro Sampedro",
    "Christian Rodríguez Justo",
-   "Miguel Rodríguez Lamela",
    "Martín Rodríguez Martínez",
    "Iker Rozada Gutiérrez",
    "Andrés Sande Rodríguez",
@@ -3459,7 +3458,7 @@ const EQUIPOS = [
    "Javier Neira Arévalo": 24,
    "Daniel Graña Rodríguez": 25
   },
-  "descargado": "2026-11-27T08:26"
+  "descargado": "2026-11-28T10:24"
  },
  {
   "id": "juvenil-b",
@@ -12095,7 +12094,7 @@ const EQUIPOS = [
    "Manuel Tato Rey": 20,
    "Pablo Piñón Arévalo": 21
   },
-  "descargado": "2026-11-27T08:25"
+  "descargado": "2026-11-28T10:24"
  },
  {
   "id": "infantil-c",
@@ -14057,13 +14056,13 @@ const EQUIPOS = [
    },
    {
     "equipo": "ATL. CORUÑA MONTAÑEROS C.F.",
-    "pts": 27,
-    "pj": 10,
-    "g": 9,
+    "pts": 30,
+    "pj": 11,
+    "g": 10,
     "e": 0,
     "p": 1,
-    "gf": 48,
-    "gc": 11,
+    "gf": 51,
+    "gc": 12,
     "propio": true
    },
    {
@@ -14091,12 +14090,12 @@ const EQUIPOS = [
    {
     "equipo": "C. D. CALASANZ",
     "pts": 20,
-    "pj": 10,
+    "pj": 11,
     "g": 6,
     "e": 2,
-    "p": 2,
-    "gf": 53,
-    "gc": 14,
+    "p": 3,
+    "gf": 54,
+    "gc": 17,
     "propio": false
    },
    {
@@ -14318,8 +14317,8 @@ const EQUIPOS = [
     "hora": "09:00",
     "local": false,
     "rival": "C. D. CALASANZ",
-    "resultado": "",
-    "campo": "Torre Nº2.1"
+    "resultado": "1-3",
+    "campo": ""
    },
    {
     "jornada": 12,
@@ -14328,7 +14327,7 @@ const EQUIPOS = [
     "local": true,
     "rival": "URAL ESPAÑOL C.F.",
     "resultado": "",
-    "campo": ""
+    "campo": "Torre Nº2.2"
    },
    {
     "jornada": 13,
@@ -14496,22 +14495,22 @@ const EQUIPOS = [
   "competicion": "Alevin F-7 - Primera Futgal · A Coruña | Grupo Unico",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26991572&codcompeticion=26991566",
   "escudos": {
-   "C. D. CALASANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
-   "ATL. CORUÑA MONTAÑEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
-   "R.C. DEPORTIVO SAD": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001196017_ESCUDO_DEPOR.png",
-   "ORILLAMAR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000941018_ESCUDO_OFICIAL_ORILLAMAR_SD_PRINCIPAL.jpg",
-   "URAL ESPAÑOL C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000891301_ESCUDO_URAL_B.jpg",
-   "SPORTING CAMBRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
-   "OZA JUVENIL S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
-   "SADA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000931604_Sada_CF_escudo_FUTGAL.png",
-   "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg",
-   "FABRIL F.C.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001196159_EscudoFabrilFC_color.png",
-   "ATLETICO ARTEIXO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001414249_Escudo_Arteixo.png",
    "S. D. ACEA DE AMA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001546559_IMG_20250120_WA0026.png",
    "U.D. CARRAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001484347_Carral.jpg",
-   "E.D. LUIS CALVO SANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004731_LOGO_ALTA_RES_ESCOLAS_CALVO.jpg",
+   "SPORTING CAMBRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
+   "ATLETICO ARTEIXO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001414249_Escudo_Arteixo.png",
+   "ATL. CORUÑA MONTAÑEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
+   "URAL ESPAÑOL C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000891301_ESCUDO_URAL_B.jpg",
+   "SADA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000931604_Sada_CF_escudo_FUTGAL.png",
+   "C. D. CALASANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
+   "VICTORIA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
+   "OZA JUVENIL S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
+   "ORILLAMAR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000941018_ESCUDO_OFICIAL_ORILLAMAR_SD_PRINCIPAL.jpg",
    "SAN TIRSO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000916862_ESCUDO_20_21.jpg",
-   "VICTORIA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg"
+   "FABRIL F.C.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001196159_EscudoFabrilFC_color.png",
+   "R.C. DEPORTIVO SAD": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001196017_ESCUDO_DEPOR.png",
+   "E.D. LUIS CALVO SANZ": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001004731_LOGO_ALTA_RES_ESCOLAS_CALVO.jpg",
+   "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg"
   },
   "actas": {
    "3": {
@@ -14906,6 +14905,48 @@ const EQUIPOS = [
     "c": [],
     "rm": {},
     "id": "1486618"
+   },
+   "11": {
+    "t": [
+     "Mario Bello Varela",
+     "Álvaro Álvarez Escobar",
+     "Hugo Vázquez Álvarez",
+     "Martín Arza Álvarez",
+     "Óliver Casasola Vázquez",
+     "Sebastián López Ganem",
+     "Ilia Kondrashin"
+    ],
+    "s": [
+     "Tomás Mourelle López",
+     "Roberto Couceiro González",
+     "Mathias Becerra Timiraos",
+     "Aleix Della Casa Loureiro",
+     "Izan Pose Seijas"
+    ],
+    "e": [],
+    "g": {},
+    "a": [
+     "Sebastián López Ganem",
+     "Sebastián López Ganem"
+    ],
+    "r": [],
+    "d": {
+     "Mario Bello Varela": 1,
+     "Álvaro Álvarez Escobar": 8,
+     "Hugo Vázquez Álvarez": 9,
+     "Martín Arza Álvarez": 10,
+     "Óliver Casasola Vázquez": 11,
+     "Sebastián López Ganem": 17,
+     "Ilia Kondrashin": 18,
+     "Tomás Mourelle López": 3,
+     "Roberto Couceiro González": 4,
+     "Mathias Becerra Timiraos": 7,
+     "Aleix Della Casa Loureiro": 12,
+     "Izan Pose Seijas": 14
+    },
+    "c": [],
+    "rm": {},
+    "id": "1486625"
    }
   },
   "dorsales": {
@@ -14923,7 +14964,7 @@ const EQUIPOS = [
    "Sebastián López Ganem": 17,
    "Izan Pose Seijas": 14
   },
-  "descargado": "2026-11-26T23:51"
+  "descargado": "2026-11-28T10:23"
  },
  {
   "id": "alevin-b",
@@ -15012,12 +15053,12 @@ const EQUIPOS = [
    {
     "equipo": "COLEGIO LICEO",
     "pts": 12,
-    "pj": 8,
+    "pj": 9,
     "g": 4,
     "e": 0,
-    "p": 4,
+    "p": 5,
     "gf": 40,
-    "gc": 32,
+    "gc": 35,
     "propio": false
    },
    {
@@ -15033,24 +15074,13 @@ const EQUIPOS = [
    },
    {
     "equipo": "ORILLAMAR S.D. \"C\"",
-    "pts": 3,
-    "pj": 8,
-    "g": 1,
+    "pts": 6,
+    "pj": 9,
+    "g": 2,
     "e": 0,
     "p": 7,
-    "gf": 14,
+    "gf": 17,
     "gc": 65,
-    "propio": false
-   },
-   {
-    "equipo": "COMPAÑIA DE MARIA \"B\"",
-    "pts": 3,
-    "pj": 8,
-    "g": 1,
-    "e": 0,
-    "p": 7,
-    "gf": 10,
-    "gc": 61,
     "propio": false
    },
    {
@@ -15062,6 +15092,17 @@ const EQUIPOS = [
     "p": 7,
     "gf": 14,
     "gc": 67,
+    "propio": false
+   },
+   {
+    "equipo": "COMPAÑIA DE MARIA \"B\"",
+    "pts": 3,
+    "pj": 8,
+    "g": 1,
+    "e": 0,
+    "p": 7,
+    "gf": 10,
+    "gc": 61,
     "propio": false
    }
   ],
@@ -15525,7 +15566,7 @@ const EQUIPOS = [
    "Gael Zapata Grandal": 16,
    "Fabio Gundín Candia": 17
   },
-  "descargado": "2026-11-26T23:51"
+  "descargado": "2026-11-28T10:23"
  },
  {
   "id": "alevin-c",
