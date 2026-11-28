@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-27T18:58";
+const ACTUALIZADO = "2026-11-28T01:59";
 const EQUIPOS = [
  {
   "id": "primer-equipo",
@@ -5895,7 +5895,7 @@ const EQUIPOS = [
    "Elaji Ka Lobón": 19,
    "Pedro Antón Costas": 21
   },
-  "descargado": "2026-11-26T23:51"
+  "descargado": "2026-11-28T01:59"
  },
  {
   "id": "cadete-a",
@@ -7315,7 +7315,7 @@ const EQUIPOS = [
    "Rubén García Viñán": 20,
    "Nicolás Caraballo Hernández": 21
   },
-  "descargado": "2026-11-26T23:51"
+  "descargado": "2026-11-28T01:59"
  },
  {
   "id": "cadete-b",
@@ -13111,7 +13111,7 @@ const EQUIPOS = [
    "Lucas García Aldao": 23,
    "Martiño Moar Moscoso": 24
   },
-  "descargado": "2026-11-26T15:12"
+  "descargado": "2026-11-28T01:57"
  },
  {
   "id": "infantil-d",
@@ -13554,10 +13554,10 @@ const EQUIPOS = [
    "ATLÉTICO CORUÑA MONTAÑEROS C.F. \"D\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
    "ONCE CABALLEROS C.F \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000601679_ONCECAB.jpg",
    "SP CORUÑES SDC \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801946_escudo-4154.jpg",
-   "RELÁMPAGO S. D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000894509_Escudo.PNG",
-   "COLEGIO LICEO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000798377_Logo_Liceo_FONDO_BLANCO_sin_margen.jpg",
    "COMPAÑIA DE MARIA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0012079561_Logo_Nuevo.png",
-   "ESCUELA DE FUTBOL ZENIT": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001228447_escudo_zenit.jpg"
+   "ESCUELA DE FUTBOL ZENIT": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001228447_escudo_zenit.jpg",
+   "RELÁMPAGO S. D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000894509_Escudo.PNG",
+   "COLEGIO LICEO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000798377_Logo_Liceo_FONDO_BLANCO_sin_margen.jpg"
   },
   "actas": {
    "1": {
@@ -14013,7 +14013,7 @@ const EQUIPOS = [
    "Cibrán Rodríguez Otero": 21,
    "Iván Pena Barriga": 22
   },
-  "descargado": "2026-11-26T23:50"
+  "descargado": "2026-11-28T01:58"
  },
  {
   "id": "alevin-a",
@@ -18298,6 +18298,17 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "OLIMPICO C.F.",
+    "pts": 12,
+    "pj": 8,
+    "g": 3,
+    "e": 3,
+    "p": 2,
+    "gf": 15,
+    "gc": 8,
+    "propio": false
+   },
+   {
     "equipo": "VICTORIA C.F.",
     "pts": 10,
     "pj": 7,
@@ -18306,17 +18317,6 @@ const EQUIPOS = [
     "p": 3,
     "gf": 8,
     "gc": 14,
-    "propio": false
-   },
-   {
-    "equipo": "OLIMPICO C.F.",
-    "pts": 9,
-    "pj": 7,
-    "g": 2,
-    "e": 3,
-    "p": 2,
-    "gf": 12,
-    "gc": 8,
     "propio": false
    },
    {
@@ -18331,17 +18331,6 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "UD CARRAL",
-    "pts": 8,
-    "pj": 7,
-    "g": 2,
-    "e": 2,
-    "p": 3,
-    "gf": 8,
-    "gc": 11,
-    "propio": false
-   },
-   {
     "equipo": "OZA JUVENIL S.D.",
     "pts": 7,
     "pj": 7,
@@ -18349,6 +18338,17 @@ const EQUIPOS = [
     "e": 1,
     "p": 4,
     "gf": 7,
+    "gc": 14,
+    "propio": false
+   },
+   {
+    "equipo": "UD CARRAL",
+    "pts": 8,
+    "pj": 8,
+    "g": 2,
+    "e": 2,
+    "p": 4,
+    "gf": 8,
     "gc": 14,
     "propio": false
    },
@@ -18936,7 +18936,7 @@ const EQUIPOS = [
    "Enzo Martínez Ávila": 11,
    "Raphael De Araujo Lima": 14
   },
-  "descargado": "2026-11-26T15:12"
+  "descargado": "2026-11-28T01:58"
  },
  {
   "id": "prebenjamin-b",
@@ -19509,7 +19509,7 @@ const EQUIPOS = [
    "Raphael De Araujo Lima": 13,
    "Miguel Ángel Ossa Briceño": 14
   },
-  "descargado": "2026-11-26T23:50"
+  "descargado": "2026-11-28T01:58"
  },
  {
   "id": "alevin-acea",
